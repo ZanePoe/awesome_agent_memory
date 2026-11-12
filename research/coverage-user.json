@@ -1,0 +1,14 @@
+{
+  "entities_total": 11,
+  "entities_covered": 11,
+  "entities_missing": [],
+  "urls_total": 51,
+  "urls_covered": 51,
+  "urls_missing": [],
+  "rate": 1.0,
+  "min_rate": 0.6,
+  "max_missing": 5,
+  "gap": false,
+  "checked_at": "2026-11-12T08:46:58+00:00",
+  "baseline": "research/baseline.md"
+}

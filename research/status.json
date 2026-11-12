@@ -1,0 +1,122 @@
+{
+  "objective": "Which open-source AI agent memory systems, file-memory tools, temporal knowledge graphs, coding-agent plugins, procedural memory engines and evaluation projects belong in awesome_agent_memory, and how should GitHub maintenance be ranked?",
+  "mode": "standard",
+  "rounds": [
+    {
+      "round": 1,
+      "queries": 14,
+      "executed": 14,
+      "results": 579,
+      "relevant": 539,
+      "new_sources": 534,
+      "novelty_score": 10.075,
+      "novel_terms": 12,
+      "new_source_rate": 0.922
+    },
+    {
+      "round": 2,
+      "queries": 7,
+      "executed": 6,
+      "results": 125,
+      "relevant": 111,
+      "new_sources": 110,
+      "novelty_score": 5.349,
+      "novel_terms": 12,
+      "new_source_rate": 0.88
+    },
+    {
+      "round": 3,
+      "queries": 6,
+      "executed": 6,
+      "results": 281,
+      "relevant": 269,
+      "new_sources": 203,
+      "novelty_score": null,
+      "novel_terms": 0,
+      "new_source_rate": 0.722
+    }
+  ],
+  "axes": {
+    "semantics": {
+      "queries": 2,
+      "done": 2,
+      "retained": 29,
+      "intent": "definition, mechanism, terminology boundaries"
+    },
+    "primary": {
+      "queries": 5,
+      "done": 5,
+      "retained": 232,
+      "intent": "first-party sources: official docs, specs, source code"
+    },
+    "index": {
+      "queries": 2,
+      "done": 2,
+      "retained": 93,
+      "intent": "curated maps, awesome lists and leaderboards that enumerate the field"
+    },
+    "repo": {
+      "queries": 6,
+      "done": 6,
+      "retained": 366,
+      "intent": "usable code and install surfaces: repositories, packages, registries"
+    },
+    "compare": {
+      "queries": 4,
+      "done": 4,
+      "retained": 70,
+      "intent": "alternatives, substitutes, head-to-head"
+    },
+    "data": {
+      "queries": 3,
+      "done": 3,
+      "retained": 48,
+      "intent": "quantitative evidence, benchmarks, scale"
+    },
+    "risks": {
+      "queries": 3,
+      "done": 3,
+      "retained": 62,
+      "intent": "failure modes, criticism, limits"
+    },
+    "recency": {
+      "queries": 2,
+      "done": 1,
+      "retained": 20,
+      "intent": "changes in the last 12-18 months"
+    }
+  },
+  "gaps": [],
+  "sources": 847,
+  "sources_relevant": 783,
+  "sources_duplicate": 0,
+  "sources_by_source": {
+    "corpus": 72,
+    "web": 775
+  },
+  "evidence": 174,
+  "claims": 174,
+  "metrics": 261,
+  "coverage": {
+    "rate": 0.856,
+    "entities_total": 111,
+    "entities_covered": 104,
+    "entities_missing": [
+      "BYOK",
+      "BYOC",
+      "TODO.md",
+      "API-key",
+      "MemoryBrain",
+      "MemoryRouter",
+      "TokenRip"
+    ],
+    "gap": true,
+    "baseline": "mnemoverse/awesome-agent-memory README"
+  },
+  "pending_queries": [],
+  "verdict": "stop",
+  "reasons": [
+    "max_rounds reached (3)",
+    "external coverage gap unresolved: 7 entities unreached (rate 0.856); raise --max-rounds or run coverage again"
+  ]
+}

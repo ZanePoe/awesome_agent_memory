@@ -1,0 +1,35 @@
+name: 推荐 Agent 记忆项目
+description: 推荐记忆系统、插件、研究或评测工具
+title: '[推荐] '
+body:
+  - type: input
+    id: url
+    attributes:
+      label: GitHub canonical 仓库
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 主分类
+      options:
+        - 记忆引擎与服务
+        - 文件真源与可审阅记忆
+        - 图谱、实体与时序记忆
+        - 编码 Agent 与 MCP 记忆
+        - 经验、技能与程序性记忆
+        - 研究实现与评测
+        - 相邻平台、规范与索引
+        - 历史、归档与受限许可
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 定位、适用边界与证据
+      description: 说明当前已实现能力、来源和与同名项目的区别。
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: 许可证与核验日期
+      description: 无法确认时明确写“待核验”
