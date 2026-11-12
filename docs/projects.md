@@ -9,7 +9,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：部署、模型组合和评测协议会显著影响效果与成本。
-- 维护状态：近90天有提交；30 天提交 503 次，90 天提交 1606 次。
+- 维护状态：近90天有提交；30 天提交 503 次，90 天提交 1603 次。
 - 许可：[MIT](https://api.github.com/repos/vectorize-io/hindsight/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/vectorize-io/hindsight/blob/7cec128b8fdb0a696366d888e63be71fe1d52338/README.md#L3)。
 
@@ -19,7 +19,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：服务端虚拟路径不是普通本地文件；摘要、提取和索引新鲜度仍需验证。
-- 维护状态：近90天有提交；30 天提交 467 次，90 天提交 1250 次。
+- 维护状态：近90天有提交；30 天提交 464 次，90 天提交 1250 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/volcengine/OpenViking/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/volcengine/OpenViking/blob/82ec6d10bcf9e4dfcf8c2c39881d5c71a43df6fb/README.md#L3)。
 
@@ -69,7 +69,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：Hy Memory 引擎与 MemHub 产品层分工不同；模型和数据路径需按组件核验。
-- 维护状态：近90天有提交；30 天提交 585 次，90 天提交 585 次。
+- 维护状态：近90天有提交；30 天提交 591 次，90 天提交 591 次。
 - 许可：[Apache-2.0](https://github.com/Tencent-Hunyuan/Hy-Memory/blob/8f30a9c05db2ec8a7836a89928399bd2815e3b57/LICENSE)；开放许可证已核验。根目录 LICENSE 明确无额外 Apache-2.0 限制；公开参数和权重范围以 LICENSE 原文为准
 - 功能核验：2026-11-12；[来源1](https://github.com/Tencent-Hunyuan/Hy-Memory/blob/8f30a9c05db2ec8a7836a89928399bd2815e3b57/README.md#L5)。
 
@@ -479,7 +479,7 @@ Markdown 优先的 Claude Code/Codex 共享记忆库，带 Git、索引和审计
 
 - 分类：编码 Agent 与 MCP 记忆；核心候选。
 - 适用边界：宿主支持面与存储治理需按版本核对。
-- 维护状态：近90天有提交；30 天提交 75 次，90 天提交 250 次。
+- 维护状态：近90天有提交；30 天提交 75 次，90 天提交 249 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/AVIDS2/memorix/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/AVIDS2/memorix/blob/674528015f8f78f98286739b173c993d888c2a43/README.md#L9)。
 
