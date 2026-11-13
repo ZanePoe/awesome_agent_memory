@@ -9,7 +9,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：部署、模型组合和评测协议会显著影响效果与成本。
-- 维护状态：近90天有提交；30 天提交 503 次，90 天提交 1603 次。
+- 维护状态：近90天有提交；30 天提交 504 次，90 天提交 1595 次。
 - 许可：[MIT](https://api.github.com/repos/vectorize-io/hindsight/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/vectorize-io/hindsight/blob/7cec128b8fdb0a696366d888e63be71fe1d52338/README.md#L3)。
 
@@ -19,7 +19,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：服务端虚拟路径不是普通本地文件；摘要、提取和索引新鲜度仍需验证。
-- 维护状态：近90天有提交；30 天提交 464 次，90 天提交 1250 次。
+- 维护状态：近90天有提交；30 天提交 474 次，90 天提交 1275 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/volcengine/OpenViking/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/volcengine/OpenViking/blob/82ec6d10bcf9e4dfcf8c2c39881d5c71a43df6fb/README.md#L3)。
 
@@ -29,7 +29,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：与其他同名 agentmemory 项目无关，部署入口需区分。
-- 维护状态：近90天有提交；30 天提交 124 次，90 天提交 210 次。
+- 维护状态：近90天有提交；30 天提交 128 次，90 天提交 219 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/rohitg00/agentmemory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/rohitg00/agentmemory/blob/57bc38489ee6f370fdc04da56e26e62ba90cbccf/README.md#L2)。
 
@@ -39,7 +39,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：开源服务与托管 reader 等外部能力的数据路径需要逐项核验。
-- 维护状态：近90天有提交；30 天提交 36 次，90 天提交 141 次。
+- 维护状态：近90天有提交；30 天提交 35 次，90 天提交 139 次。
 - 许可：[MIT](https://api.github.com/repos/supermemoryai/supermemory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/supermemoryai/supermemory/blob/8af3b9108f1a4dce45b10cfa4f8f0af027b4197b/README.md#L5)。
 
@@ -49,7 +49,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：推断可能扩大明确事实；删除原始会话不自动保证全部派生结论清除。
-- 维护状态：近90天有提交；30 天提交 131 次，90 天提交 304 次。
+- 维护状态：近90天有提交；30 天提交 127 次，90 天提交 301 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/plastic-labs/honcho/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/plastic-labs/honcho/blob/ca81eed3ddca57d7407854c5f447195779dcabf2/README.md#L3)。
 
@@ -59,7 +59,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：开源库、托管平台和各类集成入口需要分别核验数据路径。
-- 维护状态：近90天有提交；30 天提交 8 次，90 天提交 101 次。
+- 维护状态：近90天有提交；30 天提交 8 次，90 天提交 85 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/mem0ai/mem0/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/mem0ai/mem0/blob/f1791daa86d469249c9b002f62644d58a1eb96a0/README.md#L2)。
 
@@ -69,7 +69,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：Hy Memory 引擎与 MemHub 产品层分工不同；模型和数据路径需按组件核验。
-- 维护状态：近90天有提交；30 天提交 591 次，90 天提交 591 次。
+- 维护状态：近90天有提交；30 天提交 602 次，90 天提交 602 次。
 - 许可：[Apache-2.0](https://github.com/Tencent-Hunyuan/Hy-Memory/blob/8f30a9c05db2ec8a7836a89928399bd2815e3b57/LICENSE)；开放许可证已核验。根目录 LICENSE 明确无额外 Apache-2.0 限制；公开参数和权重范围以 LICENSE 原文为准
 - 功能核验：2026-11-12；[来源1](https://github.com/Tencent-Hunyuan/Hy-Memory/blob/8f30a9c05db2ec8a7836a89928399bd2815e3b57/README.md#L5)。
 
@@ -79,7 +79,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：主服务、云产品和本地插件采用不同存储与部署路径。
-- 维护状态：近90天有提交；30 天提交 43 次，90 天提交 176 次。
+- 维护状态：近90天有提交；30 天提交 43 次，90 天提交 168 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/MemTensor/MemOS/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/MemTensor/MemOS/blob/3a16e5fe3048a209f722806f4123fa2e533588fd/README.md#L3)。
 
@@ -89,7 +89,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：默认分支可能是开发分支；协议代理与数据库部署边界需固定版本验证。
-- 维护状态：近90天有提交；30 天提交 20 次，90 天提交 67 次。
+- 维护状态：近90天有提交；30 天提交 17 次，90 天提交 64 次。
 - 许可：[MIT](https://github.com/TencentCloud/TencentDB-Agent-Memory/blob/42d4cde50c5a83182fced8c584f9ddb32a620615/LICENSE)；开放许可证已核验。根目录 LICENSE 人工核验
 - 功能核验：2026-11-12；[来源1](https://github.com/TencentCloud/TencentDB-Agent-Memory/blob/42d4cde50c5a83182fced8c584f9ddb32a620615/README.md#L4)。
 
@@ -99,7 +99,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：新项目；当前文档能力与真实基准结果需分开看。
-- 维护状态：近90天有提交；30 天提交 297 次，90 天提交 1083 次。
+- 维护状态：近90天有提交；30 天提交 319 次，90 天提交 1087 次。
 - 许可：[MIT](https://api.github.com/repos/joshuaswarren/remnic/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/joshuaswarren/remnic/blob/a33e17fb8a349d17a3119bbef2ab546d39d6e143/README.md#L1)。
 
@@ -133,25 +133,25 @@
 - 许可：[Apache-2.0](https://api.github.com/repos/MemMachine/MemMachine/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/MemMachine/MemMachine/blob/377510d436dc81c3651502f2d5e36ff245650ce7/README.md#L1)。
 
-## [Membase · unibase](https://github.com/unibaseio/membase)
-
-提供 SDK、CLI 和 MCP 的跨 Agent 记忆层，可使用托管账户或本地存储。
-
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：与 memodb-io/Memobase 不同；托管与 local 模式的数据、认证和能力边界需分开核验。
-- 维护状态：近90天有提交；30 天提交 69 次，90 天提交 131 次。
-- 许可：[MIT](https://api.github.com/repos/unibaseio/membase/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/unibaseio/membase/blob/59100235fa918bdfd19d02b9cf06fac178a839cb/README.md#L30)。
-
 ## [openJiuwen Agent Memory](https://github.com/openJiuwen-ai/agent-memory)
 
 为 Agent 提供记忆抽取、存储、检索、迁移和多形态记忆能力。
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：默认分支与 mem2.0 演进路线可能不同，采用时应固定版本。
-- 维护状态：近90天有提交；30 天提交 65 次，90 天提交 157 次。
+- 维护状态：近90天有提交；30 天提交 68 次，90 天提交 161 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/openJiuwen-ai/agent-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/openJiuwen-ai/agent-memory/blob/2a77650c16f8fe073d8713bc91fc703a7233359d/README.md#L1)。
+
+## [Membase · unibase](https://github.com/unibaseio/membase)
+
+提供 SDK、CLI 和 MCP 的跨 Agent 记忆层，可使用托管账户或本地存储。
+
+- 分类：记忆引擎与服务；核心候选。
+- 适用边界：与 memodb-io/Memobase 不同；托管与 local 模式的数据、认证和能力边界需分开核验。
+- 维护状态：近90天有提交；30 天提交 62 次，90 天提交 131 次。
+- 许可：[MIT](https://api.github.com/repos/unibaseio/membase/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
+- 功能核验：2026-11-12；[来源1](https://github.com/unibaseio/membase/blob/59100235fa918bdfd19d02b9cf06fac178a839cb/README.md#L30)。
 
 ## [mem9](https://github.com/mem9-ai/mem9)
 
@@ -169,7 +169,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：README 标记 Alpha；功能描述不等于生产成熟度。
-- 维护状态：近90天有提交；30 天提交 79 次，90 天提交 259 次。
+- 维护状态：近90天有提交；30 天提交 65 次，90 天提交 259 次。
 - 许可：[Apache-2.0](https://github.com/agent-memory-lab/agent-memory/blob/852ff6a47553dda487d716ec329dcf7494bf62a0/LICENSE)；开放许可证已核验。根目录 LICENSE 人工核验
 - 功能核验：2026-11-12；[来源1](https://github.com/agent-memory-lab/agent-memory/blob/852ff6a47553dda487d716ec329dcf7494bf62a0/README.md#L1)。
 
@@ -189,7 +189,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：新项目；功能与性能尚需统一实测。
-- 维护状态：近90天有提交；30 天提交 12 次，90 天提交 40 次。
+- 维护状态：近90天有提交；30 天提交 9 次，90 天提交 40 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/TAIPANBOX/engram/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/TAIPANBOX/engram/blob/f6a6898de8968e4c004ee005e8a8887239493fa4/README.md#L3)。
 
@@ -269,7 +269,7 @@ TypeScript 嵌入式记忆库，包含工作、会话、长期记忆与知识库
 
 - 分类：文件真源与可审阅记忆；核心候选。
 - 适用边界：与其他 Engram 同名项目无关；跨宿主安装配置需单独验证。
-- 维护状态：近90天有提交；30 天提交 235 次，90 天提交 940 次。
+- 维护状态：近90天有提交；30 天提交 221 次，90 天提交 941 次。
 - 许可：[MIT](https://api.github.com/repos/Gentleman-Programming/engram/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/Gentleman-Programming/engram/blob/a5d4fa7be7f7e41054f5578ce3d21b7da616bb1d/README.md#L10)。
 
@@ -279,7 +279,7 @@ TypeScript 嵌入式记忆库，包含工作、会话、长期记忆与知识库
 
 - 分类：文件真源与可审阅记忆；核心候选。
 - 适用边界：更接近知识记忆与 MCP 工作区，不自动承担事实纠错生命周期。
-- 维护状态：近90天有提交；30 天提交 270 次，90 天提交 872 次。
+- 维护状态：近90天有提交；30 天提交 287 次，90 天提交 888 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/basicmachines-co/basic-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/basicmachines-co/basic-memory/blob/370ae9d8e89630bc27a6e3973341a05102f00b62/README.md#L13)。
 
@@ -289,7 +289,7 @@ SQLite 驱动、默认本地的跨框架记忆层，支持 MCP 和多种 Agent �
 
 - 分类：文件真源与可审阅记忆；核心候选。
 - 适用边界：同名 Mnemosyne 项目很多；远程 embedding、同步和 LLM 选项会改变零云边界。
-- 维护状态：近90天有提交；30 天提交 438 次，90 天提交 939 次。
+- 维护状态：近90天有提交；30 天提交 435 次，90 天提交 935 次。
 - 许可：[MIT](https://api.github.com/repos/mnemosyne-oss/mnemosyne/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/mnemosyne-oss/mnemosyne/blob/2c54c97c07ac35449587931b28c272f3dc177282/README.md#L7)。
 
@@ -299,19 +299,9 @@ SQLite 驱动、默认本地的跨框架记忆层，支持 MCP 和多种 Agent �
 
 - 分类：文件真源与可审阅记忆；核心候选。
 - 适用边界：跨宿主共享文件时仍需设计隐私、并发和项目作用域。
-- 维护状态：近90天有提交；30 天提交 182 次，90 天提交 381 次。
+- 维护状态：近90天有提交；30 天提交 178 次，90 天提交 381 次。
 - 许可：[MIT](https://api.github.com/repos/tigerless-labs/agent-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/tigerless-labs/agent-memory/blob/2648ba02d3c0364f9787f0e8fb49f69f47d2e3f7/README.md#L17)。
-
-## [ReMe](https://github.com/agentscope-ai/ReMe)
-
-以 Markdown/frontmatter/wikilinks 组织事实与经验，支持词法、向量和关系扩展。
-
-- 分类：文件真源与可审阅记忆；核心候选。
-- 适用边界：仓库保留旧 MemoryScope 形态，采用时应以当前接口为准。
-- 维护状态：近90天有提交；30 天提交 86 次，90 天提交 194 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/agentscope-ai/ReMe/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/agentscope-ai/ReMe/blob/37395034cf06f6c56268f2e738fab2a14779e513/README.md#L2)。
 
 ## [EverOS](https://github.com/EverMind-AI/EverOS)
 
@@ -319,9 +309,19 @@ SQLite 驱动、默认本地的跨框架记忆层，支持 MCP 和多种 Agent �
 
 - 分类：文件真源与可审阅记忆；核心候选。
 - 适用边界：原 EverMemOS 架构描述已经过时，不能套用旧部署依赖。
-- 维护状态：近90天有提交；30 天提交 47 次，90 天提交 86 次。
+- 维护状态：近90天有提交；30 天提交 49 次，90 天提交 90 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/EverMind-AI/EverOS/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/EverMind-AI/EverOS/blob/9cd1be60e6d9190c0391b2c185beb445600b8b9f/README.md#L3)。
+
+## [ReMe](https://github.com/agentscope-ai/ReMe)
+
+以 Markdown/frontmatter/wikilinks 组织事实与经验，支持词法、向量和关系扩展。
+
+- 分类：文件真源与可审阅记忆；核心候选。
+- 适用边界：仓库保留旧 MemoryScope 形态，采用时应以当前接口为准。
+- 维护状态：近90天有提交；30 天提交 85 次，90 天提交 195 次。
+- 许可：[Apache-2.0](https://api.github.com/repos/agentscope-ai/ReMe/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
+- 功能核验：2026-11-12；[来源1](https://github.com/agentscope-ai/ReMe/blob/37395034cf06f6c56268f2e738fab2a14779e513/README.md#L2)。
 
 ## [MemSearch](https://github.com/zilliztech/memsearch)
 
@@ -329,7 +329,7 @@ Markdown 真源配合 Milvus 派生索引，支持向量/BM25/RRF 与渐进展�
 
 - 分类：文件真源与可审阅记忆；核心候选。
 - 适用边界：摘要、文件、索引和原始会话可能不同步；与 OpenViking 同名搜索概念无关。
-- 维护状态：近90天有提交；30 天提交 31 次，90 天提交 74 次。
+- 维护状态：近90天有提交；30 天提交 31 次，90 天提交 72 次。
 - 许可：[MIT](https://api.github.com/repos/zilliztech/memsearch/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/zilliztech/memsearch/blob/a81ac682b547f86df25cd70a9477ada543de67ae/README.md#L4)。
 
@@ -339,7 +339,7 @@ Markdown 真源配合 Milvus 派生索引，支持向量/BM25/RRF 与渐进展�
 
 - 分类：文件真源与可审阅记忆；核心候选。
 - 适用边界：新项目；各适配包成熟度和语义能力需分别核验。
-- 维护状态：近90天有提交；30 天提交 12 次，90 天提交 38 次。
+- 维护状态：近90天有提交；30 天提交 13 次，90 天提交 39 次。
 - 许可：[MIT](https://api.github.com/repos/Sibyl-Labs/Sibyl-Memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/Sibyl-Labs/Sibyl-Memory/blob/820e70d54833330b581db50da1560d769293bdaa/README.md#L14)。
 
@@ -379,7 +379,7 @@ Markdown 优先的 Claude Code/Codex 共享记忆库，带 Git、索引和审计
 
 - 分类：图谱、实体与时序记忆；核心候选。
 - 适用边界：当前部署路径持续演进，不能沿用旧版多数据库断言。
-- 维护状态：近90天有提交；30 天提交 928 次，90 天提交 2658 次。
+- 维护状态：近90天有提交；30 天提交 1125 次，90 天提交 2823 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/topoteretes/cognee/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/topoteretes/cognee/blob/8853378eae5366addb064e758e560a456146ae1a/README.md#L2)。
 
@@ -389,7 +389,7 @@ Markdown 优先的 Claude Code/Codex 共享记忆库，带 Git、索引和审计
 
 - 分类：图谱、实体与时序记忆；核心候选。
 - 适用边界：图后端和抽取模型影响成本；它是当前 Zep 生态的开源图核心。
-- 维护状态：近90天有提交；30 天提交 46 次，90 天提交 116 次。
+- 维护状态：近90天有提交；30 天提交 42 次，90 天提交 116 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/getzep/graphiti/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/getzep/graphiti/blob/ebef986a0b2360211b65751c111cacb4a7d790eb/README.md#L8)。
 
@@ -399,7 +399,7 @@ Markdown 优先的 Claude Code/Codex 共享记忆库，带 Git、索引和审计
 
 - 分类：图谱、实体与时序记忆；核心候选。
 - 适用边界：本地单文件形态适合试验，规模与并发能力需实测。
-- 维护状态：近90天有提交；30 天提交 254 次，90 天提交 560 次。
+- 维护状态：近90天有提交；30 天提交 203 次，90 天提交 560 次。
 - 许可：[MIT](https://api.github.com/repos/liliang-cn/cortexdb/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/liliang-cn/cortexdb/blob/d39714c86784edd23d42ce152a0243464ad2b15a/README.md#L1)。
 
@@ -409,7 +409,7 @@ Markdown 优先的 Claude Code/Codex 共享记忆库，带 Git、索引和审计
 
 - 分类：图谱、实体与时序记忆；核心候选。
 - 适用边界：依赖 Neo4j；实验性或 labs 项目不等于正式产品 SLA。
-- 维护状态：近90天有提交；30 天提交 33 次，90 天提交 269 次。
+- 维护状态：近90天有提交；30 天提交 32 次，90 天提交 269 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/neo4j-labs/agent-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/neo4j-labs/agent-memory/blob/9d45af5529ecb5f2fe352013468a11087f3163d4/README.md#L5)。
 
@@ -419,7 +419,7 @@ Markdown 优先的 Claude Code/Codex 共享记忆库，带 Git、索引和审计
 
 - 分类：图谱、实体与时序记忆；核心候选。
 - 适用边界：新项目；版本化机制的合并、回滚和性能需实测。
-- 维护状态：近90天有提交；30 天提交 7 次，90 天提交 34 次。
+- 维护状态：近90天有提交；30 天提交 4 次，90 天提交 34 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/zhangfengcdt/memoir/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/zhangfengcdt/memoir/blob/7fd1b3ef704fc554596571d5b9c8b73d7f2b0c5d/README.md#L10)。
 
@@ -459,7 +459,7 @@ Markdown 优先的 Claude Code/Codex 共享记忆库，带 Git、索引和审计
 
 - 分类：编码 Agent 与 MCP 记忆；核心候选。
 - 适用边界：多宿主支持需逐项核验；捕获范围可能包含敏感工具输出。
-- 维护状态：近90天有提交；30 天提交 1237 次，90 天提交 2184 次。
+- 维护状态：近90天有提交；30 天提交 1243 次，90 天提交 2219 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/thedotmack/claude-mem/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/thedotmack/claude-mem/blob/c4a9f5725f420bf9c6e866cdd3b94bd36498af09/README.md#L3)。
 
@@ -469,7 +469,7 @@ Markdown 优先的 Claude Code/Codex 共享记忆库，带 Git、索引和审计
 
 - 分类：编码 Agent 与 MCP 记忆；核心候选。
 - 适用边界：轻量自托管不等于所有后端行为一致，需固定配置测试。
-- 维护状态：近90天有提交；30 天提交 291 次，90 天提交 774 次。
+- 维护状态：近90天有提交；30 天提交 298 次，90 天提交 785 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/doobidoo/mcp-memory-service/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/doobidoo/mcp-memory-service/blob/8823c8dd3d2937d8600c4d498a3aa8579c160810/README.md#L37)。
 
@@ -479,7 +479,7 @@ Markdown 优先的 Claude Code/Codex 共享记忆库，带 Git、索引和审计
 
 - 分类：编码 Agent 与 MCP 记忆；核心候选。
 - 适用边界：宿主支持面与存储治理需按版本核对。
-- 维护状态：近90天有提交；30 天提交 75 次，90 天提交 249 次。
+- 维护状态：近90天有提交；30 天提交 75 次，90 天提交 223 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/AVIDS2/memorix/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/AVIDS2/memorix/blob/674528015f8f78f98286739b173c993d888c2a43/README.md#L9)。
 
@@ -509,7 +509,7 @@ Git-native 编码 Agent 记忆，提供嵌入式 MCP 与渐进式读取。
 
 - 分类：编码 Agent 与 MCP 记忆；核心候选。
 - 适用边界：本仓库是托管服务客户端/服务器接入层；domain 是账户内 namespace，不是权限边界。
-- 维护状态：近90天有提交；30 天提交 49 次，90 天提交 151 次。
+- 维护状态：近90天有提交；30 天提交 49 次，90 天提交 149 次。
 - 许可：[MIT](https://api.github.com/repos/mnemoverse/mcp-memory-server/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/mnemoverse/mcp-memory-server/blob/9fd95f618280ef926afce78e649241ea32b4e015/README.md#L3)。
 
@@ -549,7 +549,7 @@ Git-native 编码 Agent 记忆，提供嵌入式 MCP 与渐进式读取。
 
 - 分类：经验、技能与程序性记忆；核心候选。
 - 适用边界：当前 MemoryService 与聊天模型职责分离，不能假定服务自行完成提炼。
-- 维护状态：近90天有提交；30 天提交 19 次，90 天提交 52 次。
+- 维护状态：近90天有提交；30 天提交 22 次，90 天提交 55 次。
 - 许可：[Apache-2.0](https://github.com/NevaMind-AI/memU/blob/fd86e38635f6edd8687de94079382d91381b2f5d/LICENSE.txt)；开放许可证已核验。根目录 LICENSE.txt 人工核验
 - 功能核验：2026-11-12；[来源1](https://github.com/NevaMind-AI/memU/blob/fd86e38635f6edd8687de94079382d91381b2f5d/README.md#L1)。
 
@@ -559,7 +559,7 @@ Git-native 编码 Agent 记忆，提供嵌入式 MCP 与渐进式读取。
 
 - 分类：经验、技能与程序性记忆；核心候选。
 - 适用边界：托管产品与本地模式需区分；程序记忆更新要防止错误固化。
-- 维护状态：近90天有提交；30 天提交 4 次，90 天提交 116 次。
+- 维护状态：近90天有提交；30 天提交 4 次，90 天提交 115 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/alibaizhanov/mengram/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/alibaizhanov/mengram/blob/691ab00107ca326a18e53ea078c4c53e6600c956/README.md#L4)。
 
@@ -599,7 +599,7 @@ Git-native 编码 Agent 记忆，提供嵌入式 MCP 与渐进式读取。
 
 - 分类：研究实现与评测；研究/评测。
 - 适用边界：防护层不是记忆库；框架适配和安全结论需在目标系统中复测。
-- 维护状态：近90天有提交；30 天提交 88 次，90 天提交 283 次。
+- 维护状态：近90天有提交；30 天提交 88 次，90 天提交 277 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/OWASP/www-project-agent-memory-guard/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/OWASP/www-project-agent-memory-guard/blob/7b1047c1461f3e22dd6d1b873aadcfc64484e649/README.md#L12)。
 
@@ -609,7 +609,7 @@ Git-native 编码 Agent 记忆，提供嵌入式 MCP 与渐进式读取。
 
 - 分类：研究实现与评测；研究/评测。
 - 适用边界：不是官方数据集排行榜；应读取固定数据切分与评分配置。
-- 维护状态：近90天有提交；30 天提交 114 次，90 天提交 339 次。
+- 维护状态：近90天有提交；30 天提交 113 次，90 天提交 338 次。
 - 许可：[MIT](https://api.github.com/repos/RonsenbergVI/agent-memory-benchmarks/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/RonsenbergVI/agent-memory-benchmarks/blob/9a9bf02608537e9d29f92e83dcebe7b3809da1da/README.md#L1)。
 
@@ -649,7 +649,7 @@ Git-native 编码 Agent 记忆，提供嵌入式 MCP 与渐进式读取。
 
 - 分类：研究实现与评测；研究/评测。
 - 适用边界：属于研究索引/审计资源，不是记忆运行时。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 181 次。
+- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 180 次。
 - 许可：[CC-BY-4.0 内容 / MIT 代码](https://github.com/H20Zhang/Agent-Memory-Radar/blob/47379f841c844cf97d2cfe4a6156431c8ee572a3/LICENSE.md)；复合/拆分许可。研究内容和维护代码采用拆分许可
 - 功能核验：2026-11-12；[来源1](https://github.com/H20Zhang/Agent-Memory-Radar/blob/47379f841c844cf97d2cfe4a6156431c8ee572a3/README.md#L1)。
 
@@ -809,7 +809,7 @@ Git-native 编码 Agent 记忆，提供嵌入式 MCP 与渐进式读取。
 
 - 分类：相邻平台、规范与索引；相邻基础设施。
 - 适用边界：作为覆盖基线和发现入口，不参与能力判断。
-- 维护状态：近90天有提交；30 天提交 52 次，90 天提交 73 次。
+- 维护状态：近90天有提交；30 天提交 50 次，90 天提交 73 次。
 - 许可：[CC0-1.0](https://api.github.com/repos/mnemoverse/awesome-agent-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/mnemoverse/awesome-agent-memory/blob/6ba196dd0e90d3f1f5dcccdc954ba0951edcd0ed/README.md#L1)。
 
@@ -839,7 +839,7 @@ Git-native 编码 Agent 记忆，提供嵌入式 MCP 与渐进式读取。
 
 - 分类：历史、归档与受限许可；受限许可。
 - 适用边界：PolyForm Small Business 许可含组织规模/营收限制，不列为常规 OSI 开源候选。
-- 维护状态：近90天有提交；30 天提交 344 次，90 天提交 704 次。
+- 维护状态：近90天有提交；30 天提交 341 次，90 天提交 704 次。
 - 许可：[PolyForm Small Business-1.0.0 / 商业许可](https://github.com/engram-app/Engram/blob/cf80016063f06df9f891ec26f84a41844aeebeed/LICENSE)；源码可见但非 OSI 开源。有组织规模与营收条件，不是常规 OSI 开源许可
 - 功能核验：2026-11-12；[来源1](https://github.com/engram-app/Engram/blob/cf80016063f06df9f891ec26f84a41844aeebeed/README.md#L3)。
 
@@ -849,7 +849,7 @@ Git-native 编码 Agent 记忆，提供嵌入式 MCP 与渐进式读取。
 
 - 分类：历史、归档与受限许可；受限许可。
 - 适用边界：BSL 1.1 在限制期内不是 OSI 开源，并限制竞争性托管/嵌入用途。
-- 维护状态：近90天有提交；30 天提交 20 次，90 天提交 183 次。
+- 维护状态：近90天有提交；30 天提交 20 次，90 天提交 181 次。
 - 许可：[BSL-1.1](https://github.com/kolegadev/Katra-Agentic-Memory/blob/62cba09a81e4e083b38e68eaca572f2d8acee940/LICENSE)；源码可见但非 OSI 开源。限制竞争性第三方托管/嵌入；转换日期与参数以 LICENSE 为准
 - 功能核验：2026-11-12；[来源1](https://github.com/kolegadev/Katra-Agentic-Memory/blob/62cba09a81e4e083b38e68eaca572f2d8acee940/README.md#L1)。
 
@@ -859,7 +859,7 @@ Zep 旧 Community Edition 与当前云产品集成示例。
 
 - 分类：历史、归档与受限许可；历史参考。
 - 适用边界：Community Edition 已移入 legacy 并标为 deprecated/unsupported；当前开源图核心看 Graphiti。
-- 维护状态：归档 / 历史；30 天提交 18 次，90 天提交 28 次。
+- 维护状态：归档 / 历史；30 天提交 17 次，90 天提交 28 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/getzep/zep/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/getzep/zep/blob/65b52058b7d034ba05623c85a909e82a8d1ac2ef/README.md#L2)。
 
