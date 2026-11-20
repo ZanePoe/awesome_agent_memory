@@ -1,5 +1,57 @@
 [
   {
+    "repo": "mnemon-dev/mnemon",
+    "name": "Mnemon",
+    "category": "engines",
+    "scope": "core",
+    "description": "面向 Agent 的跨会话持久记忆，以图结构组织知识，支持意图感知检索和多种宿主接入。",
+    "boundary": "本地记忆引擎与宿主 LLM、Agency Preview 和 AML 测试 demo 是不同组件；帖子中的榜单结果依赖特定模型与版本，非通用效果保证。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 32,
+        "url": "https://github.com/mnemon-dev/mnemon/blob/ccc8ace2d21aa4667535c58910fe953f3bbe764a/README.md#L32",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "evidence_commit": "ccc8ace2d21aa4667535c58910fe953f3bbe764a",
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://github.com/mnemon-dev/mnemon/blob/ccc8ace2d21aa4667535c58910fe953f3bbe764a/LICENSE",
+      "note": "根目录 LICENSE 为 Apache-2.0；第三方模型、服务及数据许可另计。"
+    }
+  },
+  {
+    "repo": "omdsh-dev/dsh-mnemon",
+    "name": "dsh-mnemon",
+    "category": "coding_memory",
+    "scope": "core",
+    "description": "DeepSeek Harness 分层记忆插件，组合运行时记忆、项目文档与可切换的长期记忆后端。",
+    "boundary": "依赖 DSH 宿主；不同 Provider 的服务、数据位置和删除能力不同，技能自演化默认关闭。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 33,
+        "url": "https://github.com/omdsh-dev/dsh-mnemon/blob/5df51a6965e02069fd55bdf76395f1b293801c63/README.md#L33",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "evidence_commit": "5df51a6965e02069fd55bdf76395f1b293801c63",
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/omdsh-dev/dsh-mnemon/blob/5df51a6965e02069fd55bdf76395f1b293801c63/LICENSE",
+      "note": "根目录 LICENSE 为 MIT；第三方 Provider 的许可和服务条款另计，见 THIRD_PARTY_NOTICES.md。"
+    }
+  },
+  {
     "repo": "volcengine/OpenViking",
     "name": "OpenViking",
     "category": "engines",
