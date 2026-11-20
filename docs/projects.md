@@ -9,7 +9,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：部署、模型组合和评测协议会显著影响效果与成本。
-- 维护状态：近90天有提交；30 天提交 371 次，90 天提交 1574 次。
+- 维护状态：近90天有提交；30 天提交 371 次，90 天提交 1575 次。
 - 许可：[MIT](https://api.github.com/repos/vectorize-io/hindsight/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/vectorize-io/hindsight/blob/7cec128b8fdb0a696366d888e63be71fe1d52338/README.md#L3)。
 
@@ -19,7 +19,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：服务端虚拟路径不是普通本地文件；摘要、提取和索引新鲜度仍需验证。
-- 维护状态：近90天有提交；30 天提交 574 次，90 天提交 1429 次。
+- 维护状态：近90天有提交；30 天提交 575 次，90 天提交 1430 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/volcengine/OpenViking/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/volcengine/OpenViking/blob/82ec6d10bcf9e4dfcf8c2c39881d5c71a43df6fb/README.md#L3)。
 
@@ -69,7 +69,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：Hy Memory 引擎与 MemHub 产品层分工不同；模型和数据路径需按组件核验。
-- 维护状态：近90天有提交；30 天提交 545 次，90 天提交 604 次。
+- 维护状态：近90天有提交；30 天提交 544 次，90 天提交 604 次。
 - 许可：[Apache-2.0](https://github.com/Tencent-Hunyuan/Hy-Memory/blob/8f30a9c05db2ec8a7836a89928399bd2815e3b57/LICENSE)；开放许可证已核验。根目录 LICENSE 明确无额外 Apache-2.0 限制；公开参数和权重范围以 LICENSE 原文为准
 - 功能核验：2026-11-12；[来源1](https://github.com/Tencent-Hunyuan/Hy-Memory/blob/8f30a9c05db2ec8a7836a89928399bd2815e3b57/README.md#L5)。
 
@@ -109,7 +109,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：本地记忆引擎与宿主 LLM、Agency Preview 和 AML 测试 demo 是不同组件；帖子中的榜单结果依赖特定模型与版本，非通用效果保证。
-- 维护状态：近90天有提交；30 天提交 27 次，90 天提交 128 次。
+- 维护状态：近90天有提交；30 天提交 27 次，90 天提交 127 次。
 - 许可：[Apache-2.0](https://github.com/mnemon-dev/mnemon/blob/ccc8ace2d21aa4667535c58910fe953f3bbe764a/LICENSE)；开放许可证已核验。根目录 LICENSE 为 Apache-2.0；第三方模型、服务及数据许可另计。
 - 功能核验：2026-11-20；[来源1](https://github.com/mnemon-dev/mnemon/blob/ccc8ace2d21aa4667535c58910fe953f3bbe764a/README.md#L32)。
 
@@ -299,7 +299,7 @@ SQLite 驱动、默认本地的跨框架记忆层，支持 MCP 和多种 Agent �
 
 - 分类：文件真源与可审阅记忆；核心候选。
 - 适用边界：同名 Mnemosyne 项目很多；远程 embedding、同步和 LLM 选项会改变零云边界。
-- 维护状态：近90天有提交；30 天提交 499 次，90 天提交 987 次。
+- 维护状态：近90天有提交；30 天提交 498 次，90 天提交 987 次。
 - 许可：[MIT](https://api.github.com/repos/mnemosyne-oss/mnemosyne/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/mnemosyne-oss/mnemosyne/blob/2c54c97c07ac35449587931b28c272f3dc177282/README.md#L7)。
 
@@ -319,7 +319,7 @@ SQLite 驱动、默认本地的跨框架记忆层，支持 MCP 和多种 Agent �
 
 - 分类：文件真源与可审阅记忆；核心候选。
 - 适用边界：原 EverMemOS 架构描述已经过时，不能套用旧部署依赖。
-- 维护状态：近90天有提交；30 天提交 49 次，90 天提交 101 次。
+- 维护状态：近90天有提交；30 天提交 48 次，90 天提交 101 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/EverMind-AI/EverOS/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/EverMind-AI/EverOS/blob/9cd1be60e6d9190c0391b2c185beb445600b8b9f/README.md#L3)。
 
@@ -339,7 +339,7 @@ Markdown 真源配合 Milvus 派生索引，支持向量/BM25/RRF 与渐进展�
 
 - 分类：文件真源与可审阅记忆；核心候选。
 - 适用边界：摘要、文件、索引和原始会话可能不同步；与 OpenViking 同名搜索概念无关。
-- 维护状态：近90天有提交；30 天提交 37 次，90 天提交 73 次。
+- 维护状态：近90天有提交；30 天提交 36 次，90 天提交 73 次。
 - 许可：[MIT](https://api.github.com/repos/zilliztech/memsearch/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/zilliztech/memsearch/blob/a81ac682b547f86df25cd70a9477ada543de67ae/README.md#L4)。
 
@@ -389,7 +389,7 @@ Markdown 优先的 Claude Code/Codex 共享记忆库，带 Git、索引和审计
 
 - 分类：图谱、实体与时序记忆；核心候选。
 - 适用边界：当前部署路径持续演进，不能沿用旧版多数据库断言。
-- 维护状态：近90天有提交；30 天提交 1037 次，90 天提交 2897 次。
+- 维护状态：近90天有提交；30 天提交 1038 次，90 天提交 2899 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/topoteretes/cognee/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/topoteretes/cognee/blob/8853378eae5366addb064e758e560a456146ae1a/README.md#L2)。
 
@@ -479,7 +479,7 @@ Markdown 优先的 Claude Code/Codex 共享记忆库，带 Git、索引和审计
 
 - 分类：编码 Agent 与 MCP 记忆；核心候选。
 - 适用边界：轻量自托管不等于所有后端行为一致，需固定配置测试。
-- 维护状态：近90天有提交；30 天提交 315 次，90 天提交 849 次。
+- 维护状态：近90天有提交；30 天提交 316 次，90 天提交 850 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/doobidoo/mcp-memory-service/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/doobidoo/mcp-memory-service/blob/8823c8dd3d2937d8600c4d498a3aa8579c160810/README.md#L37)。
 
@@ -623,6 +623,16 @@ Git-native 编码 Agent 记忆，提供嵌入式 MCP 与渐进式读取。
 - 许可：[Apache-2.0](https://api.github.com/repos/OWASP/www-project-agent-memory-guard/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/OWASP/www-project-agent-memory-guard/blob/7b1047c1461f3e22dd6d1b873aadcfc64484e649/README.md#L12)。
 
+## [MemT-1.0](https://github.com/MemTensor/MemT-1.0)
+
+探索模型原生记忆读写与 Mixture-of-Storage 的记忆模型家族。
+
+- 分类：研究实现与评测；受限许可。
+- 适用边界：模型权重、推理代码和传统外置记忆引擎不属于同一层级。
+- 维护状态：近90天有提交；30 天提交 5 次，90 天提交 7 次。
+- 许可：[PolyForm Noncommercial-1.0.0](https://github.com/MemTensor/MemT-1.0/blob/9ce3ec690ce9d0ce264ba9c8fa4e002e22faacd0/LICENSE)；源码可见但非 OSI 开源。非商业源码许可，不是 OSI 开源许可
+- 功能核验：2026-11-12；[来源1](https://github.com/MemTensor/MemT-1.0/blob/9ce3ec690ce9d0ce264ba9c8fa4e002e22faacd0/README.md#L3)。
+
 ## [Agent Memory Benchmarks](https://github.com/RonsenbergVI/agent-memory-benchmarks)
 
 提供 LongMemEval、LoCoMo 等 Agent 记忆系统的开放评测与参考实现。
@@ -642,16 +652,6 @@ Git-native 编码 Agent 记忆，提供嵌入式 MCP 与渐进式读取。
 - 维护状态：近90天有提交；30 天提交 10 次，90 天提交 33 次。
 - 许可：[MIT](https://github.com/Concyclics/MemForest/blob/728b5a6f6235ba3a5dbf45e0c85efe15da3caa59/LICENSE)；开放许可证已核验。根目录 LICENSE 人工核验
 - 功能核验：2026-11-12；[来源1](https://github.com/Concyclics/MemForest/blob/728b5a6f6235ba3a5dbf45e0c85efe15da3caa59/README.md#L1)。
-
-## [MemT-1.0](https://github.com/MemTensor/MemT-1.0)
-
-探索模型原生记忆读写与 Mixture-of-Storage 的记忆模型家族。
-
-- 分类：研究实现与评测；受限许可。
-- 适用边界：模型权重、推理代码和传统外置记忆引擎不属于同一层级。
-- 维护状态：近90天有提交；30 天提交 4 次，90 天提交 6 次。
-- 许可：[PolyForm Noncommercial-1.0.0](https://github.com/MemTensor/MemT-1.0/blob/9ce3ec690ce9d0ce264ba9c8fa4e002e22faacd0/LICENSE)；源码可见但非 OSI 开源。非商业源码许可，不是 OSI 开源许可
-- 功能核验：2026-11-12；[来源1](https://github.com/MemTensor/MemT-1.0/blob/9ce3ec690ce9d0ce264ba9c8fa4e002e22faacd0/README.md#L3)。
 
 ## [Agent Memory Leaderboard](https://github.com/AML-memory/agent-memory-leaderboard)
 
@@ -892,3 +892,13 @@ Zep 旧 Community Edition 与当前云产品集成示例。
 - 维护状态：归档 / 历史；30 天提交 0 次，90 天提交 0 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/Agentscreator/engram-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/Agentscreator/engram-memory/blob/a8a38ce032064329b65f30bcf3f975037fb4dc34/README.md#L3)。
+
+## [EverMemOS_bz](https://github.com/beizhangnina/EverMemOS_bz)
+
+EverMemOS 的分叉仓库，保留以对话提取、结构化记忆与多策略召回为核心的旧版实现。
+
+- 分类：历史、归档与受限许可；历史参考。
+- 适用边界：GitHub 标记为 EverMind-AI/EverOS 的分叉；当前默认分支最后提交于 2025-11-28，README 描述的 MongoDB、Elasticsearch、Milvus 和 Redis 架构不能直接套用于现行 EverOS。评测成绩未独立验证。
+- 维护状态：归档 / 历史；30 天提交 0 次，90 天提交 0 次。
+- 许可：[Apache-2.0](https://github.com/beizhangnina/EverMemOS_bz/blob/522e6eccd43c21f987bdff39d8e433b0cedbaed5/LICENSE)；开放许可证已核验。根 LICENSE 为 Apache-2.0，NOTICE 含版权声明；模型、数据和第三方依赖许可另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/beizhangnina/EverMemOS_bz/blob/522e6eccd43c21f987bdff39d8e433b0cedbaed5/README_zh.md#L147) · [来源2](https://github.com/beizhangnina/EverMemOS_bz/blob/522e6eccd43c21f987bdff39d8e433b0cedbaed5/README_zh.md#L250)。

@@ -48,6 +48,36 @@
     }
   },
   {
+    "repo": "beizhangnina/EverMemOS_bz",
+    "name": "EverMemOS_bz",
+    "category": "historical_restricted",
+    "scope": "historical",
+    "description": "EverMemOS 的分叉仓库，保留以对话提取、结构化记忆与多策略召回为核心的旧版实现。",
+    "boundary": "GitHub 标记为 EverMind-AI/EverOS 的分叉；当前默认分支最后提交于 2025-11-28，README 描述的 MongoDB、Elasticsearch、Milvus 和 Redis 架构不能直接套用于现行 EverOS。评测成绩未独立验证。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README_zh.md",
+        "line": 147,
+        "url": "https://github.com/beizhangnina/EverMemOS_bz/blob/522e6eccd43c21f987bdff39d8e433b0cedbaed5/README_zh.md#L147",
+        "note": "项目定位；非实机测试"
+      },
+      {
+        "path": "README_zh.md",
+        "line": 250,
+        "url": "https://github.com/beizhangnina/EverMemOS_bz/blob/522e6eccd43c21f987bdff39d8e433b0cedbaed5/README_zh.md#L250",
+        "note": "该分叉所描述的旧版依赖"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://github.com/beizhangnina/EverMemOS_bz/blob/522e6eccd43c21f987bdff39d8e433b0cedbaed5/LICENSE",
+      "note": "根 LICENSE 为 Apache-2.0，NOTICE 含版权声明；模型、数据和第三方依赖许可另计。"
+    }
+  },
+  {
     "repo": "volcengine/OpenViking",
     "name": "OpenViking",
     "category": "engines",
