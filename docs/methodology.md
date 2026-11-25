@@ -1,35 +1,35 @@
-# 排序方法与限制
+# Ranking method and limits
 
-## GitHub 指标
+## GitHub metrics
 
-`scripts/refresh_metrics.py` 使用 GitHub GraphQL API，一次固定 UTC 时刻读取所有 canonical 仓库。全部批次成功后才原子替换 `data/metrics.json`；部分失败会保留旧快照并让任务失败。
+`scripts/refresh_metrics.py` uses the GitHub GraphQL API to read all canonical repositories at one fixed UTC moment. `data/metrics.json` is replaced atomically only after every batch succeeds; a partial failure keeps the old snapshot and fails the job.
 
-- `stars`：采集时的关注度代理指标。
-- `commits_30d / commits_90d`：默认分支历史在固定窗口内的完整提交计数，包含合并、机器人与文档提交。
-- `last_commit_at`：默认分支 HEAD 提交时间。
-- `pushed_at / updated_at`：保留作审计，不冒充默认分支代码更新时间。
-- `latest_release`：最近创建的 release；缺失不自动视为弃坑。
-- `archived / disabled`：GitHub 仓库状态。
+- `stars`: a proxy for attention at collection time.
+- `commits_30d / commits_90d`: full commit counts over the default-branch history within the fixed windows, including merge, bot and documentation commits.
+- `last_commit_at`: the commit time of the default-branch HEAD.
+- `pushed_at / updated_at`: kept for audit; not passed off as default-branch code updates.
+- `latest_release`: the most recently created release; its absence alone is not treated as abandonment.
+- `archived / disabled`: GitHub repository status.
 
-## 分层与公式
+## Tiering and formula
 
-先按维护状态分四层：近 90 天有提交；91–365 天未提交；超过 365 天未提交；归档、disabled 或历史项目。
+Projects are first split into four maintenance tiers: commits within the last 90 days; no commits for 91–365 days; no commits for over 365 days; archived, disabled or historical projects.
 
 ```text
 P = min(1, ln(1 + stars) / ln(1 + 100000))
 A = min(1, ln(1 + commits_90d) / ln(1 + 500))
 R = exp(-max(0, days_since_default_branch_HEAD) / 90)
-维护分 = 100 × (0.40 × P + 0.35 × A + 0.25 × R)
+maintenance_score = 100 × (0.40 × P + 0.35 × A + 0.25 × R)
 ```
 
-同分比较 star，再按仓库名稳定排序。综合分、star、90 天活动和最新提交四种视图都先按维护状态分层。需要不分层的原始值时使用 CSV。
+On ties, stars are compared first, then repositories sort stably by name. All four views — balanced, stars, 90-day activity and latest commit — tier by maintenance status first. Use the CSV when un-tiered raw values are needed.
 
-## 不能据此推断什么
+## What cannot be inferred
 
-维护分不是 LongMemEval、LoCoMo、召回率、答案准确率、删除完整性、安全性或生产成熟度。monorepo 和自动提交会放大活动量，稳定的小型库可能被低估，研究仓库也不需要持续高频提交。
+The maintenance score is not LongMemEval, LoCoMo, recall rate, answer accuracy, deletion completeness, security or production maturity. Monorepos and automatic commits inflate activity, stable small libraries may be underrated, and research repositories do not need continuous high-frequency commits.
 
-许可证自动识别与人工审核分开。`NOASSERTION` 不会默认写成 MIT；PolyForm、BSL、非商业、双许可和拆分许可均保留原始边界。模型权重、数据集、第三方依赖和托管服务可能另有许可。
+Automated license detection and manual review are kept separate. `NOASSERTION` is never written as MIT by default; PolyForm, BSL, non-commercial, dual and split licenses keep their original boundaries. Model weights, datasets, third-party dependencies and hosted services may carry additional licenses.
 
-## 能力测评建议
+## Capability-testing recommendation
 
-在同一模型、token 预算和数据集上分别测量：写入完整性、时间/实体/多跳召回、证据命中、回答准确率、用户更正生效、一次性例外污染、跨项目隔离、删除后残留、进程恢复、P50/P95 延迟与总费用。不要用供应商各自的最佳数字拼成排行榜。
+On the same model, token budget and dataset, measure separately: write completeness, temporal/entity/multi-hop recall, evidence hits, answer accuracy, whether user corrections take effect, one-off exception poisoning, cross-project isolation, post-deletion residue, process recovery, P50/P95 latency and total cost. Do not assemble a leaderboard from vendors' individually best numbers.

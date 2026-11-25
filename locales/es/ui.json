@@ -1,0 +1,74 @@
+{
+  "language": "es",
+  "language_name": "Español",
+  "list_separator": ", ",
+  "categories": {
+    "engines": "Motores y servicios de memoria",
+    "file_memory": "Archivos como fuente de verdad y memoria auditable",
+    "graph_temporal": "Grafos, entidades y memoria temporal",
+    "coding_memory": "Agentes de programación y memoria MCP",
+    "procedural": "Experiencia, habilidades y memoria procedimental",
+    "research_eval": "Implementaciones de investigación y evaluación",
+    "adjacent": "Plataformas adyacentes, especificaciones e índices",
+    "historical_restricted": "Histórico, archivado y licencias restringidas"
+  },
+  "scopes": {
+    "core": "Candidato principal",
+    "adjacent": "Infraestructura adyacente",
+    "research": "Investigación/evaluación",
+    "historical": "Referencia histórica",
+    "restricted": "Licencia restringida"
+  },
+  "license_status": {
+    "verified": "Licencia abierta verificada",
+    "custom": "Licencia compuesta/dividida",
+    "source_available": "Código fuente visible pero no open source OSI",
+    "unverified": "Licencia pendiente de verificación"
+  },
+  "modes": {
+    "balanced": "Puntuación de mantenimiento combinada",
+    "stars": "Prioridad a las estrellas",
+    "activity": "Prioridad a los commits de 90 días",
+    "recent": "Prioridad al último commit de la rama por defecto"
+  },
+  "tiers": [
+    "Con commits en los últimos 90 días",
+    "Sin commits desde hace 91–365 días",
+    "Sin commits desde hace más de 365 días",
+    "Archivado / histórico"
+  ],
+  "tags": {
+    "baseline": "★Referencia de los informes",
+    "archived": "Archivado/histórico",
+    "license": "Aviso de licencia"
+  },
+  "headers": {
+    "shortlist": ["Proyecto", "Propósito", "Estrellas", "Commits 90 d", "Último commit UTC", "Puntuación de mantenimiento"],
+    "categories": ["Categoría", "Cantidad", "Proyectos mejor posicionados por mantenimiento"],
+    "detail": ["Proyecto", "Propósito", "Estrellas", "Commits 90 d", "Último commit UTC", "Puntuación de mantenimiento", "Licencia"],
+    "rankings": ["Proyecto", "Categoría", "Capa de mantenimiento", "Estrellas", "Commits 90 d", "Último commit UTC", "Puntuación de mantenimiento"]
+  },
+  "sections": {
+    "current": "Catálogo actual",
+    "shortlist": "Vistazo rápido a los proyectos nucleares activos",
+    "toc": "Índice de categorías",
+    "choose": "Cómo elegir",
+    "data": "Datos y mantenimiento",
+    "thanks": "Licencias y agradecimientos",
+    "detail_title": "Descripciones de proyectos y evidencia",
+    "rankings_title": "Vistas de ordenación"
+  },
+  "templates": {
+    "current": "**{total} proyectos, de los cuales {baseline} provienen de los tres informes originales y {added} se han añadido en esta ronda.** Verificación funcional: {reviewed}; instantánea de métricas: `{as_of}` (UTC).\n\nDentro de cada categoría se estratifica primero por estado de mantenimiento y luego se ordena combinando estrellas (40%), commits en la rama por defecto a 90 días (35%) y último commit (25%). Los proyectos archivados van al final. La puntuación de mantenimiento solo describe popularidad y señales de actividad en GitHub; no representa la precisión de la memoria, el coste, la seguridad ni la madurez de producción.",
+    "shortlist_note": "Solo se muestran los candidatos principales con licencia abierta verificada y commits en los últimos 90 días; las implementaciones de investigación, los componentes de recuperación, las licencias restringidas y los proyectos históricos no entran en esta tabla.",
+    "toc_note": "`★Referencia de los informes` indica que el proyecto proviene de los tres informes aportados por el usuario. Cada entrada tiene una sola categoría principal, para que un mismo repositorio no participe dos veces en la ordenación.",
+    "detail_intro": "Los juicios funcionales provienen del README oficial en un commit fijo; no se instalaron ni ejecutaron todos los proyectos. El refresco diario de métricas no revalida automáticamente funciones ni licencias.",
+    "rankings_intro": "Instantánea: `{as_of}`. Es una ordenación por metadatos de mantenimiento de GitHub, no un ranking de capacidad de los sistemas de memoria. Todas las vistas se estratifican primero por estado de mantenimiento; los valores brutos están en el [CSV]({R}data/rankings.csv).",
+    "entry": "- Categoría: {category}; {scope}.\n- Frontera de aplicación: {boundary}\n- Estado de mantenimiento: {maintenance}; {commits_30d} commits en 30 días, {commits_90d} commits en 90 días.\n- Licencia: [{license}]({license_source}); {license_status}. {license_note}\n- Verificación funcional: {reviewed_at}; {sources}.",
+    "source_link": "Fuente {index}",
+    "choose": "- Si necesitas una API completa de memoria externa: empieza por los motores y servicios de memoria.\n- Si necesitas memoria auditable, editable y gestionable con Git: mira los archivos como fuente de verdad.\n- Si necesitas relaciones entre entidades, validez temporal y saltos múltiples: mira los grafos y la memoria temporal.\n- Si necesitas memoria entre hospedadores como Claude Code, Codex u OpenCode: mira agentes de programación/MCP.\n- Si necesitas convertir aciertos y fracasos en métodos ejecutables: mira experiencia, habilidades y memoria procedimental.\n- Si necesitas verificar eficacia, contaminación, borrado y olvido: mira implementaciones de investigación y evaluación.\n\nLas fronteras completas y la evidencia están en [Ficha detallada de proyectos](docs/projects.md), y los criterios de clasificación en [Alcance y categorías](docs/taxonomy.md).",
+    "data": "- [Ordenaciones combinada, por estrellas, por actividad y por último commit](docs/rankings.md)\n- [Método de ordenación y limitaciones](docs/methodology.md)\n- [Palabras clave de búsqueda, fuentes y cobertura](docs/research.md)\n- [Proyecto JSON]({R}data/projects.json) · [Métricas JSON]({R}data/metrics.json) · [CSV de ordenación]({R}data/rankings.csv)\n- [Guía de contribución](CONTRIBUTING.md)\n\n```sh\npython scripts/refresh_metrics.py\npython scripts/build.py\npython -m unittest discover -s tests -v\npython scripts/build.py --check\n```\n\nGitHub Actions refresca a diario las métricas de GitHub. El alta de proyectos y los juicios de funciones, categorías y licencia exigen verificación manual.",
+    "thanks": "La compilación original y los scripts de este catálogo están bajo [MIT]({R}LICENSE); los proyectos enlazados siguen sus propias licencias. Los casos desconocidos, compuestos, no comerciales o BSL/PolyForm conservan sus fronteras originales.\n\nLa clasificación inicial y el mapa de proyectos provienen de los tres informes locales aportados por el usuario; en esta ronda se usó además [mnemoverse/awesome-agent-memory](https://github.com/mnemoverse/awesome-agent-memory) como contraste de cobertura, y cada entrada se verificó después en el repositorio oficial correspondiente.",
+    "records_note": "El [registro de cambios]({R}record/) conserva el texto original tal como se redactó en el momento de cada verificación (en chino), para poder auditar el origen y la formulación de cada juicio."
+  }
+}

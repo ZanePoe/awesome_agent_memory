@@ -1,36 +1,36 @@
-# 范围与分类
+# Scope and taxonomy
 
-## 收录定义
+## Inclusion definition
 
-收录以 Agent 长期记忆为主要目标的独立仓库：能够处理跨会话的信息捕获、组织、查询、更新或注入；以及直接服务这些流程的文件记忆、图谱引擎、编码助手插件、经验 Skill 和评测工具。
+We catalogue standalone repositories whose main goal is long-term agent memory: those that handle cross-session information capture, organization, querying, updating or injection; plus file memory, graph engines, coding-assistant plugins, experience Skills and evaluation tools that directly serve these flows.
 
-普通向量数据库、图数据库、Agent 框架中的一个内置字段，以及只有聊天窗口缓存的项目不作为独立记忆系统收录。完整 Agent 平台、检索工具和上下文采集应用只有在常被用于记忆方案或具有明显边界价值时才进入“相邻”分类。
+Plain vector databases, graph databases, a built-in field inside an agent framework, and projects that only cache the chat window are not included as standalone memory systems. Complete agent platforms, retrieval tools and context-capture apps enter the "adjacent" category only when they are commonly used in memory setups or clearly help draw a boundary.
 
-## 八个主分类
+## Eight primary categories
 
-| 分类 | 主要判定问题 |
+| Category | Primary test |
 | --- | --- |
-| 记忆引擎与服务 | 是否提供完整摄入、存储、检索、更新或反思 API？ |
-| 文件真源与可审阅记忆 | 普通文件是否是可编辑、可迁移的事实来源，索引能否重建？ |
-| 图谱、实体与时序记忆 | 是否主要建模实体、关系、时间有效性、推导或多跳查询？ |
-| 编码 Agent 与 MCP 记忆 | 是否主要服务 Claude Code、Codex、OpenCode 等宿主及项目工程记忆？ |
-| 经验、技能与程序性记忆 | 是否把执行轨迹转成可复用操作、策略、Skill 或工作流？ |
-| 研究实现与评测 | 是否主要复现论文机制、数据集、安全/遗忘问题或 benchmark？ |
-| 相邻平台、规范与索引 | 是否属于完整 Agent 平台、检索组件、规范或覆盖索引？ |
-| 历史、归档与受限许可 | 是否已归档/弃用，或许可不是常规 OSI 开源？ |
+| Memory engines and services | Does it provide a complete ingestion, storage, retrieval, update or reflection API? |
+| File-backed source-of-truth and auditable memory | Are plain files the editable, portable source of facts, and can the index be rebuilt? |
+| Graphs, entities and temporal memory | Does it primarily model entities, relations, temporal validity, inference or multi-hop queries? |
+| Coding agents and MCP memory | Does it primarily serve hosts such as Claude Code, Codex and OpenCode and project engineering memory? |
+| Experience, skills and procedural memory | Does it turn execution traces into reusable operations, strategies, Skills or workflows? |
+| Research implementations and benchmarks | Does it primarily reproduce paper mechanisms, datasets, safety/forgetting issues or benchmarks? |
+| Adjacent platforms, specifications and indexes | Is it a complete agent platform, retrieval component, specification or coverage index? |
+| Historical, archived and restricted licenses | Is it archived/deprecated, or is the license not regular OSI open source? |
 
-每个仓库只放入一个主分类。同名项目必须带 owner；`MemOS`、`MemoryOS`、`EverOS`，以及多个 `Engram`、`MemForest`、`agent-memory` 都是不同实体。
+Each repository goes into exactly one primary category. Same-named projects must carry an owner; `MemOS`, `MemoryOS`, `EverOS`, and the multiple `Engram`, `MemForest` and `agent-memory` projects are distinct entities.
 
-## 判断边界
+## Judgment boundaries
 
-- 保存成功不等于后续能正确召回，召回成功也不等于 Agent 正确使用。
-- Markdown 可审阅不消除摘要遗漏；图谱和关联也不保证事实正确。
-- 删除源记录不自动证明摘要、结论、图边、技能、索引和缓存均被清理。
-- scope、bank、collection、目录和 workspace 不是可随意互换的租户安全边界。
-- 自托管数据不自动表示 embedding、抽取、rerank 和反思模型不会出网。
-- 项目 benchmark 只有在模型、数据切分、预算、judge 和版本相同时才可比较。
-- 开源核心、托管服务、商业版本和插件可能使用不同许可或数据路径。
+- Storing something does not mean it will be recalled correctly later, and a successful recall does not mean the agent uses it correctly.
+- Reviewable Markdown does not remove summarization gaps; graphs and links do not guarantee factual correctness.
+- Deleting a source record does not automatically prove that summaries, conclusions, graph edges, skills, indexes and caches were all cleaned.
+- scope, bank, collection, directory and workspace are not freely interchangeable tenant security boundaries.
+- Self-hosted data does not automatically mean embedding, extraction, rerank and reflection models stay off-network.
+- Project benchmarks are comparable only when model, data split, budget, judge and version are the same.
+- Open-source cores, hosted services, commercial editions and plugins may use different licenses or data paths.
 
-## 分层阅读
+## Layered reading
 
-项目条目提供“定位、边界、许可证、固定提交证据”。维护排名只帮助判断当前关注度与开发活动。真正选型应使用相同中文材料，测试捕获、纠错、项目隔离、删除、后台恢复、P50/P95 延迟、模型费用和最终任务完成率。
+Each project entry provides "positioning, boundary, license, pinned-commit evidence". Maintenance rankings only help judge current attention and development activity. Real selection should use the same Chinese-language material and test capture, correction, project isolation, deletion, background recovery, P50/P95 latency, model cost and final task completion rate.

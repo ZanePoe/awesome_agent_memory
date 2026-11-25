@@ -1,0 +1,74 @@
+{
+  "language": "en",
+  "language_name": "English",
+  "list_separator": ", ",
+  "categories": {
+    "engines": "Memory engines and services",
+    "file_memory": "File-backed source-of-truth and auditable memory",
+    "graph_temporal": "Graphs, entities and temporal memory",
+    "coding_memory": "Coding agents and MCP memory",
+    "procedural": "Experience, skills and procedural memory",
+    "research_eval": "Research implementations and benchmarks",
+    "adjacent": "Adjacent platforms, specifications and indexes",
+    "historical_restricted": "Historical, archived and restricted licenses"
+  },
+  "scopes": {
+    "core": "Core candidate",
+    "adjacent": "Adjacent infrastructure",
+    "research": "Research/benchmark",
+    "historical": "Historical reference",
+    "restricted": "Restricted license"
+  },
+  "license_status": {
+    "verified": "Open license verified",
+    "custom": "Compound/split licence",
+    "source_available": "Source-available, not OSI open source",
+    "unverified": "License unverified"
+  },
+  "modes": {
+    "balanced": "Balanced maintenance score",
+    "stars": "Star priority",
+    "activity": "90-day commits priority",
+    "recent": "Most recent default-branch commit priority"
+  },
+  "tiers": [
+    "Commits within the last 90 days",
+    "No commits for 91–365 days",
+    "No commits for over 365 days",
+    "Archived / historical"
+  ],
+  "tags": {
+    "baseline": "★Report baseline",
+    "archived": "Archived/historical",
+    "license": "License caution"
+  },
+  "headers": {
+    "shortlist": ["Project", "Positioning", "Stars", "90-day commits", "Last commit (UTC)", "Maintenance score"],
+    "categories": ["Category", "Count", "Top projects by maintenance rank"],
+    "detail": ["Project", "Positioning", "Stars", "90-day commits", "Last commit (UTC)", "Maintenance score", "License"],
+    "rankings": ["Project", "Category", "Maintenance tier", "Stars", "90-day commits", "Last commit (UTC)", "Maintenance score"]
+  },
+  "sections": {
+    "current": "Current coverage",
+    "shortlist": "Active core projects at a glance",
+    "toc": "Category index",
+    "choose": "How to choose",
+    "data": "Data and maintenance",
+    "thanks": "Licenses and acknowledgements",
+    "detail_title": "Project notes and evidence",
+    "rankings_title": "Ranking views"
+  },
+  "templates": {
+    "current": "**{total} projects, of which {baseline} come from the three original research reports and {added} were added in this round.** Feature verification: {reviewed}; metrics snapshot: `{as_of}` (UTC).\n\nWithin each category, projects are first tiered by maintenance status, then ranked by a blend of stars (40%), 90-day default-branch commits (35%) and recency of the last commit (25%). Archived projects are placed last. The maintenance score describes GitHub popularity and activity signals only; it does not represent memory accuracy, cost, safety or production maturity.",
+    "shortlist_note": "Shows only core candidates with a verified license and commits in the last 90 days; research implementations, retrieval components, restricted-license and historical projects are excluded from this table.",
+    "toc_note": "`★Report baseline` marks projects coming from the three user-provided research reports. Each entry has exactly one primary category, so the same repository never enters the ranking twice.",
+    "detail_intro": "Feature judgments come from the official README at a pinned commit; not every project was installed and run. Daily metrics refreshes do not automatically re-audit features or licenses.",
+    "rankings_intro": "Snapshot: `{as_of}`. This is a ranking of GitHub maintenance metadata, not a memory-capability leaderboard. All views tier by maintenance status first; raw values are in the [CSV]({R}data/rankings.csv).",
+    "entry": "- Category: {category}; {scope}.\n- Scope boundary: {boundary}\n- Maintenance: {maintenance}; {commits_30d} commits in 30 days, {commits_90d} commits in 90 days.\n- License: [{license}]({license_source}); {license_status}. {license_note}\n- Feature verified: {reviewed_at}; {sources}.",
+    "source_link": "Source {index}",
+    "choose": "- Need a complete external memory API: start with memory engines and services.\n- Need memory you can review, edit and manage with Git directly: see file-backed source-of-truth memory.\n- Need entity relations, temporal validity and multi-hop queries: see graph and temporal memory.\n- Need memory across hosts such as Claude Code, Codex and OpenCode: see coding agents/MCP.\n- Need to turn successes and failures into executable methods: see experience, skills and procedural memory.\n- Need to verify effectiveness, poisoning, deletion and forgetting: see research implementations and benchmarks.\n\nFull boundaries in [project details](docs/projects.md); category definitions in [Scope and taxonomy](docs/taxonomy.md).",
+    "data": "- [Balanced, stars, activity and recent-commit rankings](docs/rankings.md)\n- [Ranking method and limits](docs/methodology.md)\n- [Search keywords, sources and coverage](docs/research.md)\n- [Projects JSON]({R}data/projects.json) · [Metrics JSON]({R}data/metrics.json) · [Rankings CSV]({R}data/rankings.csv)\n- [Contributing guide](CONTRIBUTING.md)\n\n```sh\npython scripts/refresh_metrics.py\npython scripts/build.py\npython -m unittest discover -s tests -v\npython scripts/build.py --check\n```\n\nGitHub Actions refreshes the GitHub metrics daily. Adding projects and verifying features, categories and license judgments requires manual review.",
+    "thanks": "Original curation and scripts in this catalogue use the [MIT]({R}LICENSE); linked projects follow their own licenses. Unknown, compound, non-commercial and BSL/PolyForm projects keep their original boundaries.\n\nThe initial classification and project map come from three user-provided local research reports; this round also referenced [mnemoverse/awesome-agent-memory](https://github.com/mnemoverse/awesome-agent-memory) for coverage checks, with every entry verified against its official repository.",
+    "records_note": "The [change records]({R}record/) keep the original text (Chinese) as written at verification time, so the source and wording of every judgment stay auditable."
+  }
+}

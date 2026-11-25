@@ -1,0 +1,74 @@
+{
+  "language": "fr",
+  "language_name": "Français",
+  "list_separator": ", ",
+  "categories": {
+    "engines": "Moteurs et services de mémoire",
+    "file_memory": "Source fichier et mémoire consultable",
+    "graph_temporal": "Graphes, entités et mémoire temporelle",
+    "coding_memory": "Mémoire des agents de codage et MCP",
+    "procedural": "Expérience, compétences et mémoire procédurale",
+    "research_eval": "Implémentations de recherche et évaluation",
+    "adjacent": "Plateformes, spécifications et index adjacents",
+    "historical_restricted": "Historique, archivés et licences restreintes"
+  },
+  "scopes": {
+    "core": "Candidat principal",
+    "adjacent": "Infrastructure adjacente",
+    "research": "Recherche/benchmark",
+    "historical": "Référence historique",
+    "restricted": "Licence restreinte"
+  },
+  "license_status": {
+    "verified": "Licence ouverte vérifiée",
+    "custom": "Licence composite/segmentée",
+    "source_available": "Code source visible mais non open source OSI",
+    "unverified": "Licence à vérifier"
+  },
+  "modes": {
+    "balanced": "Score de maintenance composite",
+    "stars": "Priorité aux étoiles",
+    "activity": "Priorité aux commits sur 90 jours",
+    "recent": "Priorité au dernier commit de la branche par défaut"
+  },
+  "tiers": [
+    "Commits sur les 90 derniers jours",
+    "Aucun commit depuis 91–365 jours",
+    "Aucun commit depuis plus de 365 jours",
+    "Archivé / historique"
+  ],
+  "tags": {
+    "baseline": "★référence des rapports",
+    "archived": "Archivé/historique",
+    "license": "Attention licence"
+  },
+  "headers": {
+    "shortlist": ["Projet", "Positionnement", "Étoiles", "Commits 90 j", "Dernier commit UTC", "Score de maintenance"],
+    "categories": ["Catégorie", "Nombre", "Projets les mieux classés en maintenance"],
+    "detail": ["Projet", "Positionnement", "Étoiles", "Commits 90 j", "Dernier commit UTC", "Score de maintenance", "Licence"],
+    "rankings": ["Projet", "Catégorie", "Palier de maintenance", "Étoiles", "Commits 90 j", "Dernier commit UTC", "Score de maintenance"]
+  },
+  "sections": {
+    "current": "Sélection actuelle",
+    "shortlist": "Aperçu des projets principaux actifs",
+    "toc": "Index par catégorie",
+    "choose": "Comment choisir",
+    "data": "Données et maintenance",
+    "thanks": "Licences et remerciements",
+    "detail_title": "Fiches projets et preuves",
+    "rankings_title": "Vues de classement"
+  },
+  "templates": {
+    "current": "**{total} projets, dont {baseline} issus des trois études initiales et {added} ajoutés lors de cette passe.** Vérification fonctionnelle : {reviewed} ; instantané des métriques : `{as_of}` (UTC).\n\nDans chaque catégorie, les projets sont d'abord stratifiés par état de maintenance, puis classés par une combinaison d'étoiles (40 %), de commits sur la branche par défaut à 90 jours (35 %) et de récence du dernier commit (25 %). Les projets archivés sont relégués en fin de liste. Le score de maintenance ne décrit que la visibilité et les signes d'activité sur GitHub ; il ne représente ni la précision de rappel mémoire, ni le coût, ni la sécurité, ni la maturité de production.",
+    "shortlist_note": "N'affiche que les candidats principaux, à licence ouverte vérifiée, avec un commit sur les 90 derniers jours ; les implémentations de recherche, les composants de récupération, les licences restreintes et les projets historiques n'entrent pas dans ce tableau.",
+    "toc_note": "`★référence des rapports` signale un projet issu des trois études fournies par l'utilisateur. Chaque dépôt n'a qu'une seule catégorie principale, pour éviter qu'un même dépôt participe deux fois au classement.",
+    "detail_intro": "Chaque jugement fonctionnel provient du README officiel lu à un commit figé ; tous les projets n'ont pas été installés ni exécutés. Le rafraîchissement quotidien des métriques ne relance pas automatiquement la revue des fonctionnalités ni des licences.",
+    "rankings_intro": "Instantané : `{as_of}`. Classement basé sur les métadonnées de maintenance GitHub, pas un palmarès des capacités des systèmes de mémoire. Toutes les vues stratifient d'abord par état de maintenance ; les valeurs brutes sont dans [le CSV]({R}data/rankings.csv).",
+    "entry": "- Catégorie : {category} ; {scope}.\n- Périmètre d'application : {boundary}\n- État de maintenance : {maintenance} ; {commits_30d} commits sur 30 jours, {commits_90d} commits sur 90 jours.\n- Licence : [{license}]({license_source}) ; {license_status}. {license_note}\n- Vérification fonctionnelle : {reviewed_at} ; {sources}.",
+    "source_link": "Source{index}",
+    "choose": "- Il vous faut une API de mémoire externe complète : commencez par les moteurs et services de mémoire.\n- Vous voulez des fichiers consultables, modifiables et suivis par Git : voir la mémoire à source fichier.\n- Relations entre entités, validité temporelle et requêtes multi-sauts : voir les graphes et la mémoire temporelle.\n- Une mémoire partagée entre hôtes (Claude Code, Codex, OpenCode…) : voir la mémoire des agents de codage et MCP.\n- Transformer succès et échecs en méthodes réutilisables : voir l'expérience, les compétences et la mémoire procédurale.\n- Vérifier l'efficacité, la pollution, la suppression et l'oubli : voir les implémentations de recherche et l'évaluation.\n\nLimites complètes et preuves dans [le détail des projets](docs/projects.md) ; périmètre et catégories dans [Périmètre et taxonomie](docs/taxonomy.md).",
+    "data": "- [Classements composite, étoiles, activité, récence](docs/rankings.md)\n- [Méthode de classement et limites](docs/methodology.md)\n- [Mots-clés de recherche, sources et couverture](docs/research.md)\n- [JSON des projets]({R}data/projects.json) · [JSON des métriques]({R}data/metrics.json) · [CSV de classement]({R}data/rankings.csv)\n- [Guide de contribution](CONTRIBUTING.md)\n\n```sh\npython scripts/refresh_metrics.py\npython scripts/build.py\npython -m unittest discover -s tests -v\npython scripts/build.py --check\n```\n\nGitHub Actions rafraîchit les métriques GitHub chaque jour. Les nouveaux projets, fonctionnalités, catégories et conclusions de licence doivent être vérifiés manuellement.",
+    "thanks": "Le travail éditorial original et les scripts de ce catalogue sont sous [licence MIT]({R}LICENSE) ; les projets liés suivent leurs propres licences. Les projets non vérifiés, composites, non commerciaux ou BSL/PolyForm conservent leurs limites d'origine.\n\nLa classification initiale et la carte des projets proviennent de trois études locales fournies par l'utilisateur ; cette passe s'est aussi appuyée sur [mnemoverse/awesome-agent-memory](https://github.com/mnemoverse/awesome-agent-memory) pour valider la couverture, chaque entrée étant revérifiée sur le dépôt officiel.",
+    "records_note": "[Le journal des modifications]({R}record/) conserve le texte d'origine (en chinois) tel qu'il était au moment de la vérification, afin d'auditer la source et la formulation de chaque décision."
+  }
+}

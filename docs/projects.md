@@ -1,904 +1,904 @@
-# 项目说明与证据
+# Project notes and evidence
 
-功能判断来自固定提交的官方 README，未安装运行全部项目。每日指标刷新不会自动重新审核功能和许可证。
+Feature judgments come from the official README at a pinned commit; not every project was installed and run. Daily metrics refreshes do not automatically re-audit features or licenses.
 
 
 ## [Hindsight](https://github.com/vectorize-io/hindsight)
 
-通过 retain、recall 和 reflect 管理结构化事实、经历、实体与综合观察。
+Manages structured facts, experiences, entities and synthesized observations through retain, recall and reflect.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：部署、模型组合和评测协议会显著影响效果与成本。
-- 维护状态：近90天有提交；30 天提交 371 次，90 天提交 1575 次。
-- 许可：[MIT](https://api.github.com/repos/vectorize-io/hindsight/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/vectorize-io/hindsight/blob/7cec128b8fdb0a696366d888e63be71fe1d52338/README.md#L3)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: Deployment, model mix and evaluation protocol strongly affect results and cost.
+- Maintenance: Commits within the last 90 days; 371 commits in 30 days, 1575 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/vectorize-io/hindsight/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/vectorize-io/hindsight/blob/7cec128b8fdb0a696366d888e63be71fe1d52338/README.md#L3).
 
 ## [OpenViking](https://github.com/volcengine/OpenViking)
 
-用可导航的虚拟文件系统统一管理资源、长期记忆与 Agent Skills。
+Manages resources, long-term memory and Agent Skills through a navigable virtual file system.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：服务端虚拟路径不是普通本地文件；摘要、提取和索引新鲜度仍需验证。
-- 维护状态：近90天有提交；30 天提交 575 次，90 天提交 1430 次。
-- 许可：[AGPL-3.0](https://api.github.com/repos/volcengine/OpenViking/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/volcengine/OpenViking/blob/82ec6d10bcf9e4dfcf8c2c39881d5c71a43df6fb/README.md#L3)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: Server-side virtual paths are not ordinary local files; the freshness of summaries, extractions and indexes still needs verification.
+- Maintenance: Commits within the last 90 days; 575 commits in 30 days, 1430 commits in 90 days.
+- License: [AGPL-3.0](https://api.github.com/repos/volcengine/OpenViking/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/volcengine/OpenViking/blob/82ec6d10bcf9e4dfcf8c2c39881d5c71a43df6fb/README.md#L3).
 
 ## [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory)
 
-面向编码 Agent 的服务与插件，融合 BM25、可选向量和结构关系。
+Service and plugin for coding agents combining BM25, optional vectors and structural relations.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：与其他同名 agentmemory 项目无关，部署入口需区分。
-- 维护状态：近90天有提交；30 天提交 127 次，90 天提交 234 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/rohitg00/agentmemory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/rohitg00/agentmemory/blob/57bc38489ee6f370fdc04da56e26e62ba90cbccf/README.md#L2)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: Unrelated to the other projects named agentmemory; deployment entry points must be distinguished.
+- Maintenance: Commits within the last 90 days; 127 commits in 30 days, 234 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/rohitg00/agentmemory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/rohitg00/agentmemory/blob/57bc38489ee6f370fdc04da56e26e62ba90cbccf/README.md#L2).
 
 ## [Honcho](https://github.com/plastic-labs/honcho)
 
-围绕 peer、session 与 workspace 持续形成对象表征和协作理解。
+Continuously forms peer representations and collaborative understanding around peers, sessions and workspaces.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：推断可能扩大明确事实；删除原始会话不自动保证全部派生结论清除。
-- 维护状态：近90天有提交；30 天提交 123 次，90 天提交 318 次。
-- 许可：[AGPL-3.0](https://api.github.com/repos/plastic-labs/honcho/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/plastic-labs/honcho/blob/ca81eed3ddca57d7407854c5f447195779dcabf2/README.md#L3)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: Inference can extend beyond explicit facts; deleting raw sessions does not automatically guarantee that all derived conclusions are removed.
+- Maintenance: Commits within the last 90 days; 123 commits in 30 days, 318 commits in 90 days.
+- License: [AGPL-3.0](https://api.github.com/repos/plastic-labs/honcho/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/plastic-labs/honcho/blob/ca81eed3ddca57d7407854c5f447195779dcabf2/README.md#L3).
 
 ## [Supermemory](https://github.com/supermemoryai/supermemory)
 
-面向文档、记忆和用户画像的混合搜索与记忆平台。
+Hybrid search and memory platform for documents, memories and user profiles.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：开源服务与托管 reader 等外部能力的数据路径需要逐项核验。
-- 维护状态：近90天有提交；30 天提交 23 次，90 天提交 130 次。
-- 许可：[MIT](https://api.github.com/repos/supermemoryai/supermemory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/supermemoryai/supermemory/blob/8af3b9108f1a4dce45b10cfa4f8f0af027b4197b/README.md#L5)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: Data paths of the open-source service versus the hosted reader and other external capabilities need item-by-item verification.
+- Maintenance: Commits within the last 90 days; 23 commits in 30 days, 130 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/supermemoryai/supermemory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/supermemoryai/supermemory/blob/8af3b9108f1a4dce45b10cfa4f8f0af027b4197b/README.md#L5).
 
 ## [Mem0](https://github.com/mem0ai/mem0)
 
-通用个性化记忆层，支持从交互抽取、更新、删除与检索记忆。
+General-purpose personalization memory layer supporting extraction, updating, deletion and retrieval of memories from interactions.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：开源库、托管平台和各类集成入口需要分别核验数据路径。
-- 维护状态：近90天有提交；30 天提交 7 次，90 天提交 75 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/mem0ai/mem0/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/mem0ai/mem0/blob/f1791daa86d469249c9b002f62644d58a1eb96a0/README.md#L2)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: The open-source library, the hosted platform and the various integration entry points need separate verification of their data paths.
+- Maintenance: Commits within the last 90 days; 7 commits in 30 days, 75 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/mem0ai/mem0/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/mem0ai/mem0/blob/f1791daa86d469249c9b002f62644d58a1eb96a0/README.md#L2).
 
 ## [Hy-Memory](https://github.com/Tencent-Hunyuan/Hy-Memory)
 
-面向对话、Agent 和编码场景的双系统认知记忆引擎与 Python SDK。
+Dual-system cognitive memory engine and Python SDK for conversation, agent and coding scenarios.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：Hy Memory 引擎与 MemHub 产品层分工不同；模型和数据路径需按组件核验。
-- 维护状态：近90天有提交；30 天提交 544 次，90 天提交 604 次。
-- 许可：[Apache-2.0](https://github.com/Tencent-Hunyuan/Hy-Memory/blob/8f30a9c05db2ec8a7836a89928399bd2815e3b57/LICENSE)；开放许可证已核验。根目录 LICENSE 明确无额外 Apache-2.0 限制；公开参数和权重范围以 LICENSE 原文为准
-- 功能核验：2026-11-12；[来源1](https://github.com/Tencent-Hunyuan/Hy-Memory/blob/8f30a9c05db2ec8a7836a89928399bd2815e3b57/README.md#L5)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: The Hy Memory engine and the MemHub product layer have different responsibilities; model and data paths must be verified per component.
+- Maintenance: Commits within the last 90 days; 544 commits in 30 days, 604 commits in 90 days.
+- License: [Apache-2.0](https://github.com/Tencent-Hunyuan/Hy-Memory/blob/8f30a9c05db2ec8a7836a89928399bd2815e3b57/LICENSE); Open license verified. Root LICENSE is a plain Apache-2.0 with no extra restrictions; the scope of published parameters and weights follows the LICENSE text itself.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Tencent-Hunyuan/Hy-Memory/blob/8f30a9c05db2ec8a7836a89928399bd2815e3b57/README.md#L5).
 
 ## [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)
 
-把对话、文档和代码沉淀为 Chat Memory、Skill、LLM-Wiki 与 Code-Graph 的团队记忆中心。
+Team memory hub that turns conversations, documents and code into Chat Memory, Skills, LLM-Wiki and Code-Graph.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：默认分支可能是开发分支；协议代理与数据库部署边界需固定版本验证。
-- 维护状态：近90天有提交；30 天提交 12 次，90 天提交 65 次。
-- 许可：[MIT](https://github.com/TencentCloud/TencentDB-Agent-Memory/blob/42d4cde50c5a83182fced8c584f9ddb32a620615/LICENSE)；开放许可证已核验。根目录 LICENSE 人工核验
-- 功能核验：2026-11-12；[来源1](https://github.com/TencentCloud/TencentDB-Agent-Memory/blob/42d4cde50c5a83182fced8c584f9ddb32a620615/README.md#L4)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: The default branch may be a development branch; the protocol proxy and database deployment boundaries need verification at a pinned version.
+- Maintenance: Commits within the last 90 days; 12 commits in 30 days, 65 commits in 90 days.
+- License: [MIT](https://github.com/TencentCloud/TencentDB-Agent-Memory/blob/42d4cde50c5a83182fced8c584f9ddb32a620615/LICENSE); Open license verified. Root LICENSE verified manually.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/TencentCloud/TencentDB-Agent-Memory/blob/42d4cde50c5a83182fced8c584f9ddb32a620615/README.md#L4).
 
 ## [MemOS](https://github.com/MemTensor/MemOS)
 
-面向 Agent 的记忆操作系统，覆盖多类记忆、混合检索与技能演化。
+Memory operating system for agents covering multiple memory types, hybrid retrieval and skill evolution.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：主服务、云产品和本地插件采用不同存储与部署路径。
-- 维护状态：近90天有提交；30 天提交 35 次，90 天提交 140 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/MemTensor/MemOS/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/MemTensor/MemOS/blob/3a16e5fe3048a209f722806f4123fa2e533588fd/README.md#L3)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: The main service, cloud products and local plugins use different storage and deployment paths.
+- Maintenance: Commits within the last 90 days; 35 commits in 30 days, 140 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/MemTensor/MemOS/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/MemTensor/MemOS/blob/3a16e5fe3048a209f722806f4123fa2e533588fd/README.md#L3).
 
 ## [Remnic](https://github.com/joshuaswarren/remnic)
 
-强调作用域、来源、更正、边界、检索质量和 MCP/HTTP 的用户感知记忆层。
+User-aware memory layer emphasizing scoping, provenance, corrections, boundaries, retrieval quality and MCP/HTTP.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：新项目；当前文档能力与真实基准结果需分开看。
-- 维护状态：近90天有提交；30 天提交 476 次，90 天提交 840 次。
-- 许可：[MIT](https://api.github.com/repos/joshuaswarren/remnic/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/joshuaswarren/remnic/blob/a33e17fb8a349d17a3119bbef2ab546d39d6e143/README.md#L1)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: New project; documented capabilities and real benchmark results should be viewed separately.
+- Maintenance: Commits within the last 90 days; 476 commits in 30 days, 840 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/joshuaswarren/remnic/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/joshuaswarren/remnic/blob/a33e17fb8a349d17a3119bbef2ab546d39d6e143/README.md#L1).
 
 ## [Mnemon](https://github.com/mnemon-dev/mnemon)
 
-面向 Agent 的跨会话持久记忆，以图结构组织知识，支持意图感知检索和多种宿主接入。
+Cross-session persistent memory for agents, organizing knowledge in a graph structure with intent-aware retrieval and multiple host integrations.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：本地记忆引擎与宿主 LLM、Agency Preview 和 AML 测试 demo 是不同组件；帖子中的榜单结果依赖特定模型与版本，非通用效果保证。
-- 维护状态：近90天有提交；30 天提交 27 次，90 天提交 127 次。
-- 许可：[Apache-2.0](https://github.com/mnemon-dev/mnemon/blob/ccc8ace2d21aa4667535c58910fe953f3bbe764a/LICENSE)；开放许可证已核验。根目录 LICENSE 为 Apache-2.0；第三方模型、服务及数据许可另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/mnemon-dev/mnemon/blob/ccc8ace2d21aa4667535c58910fe953f3bbe764a/README.md#L32)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: The local memory engine, the host LLM, Agency Preview and the AML test demo are separate components; leaderboard results in posts depend on specific models and versions and are not a general effectiveness guarantee.
+- Maintenance: Commits within the last 90 days; 27 commits in 30 days, 127 commits in 90 days.
+- License: [Apache-2.0](https://github.com/mnemon-dev/mnemon/blob/ccc8ace2d21aa4667535c58910fe953f3bbe764a/LICENSE); Open license verified. Root LICENSE is Apache-2.0; third-party models, services and data are licensed separately.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/mnemon-dev/mnemon/blob/ccc8ace2d21aa4667535c58910fe953f3bbe764a/README.md#L32).
 
 ## [MemMachine](https://github.com/MemMachine/MemMachine)
 
-提供用户、项目与会话维度接口的通用 Agent 记忆服务。
+General-purpose agent memory service with user, project and session scoped interfaces.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：后端、模型和租户隔离需要按实际部署配置验证。
-- 维护状态：近90天有提交；30 天提交 7 次，90 天提交 43 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/MemMachine/MemMachine/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/MemMachine/MemMachine/blob/377510d436dc81c3651502f2d5e36ff245650ce7/README.md#L1)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: Backends, models and tenant isolation must be verified against the actual deployment configuration.
+- Maintenance: Commits within the last 90 days; 7 commits in 30 days, 43 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/MemMachine/MemMachine/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/MemMachine/MemMachine/blob/377510d436dc81c3651502f2d5e36ff245650ce7/README.md#L1).
 
 ## [LongMemory](https://github.com/CaviraOSS/LongMemory)
 
-本地 TypeScript/SQLite 长期记忆，提供来源、时间、证据选择与 token 预算。
+Local TypeScript/SQLite long-term memory with provenance, timing, evidence selection and token budgets.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：原名 Cavira OpenMemory；不要与 Mem0 的 OpenMemory 混淆。
-- 维护状态：近90天有提交；30 天提交 3 次，90 天提交 28 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/CaviraOSS/LongMemory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/CaviraOSS/LongMemory/blob/aec98ced33a7586a2fcd198a04bc38b5590750c4/README.md#L12)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: Formerly Cavira OpenMemory; do not confuse it with Mem0's OpenMemory.
+- Maintenance: Commits within the last 90 days; 3 commits in 30 days, 28 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/CaviraOSS/LongMemory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/CaviraOSS/LongMemory/blob/aec98ced33a7586a2fcd198a04bc38b5590750c4/README.md#L12).
 
 ## [MIRIX](https://github.com/Mirix-AI/MIRIX)
 
-多类型、多 Agent、多模态长期记忆系统，可跟踪工作活动并提炼技能。
+Multi-type, multi-agent, multimodal long-term memory system that tracks work activity and distills skills.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：实际数据库、模型和桌面捕获范围需按当前版本验证。
-- 维护状态：近90天有提交；30 天提交 23 次，90 天提交 23 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/Mirix-AI/MIRIX/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Mirix-AI/MIRIX/blob/9077e4b229dd8f61c5703b431a97788c6b61acfb/README.md#L1)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: Actual databases, models and desktop capture scope need verification against the current version.
+- Maintenance: Commits within the last 90 days; 23 commits in 30 days, 23 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/Mirix-AI/MIRIX/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Mirix-AI/MIRIX/blob/9077e4b229dd8f61c5703b431a97788c6b61acfb/README.md#L1).
 
 ## [openJiuwen Agent Memory](https://github.com/openJiuwen-ai/agent-memory)
 
-为 Agent 提供记忆抽取、存储、检索、迁移和多形态记忆能力。
+Provides agents with memory extraction, storage, retrieval, migration and multi-form memory capabilities.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：默认分支与 mem2.0 演进路线可能不同，采用时应固定版本。
-- 维护状态：近90天有提交；30 天提交 74 次，90 天提交 162 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/openJiuwen-ai/agent-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/openJiuwen-ai/agent-memory/blob/2a77650c16f8fe073d8713bc91fc703a7233359d/README.md#L1)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: The default branch and the mem2.0 evolution roadmap may differ; pin a version when adopting.
+- Maintenance: Commits within the last 90 days; 74 commits in 30 days, 162 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/openJiuwen-ai/agent-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/openJiuwen-ai/agent-memory/blob/2a77650c16f8fe073d8713bc91fc703a7233359d/README.md#L1).
 
 ## [Membase · unibase](https://github.com/unibaseio/membase)
 
-提供 SDK、CLI 和 MCP 的跨 Agent 记忆层，可使用托管账户或本地存储。
+Cross-agent memory layer with SDK, CLI and MCP, using hosted accounts or local storage.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：与 memodb-io/Memobase 不同；托管与 local 模式的数据、认证和能力边界需分开核验。
-- 维护状态：近90天有提交；30 天提交 61 次，90 天提交 134 次。
-- 许可：[MIT](https://api.github.com/repos/unibaseio/membase/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/unibaseio/membase/blob/59100235fa918bdfd19d02b9cf06fac178a839cb/README.md#L30)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: Different from memodb-io/Memobase; the data, authentication and capability boundaries of hosted versus local modes need separate verification.
+- Maintenance: Commits within the last 90 days; 61 commits in 30 days, 134 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/unibaseio/membase/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/unibaseio/membase/blob/59100235fa918bdfd19d02b9cf06fac178a839cb/README.md#L30).
 
 ## [Agent Memory Lab](https://github.com/agent-memory-lab/agent-memory)
 
-强调来源证据、事实更正、时间有效性和作用域的记忆引擎。
+Memory engine emphasizing source evidence, fact correction, temporal validity and scoping.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：README 标记 Alpha；功能描述不等于生产成熟度。
-- 维护状态：近90天有提交；30 天提交 67 次，90 天提交 261 次。
-- 许可：[Apache-2.0](https://github.com/agent-memory-lab/agent-memory/blob/852ff6a47553dda487d716ec329dcf7494bf62a0/LICENSE)；开放许可证已核验。根目录 LICENSE 人工核验
-- 功能核验：2026-11-12；[来源1](https://github.com/agent-memory-lab/agent-memory/blob/852ff6a47553dda487d716ec329dcf7494bf62a0/README.md#L1)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: The README marks it Alpha; feature descriptions do not equal production maturity.
+- Maintenance: Commits within the last 90 days; 67 commits in 30 days, 261 commits in 90 days.
+- License: [Apache-2.0](https://github.com/agent-memory-lab/agent-memory/blob/852ff6a47553dda487d716ec329dcf7494bf62a0/LICENSE); Open license verified. Root LICENSE verified manually.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/agent-memory-lab/agent-memory/blob/852ff6a47553dda487d716ec329dcf7494bf62a0/README.md#L1).
 
 ## [mem9](https://github.com/mem9-ai/mem9)
 
-提供跨 Agent 记忆与会话摄入，并支持多种服务端存储后端。
+Cross-agent memory and session ingestion with multiple server-side storage backends.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：私有部署仍需处理控制面、数据库和租户初始化。
-- 维护状态：近90天有提交；30 天提交 10 次，90 天提交 16 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/mem9-ai/mem9/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/mem9-ai/mem9/blob/395bf487f385bb463c8c99c7f65d966da70caa0f/README.md#L2)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: Private deployment still requires handling the control plane, databases and tenant initialization.
+- Maintenance: Commits within the last 90 days; 10 commits in 30 days, 16 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/mem9-ai/mem9/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/mem9-ai/mem9/blob/395bf487f385bb463c8c99c7f65d966da70caa0f/README.md#L2).
 
 ## [Memori](https://github.com/MemoriLabs/Memori)
 
-围绕用户与进程归属，将记忆摄入和回忆接入现有 LLM 调用。
+Hooks memory ingestion and recall into existing LLM calls around user and process ownership.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：当前快速入门偏云入口；BYODB 与完整自托管范围需区分。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 2 次。
-- 许可：[Apache-2.0](https://github.com/MemoriLabs/Memori/blob/574b1ea3e876f100ef82c37817d603eb7e258e59/LICENSE)；开放许可证已核验。根目录 LICENSE 人工核验
-- 功能核验：2026-11-12；[来源1](https://github.com/MemoriLabs/Memori/blob/574b1ea3e876f100ef82c37817d603eb7e258e59/README.md#L1)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: The current quickstart leans on the cloud entry point; BYODB and the full self-hosting scope need to be distinguished.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 2 commits in 90 days.
+- License: [Apache-2.0](https://github.com/MemoriLabs/Memori/blob/574b1ea3e876f100ef82c37817d603eb7e258e59/LICENSE); Open license verified. Root LICENSE verified manually.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/MemoriLabs/Memori/blob/574b1ea3e876f100ef82c37817d603eb7e258e59/README.md#L1).
 
 ## [Engram · TAIPANBOX](https://github.com/TAIPANBOX/engram)
 
-以 SQLite 承载情景、语义、程序记忆、双时态事实、衰减与 MCP。
+SQLite-backed episodic, semantic and procedural memory with bi-temporal facts, decay and MCP.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：新项目；功能与性能尚需统一实测。
-- 维护状态：近90天有提交；30 天提交 6 次，90 天提交 40 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/TAIPANBOX/engram/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/TAIPANBOX/engram/blob/f6a6898de8968e4c004ee005e8a8887239493fa4/README.md#L3)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: New project; features and performance still need unified real-world testing.
+- Maintenance: Commits within the last 90 days; 6 commits in 30 days, 40 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/TAIPANBOX/engram/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/TAIPANBOX/engram/blob/f6a6898de8968e4c004ee005e8a8887239493fa4/README.md#L3).
 
 ## [Agent MemoryForge](https://github.com/hellangleZ/Agent-MemoryForge)
 
-面向多租户 Agent 的持久、可检索、可审计记忆层与 SDK/Gateway。
+Persistent, searchable, auditable memory layer with SDK/Gateway for multi-tenant agents.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：项目较新；生产级自述、隔离和后台蒸馏需部署验证。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 3 次。
-- 许可：[MIT](https://api.github.com/repos/hellangleZ/Agent-MemoryForge/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/hellangleZ/Agent-MemoryForge/blob/a582a70394138acc4a19e642ed8c070faf1bfb2e/README.md#L1)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: Young project; production-ready self-descriptions, isolation and background distillation need deployment verification.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 3 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/hellangleZ/Agent-MemoryForge/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/hellangleZ/Agent-MemoryForge/blob/a582a70394138acc4a19e642ed8c070faf1bfb2e/README.md#L1).
 
 ## [Memvid](https://github.com/memvid/memvid)
 
-以便携单文件和 Rust 核心提供混合检索及多语言 SDK。
+Hybrid retrieval and multilingual SDKs via a portable single file and a Rust core.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：当前路线已不同于早期视频/二维码叙事；更偏持久检索。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/memvid/memvid/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/memvid/memvid/blob/e6bd9f7b9c38cd8d5370fa0fc936ac1dcd751813/README.md#L9)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: The current direction differs from the early video/QR-code narrative; it leans toward persistent retrieval.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/memvid/memvid/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/memvid/memvid/blob/e6bd9f7b9c38cd8d5370fa0fc936ac1dcd751813/README.md#L9).
 
 ## [Memobase](https://github.com/memodb-io/memobase)
 
-围绕用户画像与时间事件维护长期用户记忆。
+Maintains long-term user memory around user profiles and timed events.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：与同团队的 Acontext 目标不同；当前维护活跃度和推荐路线需单独看。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/memodb-io/memobase/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/memodb-io/memobase/blob/358c16bbc6d687937d79bc2f984a11c3be8da901/readme.md#L2)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: Differs in purpose from Acontext by the same team; current maintenance activity and recommended paths need separate review.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/memodb-io/memobase/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/memodb-io/memobase/blob/358c16bbc6d687937d79bc2f984a11c3be8da901/readme.md#L2).
 
 ## [Engram · HBarefoot](https://github.com/HBarefoot/engram)
 
-进程内 TypeScript/SQLite 记忆库，提供本地 embedding、MCP 与使用 Skill。
+In-process TypeScript/SQLite memory library with local embeddings, MCP and a usage Skill.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：首次使用可能下载本地模型；轻量不等于多进程并发安全。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/HBarefoot/engram/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/HBarefoot/engram/blob/133e7e2f0f5a0b7cadef6148083c2acd88dfdf06/README.md#L1)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: First use may download local models; lightweight does not mean multi-process concurrency safety.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/HBarefoot/engram/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/HBarefoot/engram/blob/133e7e2f0f5a0b7cadef6148083c2acd88dfdf06/README.md#L1).
 
 ## [agent-memory · ivanzwb](https://github.com/ivanzwb/agent-memory)
 
-TypeScript 嵌入式记忆库，包含工作、会话、长期记忆与知识库。
+Embedded TypeScript memory library with working, session and long-term memory plus a knowledge base.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：小型项目；自动抽取和 token 预算需实测。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/ivanzwb/agent-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/ivanzwb/agent-memory/blob/a89f26280d2998271ac5b0051275f63afa21104b/README.md#L1)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: Small project; automatic extraction and token budgets need real-world testing.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/ivanzwb/agent-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/ivanzwb/agent-memory/blob/a89f26280d2998271ac5b0051275f63afa21104b/README.md#L1).
 
 ## [MEMANTO](https://github.com/Jahvis/memanto-ai-memory)
 
-以 remember、recall、answer 原语封装带版本与来源元数据的记忆服务。
+Memory service wrapped around remember, recall and answer primitives, with versioning and source metadata.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：检索依赖外部 Moorcheh 服务，不能称为完整离线开源栈。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/Jahvis/memanto-ai-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Jahvis/memanto-ai-memory/blob/6b495ea51c9054cef21a8d70c8bbd3a49a6faf4f/README.md#L2)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: Retrieval depends on the external Moorcheh service, so it cannot be called a fully offline open-source stack.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/Jahvis/memanto-ai-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Jahvis/memanto-ai-memory/blob/6b495ea51c9054cef21a8d70c8bbd3a49a6faf4f/README.md#L2).
 
 ## [OpenMemory · tawanorg](https://github.com/tawanorg/OpenMemory)
 
-框架无关的自托管长期语义与上下文记忆服务。
+Framework-agnostic self-hosted long-term semantic and contextual memory service.
 
-- 分类：记忆引擎与服务；核心候选。
-- 适用边界：与其他 OpenMemory 同名项目区分；分层分解的收益需实测。
-- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/tawanorg/OpenMemory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/tawanorg/OpenMemory/blob/3b55a2bdf385bb31a68f4686025138f285a2a579/README.md#L1)。
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: Distinguish from the other projects named OpenMemory; the benefits of the layered decomposition need real-world testing.
+- Maintenance: No commits for over 365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/tawanorg/OpenMemory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/tawanorg/OpenMemory/blob/3b55a2bdf385bb31a68f4686025138f285a2a579/README.md#L1).
 
 ## [Engram · Gentleman Programming](https://github.com/Gentleman-Programming/engram)
 
-面向编码 Agent 的 Go/SQLite/FTS5 持久记忆，提供 MCP、HTTP、CLI 与 TUI。
+Go/SQLite/FTS5 persistent memory for coding agents with MCP, HTTP, CLI and TUI.
 
-- 分类：文件真源与可审阅记忆；核心候选。
-- 适用边界：与其他 Engram 同名项目无关；跨宿主安装配置需单独验证。
-- 维护状态：近90天有提交；30 天提交 188 次，90 天提交 952 次。
-- 许可：[MIT](https://api.github.com/repos/Gentleman-Programming/engram/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Gentleman-Programming/engram/blob/a5d4fa7be7f7e41054f5578ce3d21b7da616bb1d/README.md#L10)。
+- Category: File-backed source-of-truth and auditable memory; Core candidate.
+- Scope boundary: Unrelated to the other Engram-named projects; cross-host installation configuration needs separate verification.
+- Maintenance: Commits within the last 90 days; 188 commits in 30 days, 952 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/Gentleman-Programming/engram/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Gentleman-Programming/engram/blob/a5d4fa7be7f7e41054f5578ce3d21b7da616bb1d/README.md#L10).
 
 ## [Basic Memory](https://github.com/basicmachines-co/basic-memory)
 
-把可编辑 Markdown 笔记和语义关系作为人机共用知识记忆。
+Editable Markdown notes and semantic relations as shared human-machine knowledge memory.
 
-- 分类：文件真源与可审阅记忆；核心候选。
-- 适用边界：更接近知识记忆与 MCP 工作区，不自动承担事实纠错生命周期。
-- 维护状态：近90天有提交；30 天提交 265 次，90 天提交 881 次。
-- 许可：[AGPL-3.0](https://api.github.com/repos/basicmachines-co/basic-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/basicmachines-co/basic-memory/blob/370ae9d8e89630bc27a6e3973341a05102f00b62/README.md#L13)。
+- Category: File-backed source-of-truth and auditable memory; Core candidate.
+- Scope boundary: Closer to knowledge memory and an MCP workspace; it does not automatically carry the fact-correction lifecycle.
+- Maintenance: Commits within the last 90 days; 265 commits in 30 days, 881 commits in 90 days.
+- License: [AGPL-3.0](https://api.github.com/repos/basicmachines-co/basic-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/basicmachines-co/basic-memory/blob/370ae9d8e89630bc27a6e3973341a05102f00b62/README.md#L13).
 
 ## [Mnemosyne · mnemosyne-oss](https://github.com/mnemosyne-oss/mnemosyne)
 
-SQLite 驱动、默认本地的跨框架记忆层，支持 MCP 和多种 Agent 集成。
+SQLite-backed, default-local cross-framework memory layer with MCP and multiple agent integrations.
 
-- 分类：文件真源与可审阅记忆；核心候选。
-- 适用边界：同名 Mnemosyne 项目很多；远程 embedding、同步和 LLM 选项会改变零云边界。
-- 维护状态：近90天有提交；30 天提交 498 次，90 天提交 987 次。
-- 许可：[MIT](https://api.github.com/repos/mnemosyne-oss/mnemosyne/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/mnemosyne-oss/mnemosyne/blob/2c54c97c07ac35449587931b28c272f3dc177282/README.md#L7)。
+- Category: File-backed source-of-truth and auditable memory; Core candidate.
+- Scope boundary: Many different Mnemosyne projects share this name; remote embedding, sync and LLM options change the zero-cloud boundary.
+- Maintenance: Commits within the last 90 days; 498 commits in 30 days, 987 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/mnemosyne-oss/mnemosyne/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/mnemosyne-oss/mnemosyne/blob/2c54c97c07ac35449587931b28c272f3dc177282/README.md#L7).
 
 ## [agent-memory · tigerless](https://github.com/tigerless-labs/agent-memory)
 
-以 Markdown 为真源、SQLite 为可重建索引，并提供独立休眠整理层。
+Markdown as the source of truth with a rebuildable SQLite index and a separate sleep-time consolidation layer.
 
-- 分类：文件真源与可审阅记忆；核心候选。
-- 适用边界：跨宿主共享文件时仍需设计隐私、并发和项目作用域。
-- 维护状态：近90天有提交；30 天提交 136 次，90 天提交 381 次。
-- 许可：[MIT](https://api.github.com/repos/tigerless-labs/agent-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/tigerless-labs/agent-memory/blob/2648ba02d3c0364f9787f0e8fb49f69f47d2e3f7/README.md#L17)。
+- Category: File-backed source-of-truth and auditable memory; Core candidate.
+- Scope boundary: Sharing files across hosts still requires designing privacy, concurrency and project scoping.
+- Maintenance: Commits within the last 90 days; 136 commits in 30 days, 381 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/tigerless-labs/agent-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/tigerless-labs/agent-memory/blob/2648ba02d3c0364f9787f0e8fb49f69f47d2e3f7/README.md#L17).
 
 ## [EverOS](https://github.com/EverMind-AI/EverOS)
 
-以 Markdown 真源和本地索引管理用户 episodes/profile 与 Agent cases/skills。
+Manages user episodes/profiles and agent cases/skills with a Markdown source of truth and local indexes.
 
-- 分类：文件真源与可审阅记忆；核心候选。
-- 适用边界：原 EverMemOS 架构描述已经过时，不能套用旧部署依赖。
-- 维护状态：近90天有提交；30 天提交 48 次，90 天提交 101 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/EverMind-AI/EverOS/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/EverMind-AI/EverOS/blob/9cd1be60e6d9190c0391b2c185beb445600b8b9f/README.md#L3)。
+- Category: File-backed source-of-truth and auditable memory; Core candidate.
+- Scope boundary: The old EverMemOS architecture description is outdated; do not apply its former deployment dependencies.
+- Maintenance: Commits within the last 90 days; 48 commits in 30 days, 101 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/EverMind-AI/EverOS/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/EverMind-AI/EverOS/blob/9cd1be60e6d9190c0391b2c185beb445600b8b9f/README.md#L3).
 
 ## [ReMe](https://github.com/agentscope-ai/ReMe)
 
-以 Markdown/frontmatter/wikilinks 组织事实与经验，支持词法、向量和关系扩展。
+Organizes facts and experiences with Markdown/frontmatter/wikilinks, supporting lexical, vector and relation expansion.
 
-- 分类：文件真源与可审阅记忆；核心候选。
-- 适用边界：仓库保留旧 MemoryScope 形态，采用时应以当前接口为准。
-- 维护状态：近90天有提交；30 天提交 72 次，90 天提交 194 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/agentscope-ai/ReMe/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/agentscope-ai/ReMe/blob/37395034cf06f6c56268f2e738fab2a14779e513/README.md#L2)。
+- Category: File-backed source-of-truth and auditable memory; Core candidate.
+- Scope boundary: The repository retains the old MemoryScope form; use the current interfaces when adopting.
+- Maintenance: Commits within the last 90 days; 72 commits in 30 days, 194 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/agentscope-ai/ReMe/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/agentscope-ai/ReMe/blob/37395034cf06f6c56268f2e738fab2a14779e513/README.md#L2).
 
 ## [MemSearch](https://github.com/zilliztech/memsearch)
 
-Markdown 真源配合 Milvus 派生索引，支持向量/BM25/RRF 与渐进展开。
+Markdown source of truth plus a derived Milvus index, with vector/BM25/RRF retrieval and progressive expansion.
 
-- 分类：文件真源与可审阅记忆；核心候选。
-- 适用边界：摘要、文件、索引和原始会话可能不同步；与 OpenViking 同名搜索概念无关。
-- 维护状态：近90天有提交；30 天提交 36 次，90 天提交 73 次。
-- 许可：[MIT](https://api.github.com/repos/zilliztech/memsearch/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/zilliztech/memsearch/blob/a81ac682b547f86df25cd70a9477ada543de67ae/README.md#L4)。
+- Category: File-backed source-of-truth and auditable memory; Core candidate.
+- Scope boundary: Summaries, files, indexes and raw sessions can drift out of sync; unrelated to OpenViking's same-named search concept.
+- Maintenance: Commits within the last 90 days; 36 commits in 30 days, 73 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/zilliztech/memsearch/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/zilliztech/memsearch/blob/a81ac682b547f86df25cd70a9477ada543de67ae/README.md#L4).
 
 ## [Sibyl Memory](https://github.com/Sibyl-Labs/Sibyl-Memory)
 
-单文件、无向量数据库的长期记忆家族，含 SDK、CLI、MCP、Hermes 与 LangGraph 适配。
+Single-file long-term memory family without a vector database, with SDK, CLI, MCP, Hermes and LangGraph adapters.
 
-- 分类：文件真源与可审阅记忆；核心候选。
-- 适用边界：新项目；各适配包成熟度和语义能力需分别核验。
-- 维护状态：近90天有提交；30 天提交 10 次，90 天提交 41 次。
-- 许可：[MIT](https://api.github.com/repos/Sibyl-Labs/Sibyl-Memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Sibyl-Labs/Sibyl-Memory/blob/820e70d54833330b581db50da1560d769293bdaa/README.md#L14)。
+- Category: File-backed source-of-truth and auditable memory; Core candidate.
+- Scope boundary: New project; the maturity and semantic capabilities of each adapter package need separate verification.
+- Maintenance: Commits within the last 90 days; 10 commits in 30 days, 41 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/Sibyl-Labs/Sibyl-Memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Sibyl-Labs/Sibyl-Memory/blob/820e70d54833330b581db50da1560d769293bdaa/README.md#L14).
 
 ## [Agent Memory Vault](https://github.com/mcncarl/agent-memory-vault)
 
-Markdown 优先的 Claude Code/Codex 共享记忆库，带 Git、索引和审计。
+Markdown-first shared memory vault for Claude Code/Codex with Git, indexes and auditing.
 
-- 分类：文件真源与可审阅记忆；核心候选。
-- 适用边界：需要明确哪些记忆适合提交 Git，并处理分支/工作树作用域。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 4 次。
-- 许可：[MIT](https://api.github.com/repos/mcncarl/agent-memory-vault/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/mcncarl/agent-memory-vault/blob/194559d9ba19efe43974138601a8edfb1669eba2/README.md#L1)。
+- Category: File-backed source-of-truth and auditable memory; Core candidate.
+- Scope boundary: Requires deciding which memories belong in Git and handling branch/worktree scoping.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 4 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/mcncarl/agent-memory-vault/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/mcncarl/agent-memory-vault/blob/194559d9ba19efe43974138601a8edfb1669eba2/README.md#L1).
 
 ## [Engram · shiblon](https://github.com/shiblon/engram)
 
-单二进制与 SQLite 管理短期/长期记忆、偏好和人格。
+Single binary with SQLite managing short- and long-term memory, preferences and persona.
 
-- 分类：文件真源与可审阅记忆；核心候选。
-- 适用边界：与其他 Engram 项目无关，需核对宿主工具调用方式。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 24 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/shiblon/engram/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/shiblon/engram/blob/c0c7990a2442b9c9d8058e5491b69cc9dcfa0ad6/README.md#L1)。
+- Category: File-backed source-of-truth and auditable memory; Core candidate.
+- Scope boundary: Unrelated to the other Engram projects; check the host tool-calling integration.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 24 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/shiblon/engram/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/shiblon/engram/blob/c0c7990a2442b9c9d8058e5491b69cc9dcfa0ad6/README.md#L1).
 
 ## [Engram · B12Labs](https://github.com/B12Labs/engram)
 
-便携单文件记忆格式，提供图压缩和快/混合/深度搜索。
+Portable single-file memory format with graph compression and fast/hybrid/deep search.
 
-- 分类：文件真源与可审阅记忆；核心候选。
-- 适用边界：v0.x 文件格式未稳定且偏单写者，不是并发数据库替代品。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/B12Labs/engram/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/B12Labs/engram/blob/f6143d3eb7448db9578895baad384b8ffc06a20b/README.md#L2)。
+- Category: File-backed source-of-truth and auditable memory; Core candidate.
+- Scope boundary: The v0.x file format is unstable and single-writer oriented; it is not a replacement for a concurrent database.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/B12Labs/engram/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/B12Labs/engram/blob/f6143d3eb7448db9578895baad384b8ffc06a20b/README.md#L2).
 
 ## [Cognee](https://github.com/topoteretes/cognee)
 
-把文档、代码与对话转为实体关系和可搜索知识/记忆图。
+Turns documents, code and conversations into entity relations and searchable knowledge/memory graphs.
 
-- 分类：图谱、实体与时序记忆；核心候选。
-- 适用边界：当前部署路径持续演进，不能沿用旧版多数据库断言。
-- 维护状态：近90天有提交；30 天提交 1038 次，90 天提交 2899 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/topoteretes/cognee/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/topoteretes/cognee/blob/8853378eae5366addb064e758e560a456146ae1a/README.md#L2)。
+- Category: Graphs, entities and temporal memory; Core candidate.
+- Scope boundary: Current deployment paths keep evolving; do not reuse claims from older multi-database versions.
+- Maintenance: Commits within the last 90 days; 1038 commits in 30 days, 2899 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/topoteretes/cognee/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/topoteretes/cognee/blob/8853378eae5366addb064e758e560a456146ae1a/README.md#L2).
 
 ## [Graphiti](https://github.com/getzep/graphiti)
 
-实时抽取实体与关系，构建双时态知识图谱并融合词法、向量与图检索。
+Extracts entities and relations in real time, builds a bi-temporal knowledge graph and blends lexical, vector and graph retrieval.
 
-- 分类：图谱、实体与时序记忆；核心候选。
-- 适用边界：图后端和抽取模型影响成本；它是当前 Zep 生态的开源图核心。
-- 维护状态：近90天有提交；30 天提交 39 次，90 天提交 129 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/getzep/graphiti/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/getzep/graphiti/blob/ebef986a0b2360211b65751c111cacb4a7d790eb/README.md#L8)。
+- Category: Graphs, entities and temporal memory; Core candidate.
+- Scope boundary: Graph backends and extraction models affect cost; it is the open-source graph core of the current Zep ecosystem.
+- Maintenance: Commits within the last 90 days; 39 commits in 30 days, 129 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/getzep/graphiti/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/getzep/graphiti/blob/ebef986a0b2360211b65751c111cacb4a7d790eb/README.md#L8).
 
 ## [CortexDB](https://github.com/liliang-cn/cortexdb)
 
-在单个 SQLite 文件中结合知识图谱、约束和可追溯推理。
+Combines a knowledge graph, constraints and traceable reasoning in a single SQLite file.
 
-- 分类：图谱、实体与时序记忆；核心候选。
-- 适用边界：本地单文件形态适合试验，规模与并发能力需实测。
-- 维护状态：近90天有提交；30 天提交 193 次，90 天提交 597 次。
-- 许可：[MIT](https://api.github.com/repos/liliang-cn/cortexdb/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/liliang-cn/cortexdb/blob/d39714c86784edd23d42ce152a0243464ad2b15a/README.md#L1)。
+- Category: Graphs, entities and temporal memory; Core candidate.
+- Scope boundary: The local single-file form suits experiments; scale and concurrency capabilities need real-world testing.
+- Maintenance: Commits within the last 90 days; 193 commits in 30 days, 597 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/liliang-cn/cortexdb/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/liliang-cn/cortexdb/blob/d39714c86784edd23d42ce152a0243464ad2b15a/README.md#L1).
 
 ## [Neo4j Agent Memory](https://github.com/neo4j-labs/agent-memory)
 
-基于图的 Agent 记忆与 context graph，存储对话、实体、关系和推理轨迹。
+Graph-based agent memory and context graph storing conversations, entities, relations and reasoning traces.
 
-- 分类：图谱、实体与时序记忆；核心候选。
-- 适用边界：依赖 Neo4j；实验性或 labs 项目不等于正式产品 SLA。
-- 维护状态：近90天有提交；30 天提交 27 次，90 天提交 204 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/neo4j-labs/agent-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/neo4j-labs/agent-memory/blob/9d45af5529ecb5f2fe352013468a11087f3163d4/README.md#L5)。
+- Category: Graphs, entities and temporal memory; Core candidate.
+- Scope boundary: Requires Neo4j; an experimental or labs project does not carry a formal product SLA.
+- Maintenance: Commits within the last 90 days; 27 commits in 30 days, 204 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/neo4j-labs/agent-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/neo4j-labs/agent-memory/blob/9d45af5529ecb5f2fe352013468a11087f3163d4/README.md#L5).
 
 ## [Memoir](https://github.com/zhangfengcdt/memoir)
 
-带 Git 式版本控制的分层 Agent 记忆。
+Layered agent memory with Git-style version control.
 
-- 分类：图谱、实体与时序记忆；核心候选。
-- 适用边界：新项目；版本化机制的合并、回滚和性能需实测。
-- 维护状态：近90天有提交；30 天提交 1 次，90 天提交 34 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/zhangfengcdt/memoir/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/zhangfengcdt/memoir/blob/7fd1b3ef704fc554596571d5b9c8b73d7f2b0c5d/README.md#L10)。
+- Category: Graphs, entities and temporal memory; Core candidate.
+- Scope boundary: New project; merge, rollback and performance of the versioning mechanism need real-world testing.
+- Maintenance: Commits within the last 90 days; 1 commits in 30 days, 34 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/zhangfengcdt/memoir/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/zhangfengcdt/memoir/blob/7fd1b3ef704fc554596571d5b9c8b73d7f2b0c5d/README.md#L10).
 
 ## [Lemmalog](https://github.com/JordyZomer/lemmalog)
 
-用 Datalog 规则、来源事实和增量推导构建 Agent 记忆。
+Builds agent memory from Datalog rules, source facts and incremental derivation.
 
-- 分类：图谱、实体与时序记忆；核心候选。
-- 适用边界：规则推导质量取决于事实摄入和规则设计；属于不同于向量检索的路线。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 47 次。
-- 许可：[MIT](https://api.github.com/repos/JordyZomer/lemmalog/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/JordyZomer/lemmalog/blob/9cc2cf1bc050ddd67cc1c6b644953377b0b9ef9d/README.md#L3)。
+- Category: Graphs, entities and temporal memory; Core candidate.
+- Scope boundary: Rule-derivation quality depends on fact ingestion and rule design; it is a route distinct from vector retrieval.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 47 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/JordyZomer/lemmalog/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/JordyZomer/lemmalog/blob/9cc2cf1bc050ddd67cc1c6b644953377b0b9ef9d/README.md#L3).
 
 ## [Memory Graph](https://github.com/memory-graph/memory-graph)
 
-为编码 Agent 提供关系跟踪与图查询的 MCP 记忆服务。
+MCP memory service with relation tracking and graph queries for coding agents.
 
-- 分类：图谱、实体与时序记忆；核心候选。
-- 适用边界：偏项目关系记忆，不等同完整个人长期记忆平台。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 12 次。
-- 许可：[MIT](https://api.github.com/repos/memory-graph/memory-graph/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/memory-graph/memory-graph/blob/1adbd8bb527552e9f1510b5c1316a76ad58692d9/README.md#L2)。
+- Category: Graphs, entities and temporal memory; Core candidate.
+- Scope boundary: Focused on project relation memory, not equivalent to a complete personal long-term memory platform.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 12 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/memory-graph/memory-graph/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/memory-graph/memory-graph/blob/1adbd8bb527552e9f1510b5c1316a76ad58692d9/README.md#L2).
 
 ## [M-flow](https://github.com/FlowElement-xinliuyuansu/m_flow)
 
-以多层认知图和受控传播组织情景、概念与实体记忆。
+Organizes episodic, conceptual and entity memory as a multi-layer cognitive graph with controlled propagation.
 
-- 分类：图谱、实体与时序记忆；核心候选。
-- 适用边界：作者 benchmark 需保留模型和设置；图传播不保证事实正确。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/FlowElement-xinliuyuansu/m_flow/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/FlowElement-xinliuyuansu/m_flow/blob/0d585cda2f588af69fb872ae6914caba0c217816/README.md#L3)。
+- Category: Graphs, entities and temporal memory; Core candidate.
+- Scope boundary: Author benchmarks need their model and settings preserved; graph propagation does not guarantee factual correctness.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/FlowElement-xinliuyuansu/m_flow/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/FlowElement-xinliuyuansu/m_flow/blob/0d585cda2f588af69fb872ae6914caba0c217816/README.md#L3).
 
 ## [claude-mem](https://github.com/thedotmack/claude-mem)
 
-捕获会话与工具活动，压缩入 SQLite/FTS5/Chroma 并在后续会话召回。
+Captures sessions and tool activity, compresses them into SQLite/FTS5/Chroma and recalls them in later sessions.
 
-- 分类：编码 Agent 与 MCP 记忆；核心候选。
-- 适用边界：多宿主支持需逐项核验；捕获范围可能包含敏感工具输出。
-- 维护状态：近90天有提交；30 天提交 1329 次，90 天提交 2403 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/thedotmack/claude-mem/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/thedotmack/claude-mem/blob/c4a9f5725f420bf9c6e866cdd3b94bd36498af09/README.md#L3)。
+- Category: Coding agents and MCP memory; Core candidate.
+- Scope boundary: Multi-host support needs item-by-item verification; the captured scope may include sensitive tool output.
+- Maintenance: Commits within the last 90 days; 1329 commits in 30 days, 2403 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/thedotmack/claude-mem/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/thedotmack/claude-mem/blob/c4a9f5725f420bf9c6e866cdd3b94bd36498af09/README.md#L3).
 
 ## [MCP Memory Service](https://github.com/doobidoo/mcp-memory-service)
 
-通过 MCP/REST 提供语义记忆、关系和后台整理，并支持多种存储后端。
+Semantic memory, relations and background consolidation over MCP/REST with multiple storage backends.
 
-- 分类：编码 Agent 与 MCP 记忆；核心候选。
-- 适用边界：轻量自托管不等于所有后端行为一致，需固定配置测试。
-- 维护状态：近90天有提交；30 天提交 316 次，90 天提交 850 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/doobidoo/mcp-memory-service/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/doobidoo/mcp-memory-service/blob/8823c8dd3d2937d8600c4d498a3aa8579c160810/README.md#L37)。
+- Category: Coding agents and MCP memory; Core candidate.
+- Scope boundary: Lightweight self-hosting does not mean identical behavior across all backends; test with a pinned configuration.
+- Maintenance: Commits within the last 90 days; 316 commits in 30 days, 850 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/doobidoo/mcp-memory-service/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/doobidoo/mcp-memory-service/blob/8823c8dd3d2937d8600c4d498a3aa8579c160810/README.md#L37).
 
 ## [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon)
 
-DeepSeek Harness 分层记忆插件，组合运行时记忆、项目文档与可切换的长期记忆后端。
+Layered memory plugin for DeepSeek Harness combining runtime memory, project docs and swappable long-term memory backends.
 
-- 分类：编码 Agent 与 MCP 记忆；核心候选。
-- 适用边界：依赖 DSH 宿主；不同 Provider 的服务、数据位置和删除能力不同，技能自演化默认关闭。
-- 维护状态：近90天有提交；30 天提交 421 次，90 天提交 1714 次。
-- 许可：[MIT](https://github.com/omdsh-dev/dsh-mnemon/blob/5df51a6965e02069fd55bdf76395f1b293801c63/LICENSE)；开放许可证已核验。根目录 LICENSE 为 MIT；第三方 Provider 的许可和服务条款另计，见 THIRD_PARTY_NOTICES.md。
-- 功能核验：2026-11-20；[来源1](https://github.com/omdsh-dev/dsh-mnemon/blob/5df51a6965e02069fd55bdf76395f1b293801c63/README.md#L33)。
+- Category: Coding agents and MCP memory; Core candidate.
+- Scope boundary: Requires the DSH host; providers differ in service, data location and deletion capabilities; skill self-evolution is off by default.
+- Maintenance: Commits within the last 90 days; 421 commits in 30 days, 1714 commits in 90 days.
+- License: [MIT](https://github.com/omdsh-dev/dsh-mnemon/blob/5df51a6965e02069fd55bdf76395f1b293801c63/LICENSE); Open license verified. Root LICENSE is MIT; third-party provider licenses and terms of service are separate, see THIRD_PARTY_NOTICES.md.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/omdsh-dev/dsh-mnemon/blob/5df51a6965e02069fd55bdf76395f1b293801c63/README.md#L33).
 
 ## [Memorix](https://github.com/AVIDS2/memorix)
 
-通过 MCP 为多种编码 Agent 提供跨宿主共享记忆。
+Cross-host shared memory for multiple coding agents over MCP.
 
-- 分类：编码 Agent 与 MCP 记忆；核心候选。
-- 适用边界：宿主支持面与存储治理需按版本核对。
-- 维护状态：近90天有提交；30 天提交 70 次，90 天提交 197 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/AVIDS2/memorix/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/AVIDS2/memorix/blob/674528015f8f78f98286739b173c993d888c2a43/README.md#L9)。
+- Category: Coding agents and MCP memory; Core candidate.
+- Scope boundary: The host support surface and storage governance need checking per version.
+- Maintenance: Commits within the last 90 days; 70 commits in 30 days, 197 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/AVIDS2/memorix/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/AVIDS2/memorix/blob/674528015f8f78f98286739b173c993d888c2a43/README.md#L9).
 
 ## [OKF Agent Memory](https://github.com/okf-memory/okf-agent-memory)
 
-Git-native 编码 Agent 记忆，提供嵌入式 MCP 与渐进式读取。
+Git-native coding-agent memory with an embedded MCP server and progressive reading.
 
-- 分类：编码 Agent 与 MCP 记忆；核心候选。
-- 适用边界：默认开发分支可能变化；协议实现与宿主兼容性需固定版本。
-- 维护状态：近90天有提交；30 天提交 19 次，90 天提交 243 次。
-- 许可：[MIT](https://api.github.com/repos/okf-memory/okf-agent-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/okf-memory/okf-agent-memory/blob/1a6303d9f3582c6d238ace4d8643337baf06fc60/README.md#L3)。
+- Category: Coding agents and MCP memory; Core candidate.
+- Scope boundary: The default development branch may change; protocol implementation and host compatibility need pinned versions.
+- Maintenance: Commits within the last 90 days; 19 commits in 30 days, 243 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/okf-memory/okf-agent-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/okf-memory/okf-agent-memory/blob/1a6303d9f3582c6d238ace4d8643337baf06fc60/README.md#L3).
 
 ## [projectmem](https://github.com/riponcm/projectmem)
 
-以事件日志记录 issue、尝试、修复和决策，避免编码 Agent 重复失败。
+Event-log recording of issues, attempts, fixes and decisions so coding agents avoid repeating failures.
 
-- 分类：编码 Agent 与 MCP 记忆；核心候选。
-- 适用边界：是项目工程记忆，不是通用个人画像系统。
-- 维护状态：近90天有提交；30 天提交 13 次，90 天提交 105 次。
-- 许可：[MIT](https://api.github.com/repos/riponcm/projectmem/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/riponcm/projectmem/blob/a405361b8d12cb773bb42ef0f64004623dbee764/README.md#L1)。
+- Category: Coding agents and MCP memory; Core candidate.
+- Scope boundary: Project engineering memory, not a general personal-profiling system.
+- Maintenance: Commits within the last 90 days; 13 commits in 30 days, 105 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/riponcm/projectmem/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/riponcm/projectmem/blob/a405361b8d12cb773bb42ef0f64004623dbee764/README.md#L1).
 
 ## [Mnemoverse Memory Server](https://github.com/mnemoverse/mcp-memory-server)
 
-通过 MCP 提供托管持久记忆、反馈重排和多 Agent 共享房间。
+Hosted persistent memory over MCP with feedback reranking and multi-agent shared rooms.
 
-- 分类：编码 Agent 与 MCP 记忆；核心候选。
-- 适用边界：本仓库是托管服务客户端/服务器接入层；domain 是账户内 namespace，不是权限边界。
-- 维护状态：近90天有提交；30 天提交 43 次，90 天提交 155 次。
-- 许可：[MIT](https://api.github.com/repos/mnemoverse/mcp-memory-server/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/mnemoverse/mcp-memory-server/blob/9fd95f618280ef926afce78e649241ea32b4e015/README.md#L3)。
+- Category: Coding agents and MCP memory; Core candidate.
+- Scope boundary: This repository is the client/server access layer for a hosted service; a domain is an in-account namespace, not a permission boundary.
+- Maintenance: Commits within the last 90 days; 43 commits in 30 days, 155 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/mnemoverse/mcp-memory-server/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/mnemoverse/mcp-memory-server/blob/9fd95f618280ef926afce78e649241ea32b4e015/README.md#L3).
 
 ## [Codex Honcho](https://github.com/plastic-labs/codex-honcho)
 
-把 Codex 会话、工具活动和上下文注入接入 Honcho 的官方集成。
+Official integration connecting Codex sessions, tool activity and context injection to Honcho.
 
-- 分类：编码 Agent 与 MCP 记忆；核心候选。
-- 适用边界：是 Honcho 适配层，不是独立记忆引擎；需防止与其他捕获插件重复写入。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 1 次。
-- 许可：[MIT](https://api.github.com/repos/plastic-labs/codex-honcho/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/plastic-labs/codex-honcho/blob/c17cbb2b4c7cf12172213345ae4c0d2a093d707b/README.md#L1)。
+- Category: Coding agents and MCP memory; Core candidate.
+- Scope boundary: A Honcho adapter, not a standalone memory engine; guard against duplicate writes with other capture plugins.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 1 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/plastic-labs/codex-honcho/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/plastic-labs/codex-honcho/blob/c17cbb2b4c7cf12172213345ae4c0d2a093d707b/README.md#L1).
 
 ## [MegaMemory](https://github.com/0xK3vin/MegaMemory)
 
-面向编码 Agent 的持久项目知识图谱、语义搜索和 MCP 服务。
+Persistent project knowledge graph, semantic search and MCP service for coding agents.
 
-- 分类：编码 Agent 与 MCP 记忆；核心候选。
-- 适用边界：代码图谱与长期用户记忆是不同对象，采用时应明确范围。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/0xK3vin/MegaMemory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/0xK3vin/MegaMemory/blob/e0bb3c270d7fb4f6f280ae4685e0c538eb225d93/README.md#L2)。
+- Category: Coding agents and MCP memory; Core candidate.
+- Scope boundary: Code graphs and long-term user memory are different objects; define the scope explicitly when adopting.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/0xK3vin/MegaMemory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/0xK3vin/MegaMemory/blob/e0bb3c270d7fb4f6f280ae4685e0c538eb225d93/README.md#L2).
 
 ## [mcp-mem0](https://github.com/coleam00/mcp-mem0)
 
-把 Mem0 长期记忆封装为 MCP 服务供 Agent 客户端使用。
+Wraps Mem0 long-term memory as an MCP service for agent clients.
 
-- 分类：编码 Agent 与 MCP 记忆；核心候选。
-- 适用边界：主要是适配层；Mem0 服务或本地库的部署边界仍然存在。
-- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/coleam00/mcp-mem0/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/coleam00/mcp-mem0/blob/22fb7af0432e15fbe379ad7c7c7beac911fa2648/README.md#L1)。
+- Category: Coding agents and MCP memory; Core candidate.
+- Scope boundary: Mainly an adapter layer; the deployment boundaries of the Mem0 service or local library remain.
+- Maintenance: No commits for over 365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/coleam00/mcp-mem0/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/coleam00/mcp-mem0/blob/22fb7af0432e15fbe379ad7c7c7beac911fa2648/README.md#L1).
 
 ## [memU](https://github.com/NevaMind-AI/memU)
 
-跨 Agent 个人记忆与宿主桥接，支持 Agent 提炼 Markdown 和记忆 Skill。
+Personal cross-agent memory with host bridging; agents distill Markdown and memory Skills.
 
-- 分类：经验、技能与程序性记忆；核心候选。
-- 适用边界：当前 MemoryService 与聊天模型职责分离，不能假定服务自行完成提炼。
-- 维护状态：近90天有提交；30 天提交 29 次，90 天提交 55 次。
-- 许可：[Apache-2.0](https://github.com/NevaMind-AI/memU/blob/fd86e38635f6edd8687de94079382d91381b2f5d/LICENSE.txt)；开放许可证已核验。根目录 LICENSE.txt 人工核验
-- 功能核验：2026-11-12；[来源1](https://github.com/NevaMind-AI/memU/blob/fd86e38635f6edd8687de94079382d91381b2f5d/README.md#L1)。
+- Category: Experience, skills and procedural memory; Core candidate.
+- Scope boundary: The current MemoryService separates its duties from the chat model; do not assume the service performs distillation on its own.
+- Maintenance: Commits within the last 90 days; 29 commits in 30 days, 55 commits in 90 days.
+- License: [Apache-2.0](https://github.com/NevaMind-AI/memU/blob/fd86e38635f6edd8687de94079382d91381b2f5d/LICENSE.txt); Open license verified. Root LICENSE.txt verified manually.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/NevaMind-AI/memU/blob/fd86e38635f6edd8687de94079382d91381b2f5d/README.md#L1).
 
 ## [Mengram](https://github.com/alibaizhanov/mengram)
 
-组织语义、情景与程序记忆，并用失败反馈改进工作流程。
+Organizes semantic, episodic and procedural memory and improves workflows with failure feedback.
 
-- 分类：经验、技能与程序性记忆；核心候选。
-- 适用边界：托管产品与本地模式需区分；程序记忆更新要防止错误固化。
-- 维护状态：近90天有提交；30 天提交 4 次，90 天提交 97 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/alibaizhanov/mengram/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/alibaizhanov/mengram/blob/691ab00107ca326a18e53ea078c4c53e6600c956/README.md#L4)。
+- Category: Experience, skills and procedural memory; Core candidate.
+- Scope boundary: Distinguish the hosted product from local mode; procedural memory updates must avoid cementing mistakes.
+- Maintenance: Commits within the last 90 days; 4 commits in 30 days, 97 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/alibaizhanov/mengram/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/alibaizhanov/mengram/blob/691ab00107ca326a18e53ea078c4c53e6600c956/README.md#L4).
 
 ## [LangMem](https://github.com/langchain-ai/langmem)
 
-从对话抽取长期事实、搜索记忆，并通过经历优化 Agent 行为。
+Extracts long-term facts from conversations, searches memory and optimizes agent behavior through experiences.
 
-- 分类：经验、技能与程序性记忆；核心候选。
-- 适用边界：是组件库，需要应用自行组装存储、作用域和捕获注入流程。
-- 维护状态：近90天有提交；30 天提交 6 次，90 天提交 13 次。
-- 许可：[MIT](https://api.github.com/repos/langchain-ai/langmem/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/langchain-ai/langmem/blob/8620b986af5b0c7593e6b7fbece2998690d22d15/README.md#L1)。
+- Category: Experience, skills and procedural memory; Core candidate.
+- Scope boundary: A component library; applications must assemble storage, scoping and capture/injection flows themselves.
+- Maintenance: Commits within the last 90 days; 6 commits in 30 days, 13 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/langchain-ai/langmem/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/langchain-ai/langmem/blob/8620b986af5b0c7593e6b7fbece2998690d22d15/README.md#L1).
 
 ## [Engram · vincents-ai](https://github.com/vincents-ai/engram)
 
-面向多 Agent 的分布式项目上下文、任务、推理与团队知识。
+Distributed project context, tasks, reasoning and team knowledge for multi-agent teams.
 
-- 分类：经验、技能与程序性记忆；核心候选。
-- 适用边界：AGPL 或商业双许可，与其他 MIT/Apache Engram 不同。
-- 维护状态：近90天有提交；30 天提交 9 次，90 天提交 9 次。
-- 许可：[AGPL-3.0-or-later 或商业许可](https://github.com/vincents-ai/engram/blob/8838e5712f57dc48d6037ee02e8c48b0f7176d2b/LICENSE)；复合/拆分许可。双许可；网络服务和修改分发义务按 AGPL 原文或商业协议执行
-- 功能核验：2026-11-12；[来源1](https://github.com/vincents-ai/engram/blob/8838e5712f57dc48d6037ee02e8c48b0f7176d2b/README.md#L1)。
+- Category: Experience, skills and procedural memory; Core candidate.
+- Scope boundary: Dual-licensed AGPL or commercial; different from the MIT/Apache Engram projects.
+- Maintenance: Commits within the last 90 days; 9 commits in 30 days, 9 commits in 90 days.
+- License: [AGPL-3.0-or-later or commercial license](https://github.com/vincents-ai/engram/blob/8838e5712f57dc48d6037ee02e8c48b0f7176d2b/LICENSE); Compound/split licence. Dual license; network-service and modified-distribution obligations follow the AGPL text or the commercial agreement.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/vincents-ai/engram/blob/8838e5712f57dc48d6037ee02e8c48b0f7176d2b/README.md#L1).
 
 ## [Acontext](https://github.com/memodb-io/Acontext)
 
-从 Agent 执行与产物中提炼可读、可编辑的操作经验与 Skill。
+Distills readable, editable operating experience and Skills from agent executions and artifacts.
 
-- 分类：经验、技能与程序性记忆；核心候选。
-- 适用边界：面向经验复用，与同团队 Memobase 的用户画像对象不同。
-- 维护状态：归档 / 历史；30 天提交 2 次，90 天提交 2 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/memodb-io/Acontext/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/memodb-io/Acontext/blob/1ddfd903fd1004672ca9f9a70d92041153ba43d5/README.md#L2)。
+- Category: Experience, skills and procedural memory; Core candidate.
+- Scope boundary: Aimed at experience reuse; its object differs from the user profiles of the same team's Memobase.
+- Maintenance: Archived / historical; 2 commits in 30 days, 2 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/memodb-io/Acontext/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/memodb-io/Acontext/blob/1ddfd903fd1004672ca9f9a70d92041153ba43d5/README.md#L2).
 
 ## [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard)
 
-面向 Agent 记忆与上下文污染的运行时防护和参考实现。
+Runtime guard and reference implementation against agent-memory and context poisoning.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：防护层不是记忆库；框架适配和安全结论需在目标系统中复测。
-- 维护状态：近90天有提交；30 天提交 65 次，90 天提交 258 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/OWASP/www-project-agent-memory-guard/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/OWASP/www-project-agent-memory-guard/blob/7b1047c1461f3e22dd6d1b873aadcfc64484e649/README.md#L12)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: A guard layer, not a memory store; framework adapters and security conclusions must be retested in the target system.
+- Maintenance: Commits within the last 90 days; 65 commits in 30 days, 258 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/OWASP/www-project-agent-memory-guard/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/OWASP/www-project-agent-memory-guard/blob/7b1047c1461f3e22dd6d1b873aadcfc64484e649/README.md#L12).
 
 ## [MemT-1.0](https://github.com/MemTensor/MemT-1.0)
 
-探索模型原生记忆读写与 Mixture-of-Storage 的记忆模型家族。
+Memory-model family exploring model-native memory read/write and Mixture-of-Storage.
 
-- 分类：研究实现与评测；受限许可。
-- 适用边界：模型权重、推理代码和传统外置记忆引擎不属于同一层级。
-- 维护状态：近90天有提交；30 天提交 5 次，90 天提交 7 次。
-- 许可：[PolyForm Noncommercial-1.0.0](https://github.com/MemTensor/MemT-1.0/blob/9ce3ec690ce9d0ce264ba9c8fa4e002e22faacd0/LICENSE)；源码可见但非 OSI 开源。非商业源码许可，不是 OSI 开源许可
-- 功能核验：2026-11-12；[来源1](https://github.com/MemTensor/MemT-1.0/blob/9ce3ec690ce9d0ce264ba9c8fa4e002e22faacd0/README.md#L3)。
+- Category: Research implementations and benchmarks; Restricted license.
+- Scope boundary: Model weights, inference code and traditional external memory engines do not sit on the same layer.
+- Maintenance: Commits within the last 90 days; 5 commits in 30 days, 7 commits in 90 days.
+- License: [PolyForm Noncommercial-1.0.0](https://github.com/MemTensor/MemT-1.0/blob/9ce3ec690ce9d0ce264ba9c8fa4e002e22faacd0/LICENSE); Source-available, not OSI open source. Non-commercial source license, not an OSI-approved open-source license.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/MemTensor/MemT-1.0/blob/9ce3ec690ce9d0ce264ba9c8fa4e002e22faacd0/README.md#L3).
 
 ## [Agent Memory Benchmarks](https://github.com/RonsenbergVI/agent-memory-benchmarks)
 
-提供 LongMemEval、LoCoMo 等 Agent 记忆系统的开放评测与参考实现。
+Open evaluations and reference implementations of agent memory systems such as LongMemEval and LoCoMo.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：不是官方数据集排行榜；应读取固定数据切分与评分配置。
-- 维护状态：近90天有提交；30 天提交 48 次，90 天提交 246 次。
-- 许可：[MIT](https://api.github.com/repos/RonsenbergVI/agent-memory-benchmarks/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/RonsenbergVI/agent-memory-benchmarks/blob/9a9bf02608537e9d29f92e83dcebe7b3809da1da/README.md#L1)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: Not an official dataset leaderboard; read the fixed data split and scoring configuration.
+- Maintenance: Commits within the last 90 days; 48 commits in 30 days, 246 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/RonsenbergVI/agent-memory-benchmarks/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/RonsenbergVI/agent-memory-benchmarks/blob/9a9bf02608537e9d29f92e83dcebe7b3809da1da/README.md#L1).
 
 ## [MemForest · Concyclics](https://github.com/Concyclics/MemForest)
 
-使用分层时间索引组织长期记忆并提供 Python 实验接口。
+Organizes long-term memory with a hierarchical temporal index and offers a Python experimental interface.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：与 EventTree MemForest 不能合并；研究结果需复现。
-- 维护状态：近90天有提交；30 天提交 10 次，90 天提交 33 次。
-- 许可：[MIT](https://github.com/Concyclics/MemForest/blob/728b5a6f6235ba3a5dbf45e0c85efe15da3caa59/LICENSE)；开放许可证已核验。根目录 LICENSE 人工核验
-- 功能核验：2026-11-12；[来源1](https://github.com/Concyclics/MemForest/blob/728b5a6f6235ba3a5dbf45e0c85efe15da3caa59/README.md#L1)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: Must not be merged with the EventTree MemForest; research results need reproduction.
+- Maintenance: Commits within the last 90 days; 10 commits in 30 days, 33 commits in 90 days.
+- License: [MIT](https://github.com/Concyclics/MemForest/blob/728b5a6f6235ba3a5dbf45e0c85efe15da3caa59/LICENSE); Open license verified. Root LICENSE verified manually.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Concyclics/MemForest/blob/728b5a6f6235ba3a5dbf45e0c85efe15da3caa59/README.md#L1).
 
 ## [Agent Memory Leaderboard](https://github.com/AML-memory/agent-memory-leaderboard)
 
-收集 Agent 记忆系统评测结果和比较资料。
+Collects evaluation results and comparison material for agent memory systems.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：异构模型、数据和预算不能只按总分排序。
-- 维护状态：近90天有提交；30 天提交 2 次，90 天提交 3 次。
-- 许可：[待核验](https://github.com/AML-memory/agent-memory-leaderboard/blob/f4f82ffb235ab52e5b521839b139bfd858be7ee6/README.md)；许可待核验。未找到根目录许可证
-- 功能核验：2026-11-12；[来源1](https://github.com/AML-memory/agent-memory-leaderboard/blob/f4f82ffb235ab52e5b521839b139bfd858be7ee6/README.md#L3)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: Heterogeneous models, data and budgets cannot be ranked by aggregate score alone.
+- Maintenance: Commits within the last 90 days; 2 commits in 30 days, 3 commits in 90 days.
+- License: [Unverified](https://github.com/AML-memory/agent-memory-leaderboard/blob/f4f82ffb235ab52e5b521839b139bfd858be7ee6/README.md); License unverified. No root-directory license found.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/AML-memory/agent-memory-leaderboard/blob/f4f82ffb235ab52e5b521839b139bfd858be7ee6/README.md#L3).
 
 ## [MemSkill](https://github.com/ViktorAxelsen/MemSkill)
 
-把抽取、整合、剪枝等记忆操作建模为可学习、可演化的 Skill。
+Models memory operations such as extraction, consolidation and pruning as learnable, evolvable Skills.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：研究代码；跨任务迁移和成本数字需保留论文设置。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 3 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/ViktorAxelsen/MemSkill/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/ViktorAxelsen/MemSkill/blob/f65b797338033f4f9c34822f1810f9c2747e6022/README.md#L7)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: Research code; cross-task transfer and cost numbers need the paper settings preserved.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 3 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/ViktorAxelsen/MemSkill/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/ViktorAxelsen/MemSkill/blob/f65b797338033f4f9c34822f1810f9c2747e6022/README.md#L7).
 
 ## [MemoryAgentBench](https://github.com/HUST-AI-HYZ/MemoryAgentBench)
 
-通过增量多轮交互评测 Agent 记忆构建和使用能力。
+Evaluates agent memory construction and usage through incremental multi-turn interaction.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：基准适配器、模型和 judge 设置不同，结果不可脱离配置比较。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 3 次。
-- 许可：[MIT](https://api.github.com/repos/HUST-AI-HYZ/MemoryAgentBench/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/HUST-AI-HYZ/MemoryAgentBench/blob/538026089d1a8a8eff05121d0db89b388f360eba/README.md#L1)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: Benchmark adapters, models and judge settings differ; results cannot be compared outside their configuration.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 3 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/HUST-AI-HYZ/MemoryAgentBench/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/HUST-AI-HYZ/MemoryAgentBench/blob/538026089d1a8a8eff05121d0db89b388f360eba/README.md#L1).
 
 ## [T-Mem](https://github.com/Sherlockwz/T-Mem)
 
-写入时生成未来查询触发线索，结合事实与场景索引研究联想式召回。
+Research on associative recall: write-time cues trigger future queries, with combined fact and scene indexing.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：研究实现，不是开箱即用的生产记忆服务。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 4 次。
-- 许可：[MIT](https://api.github.com/repos/Sherlockwz/T-Mem/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Sherlockwz/T-Mem/blob/dd9e1527bc75908485809580c9520af5a9a42879/README.md#L1)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: A research implementation, not an out-of-the-box production memory service.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 4 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/Sherlockwz/T-Mem/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Sherlockwz/T-Mem/blob/dd9e1527bc75908485809580c9520af5a9a42879/README.md#L1).
 
 ## [MemForest · EventTree](https://github.com/Celina-love-sweet/MemForest)
 
-通过 EventTree 分段、渐进合并和压缩长期记忆。
+Segments long-term memory through an EventTree with progressive merging and compression.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：与 Concyclics 的同名项目、论文完全不同。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 4 次。
-- 许可：[MIT](https://api.github.com/repos/Celina-love-sweet/MemForest/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Celina-love-sweet/MemForest/blob/e78a0d9c407753bde8f926715a3b26c1f18b2882/README.md#L1)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: Entirely different from the same-named Concyclics project and paper.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 4 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/Celina-love-sweet/MemForest/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Celina-love-sweet/MemForest/blob/e78a0d9c407753bde8f926715a3b26c1f18b2882/README.md#L1).
 
 ## [Agent Memory Radar](https://github.com/H20Zhang/Agent-Memory-Radar)
 
-整理记忆机制、基准、污染、遗忘和恢复证据的研究雷达。
+Research radar curating memory mechanisms, benchmarks, poisoning, forgetting and recovery evidence.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：属于研究索引/审计资源，不是记忆运行时。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 11 次。
-- 许可：[CC-BY-4.0 内容 / MIT 代码](https://github.com/H20Zhang/Agent-Memory-Radar/blob/47379f841c844cf97d2cfe4a6156431c8ee572a3/LICENSE.md)；复合/拆分许可。研究内容和维护代码采用拆分许可
-- 功能核验：2026-11-12；[来源1](https://github.com/H20Zhang/Agent-Memory-Radar/blob/47379f841c844cf97d2cfe4a6156431c8ee572a3/README.md#L1)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: A research index/audit resource, not a memory runtime.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 11 commits in 90 days.
+- License: [CC-BY-4.0 content / MIT code](https://github.com/H20Zhang/Agent-Memory-Radar/blob/47379f841c844cf97d2cfe4a6156431c8ee572a3/LICENSE.md); Compound/split licence. Split license for research content and maintenance code.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/H20Zhang/Agent-Memory-Radar/blob/47379f841c844cf97d2cfe4a6156431c8ee572a3/README.md#L1).
 
 ## [MemoryStackBench](https://github.com/aetna000/MemoryStackBench)
 
-自动化评测 Agent 记忆安全、证据、删除完整性和可审计性。
+Automated evaluation of agent memory security, evidence, deletion completeness and auditability.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：新 benchmark；排行榜结果需要固定适配器、模型、数据和评分配置。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 6 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/aetna000/MemoryStackBench/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/aetna000/MemoryStackBench/blob/e5abeb0c169fde2fbd8501ffa253310e52a09918/README.md#L8)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: New benchmark; leaderboard results need fixed adapters, models, data and scoring configuration.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 6 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/aetna000/MemoryStackBench/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/aetna000/MemoryStackBench/blob/e5abeb0c169fde2fbd8501ffa253310e52a09918/README.md#L8).
 
 ## [SimpleMem](https://github.com/aiming-lab/SimpleMem)
 
-研究语义结构化压缩、记忆整合和自适应检索。
+Research on semantic structured compression, memory consolidation and adaptive retrieval.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：论文数字依赖模型与协议；压缩可能丢失例外和来源。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/aiming-lab/SimpleMem/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/aiming-lab/SimpleMem/blob/db80b6a7c591e0ea730a058e9f5fc4eb06572299/README.md#L3)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: Paper numbers depend on model and protocol; compression may lose exceptions and provenance.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/aiming-lab/SimpleMem/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/aiming-lab/SimpleMem/blob/db80b6a7c591e0ea730a058e9f5fc4eb06572299/README.md#L3).
 
 ## [MemoryOS](https://github.com/BAI-LAB/MemoryOS)
 
-研究短、中、长期分层记忆、更新与用户画像管理。
+Research on short-, medium- and long-term layered memory, updates and user-profile management.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：MemoryOS、MemOS、EverOS 是不同项目。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/BAI-LAB/MemoryOS/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/BAI-LAB/MemoryOS/blob/587ed7755c7aed179965792830ff1b5ad9a6fa92/README.md#L1)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: MemoryOS, MemOS and EverOS are different projects.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/BAI-LAB/MemoryOS/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/BAI-LAB/MemoryOS/blob/587ed7755c7aed179965792830ff1b5ad9a6fa92/README.md#L1).
 
 ## [A-MEM](https://github.com/agiresearch/A-mem)
 
-借鉴 Zettelkasten 自动组织、关联和演化记忆笔记。
+Borrows from Zettelkasten to automatically organize, link and evolve memory notes.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：生成关联不保证事实正确，生产集成需要额外治理。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/agiresearch/A-mem/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/agiresearch/A-mem/blob/ceffb860f0712bbae97b184d440df62bc910ca8d/README.md#L20)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: Generated links do not guarantee factual correctness; production integration needs extra governance.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/agiresearch/A-mem/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/agiresearch/A-mem/blob/ceffb860f0712bbae97b184d440df62bc910ca8d/README.md#L20).
 
 ## [agentmemory · JordanMcCann](https://github.com/JordanMcCann/agentmemory)
 
-研究语义、词法、图、重要性和时间等多信号检索。
+Research into multi-signal retrieval across semantic, lexical, graph, importance and temporal signals.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：作者 LongMemEval 数字不可与不同模型/预算项目直接横比。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/JordanMcCann/agentmemory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/JordanMcCann/agentmemory/blob/3aa3b8389896f81dd813fdf9176ef3ca122d809e/README.md#L1)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: The author's LongMemEval numbers cannot be compared directly with projects using different models or budgets.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/JordanMcCann/agentmemory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/JordanMcCann/agentmemory/blob/3aa3b8389896f81dd813fdf9176ef3ca122d809e/README.md#L1).
 
 ## [MPBench](https://github.com/Digital-Trust-Lab/mp-bench)
 
-评测持久记忆写入、后续检索和行为触发的记忆污染攻击数据集。
+Dataset of memory-poisoning attacks evaluating persistent writes, later retrieval and behavior triggering.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：研究数据集而非生产防御；攻击成功率依赖目标 Agent 与实验设置。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/Digital-Trust-Lab/mp-bench/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Digital-Trust-Lab/mp-bench/blob/6886880a7c29625e0109e0ad91d0e095029f1577/README.md#L1)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: A research dataset rather than a production defense; attack success rates depend on the target agent and experiment setup.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/Digital-Trust-Lab/mp-bench/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Digital-Trust-Lab/mp-bench/blob/6886880a7c29625e0109e0ad91d0e095029f1577/README.md#L1).
 
 ## [agent-memory-bench](https://github.com/thomasfevre/agent-memory-bench)
 
-强调证据命中、答案和检索行为的可复查记忆评测。
+Reproducible memory evaluation emphasizing evidence hits, answers and retrieval behavior.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：项目说明明确部分指标不是官方 LongMemEval 分数。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[待核验](https://github.com/thomasfevre/agent-memory-bench/blob/6cedf162c6e145ae5be8e6dcd642c6a9f2a26e64/README.md)；许可待核验。未找到根目录许可证
-- 功能核验：2026-11-12；[来源1](https://github.com/thomasfevre/agent-memory-bench/blob/6cedf162c6e145ae5be8e6dcd642c6a9f2a26e64/README.md#L9)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: The project notes state explicitly that some metrics are not official LongMemEval scores.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Unverified](https://github.com/thomasfevre/agent-memory-bench/blob/6cedf162c6e145ae5be8e6dcd642c6a9f2a26e64/README.md); License unverified. No root-directory license found.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/thomasfevre/agent-memory-bench/blob/6cedf162c6e145ae5be8e6dcd642c6a9f2a26e64/README.md#L9).
 
 ## [MemEngine](https://github.com/nuster1128/MemEngine)
 
-模块化 Agent 记忆研究库，覆盖多类记忆模块与评测。
+Modular agent-memory research library covering multiple memory modules and evaluations.
 
-- 分类：研究实现与评测；研究/评测。
-- 适用边界：仓库许可未明确，公开源码不等于可自由复用。
-- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[待核验](https://github.com/nuster1128/MemEngine/blob/67e779ee97599304815a0a820ca7e2e7c8ac18ea/README.md)；许可待核验。未找到根目录许可证；公开源码不等于已授权复用
-- 功能核验：2026-11-12；[来源1](https://github.com/nuster1128/MemEngine/blob/67e779ee97599304815a0a820ca7e2e7c8ac18ea/README.md#L1)。
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: The repository license is unspecified; public source does not mean free reuse.
+- Maintenance: No commits for over 365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Unverified](https://github.com/nuster1128/MemEngine/blob/67e779ee97599304815a0a820ca7e2e7c8ac18ea/README.md); License unverified. No root-directory license found; public source code does not grant reuse rights.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/nuster1128/MemEngine/blob/67e779ee97599304815a0a820ca7e2e7c8ac18ea/README.md#L1).
 
 ## [MemoryBank / SiliconFriend](https://github.com/zhongwanjun/MemoryBank-SiliconFriend)
 
-长期交互、用户画像、记忆强化和遗忘的早期研究实现。
+Early research implementation of long-term interaction, user profiling, memory reinforcement and forgetting.
 
-- 分类：研究实现与评测；历史参考。
-- 适用边界：长期未维护，适合追溯方法，不作为当前生产首选。
-- 维护状态：归档 / 历史；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/zhongwanjun/MemoryBank-SiliconFriend/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/zhongwanjun/MemoryBank-SiliconFriend/blob/cf61c4196e4cfdb0f2b7a0316249fa40312dc3a9/README.md#L4)。
+- Category: Research implementations and benchmarks; Historical reference.
+- Scope boundary: Unmaintained for a long time; suitable for tracing the method, not a current production default.
+- Maintenance: Archived / historical; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/zhongwanjun/MemoryBank-SiliconFriend/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/zhongwanjun/MemoryBank-SiliconFriend/blob/cf61c4196e4cfdb0f2b7a0316249fa40312dc3a9/README.md#L4).
 
 ## [QMD](https://github.com/tobi/qmd)
 
-为本地 Markdown 和文档提供 BM25、向量、查询扩展、rerank 与 MCP。
+BM25, vector, query expansion, rerank and MCP for local Markdown and documents.
 
-- 分类：相邻平台、规范与索引；相邻基础设施。
-- 适用边界：是检索基础设施，不负责完整记忆抽取、更新和遗忘生命周期。
-- 维护状态：近90天有提交；30 天提交 25 次，90 天提交 132 次。
-- 许可：[MIT](https://api.github.com/repos/tobi/qmd/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/tobi/qmd/blob/86d2365d17fc682e491c2c53d1e4a884aee8682a/README.md#L1)。
+- Category: Adjacent platforms, specifications and indexes; Adjacent infrastructure.
+- Scope boundary: Retrieval infrastructure; it does not own the full memory extraction, update and forgetting lifecycle.
+- Maintenance: Commits within the last 90 days; 25 commits in 30 days, 132 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/tobi/qmd/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/tobi/qmd/blob/86d2365d17fc682e491c2c53d1e4a884aee8682a/README.md#L1).
 
 ## [Awesome Agent Memory · mnemoverse](https://github.com/mnemoverse/awesome-agent-memory)
 
-整理 Agent 记忆系统、框架、基准和研究的外部索引。
+External index of agent memory systems, frameworks, benchmarks and research.
 
-- 分类：相邻平台、规范与索引；相邻基础设施。
-- 适用边界：作为覆盖基线和发现入口，不参与能力判断。
-- 维护状态：近90天有提交；30 天提交 55 次，90 天提交 85 次。
-- 许可：[CC0-1.0](https://api.github.com/repos/mnemoverse/awesome-agent-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/mnemoverse/awesome-agent-memory/blob/6ba196dd0e90d3f1f5dcccdc954ba0951edcd0ed/README.md#L1)。
+- Category: Adjacent platforms, specifications and indexes; Adjacent infrastructure.
+- Scope boundary: Serves as a coverage baseline and discovery entry point; it is not used for capability judgments.
+- Maintenance: Commits within the last 90 days; 55 commits in 30 days, 85 commits in 90 days.
+- License: [CC0-1.0](https://api.github.com/repos/mnemoverse/awesome-agent-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/mnemoverse/awesome-agent-memory/blob/6ba196dd0e90d3f1f5dcccdc954ba0951edcd0ed/README.md#L1).
 
 ## [Letta / MemGPT](https://github.com/letta-ai/letta)
 
-以持久状态和 Agent 自主管理上下文为核心的完整 Agent 平台。
+Complete agent platform built around persistent state and agent-managed context.
 
-- 分类：相邻平台、规范与索引；相邻基础设施。
-- 适用边界：采用它通常涉及替换 Agent runtime，而不是只换一个记忆 API。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 5 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/letta-ai/letta/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/letta-ai/letta/blob/8816d3a8516893bfdc0fa14bfb1235226012e295/README.md#L1)。
+- Category: Adjacent platforms, specifications and indexes; Adjacent infrastructure.
+- Scope boundary: Adopting it usually means replacing the agent runtime, not just swapping in a memory API.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 5 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/letta-ai/letta/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/letta-ai/letta/blob/8816d3a8516893bfdc0fa14bfb1235226012e295/README.md#L1).
 
 ## [MineContext](https://github.com/volcengine/MineContext)
 
-通过屏幕等数字上下文生成活动、总结和可查询资料。
+Generates activities, summaries and queryable material from digital context such as the screen.
 
-- 分类：相邻平台、规范与索引；相邻基础设施。
-- 适用边界：更接近主动个人助手应用，不是通用外置记忆引擎。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/volcengine/MineContext/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/volcengine/MineContext/blob/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/README.md#L4)。
+- Category: Adjacent platforms, specifications and indexes; Adjacent infrastructure.
+- Scope boundary: Closer to a proactive personal assistant app than a general external memory engine.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/volcengine/MineContext/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/volcengine/MineContext/blob/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/README.md#L4).
 
 ## [MCP Memory Server](https://github.com/modelcontextprotocol/servers)
 
-官方 MCP servers 父仓库中的 entities、relations、observations 记忆组件。
+The entities, relations and observations memory components in the official MCP servers parent repository.
 
-- 分类：相邻平台、规范与索引；历史参考。
-- 适用边界：父仓库指标不等于 memory 子模块；许可处于 MIT/Apache 过渡且项目结构已演进。
-- 维护状态：归档 / 历史；30 天提交 515 次，90 天提交 1119 次。
-- 许可：[Apache-2.0 / MIT 过渡；文档 CC-BY-4.0](https://github.com/modelcontextprotocol/servers/blob/e1dc4b18dbb948921da37f3d4224a628730b43b0/LICENSE)；复合/拆分许可。父仓库处于重许可过渡，具体文件沿用适用许可
-- 功能核验：2026-11-12；[来源1](https://github.com/modelcontextprotocol/servers/blob/e1dc4b18dbb948921da37f3d4224a628730b43b0/README.md#L33)。
+- Category: Adjacent platforms, specifications and indexes; Historical reference.
+- Scope boundary: Parent-repository metrics are not the memory submodule's; the license is in an MIT/Apache transition and the project structure has evolved.
+- Maintenance: Archived / historical; 515 commits in 30 days, 1119 commits in 90 days.
+- License: [Apache-2.0 / MIT transition; docs CC-BY-4.0](https://github.com/modelcontextprotocol/servers/blob/e1dc4b18dbb948921da37f3d4224a628730b43b0/LICENSE); Compound/split licence. The parent repository is mid-relicensing; individual files follow the applicable license.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/modelcontextprotocol/servers/blob/e1dc4b18dbb948921da37f3d4224a628730b43b0/README.md#L33).
 
 ## [Engram App](https://github.com/engram-app/Engram)
 
-提供认知记忆与 Agent 集成的源码可见项目。
+Source-available project offering cognitive memory with agent integrations.
 
-- 分类：历史、归档与受限许可；受限许可。
-- 适用边界：PolyForm Small Business 许可含组织规模/营收限制，不列为常规 OSI 开源候选。
-- 维护状态：近90天有提交；30 天提交 320 次，90 天提交 746 次。
-- 许可：[PolyForm Small Business-1.0.0 / 商业许可](https://github.com/engram-app/Engram/blob/cf80016063f06df9f891ec26f84a41844aeebeed/LICENSE)；源码可见但非 OSI 开源。有组织规模与营收条件，不是常规 OSI 开源许可
-- 功能核验：2026-11-12；[来源1](https://github.com/engram-app/Engram/blob/cf80016063f06df9f891ec26f84a41844aeebeed/README.md#L3)。
+- Category: Historical, archived and restricted licenses; Restricted license.
+- Scope boundary: The PolyForm Small Business license carries organization-size/revenue limits; not listed as a regular OSI open-source candidate.
+- Maintenance: Commits within the last 90 days; 320 commits in 30 days, 746 commits in 90 days.
+- License: [PolyForm Small Business-1.0.0 / commercial license](https://github.com/engram-app/Engram/blob/cf80016063f06df9f891ec26f84a41844aeebeed/LICENSE); Source-available, not OSI open source. Conditions on organization size and revenue; not a regular OSI open-source license.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/engram-app/Engram/blob/cf80016063f06df9f891ec26f84a41844aeebeed/README.md#L3).
 
 ## [Katra](https://github.com/kolegadev/Katra-Agentic-Memory)
 
-提供情景、语义、图谱和休眠整合的 MCP 认知记忆设备。
+MCP cognitive memory device with episodic, semantic, graph and sleep-time consolidation.
 
-- 分类：历史、归档与受限许可；受限许可。
-- 适用边界：BSL 1.1 在限制期内不是 OSI 开源，并限制竞争性托管/嵌入用途。
-- 维护状态：近90天有提交；30 天提交 20 次，90 天提交 123 次。
-- 许可：[BSL-1.1](https://github.com/kolegadev/Katra-Agentic-Memory/blob/62cba09a81e4e083b38e68eaca572f2d8acee940/LICENSE)；源码可见但非 OSI 开源。限制竞争性第三方托管/嵌入；转换日期与参数以 LICENSE 为准
-- 功能核验：2026-11-12；[来源1](https://github.com/kolegadev/Katra-Agentic-Memory/blob/62cba09a81e4e083b38e68eaca572f2d8acee940/README.md#L1)。
+- Category: Historical, archived and restricted licenses; Restricted license.
+- Scope boundary: BSL 1.1 is not OSI open source during the restriction period and limits competing hosting/embedding uses.
+- Maintenance: Commits within the last 90 days; 20 commits in 30 days, 123 commits in 90 days.
+- License: [BSL-1.1](https://github.com/kolegadev/Katra-Agentic-Memory/blob/62cba09a81e4e083b38e68eaca572f2d8acee940/LICENSE); Source-available, not OSI open source. Restricts competing third-party hosting/embedding; the conversion date and parameters follow the LICENSE.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/kolegadev/Katra-Agentic-Memory/blob/62cba09a81e4e083b38e68eaca572f2d8acee940/README.md#L1).
 
 ## [Zep Legacy Community Edition](https://github.com/getzep/zep)
 
-Zep 旧 Community Edition 与当前云产品集成示例。
+Zep's old Community Edition plus integration examples for the current cloud product.
 
-- 分类：历史、归档与受限许可；历史参考。
-- 适用边界：Community Edition 已移入 legacy 并标为 deprecated/unsupported；当前开源图核心看 Graphiti。
-- 维护状态：归档 / 历史；30 天提交 13 次，90 天提交 27 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/getzep/zep/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/getzep/zep/blob/65b52058b7d034ba05623c85a909e82a8d1ac2ef/README.md#L2)。
+- Category: Historical, archived and restricted licenses; Historical reference.
+- Scope boundary: The Community Edition has moved to legacy and is marked deprecated/unsupported; see Graphiti for the current open-source graph core.
+- Maintenance: Archived / historical; 13 commits in 30 days, 27 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/getzep/zep/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/getzep/zep/blob/65b52058b7d034ba05623c85a909e82a8d1ac2ef/README.md#L2).
 
 ## [Engram · Agentscreator](https://github.com/Agentscreator/engram-memory)
 
-面向多 Agent 共享记忆、冲突和一致性的归档项目。
+Archived project on shared multi-agent memory, conflicts and consistency.
 
-- 分类：历史、归档与受限许可；历史参考。
-- 适用边界：仓库已归档，保留作设计参考。
-- 维护状态：归档 / 历史；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/Agentscreator/engram-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Agentscreator/engram-memory/blob/a8a38ce032064329b65f30bcf3f975037fb4dc34/README.md#L3)。
+- Category: Historical, archived and restricted licenses; Historical reference.
+- Scope boundary: The repository is archived; kept as a design reference.
+- Maintenance: Archived / historical; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/Agentscreator/engram-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Agentscreator/engram-memory/blob/a8a38ce032064329b65f30bcf3f975037fb4dc34/README.md#L3).
 
 ## [EverMemOS_bz](https://github.com/beizhangnina/EverMemOS_bz)
 
-EverMemOS 的分叉仓库，保留以对话提取、结构化记忆与多策略召回为核心的旧版实现。
+Fork of EverMemOS preserving the older implementation centered on conversation extraction, structured memory and multi-strategy recall.
 
-- 分类：历史、归档与受限许可；历史参考。
-- 适用边界：GitHub 标记为 EverMind-AI/EverOS 的分叉；当前默认分支最后提交于 2025-11-28，README 描述的 MongoDB、Elasticsearch、Milvus 和 Redis 架构不能直接套用于现行 EverOS。评测成绩未独立验证。
-- 维护状态：归档 / 历史；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://github.com/beizhangnina/EverMemOS_bz/blob/522e6eccd43c21f987bdff39d8e433b0cedbaed5/LICENSE)；开放许可证已核验。根 LICENSE 为 Apache-2.0，NOTICE 含版权声明；模型、数据和第三方依赖许可另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/beizhangnina/EverMemOS_bz/blob/522e6eccd43c21f987bdff39d8e433b0cedbaed5/README_zh.md#L147) · [来源2](https://github.com/beizhangnina/EverMemOS_bz/blob/522e6eccd43c21f987bdff39d8e433b0cedbaed5/README_zh.md#L250)。
+- Category: Historical, archived and restricted licenses; Historical reference.
+- Scope boundary: GitHub marks it as a fork of EverMind-AI/EverOS; the last commit on the current default branch is 2025-11-28, and the MongoDB, Elasticsearch, Milvus and Redis architecture described in the README cannot be applied directly to the current EverOS. Benchmark results were not independently verified.
+- Maintenance: Archived / historical; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Apache-2.0](https://github.com/beizhangnina/EverMemOS_bz/blob/522e6eccd43c21f987bdff39d8e433b0cedbaed5/LICENSE); Open license verified. Root LICENSE is Apache-2.0 and NOTICE carries copyright statements; models, data and third-party dependencies are licensed separately.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/beizhangnina/EverMemOS_bz/blob/522e6eccd43c21f987bdff39d8e433b0cedbaed5/README_zh.md#L147) · [Source 2](https://github.com/beizhangnina/EverMemOS_bz/blob/522e6eccd43c21f987bdff39d8e433b0cedbaed5/README_zh.md#L250).

@@ -1,14 +1,14 @@
-# 贡献指南
+# Contributing guide
 
-欢迎新增项目、修正分类、重命名、许可证或功能边界。低 star 不是拒绝理由。
+New projects and corrections to category, naming, license or feature boundary are welcome. A low star count is not a reason for rejection.
 
-1. 修改 `data/projects.json`，不要直接改生成的 README 表格。
-2. 提供 canonical GitHub 仓库、一个主分类、功能定位、明确边界及固定提交的 README 来源。
-3. 同名项目必须写完整 owner/repo；fork 只有在实现或维护路线有明确差异时单列。
-4. 区分引擎、文件真源、图谱、宿主插件、研究代码和普通数据库。
-5. 区分已实现、路线图、作者 benchmark 和本目录实测。当前目录未对全部项目做统一运行测评。
-6. 核验根目录及子目录许可证。公开源码、免费使用和 OSI 开源不是同一概念。
-7. 新增仓库后刷新完整指标并重新生成：
+1. Edit `data/projects.json`; do not edit the generated README tables directly.
+2. Provide the canonical GitHub repository, one primary category, functional positioning, an explicit boundary and README sources at a pinned commit.
+3. Same-named projects must be written with the full owner/repo; a fork is listed separately only when its implementation or maintenance path clearly differs.
+4. Distinguish engines, file sources of truth, graphs, host plugins, research code and plain databases.
+5. Distinguish implemented features, roadmaps, author benchmarks and this catalogue's own testing. The current catalogue has not run a unified capability evaluation of all projects.
+6. Verify licenses in the root and in subdirectories. Public source code, free use and OSI open source are not the same concept.
+7. After adding a repository, refresh the full metrics and regenerate:
 
 ```sh
 python scripts/refresh_metrics.py
@@ -17,4 +17,13 @@ python -m unittest discover -s tests -v
 python scripts/build.py --check
 ```
 
-不要提交 API key、内部内容工厂地址、真实私密会话或未脱敏记忆数据。调研和变更记录放在 `record/YYYY-MM-DD-中文主题.md`。
+Do not commit API keys, internal content-factory addresses, real private sessions or unredacted memory data. Research and change records go under `record/` as `YYYY-MM-DD-<chinese-topic>.md`.
+
+## Multilingual files
+
+- `data/projects.json` is the canonical reviewed data in Chinese: a fact changes there exactly once.
+- Wording for other languages comes from `locales/<lang>/entries.json` (`description`, `boundary`, `license_label`, `license_note`) and `locales/<lang>/ui.json`; `zh` falls back directly to `data/projects.json`, so there is no `locales/zh/entries.json`.
+- When you add a project or re-word its positioning, boundary or license verdict, complete the en/es/hi/fr locales in the same pull request; otherwise `python scripts/build.py --check` and `python -m unittest discover -s tests -v` fail.
+- Static prose: English lives in root `docs/` and `CONTRIBUTING.md`; other languages live at the same relative paths under `locales/<lang>/`. Relative links inside a mirror resolve from that file's own directory — from `locales/<lang>/docs/` a link to the repository root (`data/`, `scripts/`, `research/`, `LICENSE`, `record/`) needs `../../../`, while from `locales/<lang>/CONTRIBUTING.md` it needs `../../`; `docs/readme-intro.md` is the exception, because it is inlined into the README and resolves from the locale root.
+- `record/` and `research/` keep the original language used when they were written, as audit trails; they are not machine-translated.
+- Generated files (`README.md`, `docs/projects.md`, `docs/rankings.md`, `data/rankings.csv` and the same-named files in each locale mirror) are never edited by hand; they are produced by `python scripts/build.py`.

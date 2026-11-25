@@ -1,0 +1,74 @@
+{
+  "language": "zh",
+  "language_name": "简体中文",
+  "list_separator": "、",
+  "categories": {
+    "engines": "记忆引擎与服务",
+    "file_memory": "文件真源与可审阅记忆",
+    "graph_temporal": "图谱、实体与时序记忆",
+    "coding_memory": "编码 Agent 与 MCP 记忆",
+    "procedural": "经验、技能与程序性记忆",
+    "research_eval": "研究实现与评测",
+    "adjacent": "相邻平台、规范与索引",
+    "historical_restricted": "历史、归档与受限许可"
+  },
+  "scopes": {
+    "core": "核心候选",
+    "adjacent": "相邻基础设施",
+    "research": "研究/评测",
+    "historical": "历史参考",
+    "restricted": "受限许可"
+  },
+  "license_status": {
+    "verified": "开放许可证已核验",
+    "custom": "复合/拆分许可",
+    "source_available": "源码可见但非 OSI 开源",
+    "unverified": "许可待核验"
+  },
+  "modes": {
+    "balanced": "综合维护分",
+    "stars": "Star 优先",
+    "activity": "90 天提交优先",
+    "recent": "最近默认分支提交优先"
+  },
+  "tiers": [
+    "近90天有提交",
+    "91–365天未提交",
+    "超过365天未提交",
+    "归档 / 历史"
+  ],
+  "tags": {
+    "baseline": "★报告基线",
+    "archived": "归档/历史",
+    "license": "许可注意"
+  },
+  "headers": {
+    "shortlist": ["项目", "定位", "Stars", "90天提交", "最近提交 UTC", "维护分"],
+    "categories": ["分类", "数量", "维护排序靠前的项目"],
+    "detail": ["项目", "定位", "Stars", "90天提交", "最近提交 UTC", "维护分", "许可"],
+    "rankings": ["项目", "分类", "维护层", "Stars", "90天提交", "最近提交 UTC", "维护分"]
+  },
+  "sections": {
+    "current": "当前收录",
+    "shortlist": "活跃核心项目速览",
+    "toc": "分类目录",
+    "choose": "选择入口",
+    "data": "数据与维护",
+    "thanks": "许可与致谢",
+    "detail_title": "项目说明与证据",
+    "rankings_title": "排序视图"
+  },
+  "templates": {
+    "current": "**{total} 个项目，其中 {baseline} 个来自三份原始调研，{added} 个为本轮新增。** 功能核验：{reviewed}；指标快照：`{as_of}`（UTC）。\n\n每个分类先按维护状态分层，再综合 star（40%）、90 天默认分支提交（35%）和最近提交（25%）排序。归档项目后置。维护分只描述 GitHub 热度与活动迹象，不代表记忆准确率、成本、安全性或生产成熟度。",
+    "shortlist_note": "只展示核心候选、许可证已核验且近 90 天有提交的项目；研究实现、检索组件、受限许可和历史项目不进入此表。",
+    "toc_note": "`★报告基线` 表示项目来自用户提供的三份调研。每项只有一个主分类，避免同一仓库重复参与排序。",
+    "detail_intro": "功能判断来自固定提交的官方 README，未安装运行全部项目。每日指标刷新不会自动重新审核功能和许可证。",
+    "rankings_intro": "快照：`{as_of}`。这是 GitHub 维护元数据排序，不是记忆系统能力排行榜。所有视图先按维护状态分层；原始值见 [CSV]({R}data/rankings.csv)。",
+    "entry": "- 分类：{category}；{scope}。\n- 适用边界：{boundary}\n- 维护状态：{maintenance}；30 天提交 {commits_30d} 次，90 天提交 {commits_90d} 次。\n- 许可：[{license}]({license_source})；{license_status}。{license_note}\n- 功能核验：{reviewed_at}；{sources}。",
+    "source_link": "来源{index}",
+    "choose": "- 需要完整外置记忆 API：先看记忆引擎与服务。\n- 需要可直接审阅、修改、Git 管理：看文件真源记忆。\n- 需要实体关系、时间有效性和多跳：看图谱与时序记忆。\n- 需要 Claude Code、Codex、OpenCode 等跨宿主记忆：看编码 Agent/MCP。\n- 需要把成功与失败沉淀成可执行方法：看经验、技能与程序性记忆。\n- 需要验证效果、污染、删除与遗忘：看研究实现与评测。\n\n完整边界和证据见 [项目详表](docs/projects.md)，分类口径见 [范围与分类](docs/taxonomy.md)。",
+    "data": "- [综合、Star、活跃度、最近提交排序](docs/rankings.md)\n- [排序方法与限制](docs/methodology.md)\n- [检索关键词、来源与覆盖](docs/research.md)\n- [项目 JSON]({R}data/projects.json) · [指标 JSON]({R}data/metrics.json) · [排序 CSV]({R}data/rankings.csv)\n- [贡献指南](CONTRIBUTING.md)\n\n```sh\npython scripts/refresh_metrics.py\npython scripts/build.py\npython -m unittest discover -s tests -v\npython scripts/build.py --check\n```\n\nGitHub Actions 每日刷新 GitHub 指标。新增项目、功能、分类和许可判断必须人工核验。",
+    "thanks": "本目录的原创整理和脚本采用 [MIT]({R}LICENSE)，所链接项目遵循各自许可。未知、复合、非商业或 BSL/PolyForm 项目均保留原始边界。\n\n初始分类与项目地图来自用户提供的三份本地调研；本轮另参考 [mnemoverse/awesome-agent-memory](https://github.com/mnemoverse/awesome-agent-memory) 进行覆盖校验，并回到各项目官方仓库核验。",
+    "records_note": "[变更记录]({R}record/) 保留核验当时的原文（中文），用于审计每条判断的来源和当时的措辞。"
+  }
+}

@@ -1,0 +1,231 @@
+🌐 [English](../../README.md) · **简体中文** · [Español](../es/README.md) · [हिन्दी](../hi/README.md) · [Français](../fr/README.md)
+
+# awesome_agent_memory
+
+**开源 AI Agent 记忆系统、文件记忆、图谱记忆、编码助手插件、研究实现与评测合集。**
+
+Curated open-source memory systems, file-backed memory, temporal knowledge graphs, coding-agent integrations, procedural memory, and benchmarks for AI agents — with evidence-linked descriptions and reproducible GitHub maintenance rankings.
+
+这里的“记忆”覆盖从交互捕获、事实/经历抽取、存储和作用域，到检索、反思、纠错、遗忘、删除与宿主注入的完整生命周期。普通向量数据库和只保留当前对话的短期缓存不单独收录。
+
+[分类目录](#分类目录) · [项目详表](docs/projects.md) · [排序视图](docs/rankings.md) · [方法](docs/methodology.md) · [检索记录](docs/research.md) · [贡献](CONTRIBUTING.md)
+
+```mermaid
+flowchart LR
+    A[消息 / 文档 / 工具事件] --> B[捕获与作用域]
+    B --> C[抽取 / 压缩 / 关联]
+    C --> D[文件 / 数据库 / 图 / 模型状态]
+    D --> E[检索 / 展开 / 反思]
+    E --> F[注入 Agent 上下文]
+    F --> G[行动与反馈]
+    G --> C
+    C --> H[更正 / 衰减 / 遗忘 / 删除]
+```
+
+分类描述的是项目主要职责，不表示功能互斥。首版追求可复核的生态地图，不声称穷尽全网项目。
+
+## 当前收录
+
+**90 个项目，其中 54 个来自三份原始调研，36 个为本轮新增。** 功能核验：2026-11-20；指标快照：`2026-11-20T09:44:48+00:00`（UTC）。
+
+每个分类先按维护状态分层，再综合 star（40%）、90 天默认分支提交（35%）和最近提交（25%）排序。归档项目后置。维护分只描述 GitHub 热度与活动迹象，不代表记忆准确率、成本、安全性或生产成熟度。
+
+## 活跃核心项目速览
+
+只展示核心候选、许可证已核验且近 90 天有提交的项目；研究实现、检索组件、受限许可和历史项目不进入此表。
+
+| 项目 | 定位 | Stars | 90天提交 | 最近提交 UTC | 维护分 |
+| --- | --- | --- | --- | --- | --- |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | 捕获会话与工具活动，压缩入 SQLite/FTS5/Chroma 并在后续会话召回。 | 118,529 | 2,403 | 2026-11-19 | 99.8 |
+| [Hindsight](https://github.com/vectorize-io/hindsight) | 通过 retain、recall 和 reflect 管理结构化事实、经历、实体与综合观察。 | 62,113 | 1,575 | 2026-11-20 | 98.3 |
+| [OpenViking](https://github.com/volcengine/OpenViking) | 用可导航的虚拟文件系统统一管理资源、长期记忆与 Agent Skills。 | 42,512 | 1,430 | 2026-11-20 | 97.0 |
+| [Cognee](https://github.com/topoteretes/cognee) | 把文档、代码与对话转为实体关系和可搜索知识/记忆图。 | 33,430 | 2,899 | 2026-11-20 | 96.2 |
+| [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory) | 面向编码 Agent 的服务与插件，融合 BM25、可选向量和结构关系。 | 30,492 | 234 | 2026-11-18 | 91.0 |
+| [Engram · Gentleman Programming](https://github.com/Gentleman-Programming/engram) | 面向编码 Agent 的 Go/SQLite/FTS5 持久记忆，提供 MCP、HTTP、CLI 与 TUI。 | 8,242 | 952 | 2026-11-17 | 90.6 |
+| [Basic Memory](https://github.com/basicmachines-co/basic-memory) | 把可编辑 Markdown 笔记和语义关系作为人机共用知识记忆。 | 4,642 | 881 | 2026-11-19 | 89.2 |
+| [Honcho](https://github.com/plastic-labs/honcho) | 围绕 peer、session 与 workspace 持续形成对象表征和协作理解。 | 8,206 | 318 | 2026-11-19 | 88.6 |
+| [Graphiti](https://github.com/getzep/graphiti) | 实时抽取实体与关系，构建双时态知识图谱并融合词法、向量与图检索。 | 32,954 | 129 | 2026-11-20 | 88.5 |
+| [Mnemosyne · mnemosyne-oss](https://github.com/mnemosyne-oss/mnemosyne) | SQLite 驱动、默认本地的跨框架记忆层，支持 MCP 和多种 Agent 集成。 | 3,680 | 987 | 2026-11-19 | 88.3 |
+| [Supermemory](https://github.com/supermemoryai/supermemory) | 面向文档、记忆和用户画像的混合搜索与记忆平台。 | 31,678 | 130 | 2026-11-18 | 87.8 |
+| [Mem0](https://github.com/mem0ai/mem0) | 通用个性化记忆层，支持从交互抽取、更新、删除与检索记忆。 | 69,268 | 75 | 2026-11-18 | 87.5 |
+
+## 分类目录
+
+`★报告基线` 表示项目来自用户提供的三份调研。每项只有一个主分类，避免同一仓库重复参与排序。
+
+| 分类 | 数量 | 维护排序靠前的项目 |
+| --- | --- | --- |
+| 记忆引擎与服务 | 27 | Hindsight、OpenViking、agentmemory · rohitg00 |
+| 文件真源与可审阅记忆 | 11 | Engram · Gentleman Programming、Basic Memory、Mnemosyne · mnemosyne-oss |
+| 图谱、实体与时序记忆 | 8 | Cognee、Graphiti、CortexDB |
+| 编码 Agent 与 MCP 记忆 | 10 | claude-mem、MCP Memory Service、dsh-mnemon |
+| 经验、技能与程序性记忆 | 5 | memU、Mengram、LangMem |
+| 研究实现与评测 | 19 | OWASP Agent Memory Guard、MemT-1.0、Agent Memory Benchmarks |
+| 相邻平台、规范与索引 | 5 | QMD、Awesome Agent Memory · mnemoverse、Letta / MemGPT |
+| 历史、归档与受限许可 | 5 | Engram App、Katra、Zep Legacy Community Edition |
+
+### 记忆引擎与服务
+
+| 项目 | 定位 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Hindsight](https://github.com/vectorize-io/hindsight) · ★报告基线 | 通过 retain、recall 和 reflect 管理结构化事实、经历、实体与综合观察。 | 62,113 | 1,575 | 2026-11-20 | 98.3 | MIT |
+| [OpenViking](https://github.com/volcengine/OpenViking) · ★报告基线 | 用可导航的虚拟文件系统统一管理资源、长期记忆与 Agent Skills。 | 42,512 | 1,430 | 2026-11-20 | 97.0 | AGPL-3.0 |
+| [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory) · ★报告基线 | 面向编码 Agent 的服务与插件，融合 BM25、可选向量和结构关系。 | 30,492 | 234 | 2026-11-18 | 91.0 | Apache-2.0 |
+| [Honcho](https://github.com/plastic-labs/honcho) · ★报告基线 | 围绕 peer、session 与 workspace 持续形成对象表征和协作理解。 | 8,206 | 318 | 2026-11-19 | 88.6 | AGPL-3.0 |
+| [Supermemory](https://github.com/supermemoryai/supermemory) · ★报告基线 | 面向文档、记忆和用户画像的混合搜索与记忆平台。 | 31,678 | 130 | 2026-11-18 | 87.8 | MIT |
+| [Mem0](https://github.com/mem0ai/mem0) · ★报告基线 | 通用个性化记忆层，支持从交互抽取、更新、删除与检索记忆。 | 69,268 | 75 | 2026-11-18 | 87.5 | Apache-2.0 |
+| [Hy-Memory](https://github.com/Tencent-Hunyuan/Hy-Memory) | 面向对话、Agent 和编码场景的双系统认知记忆引擎与 Python SDK。 | 2,086 | 604 | 2026-11-18 | 86.1 | Apache-2.0 |
+| [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 把对话、文档和代码沉淀为 Chat Memory、Skill、LLM-Wiki 与 Code-Graph 的团队记忆中心。 | 31,065 | 65 | 2026-11-19 | 84.3 | MIT |
+| [MemOS](https://github.com/MemTensor/MemOS) · ★报告基线 | 面向 Agent 的记忆操作系统，覆盖多类记忆、混合检索与技能演化。 | 12,462 | 140 | 2026-11-09 | 82.8 | Apache-2.0 |
+| [Remnic](https://github.com/joshuaswarren/remnic) | 强调作用域、来源、更正、边界、检索质量和 MCP/HTTP 的用户感知记忆层。 | 235 | 840 | 2026-11-20 | 79.0 | MIT |
+| [Mnemon](https://github.com/mnemon-dev/mnemon) | 面向 Agent 的跨会话持久记忆，以图结构组织知识，支持意图感知检索和多种宿主接入。 | 731 | 127 | 2026-11-19 | 75.1 | Apache-2.0 |
+| [MemMachine](https://github.com/MemMachine/MemMachine) · ★报告基线 | 提供用户、项目与会话维度接口的通用 Agent 记忆服务。 | 3,089 | 43 | 2026-11-19 | 74.1 | Apache-2.0 |
+| [LongMemory](https://github.com/CaviraOSS/LongMemory) · ★报告基线 | 本地 TypeScript/SQLite 长期记忆，提供来源、时间、证据选择与 token 预算。 | 4,585 | 28 | 2026-11-10 | 70.6 | Apache-2.0 |
+| [MIRIX](https://github.com/Mirix-AI/MIRIX) · ★报告基线 | 多类型、多 Agent、多模态长期记忆系统，可跟踪工作活动并提炼技能。 | 3,507 | 23 | 2026-11-11 | 68.9 | Apache-2.0 |
+| [openJiuwen Agent Memory](https://github.com/openJiuwen-ai/agent-memory) | 为 Agent 提供记忆抽取、存储、检索、迁移和多形态记忆能力。 | 84 | 162 | 2026-11-19 | 68.8 | Apache-2.0 |
+| [Membase · unibase](https://github.com/unibaseio/membase) | 提供 SDK、CLI 和 MCP 的跨 Agent 记忆层，可使用托管账户或本地存储。 | 142 | 134 | 2026-11-15 | 68.5 | MIT |
+| [Agent Memory Lab](https://github.com/agent-memory-lab/agent-memory) · ★报告基线 | 强调来源证据、事实更正、时间有效性和作用域的记忆引擎。 | 7 | 261 | 2026-11-14 | 62.0 | Apache-2.0 |
+| [mem9](https://github.com/mem9-ai/mem9) · ★报告基线 | 提供跨 Agent 记忆与会话摄入，并支持多种服务端存储后端。 | 1,236 | 16 | 2026-11-04 | 61.6 | Apache-2.0 |
+| [Memori](https://github.com/MemoriLabs/Memori) · ★报告基线 | 围绕用户与进程归属，将记忆摄入和回忆接入现有 LLM 调用。 | 17,601 | 2 | 2026-09-18 | 52.5 | Apache-2.0 |
+| [Engram · TAIPANBOX](https://github.com/TAIPANBOX/engram) · ★报告基线 | 以 SQLite 承载情景、语义、程序记忆、双时态事实、衰减与 MCP。 | 5 | 40 | 2026-11-11 | 49.9 | Apache-2.0 |
+| [Agent MemoryForge](https://github.com/hellangleZ/Agent-MemoryForge) | 面向多租户 Agent 的持久、可检索、可审计记忆层与 SDK/Gateway。 | 178 | 3 | 2026-09-29 | 39.8 | MIT |
+| [Memvid](https://github.com/memvid/memvid) · ★报告基线 | 以便携单文件和 Rust 核心提供混合检索及多语言 SDK。 | 17,435 | 0 | 2026-07-14 | 39.9 | Apache-2.0 |
+| [Memobase](https://github.com/memodb-io/memobase) · ★报告基线 | 围绕用户画像与时间事件维护长期用户记忆。 | 2,962 | 0 | 2026-01-11 | 28.5 | Apache-2.0 |
+| [Engram · HBarefoot](https://github.com/HBarefoot/engram) · ★报告基线 | 进程内 TypeScript/SQLite 记忆库，提供本地 embedding、MCP 与使用 Skill。 | 9 | 0 | 2026-07-07 | 13.5 | MIT |
+| [agent-memory · ivanzwb](https://github.com/ivanzwb/agent-memory) · ★报告基线 | TypeScript 嵌入式记忆库，包含工作、会话、长期记忆与知识库。 | 4 | 0 | 2026-04-13 | 7.7 | MIT |
+| [MEMANTO](https://github.com/Jahvis/memanto-ai-memory) · ★报告基线 | 以 remember、recall、answer 原语封装带版本与来源元数据的记忆服务。 | 1 | 0 | 2026-06-05 | 6.3 | MIT |
+| [OpenMemory · tawanorg](https://github.com/tawanorg/OpenMemory) | 框架无关的自托管长期语义与上下文记忆服务。 | 1 | 0 | 2025-10-26 | 2.7 | MIT |
+
+### 文件真源与可审阅记忆
+
+| 项目 | 定位 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Engram · Gentleman Programming](https://github.com/Gentleman-Programming/engram) | 面向编码 Agent 的 Go/SQLite/FTS5 持久记忆，提供 MCP、HTTP、CLI 与 TUI。 | 8,242 | 952 | 2026-11-17 | 90.6 | MIT |
+| [Basic Memory](https://github.com/basicmachines-co/basic-memory) · ★报告基线 | 把可编辑 Markdown 笔记和语义关系作为人机共用知识记忆。 | 4,642 | 881 | 2026-11-19 | 89.2 | AGPL-3.0 |
+| [Mnemosyne · mnemosyne-oss](https://github.com/mnemosyne-oss/mnemosyne) | SQLite 驱动、默认本地的跨框架记忆层，支持 MCP 和多种 Agent 集成。 | 3,680 | 987 | 2026-11-19 | 88.3 | MIT |
+| [agent-memory · tigerless](https://github.com/tigerless-labs/agent-memory) · ★报告基线 | 以 Markdown 为真源、SQLite 为可重建索引，并提供独立休眠整理层。 | 4,322 | 381 | 2026-11-12 | 85.4 | MIT |
+| [EverOS](https://github.com/EverMind-AI/EverOS) · ★报告基线 | 以 Markdown 真源和本地索引管理用户 episodes/profile 与 Agent cases/skills。 | 13,945 | 101 | 2026-11-20 | 84.2 | Apache-2.0 |
+| [ReMe](https://github.com/agentscope-ai/ReMe) · ★报告基线 | 以 Markdown/frontmatter/wikilinks 组织事实与经验，支持词法、向量和关系扩展。 | 3,826 | 194 | 2026-11-20 | 83.3 | Apache-2.0 |
+| [MemSearch](https://github.com/zilliztech/memsearch) · ★报告基线 | Markdown 真源配合 Milvus 派生索引，支持向量/BM25/RRF 与渐进展开。 | 2,913 | 73 | 2026-11-19 | 76.6 | MIT |
+| [Sibyl Memory](https://github.com/Sibyl-Labs/Sibyl-Memory) | 单文件、无向量数据库的长期记忆家族，含 SDK、CLI、MCP、Hermes 与 LangGraph 适配。 | 189 | 41 | 2026-11-19 | 64.1 | MIT |
+| [Agent Memory Vault](https://github.com/mcncarl/agent-memory-vault) | Markdown 优先的 Claude Code/Codex 共享记忆库，带 Git、索引和审计。 | 348 | 4 | 2026-10-04 | 44.2 | MIT |
+| [Engram · shiblon](https://github.com/shiblon/engram) · ★报告基线 | 单二进制与 SQLite 管理短期/长期记忆、偏好和人格。 | 19 | 24 | 2026-10-06 | 43.6 | Apache-2.0 |
+| [Engram · B12Labs](https://github.com/B12Labs/engram) · ★报告基线 | 便携单文件记忆格式，提供图压缩和快/混合/深度搜索。 | 1 | 0 | 2026-04-15 | 4.6 | MIT |
+
+### 图谱、实体与时序记忆
+
+| 项目 | 定位 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Cognee](https://github.com/topoteretes/cognee) · ★报告基线 | 把文档、代码与对话转为实体关系和可搜索知识/记忆图。 | 33,430 | 2,899 | 2026-11-20 | 96.2 | Apache-2.0 |
+| [Graphiti](https://github.com/getzep/graphiti) · ★报告基线 | 实时抽取实体与关系，构建双时态知识图谱并融合词法、向量与图检索。 | 32,954 | 129 | 2026-11-20 | 88.5 | Apache-2.0 |
+| [CortexDB](https://github.com/liliang-cn/cortexdb) | 在单个 SQLite 文件中结合知识图谱、约束和可追溯推理。 | 529 | 597 | 2026-11-20 | 81.7 | MIT |
+| [Neo4j Agent Memory](https://github.com/neo4j-labs/agent-memory) | 基于图的 Agent 记忆与 context graph，存储对话、实体、关系和推理轨迹。 | 611 | 204 | 2026-10-27 | 71.4 | Apache-2.0 |
+| [Memoir](https://github.com/zhangfengcdt/memoir) | 带 Git 式版本控制的分层 Agent 记忆。 | 632 | 34 | 2026-10-27 | 61.5 | Apache-2.0 |
+| [Lemmalog](https://github.com/JordyZomer/lemmalog) | 用 Datalog 规则、来源事实和增量推导构建 Agent 记忆。 | 352 | 47 | 2026-10-01 | 56.5 | MIT |
+| [Memory Graph](https://github.com/memory-graph/memory-graph) | 为编码 Agent 提供关系跟踪与图查询的 MCP 记忆服务。 | 258 | 12 | 2026-09-16 | 45.9 | MIT |
+| [M-flow](https://github.com/FlowElement-xinliuyuansu/m_flow) | 以多层认知图和受控传播组织情景、概念与实体记忆。 | 4,508 | 0 | 2026-08-03 | 36.7 | Apache-2.0 |
+
+### 编码 Agent 与 MCP 记忆
+
+| 项目 | 定位 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
+| --- | --- | --- | --- | --- | --- | --- |
+| [claude-mem](https://github.com/thedotmack/claude-mem) · ★报告基线 | 捕获会话与工具活动，压缩入 SQLite/FTS5/Chroma 并在后续会话召回。 | 118,529 | 2,403 | 2026-11-19 | 99.8 | Apache-2.0 |
+| [MCP Memory Service](https://github.com/doobidoo/mcp-memory-service) · ★报告基线 | 通过 MCP/REST 提供语义记忆、关系和后台整理，并支持多种存储后端。 | 2,138 | 850 | 2026-11-20 | 86.6 | Apache-2.0 |
+| [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | DeepSeek Harness 分层记忆插件，组合运行时记忆、项目文档与可切换的长期记忆后端。 | 1,065 | 1,714 | 2026-11-20 | 84.1 | MIT |
+| [Memorix](https://github.com/AVIDS2/memorix) | 通过 MCP 为多种编码 Agent 提供跨宿主共享记忆。 | 943 | 197 | 2026-11-19 | 78.3 | Apache-2.0 |
+| [OKF Agent Memory](https://github.com/okf-memory/okf-agent-memory) | Git-native 编码 Agent 记忆，提供嵌入式 MCP 与渐进式读取。 | 871 | 243 | 2026-11-14 | 77.9 | MIT |
+| [projectmem](https://github.com/riponcm/projectmem) · ★报告基线 | 以事件日志记录 issue、尝试、修复和决策，避免编码 Agent 重复失败。 | 875 | 105 | 2026-11-01 | 70.2 | MIT |
+| [Mnemoverse Memory Server](https://github.com/mnemoverse/mcp-memory-server) | 通过 MCP 提供托管持久记忆、反馈重排和多 Agent 共享房间。 | 30 | 155 | 2026-11-18 | 65.0 | MIT |
+| [Codex Honcho](https://github.com/plastic-labs/codex-honcho) · ★报告基线 | 把 Codex 会话、工具活动和上下文注入接入 Honcho 的官方集成。 | 66 | 1 | 2026-09-01 | 28.8 | MIT |
+| [MegaMemory](https://github.com/0xK3vin/MegaMemory) | 面向编码 Agent 的持久项目知识图谱、语义搜索和 MCP 服务。 | 737 | 0 | 2026-05-03 | 25.6 | MIT |
+| [mcp-mem0](https://github.com/coleam00/mcp-mem0) | 把 Mem0 长期记忆封装为 MCP 服务供 Agent 客户端使用。 | 686 | 0 | 2025-04-13 | 22.7 | MIT |
+
+### 经验、技能与程序性记忆
+
+| 项目 | 定位 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
+| --- | --- | --- | --- | --- | --- | --- |
+| [memU](https://github.com/NevaMind-AI/memU) · ★报告基线 | 跨 Agent 个人记忆与宿主桥接，支持 Agent 提炼 Markdown 和记忆 Skill。 | 14,629 | 55 | 2026-11-20 | 81.0 | Apache-2.0 |
+| [Mengram](https://github.com/alibaizhanov/mengram) · ★报告基线 | 组织语义、情景与程序记忆，并用失败反馈改进工作流程。 | 207 | 97 | 2026-11-09 | 66.5 | Apache-2.0 |
+| [LangMem](https://github.com/langchain-ai/langmem) · ★报告基线 | 从对话抽取长期事实、搜索记忆，并通过经历优化 Agent 行为。 | 1,778 | 13 | 2026-11-16 | 64.8 | MIT |
+| [Engram · vincents-ai](https://github.com/vincents-ai/engram) · ★报告基线 · 许可注意 | 面向多 Agent 的分布式项目上下文、任务、推理与团队知识。 | 25 | 9 | 2026-11-17 | 48.5 | AGPL-3.0-or-later 或商业许可 |
+| [Acontext](https://github.com/memodb-io/Acontext) · ★报告基线 · 归档/历史 | 从 Agent 执行与产物中提炼可读、可编辑的操作经验与 Skill。 | 3,697 | 2 | 2026-10-24 | 53.3 | Apache-2.0 |
+
+### 研究实现与评测
+
+| 项目 | 定位 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
+| --- | --- | --- | --- | --- | --- | --- |
+| [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) | 面向 Agent 记忆与上下文污染的运行时防护和参考实现。 | 207 | 258 | 2026-11-20 | 74.7 | Apache-2.0 |
+| [MemT-1.0](https://github.com/MemTensor/MemT-1.0) · 许可注意 | 探索模型原生记忆读写与 Mixture-of-Storage 的记忆模型家族。 | 545 | 7 | 2026-11-20 | 58.6 | PolyForm Noncommercial-1.0.0 |
+| [Agent Memory Benchmarks](https://github.com/RonsenbergVI/agent-memory-benchmarks) | 提供 LongMemEval、LoCoMo 等 Agent 记忆系统的开放评测与参考实现。 | 2 | 246 | 2026-11-09 | 57.0 | MIT |
+| [MemForest · Concyclics](https://github.com/Concyclics/MemForest) · ★报告基线 | 使用分层时间索引组织长期记忆并提供 Python 实验接口。 | 37 | 33 | 2026-11-11 | 55.2 | MIT |
+| [Agent Memory Leaderboard](https://github.com/AML-memory/agent-memory-leaderboard) · 许可注意 | 收集 Agent 记忆系统评测结果和比较资料。 | 1,138 | 3 | 2026-11-02 | 52.8 | 待核验 |
+| [MemSkill](https://github.com/ViktorAxelsen/MemSkill) | 把抽取、整合、剪枝等记忆操作建模为可学习、可演化的 Skill。 | 608 | 3 | 2026-10-01 | 44.5 | Apache-2.0 |
+| [MemoryAgentBench](https://github.com/HUST-AI-HYZ/MemoryAgentBench) · ★报告基线 | 通过增量多轮交互评测 Agent 记忆构建和使用能力。 | 491 | 3 | 2026-09-25 | 42.7 | MIT |
+| [T-Mem](https://github.com/Sherlockwz/T-Mem) · ★报告基线 | 写入时生成未来查询触发线索，结合事实与场景索引研究联想式召回。 | 199 | 4 | 2026-09-09 | 38.7 | MIT |
+| [MemForest · EventTree](https://github.com/Celina-love-sweet/MemForest) · ★报告基线 | 通过 EventTree 分段、渐进合并和压缩长期记忆。 | 60 | 4 | 2026-09-17 | 35.6 | MIT |
+| [Agent Memory Radar](https://github.com/H20Zhang/Agent-Memory-Radar) · 许可注意 | 整理记忆机制、基准、污染、遗忘和恢复证据的研究雷达。 | 3 | 11 | 2026-09-11 | 30.2 | CC-BY-4.0 内容 / MIT 代码 |
+| [MemoryStackBench](https://github.com/aetna000/MemoryStackBench) | 自动化评测 Agent 记忆安全、证据、删除完整性和可审计性。 | 6 | 6 | 2026-09-11 | 29.2 | Apache-2.0 |
+| [SimpleMem](https://github.com/aiming-lab/SimpleMem) · ★报告基线 | 研究语义结构化压缩、记忆整合和自适应检索。 | 3,884 | 0 | 2026-07-24 | 35.4 | MIT |
+| [MemoryOS](https://github.com/BAI-LAB/MemoryOS) · ★报告基线 | 研究短、中、长期分层记忆、更新与用户画像管理。 | 1,627 | 0 | 2026-07-07 | 31.2 | Apache-2.0 |
+| [A-MEM](https://github.com/agiresearch/A-mem) · ★报告基线 | 借鉴 Zettelkasten 自动组织、关联和演化记忆笔记。 | 1,217 | 0 | 2025-12-12 | 25.2 | MIT |
+| [agentmemory · JordanMcCann](https://github.com/JordanMcCann/agentmemory) · ★报告基线 | 研究语义、词法、图、重要性和时间等多信号检索。 | 46 | 0 | 2026-03-26 | 15.1 | MIT |
+| [MPBench](https://github.com/Digital-Trust-Lab/mp-bench) | 评测持久记忆写入、后续检索和行为触发的记忆污染攻击数据集。 | 7 | 0 | 2026-06-28 | 12.2 | Apache-2.0 |
+| [agent-memory-bench](https://github.com/thomasfevre/agent-memory-bench) · 许可注意 | 强调证据命中、答案和检索行为的可复查记忆评测。 | 0 | 0 | 2026-07-30 | 7.2 | 待核验 |
+| [MemEngine](https://github.com/nuster1128/MemEngine) · ★报告基线 · 许可注意 | 模块化 Agent 记忆研究库，覆盖多类记忆模块与评测。 | 116 | 0 | 2025-05-13 | 16.6 | 待核验 |
+| [MemoryBank / SiliconFriend](https://github.com/zhongwanjun/MemoryBank-SiliconFriend) · ★报告基线 · 归档/历史 | 长期交互、用户画像、记忆强化和遗忘的早期研究实现。 | 456 | 0 | 2023-05-24 | 21.3 | MIT |
+
+### 相邻平台、规范与索引
+
+| 项目 | 定位 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
+| --- | --- | --- | --- | --- | --- | --- |
+| [QMD](https://github.com/tobi/qmd) · ★报告基线 | 为本地 Markdown 和文档提供 BM25、向量、查询扩展、rerank 与 MCP。 | 31,279 | 132 | 2026-11-18 | 87.9 | MIT |
+| [Awesome Agent Memory · mnemoverse](https://github.com/mnemoverse/awesome-agent-memory) | 整理 Agent 记忆系统、框架、基准和研究的外部索引。 | 68 | 85 | 2026-11-19 | 64.6 | CC0-1.0 |
+| [Letta / MemGPT](https://github.com/letta-ai/letta) · ★报告基线 | 以持久状态和 Agent 自主管理上下文为核心的完整 Agent 平台。 | 25,501 | 5 | 2026-10-18 | 62.8 | Apache-2.0 |
+| [MineContext](https://github.com/volcengine/MineContext) · ★报告基线 | 通过屏幕等数字上下文生成活动、总结和可查询资料。 | 5,553 | 0 | 2026-05-07 | 32.8 | Apache-2.0 |
+| [MCP Memory Server](https://github.com/modelcontextprotocol/servers) · ★报告基线 · 归档/历史 · 许可注意 | 官方 MCP servers 父仓库中的 entities、relations、observations 记忆组件。 | 92,129 | 1,119 | 2026-11-18 | 99.2 | Apache-2.0 / MIT 过渡；文档 CC-BY-4.0 |
+
+### 历史、归档与受限许可
+
+| 项目 | 定位 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Engram App](https://github.com/engram-app/Engram) · ★报告基线 · 许可注意 | 提供认知记忆与 Agent 集成的源码可见项目。 | 2 | 746 | 2026-11-20 | 63.8 | PolyForm Small Business-1.0.0 / 商业许可 |
+| [Katra](https://github.com/kolegadev/Katra-Agentic-Memory) · 许可注意 | 提供情景、语义、图谱和休眠整合的 MCP 认知记忆设备。 | 9 | 123 | 2026-10-29 | 54.8 | BSL-1.1 |
+| [Zep Legacy Community Edition](https://github.com/getzep/zep) · ★报告基线 · 归档/历史 | Zep 旧 Community Edition 与当前云产品集成示例。 | 5,010 | 27 | 2026-11-17 | 72.7 | Apache-2.0 |
+| [Engram · Agentscreator](https://github.com/Agentscreator/engram-memory) · ★报告基线 · 归档/历史 | 面向多 Agent 共享记忆、冲突和一致性的归档项目。 | 82 | 0 | 2026-05-23 | 18.7 | Apache-2.0 |
+| [EverMemOS_bz](https://github.com/beizhangnina/EverMemOS_bz) · 归档/历史 | EverMemOS 的分叉仓库，保留以对话提取、结构化记忆与多策略召回为核心的旧版实现。 | 1 | 0 | 2025-11-28 | 2.9 | Apache-2.0 |
+
+## 选择入口
+
+- 需要完整外置记忆 API：先看记忆引擎与服务。
+- 需要可直接审阅、修改、Git 管理：看文件真源记忆。
+- 需要实体关系、时间有效性和多跳：看图谱与时序记忆。
+- 需要 Claude Code、Codex、OpenCode 等跨宿主记忆：看编码 Agent/MCP。
+- 需要把成功与失败沉淀成可执行方法：看经验、技能与程序性记忆。
+- 需要验证效果、污染、删除与遗忘：看研究实现与评测。
+
+完整边界和证据见 [项目详表](docs/projects.md)，分类口径见 [范围与分类](docs/taxonomy.md)。
+
+## 数据与维护
+
+- [综合、Star、活跃度、最近提交排序](docs/rankings.md)
+- [排序方法与限制](docs/methodology.md)
+- [检索关键词、来源与覆盖](docs/research.md)
+- [项目 JSON](../../data/projects.json) · [指标 JSON](../../data/metrics.json) · [排序 CSV](../../data/rankings.csv)
+- [贡献指南](CONTRIBUTING.md)
+
+```sh
+python scripts/refresh_metrics.py
+python scripts/build.py
+python -m unittest discover -s tests -v
+python scripts/build.py --check
+```
+
+GitHub Actions 每日刷新 GitHub 指标。新增项目、功能、分类和许可判断必须人工核验。
+
+## 许可与致谢
+
+本目录的原创整理和脚本采用 [MIT](../../LICENSE)，所链接项目遵循各自许可。未知、复合、非商业或 BSL/PolyForm 项目均保留原始边界。
+
+初始分类与项目地图来自用户提供的三份本地调研；本轮另参考 [mnemoverse/awesome-agent-memory](https://github.com/mnemoverse/awesome-agent-memory) 进行覆盖校验，并回到各项目官方仓库核验。
+
+[变更记录](../../record/) 保留核验当时的原文（中文），用于审计每条判断的来源和当时的措辞。
