@@ -1,90 +1,90 @@
 repo,name,category,scope,baseline,license,license_status,stars,commits_30d,commits_90d,last_commit_at,maintenance_tier,score,as_of
-thedotmack/claude-mem,claude-mem,coding_memory,core,True,Apache-2.0,verified,119652,1244,2482,2026-11-25T10:57:45Z,0,100.0,2026-11-25T11:12:36+00:00
-vectorize-io/hindsight,Hindsight,engines,core,True,MIT,verified,63300,353,1619,2026-11-25T11:08:21Z,0,98.41,2026-11-25T11:12:36+00:00
-volcengine/OpenViking,OpenViking,engines,core,True,AGPL-3.0,verified,42746,635,1456,2026-11-25T10:13:07Z,0,97.04,2026-11-25T11:12:36+00:00
-topoteretes/cognee,Cognee,graph_temporal,core,True,Apache-2.0,verified,33591,843,2827,2026-11-20T09:41:35Z,0,94.84,2026-11-25T11:12:36+00:00
-Gentleman-Programming/engram,Engram · Gentleman Programming,file_memory,core,False,MIT,verified,8306,200,941,2026-11-24T07:36:55Z,0,91.04,2026-11-25T11:12:36+00:00
-getzep/graphiti,Graphiti,graph_temporal,core,True,Apache-2.0,verified,33081,68,162,2026-11-25T08:12:11Z,0,89.8,2026-11-25T11:12:36+00:00
-rohitg00/agentmemory,agentmemory · rohitg00,engines,core,True,Apache-2.0,verified,30584,117,233,2026-11-18T04:34:13Z,0,89.66,2026-11-25T11:12:36+00:00
-basicmachines-co/basic-memory,Basic Memory,file_memory,core,True,AGPL-3.0,verified,4707,198,837,2026-11-24T00:03:36Z,0,88.98,2026-11-25T11:12:36+00:00
-plastic-labs/honcho,Honcho,engines,core,True,AGPL-3.0,verified,8270,118,300,2026-11-24T21:59:25Z,0,88.32,2026-11-25T11:12:36+00:00
-supermemoryai/supermemory,Supermemory,engines,core,True,MIT,verified,31707,28,130,2026-11-24T22:27:42Z,0,88.31,2026-11-25T11:12:36+00:00
-mnemosyne-oss/mnemosyne,Mnemosyne · mnemosyne-oss,file_memory,core,False,MIT,verified,3703,435,927,2026-11-22T17:21:22Z,0,87.8,2026-11-25T11:12:36+00:00
-mem0ai/mem0,Mem0,engines,core,True,Apache-2.0,verified,69453,10,69,2026-11-25T10:59:51Z,0,87.65,2026-11-25T11:12:36+00:00
-tobi/qmd,QMD,adjacent,adjacent,True,MIT,verified,31587,27,131,2026-11-20T21:34:04Z,0,87.25,2026-11-25T11:12:36+00:00
-doobidoo/mcp-memory-service,MCP Memory Service,coding_memory,core,True,Apache-2.0,verified,2154,288,756,2026-11-25T07:24:41Z,0,86.62,2026-11-25T11:12:36+00:00
-EverMind-AI/EverOS,EverOS,file_memory,core,True,Apache-2.0,verified,13999,66,121,2026-11-25T10:33:27Z,0,85.21,2026-11-25T11:12:36+00:00
-Tencent-Hunyuan/Hy-Memory,Hy-Memory,engines,core,False,Apache-2.0,verified,2115,492,604,2026-11-18T15:54:43Z,0,84.78,2026-11-25T11:12:36+00:00
-omdsh-dev/dsh-mnemon,dsh-mnemon,coding_memory,core,False,MIT,verified,1127,466,1686,2026-11-24T18:15:57Z,0,84.22,2026-11-25T11:12:36+00:00
-tigerless-labs/agent-memory,agent-memory · tigerless,file_memory,core,True,MIT,verified,4320,95,381,2026-11-12T08:13:45Z,0,84.17,2026-11-25T11:12:36+00:00
-TencentCloud/TencentDB-Agent-Memory,TencentDB Agent Memory,engines,core,False,MIT,verified,31171,14,60,2026-11-24T12:40:11Z,0,83.84,2026-11-25T11:12:36+00:00
-agentscope-ai/ReMe,ReMe,file_memory,core,True,Apache-2.0,verified,3840,65,187,2026-11-25T10:01:16Z,0,83.14,2026-11-25T11:12:36+00:00
-liliang-cn/cortexdb,CortexDB,graph_temporal,core,False,MIT,verified,531,153,602,2026-11-25T02:41:10Z,0,81.71,2026-11-25T11:12:36+00:00
-NevaMind-AI/memU,memU,procedural,core,True,Apache-2.0,verified,14639,37,61,2026-11-24T08:25:53Z,0,81.25,2026-11-25T11:12:36+00:00
-MemTensor/MemOS,MemOS,engines,core,True,Apache-2.0,verified,12504,23,112,2026-11-09T12:30:50Z,0,80.33,2026-11-25T11:12:36+00:00
-joshuaswarren/remnic,Remnic,engines,core,False,MIT,verified,235,517,731,2026-11-24T04:24:05Z,0,78.63,2026-11-25T11:12:36+00:00
-okf-memory/okf-agent-memory,OKF Agent Memory,coding_memory,core,False,MIT,verified,872,23,247,2026-11-21T11:18:05Z,0,78.48,2026-11-25T11:12:36+00:00
-zilliztech/memsearch,MemSearch,file_memory,core,True,MIT,verified,2936,27,70,2026-11-25T09:10:08Z,0,76.72,2026-11-25T11:12:36+00:00
-AVIDS2/memorix,Memorix,coding_memory,core,False,Apache-2.0,verified,948,50,171,2026-11-19T14:12:33Z,0,76.22,2026-11-25T11:12:36+00:00
-OWASP/www-project-agent-memory-guard,OWASP Agent Memory Guard,research_eval,research,False,Apache-2.0,verified,212,66,245,2026-11-25T01:05:33Z,0,74.51,2026-11-25T11:12:36+00:00
-mnemon-dev/mnemon,Mnemon,engines,core,False,Apache-2.0,verified,744,31,121,2026-11-23T13:05:32Z,0,74.5,2026-11-25T11:12:36+00:00
-riponcm/projectmem,projectmem,coding_memory,core,True,MIT,verified,886,32,123,2026-11-20T22:16:26Z,0,74.49,2026-11-25T11:12:36+00:00
-MemMachine/MemMachine,MemMachine,engines,core,True,Apache-2.0,verified,3092,9,45,2026-11-23T19:54:17Z,0,74.03,2026-11-25T11:12:36+00:00
-membaseai/membase,Membase,engines,core,False,MIT,verified,143,73,168,2026-11-25T07:14:22Z,0,71.1,2026-11-25T11:12:36+00:00
-openJiuwen-ai/agent-memory,openJiuwen Agent Memory,engines,core,False,Apache-2.0,verified,121,81,174,2026-11-25T09:57:57Z,0,70.75,2026-11-25T11:12:36+00:00
-neo4j-labs/agent-memory,Neo4j Agent Memory,graph_temporal,core,False,Apache-2.0,verified,616,4,201,2026-10-27T12:41:27Z,0,70.33,2026-11-25T11:12:36+00:00
-Mirix-AI/MIRIX,MIRIX,engines,core,True,Apache-2.0,verified,3517,23,23,2026-11-11T10:11:40Z,0,67.65,2026-11-25T11:12:36+00:00
-CaviraOSS/LongMemory,LongMemory,engines,core,True,Apache-2.0,verified,4587,3,16,2026-11-10T05:24:25Z,0,66.35,2026-11-25T11:12:36+00:00
-alibaizhanov/mengram,Mengram,procedural,core,True,Apache-2.0,verified,207,2,88,2026-11-09T13:52:49Z,0,64.77,2026-11-25T11:12:36+00:00
-mnemoverse/awesome-agent-memory,Awesome Agent Memory · mnemoverse,adjacent,adjacent,False,CC0-1.0,verified,68,54,87,2026-11-23T15:43:06Z,0,64.42,2026-11-25T11:12:36+00:00
-engram-app/Engram,Engram App,historical_restricted,restricted,True,PolyForm Small Business-1.0.0 / 商业许可,source_available,2,281,743,2026-11-25T10:22:55Z,0,63.81,2026-11-25T11:12:36+00:00
-langchain-ai/langmem,LangMem,procedural,core,True,MIT,verified,1793,6,13,2026-11-16T08:58:18Z,0,63.49,2026-11-25T11:12:36+00:00
-mnemoverse/mcp-memory-server,Mnemoverse Memory Server,coding_memory,core,False,MIT,verified,30,34,142,2026-11-18T23:39:58Z,0,63.14,2026-11-25T11:12:36+00:00
-Sibyl-Labs/Sibyl-Memory,Sibyl Memory,file_memory,core,False,MIT,verified,191,10,40,2026-11-19T22:35:55Z,0,62.69,2026-11-25T11:12:36+00:00
-letta-ai/letta,Letta / MemGPT,adjacent,adjacent,True,Apache-2.0,verified,25540,0,4,2026-10-18T22:28:01Z,0,60.79,2026-11-25T11:12:36+00:00
-agent-memory-lab/agent-memory,Agent Memory Lab,engines,core,True,Apache-2.0,verified,7,33,261,2026-11-14T10:41:31Z,0,60.69,2026-11-25T11:12:36+00:00
-zhangfengcdt/memoir,Memoir,graph_temporal,core,False,Apache-2.0,verified,644,1,33,2026-10-27T01:44:23Z,0,60.36,2026-11-25T11:12:36+00:00
-mem9-ai/mem9,mem9,engines,core,True,Apache-2.0,verified,1236,9,15,2026-11-04T08:25:03Z,0,60.12,2026-11-25T11:12:36+00:00
-MemTensor/MemT-1.0,MemT-1.0,research_eval,restricted,False,PolyForm Noncommercial-1.0.0,source_available,603,5,7,2026-11-20T09:36:15Z,0,57.59,2026-11-25T11:12:36+00:00
-RonsenbergVI/agent-memory-benchmarks,Agent Memory Benchmarks,research_eval,research,False,MIT,verified,2,33,210,2026-11-09T18:42:47Z,0,54.95,2026-11-25T11:12:36+00:00
-JordyZomer/lemmalog,Lemmalog,graph_temporal,core,False,MIT,verified,352,0,39,2026-10-01T07:52:34Z,0,54.7,2026-11-25T11:12:36+00:00
-kolegadev/Katra-Agentic-Memory,Katra,historical_restricted,restricted,False,BSL-1.1,source_available,9,19,119,2026-10-29T15:13:48Z,0,53.51,2026-11-25T11:12:36+00:00
-Concyclics/MemForest,MemForest · Concyclics,research_eval,research,True,MIT,verified,37,10,25,2026-11-11T18:06:37Z,0,52.45,2026-11-25T11:12:36+00:00
-MemoriLabs/Memori,Memori,engines,core,True,Apache-2.0,verified,17605,0,2,2026-09-18T00:03:14Z,0,51.83,2026-11-25T11:12:36+00:00
-TAIPANBOX/engram,Engram · TAIPANBOX,engines,core,True,Apache-2.0,verified,5,7,37,2026-11-23T22:37:54Z,0,51.29,2026-11-25T11:12:36+00:00
-AML-memory/agent-memory-leaderboard,Agent Memory Leaderboard,research_eval,research,False,待核验,unverified,1241,2,2,2026-11-02T14:31:54Z,0,50.33,2026-11-25T11:12:36+00:00
-vincents-ai/engram,Engram · vincents-ai,procedural,core,True,AGPL-3.0-or-later 或商业许可,custom,25,9,9,2026-11-17T17:37:15Z,0,47.23,2026-11-25T11:12:36+00:00
-memory-graph/memory-graph,Memory Graph,graph_temporal,core,False,MIT,verified,258,0,9,2026-09-16T14:46:39Z,0,43.77,2026-11-25T11:12:36+00:00
-ViktorAxelsen/MemSkill,MemSkill,research_eval,research,False,Apache-2.0,verified,610,0,3,2026-10-01T15:00:10Z,0,43.69,2026-11-25T11:12:36+00:00
-mcncarl/agent-memory-vault,Agent Memory Vault,file_memory,core,False,MIT,verified,350,0,4,2026-10-04T11:03:47Z,0,43.45,2026-11-25T11:12:36+00:00
-shiblon/engram,Engram · shiblon,file_memory,core,True,Apache-2.0,verified,19,0,24,2026-10-06T00:14:57Z,0,42.8,2026-11-25T11:12:36+00:00
-HUST-AI-HYZ/MemoryAgentBench,MemoryAgentBench,research_eval,research,True,MIT,verified,491,0,3,2026-09-25T06:11:33Z,0,42.0,2026-11-25T11:12:36+00:00
-hellangleZ/Agent-MemoryForge,Agent MemoryForge,engines,core,False,MIT,verified,178,0,3,2026-09-29T01:13:00Z,0,39.04,2026-11-25T11:12:36+00:00
-Sherlockwz/T-Mem,T-Mem,research_eval,research,True,MIT,verified,199,0,3,2026-09-09T04:17:49Z,0,36.81,2026-11-25T11:12:36+00:00
-Celina-love-sweet/MemForest,MemForest · EventTree,research_eval,research,True,MIT,verified,63,0,4,2026-09-17T11:33:27Z,0,35.13,2026-11-25T11:12:36+00:00
-aetna000/MemoryStackBench,MemoryStackBench,research_eval,research,False,Apache-2.0,verified,6,0,6,2026-09-11T14:39:26Z,0,28.6,2026-11-25T11:12:36+00:00
-plastic-labs/codex-honcho,Codex Honcho,coding_memory,core,True,MIT,verified,66,0,1,2026-09-01T20:15:40Z,0,28.27,2026-11-25T11:12:36+00:00
-H20Zhang/Agent-Memory-Radar,Agent Memory Radar,research_eval,research,False,CC-BY-4.0 内容 / MIT 代码,custom,3,0,7,2026-09-11T00:43:37Z,0,27.34,2026-11-25T11:12:36+00:00
-memvid/memvid,Memvid,engines,core,True,Apache-2.0,verified,17437,0,0,2026-07-14T14:39:06Z,1,39.58,2026-11-25T11:12:36+00:00
-aiming-lab/SimpleMem,SimpleMem,research_eval,research,True,MIT,verified,3881,0,0,2026-07-24T07:40:38Z,1,35.01,2026-11-25T11:12:36+00:00
-volcengine/MineContext,MineContext,adjacent,adjacent,True,Apache-2.0,verified,5556,0,0,2026-05-07T13:23:05Z,1,32.61,2026-11-25T11:12:36+00:00
-BAI-LAB/MemoryOS,MemoryOS,research_eval,research,True,Apache-2.0,verified,1627,0,0,2026-07-07T12:32:18Z,1,30.91,2026-11-25T11:12:36+00:00
-memodb-io/memobase,Memobase,engines,core,True,Apache-2.0,verified,2966,0,0,2026-01-11T03:43:56Z,1,28.51,2026-11-25T11:12:36+00:00
-0xK3vin/MegaMemory,MegaMemory,coding_memory,core,False,MIT,verified,739,0,0,2026-05-03T00:21:51Z,1,25.48,2026-11-25T11:12:36+00:00
-agiresearch/A-mem,A-MEM,research_eval,research,True,MIT,verified,1218,0,0,2025-12-12T21:15:29Z,1,25.21,2026-11-25T11:12:36+00:00
-JordanMcCann/agentmemory,agentmemory · JordanMcCann,research_eval,research,True,MIT,verified,46,0,0,2026-03-26T19:58:38Z,1,15.05,2026-11-25T11:12:36+00:00
-HBarefoot/engram,Engram · HBarefoot,engines,core,True,MIT,verified,9,0,0,2026-07-07T02:15:13Z,1,13.2,2026-11-25T11:12:36+00:00
-Digital-Trust-Lab/mp-bench,MPBench,research_eval,research,False,Apache-2.0,verified,7,0,0,2026-06-28T22:54:07Z,1,11.97,2026-11-25T11:12:36+00:00
-ivanzwb/agent-memory,agent-memory · ivanzwb,engines,core,True,MIT,verified,4,0,0,2026-04-13T08:02:34Z,1,7.62,2026-11-25T11:12:36+00:00
-thomasfevre/agent-memory-bench,agent-memory-bench,research_eval,research,False,待核验,unverified,0,0,0,2026-07-30T21:39:16Z,1,6.77,2026-11-25T11:12:36+00:00
-Jahvis/memanto-ai-memory,MEMANTO,engines,core,True,MIT,verified,1,0,0,2026-06-05T17:36:02Z,1,6.08,2026-11-25T11:12:36+00:00
-B12Labs/engram,Engram · B12Labs,file_memory,core,True,MIT,verified,1,0,0,2026-04-15T05:46:41Z,1,4.48,2026-11-25T11:12:36+00:00
-coleam00/mcp-mem0,mcp-mem0,coding_memory,core,False,MIT,verified,686,0,0,2025-04-13T01:17:13Z,2,22.73,2026-11-25T11:12:36+00:00
-nuster1128/MemEngine,MemEngine,research_eval,research,True,待核验,unverified,117,0,0,2025-05-13T01:16:41Z,2,16.62,2026-11-25T11:12:36+00:00
-tawanorg/OpenMemory,OpenMemory · tawanorg,engines,core,False,MIT,verified,1,0,0,2025-10-26T14:17:39Z,2,2.72,2026-11-25T11:12:36+00:00
-modelcontextprotocol/servers,MCP Memory Server,adjacent,historical,True,Apache-2.0 / MIT 过渡；文档 CC-BY-4.0,custom,92238,449,1119,2026-11-18T09:06:40Z,3,97.83,2026-11-25T11:12:36+00:00
-getzep/zep,Zep Legacy Community Edition,historical_restricted,historical,True,Apache-2.0,verified,5013,13,27,2026-11-17T19:32:58Z,3,71.32,2026-11-25T11:12:36+00:00
-memodb-io/Acontext,Acontext,procedural,core,True,Apache-2.0,verified,3697,0,2,2026-10-24T14:12:10Z,3,52.27,2026-11-25T11:12:36+00:00
-zhongwanjun/MemoryBank-SiliconFriend,MemoryBank / SiliconFriend,research_eval,historical,True,MIT,verified,456,0,0,2023-05-24T03:19:27Z,3,21.28,2026-11-25T11:12:36+00:00
-Agentscreator/engram-memory,Engram · Agentscreator,historical_restricted,historical,True,Apache-2.0,verified,82,0,0,2026-05-23T00:08:30Z,3,18.5,2026-11-25T11:12:36+00:00
-beizhangnina/EverMemOS_bz,EverMemOS_bz,historical_restricted,historical,False,Apache-2.0,verified,1,0,0,2025-11-28T02:17:05Z,3,2.85,2026-11-25T11:12:36+00:00
+thedotmack/claude-mem,claude-mem,coding_memory,core,True,Apache-2.0,verified,119652,1244,2482,2026-11-25T10:57:45Z,0,100.0,2026-11-25T11:16:03+00:00
+vectorize-io/hindsight,Hindsight,engines,core,True,MIT,verified,63300,353,1619,2026-11-25T11:08:21Z,0,98.41,2026-11-25T11:16:03+00:00
+volcengine/OpenViking,OpenViking,engines,core,True,AGPL-3.0,verified,42746,635,1456,2026-11-25T10:13:07Z,0,97.04,2026-11-25T11:16:03+00:00
+topoteretes/cognee,Cognee,graph_temporal,core,True,Apache-2.0,verified,33591,843,2827,2026-11-20T09:41:35Z,0,94.84,2026-11-25T11:16:03+00:00
+Gentleman-Programming/engram,Engram · Gentleman Programming,file_memory,core,False,MIT,verified,8306,200,941,2026-11-24T07:36:55Z,0,91.04,2026-11-25T11:16:03+00:00
+getzep/graphiti,Graphiti,graph_temporal,core,True,Apache-2.0,verified,33081,68,162,2026-11-25T08:12:11Z,0,89.8,2026-11-25T11:16:03+00:00
+rohitg00/agentmemory,agentmemory · rohitg00,engines,core,True,Apache-2.0,verified,30584,117,233,2026-11-18T04:34:13Z,0,89.66,2026-11-25T11:16:03+00:00
+basicmachines-co/basic-memory,Basic Memory,file_memory,core,True,AGPL-3.0,verified,4707,198,837,2026-11-24T00:03:36Z,0,88.98,2026-11-25T11:16:03+00:00
+plastic-labs/honcho,Honcho,engines,core,True,AGPL-3.0,verified,8270,118,300,2026-11-24T21:59:25Z,0,88.32,2026-11-25T11:16:03+00:00
+supermemoryai/supermemory,Supermemory,engines,core,True,MIT,verified,31708,28,130,2026-11-24T22:27:42Z,0,88.31,2026-11-25T11:16:03+00:00
+mnemosyne-oss/mnemosyne,Mnemosyne · mnemosyne-oss,file_memory,core,False,MIT,verified,3703,435,927,2026-11-22T17:21:22Z,0,87.8,2026-11-25T11:16:03+00:00
+mem0ai/mem0,Mem0,engines,core,True,Apache-2.0,verified,69453,10,69,2026-11-25T10:59:51Z,0,87.65,2026-11-25T11:16:03+00:00
+tobi/qmd,QMD,adjacent,adjacent,True,MIT,verified,31587,27,131,2026-11-20T21:34:04Z,0,87.25,2026-11-25T11:16:03+00:00
+doobidoo/mcp-memory-service,MCP Memory Service,coding_memory,core,True,Apache-2.0,verified,2154,288,756,2026-11-25T07:24:41Z,0,86.62,2026-11-25T11:16:03+00:00
+EverMind-AI/EverOS,EverOS,file_memory,core,True,Apache-2.0,verified,13999,66,121,2026-11-25T10:33:27Z,0,85.21,2026-11-25T11:16:03+00:00
+Tencent-Hunyuan/Hy-Memory,Hy-Memory,engines,core,False,Apache-2.0,verified,2115,492,604,2026-11-18T15:54:43Z,0,84.78,2026-11-25T11:16:03+00:00
+omdsh-dev/dsh-mnemon,dsh-mnemon,coding_memory,core,False,MIT,verified,1127,466,1686,2026-11-24T18:15:57Z,0,84.22,2026-11-25T11:16:03+00:00
+tigerless-labs/agent-memory,agent-memory · tigerless,file_memory,core,True,MIT,verified,4320,95,381,2026-11-12T08:13:45Z,0,84.17,2026-11-25T11:16:03+00:00
+TencentCloud/TencentDB-Agent-Memory,TencentDB Agent Memory,engines,core,False,MIT,verified,31171,14,60,2026-11-24T12:40:11Z,0,83.83,2026-11-25T11:16:03+00:00
+agentscope-ai/ReMe,ReMe,file_memory,core,True,Apache-2.0,verified,3840,65,187,2026-11-25T10:01:16Z,0,83.14,2026-11-25T11:16:03+00:00
+liliang-cn/cortexdb,CortexDB,graph_temporal,core,False,MIT,verified,531,153,602,2026-11-25T02:41:10Z,0,81.71,2026-11-25T11:16:03+00:00
+NevaMind-AI/memU,memU,procedural,core,True,Apache-2.0,verified,14639,37,61,2026-11-24T08:25:53Z,0,81.25,2026-11-25T11:16:03+00:00
+MemTensor/MemOS,MemOS,engines,core,True,Apache-2.0,verified,12504,23,112,2026-11-09T12:30:50Z,0,80.33,2026-11-25T11:16:03+00:00
+joshuaswarren/remnic,Remnic,engines,core,False,MIT,verified,235,517,731,2026-11-24T04:24:05Z,0,78.63,2026-11-25T11:16:03+00:00
+okf-memory/okf-agent-memory,OKF Agent Memory,coding_memory,core,False,MIT,verified,872,23,247,2026-11-21T11:18:05Z,0,78.48,2026-11-25T11:16:03+00:00
+zilliztech/memsearch,MemSearch,file_memory,core,True,MIT,verified,2936,27,70,2026-11-25T09:10:08Z,0,76.72,2026-11-25T11:16:03+00:00
+AVIDS2/memorix,Memorix,coding_memory,core,False,Apache-2.0,verified,948,50,171,2026-11-19T14:12:33Z,0,76.22,2026-11-25T11:16:03+00:00
+mnemon-dev/mnemon,Mnemon,engines,core,False,Apache-2.0,verified,744,31,121,2026-11-23T13:05:32Z,0,74.5,2026-11-25T11:16:03+00:00
+OWASP/www-project-agent-memory-guard,OWASP Agent Memory Guard,research_eval,research,False,Apache-2.0,verified,212,66,245,2026-11-25T01:05:33Z,0,74.5,2026-11-25T11:16:03+00:00
+riponcm/projectmem,projectmem,coding_memory,core,True,MIT,verified,886,32,123,2026-11-20T22:16:26Z,0,74.49,2026-11-25T11:16:03+00:00
+MemMachine/MemMachine,MemMachine,engines,core,True,Apache-2.0,verified,3092,9,45,2026-11-23T19:54:17Z,0,74.03,2026-11-25T11:16:03+00:00
+membaseai/membase,Membase,engines,core,False,MIT,verified,143,73,168,2026-11-25T07:14:22Z,0,71.1,2026-11-25T11:16:03+00:00
+openJiuwen-ai/agent-memory,openJiuwen Agent Memory,engines,core,False,Apache-2.0,verified,121,81,174,2026-11-25T09:57:57Z,0,70.75,2026-11-25T11:16:03+00:00
+neo4j-labs/agent-memory,Neo4j Agent Memory,graph_temporal,core,False,Apache-2.0,verified,616,4,201,2026-10-27T12:41:27Z,0,70.33,2026-11-25T11:16:03+00:00
+Mirix-AI/MIRIX,MIRIX,engines,core,True,Apache-2.0,verified,3517,23,23,2026-11-11T10:11:40Z,0,67.65,2026-11-25T11:16:03+00:00
+CaviraOSS/LongMemory,LongMemory,engines,core,True,Apache-2.0,verified,4587,3,16,2026-11-10T05:24:25Z,0,66.35,2026-11-25T11:16:03+00:00
+alibaizhanov/mengram,Mengram,procedural,core,True,Apache-2.0,verified,207,2,88,2026-11-09T13:52:49Z,0,64.77,2026-11-25T11:16:03+00:00
+mnemoverse/awesome-agent-memory,Awesome Agent Memory · mnemoverse,adjacent,adjacent,False,CC0-1.0,verified,68,54,87,2026-11-23T15:43:06Z,0,64.42,2026-11-25T11:16:03+00:00
+engram-app/Engram,Engram App,historical_restricted,restricted,True,PolyForm Small Business-1.0.0 / 商业许可,source_available,2,281,743,2026-11-25T10:22:55Z,0,63.81,2026-11-25T11:16:03+00:00
+langchain-ai/langmem,LangMem,procedural,core,True,MIT,verified,1793,6,13,2026-11-16T08:58:18Z,0,63.49,2026-11-25T11:16:03+00:00
+mnemoverse/mcp-memory-server,Mnemoverse Memory Server,coding_memory,core,False,MIT,verified,30,34,142,2026-11-18T23:39:58Z,0,63.13,2026-11-25T11:16:03+00:00
+Sibyl-Labs/Sibyl-Memory,Sibyl Memory,file_memory,core,False,MIT,verified,191,10,40,2026-11-19T22:35:55Z,0,62.68,2026-11-25T11:16:03+00:00
+letta-ai/letta,Letta / MemGPT,adjacent,adjacent,True,Apache-2.0,verified,25540,0,4,2026-10-18T22:28:01Z,0,60.79,2026-11-25T11:16:03+00:00
+agent-memory-lab/agent-memory,Agent Memory Lab,engines,core,True,Apache-2.0,verified,7,33,261,2026-11-14T10:41:31Z,0,60.69,2026-11-25T11:16:03+00:00
+zhangfengcdt/memoir,Memoir,graph_temporal,core,False,Apache-2.0,verified,644,1,33,2026-10-27T01:44:23Z,0,60.36,2026-11-25T11:16:03+00:00
+mem9-ai/mem9,mem9,engines,core,True,Apache-2.0,verified,1236,9,15,2026-11-04T08:25:03Z,0,60.12,2026-11-25T11:16:03+00:00
+MemTensor/MemT-1.0,MemT-1.0,research_eval,restricted,False,PolyForm Noncommercial-1.0.0,source_available,603,5,7,2026-11-20T09:36:15Z,0,57.59,2026-11-25T11:16:03+00:00
+RonsenbergVI/agent-memory-benchmarks,Agent Memory Benchmarks,research_eval,research,False,MIT,verified,2,33,210,2026-11-09T18:42:47Z,0,54.95,2026-11-25T11:16:03+00:00
+JordyZomer/lemmalog,Lemmalog,graph_temporal,core,False,MIT,verified,352,0,39,2026-10-01T07:52:34Z,0,54.7,2026-11-25T11:16:03+00:00
+kolegadev/Katra-Agentic-Memory,Katra,historical_restricted,restricted,False,BSL-1.1,source_available,9,19,119,2026-10-29T15:13:48Z,0,53.51,2026-11-25T11:16:03+00:00
+Concyclics/MemForest,MemForest · Concyclics,research_eval,research,True,MIT,verified,37,10,25,2026-11-11T18:06:37Z,0,52.45,2026-11-25T11:16:03+00:00
+MemoriLabs/Memori,Memori,engines,core,True,Apache-2.0,verified,17605,0,2,2026-09-18T00:03:14Z,0,51.83,2026-11-25T11:16:03+00:00
+TAIPANBOX/engram,Engram · TAIPANBOX,engines,core,True,Apache-2.0,verified,5,7,37,2026-11-23T22:37:54Z,0,51.28,2026-11-25T11:16:03+00:00
+AML-memory/agent-memory-leaderboard,Agent Memory Leaderboard,research_eval,research,False,待核验,unverified,1241,2,2,2026-11-02T14:31:54Z,0,50.33,2026-11-25T11:16:03+00:00
+vincents-ai/engram,Engram · vincents-ai,procedural,core,True,AGPL-3.0-or-later 或商业许可,custom,25,9,9,2026-11-17T17:37:15Z,0,47.22,2026-11-25T11:16:03+00:00
+memory-graph/memory-graph,Memory Graph,graph_temporal,core,False,MIT,verified,258,0,9,2026-09-16T14:46:39Z,0,43.77,2026-11-25T11:16:03+00:00
+ViktorAxelsen/MemSkill,MemSkill,research_eval,research,False,Apache-2.0,verified,610,0,3,2026-10-01T15:00:10Z,0,43.69,2026-11-25T11:16:03+00:00
+mcncarl/agent-memory-vault,Agent Memory Vault,file_memory,core,False,MIT,verified,350,0,4,2026-10-04T11:03:47Z,0,43.45,2026-11-25T11:16:03+00:00
+shiblon/engram,Engram · shiblon,file_memory,core,True,Apache-2.0,verified,19,0,24,2026-10-06T00:14:57Z,0,42.8,2026-11-25T11:16:03+00:00
+HUST-AI-HYZ/MemoryAgentBench,MemoryAgentBench,research_eval,research,True,MIT,verified,491,0,3,2026-09-25T06:11:33Z,0,42.0,2026-11-25T11:16:03+00:00
+hellangleZ/Agent-MemoryForge,Agent MemoryForge,engines,core,False,MIT,verified,178,0,3,2026-09-29T01:13:00Z,0,39.04,2026-11-25T11:16:03+00:00
+Sherlockwz/T-Mem,T-Mem,research_eval,research,True,MIT,verified,199,0,3,2026-09-09T04:17:49Z,0,36.81,2026-11-25T11:16:03+00:00
+Celina-love-sweet/MemForest,MemForest · EventTree,research_eval,research,True,MIT,verified,63,0,4,2026-09-17T11:33:27Z,0,35.13,2026-11-25T11:16:03+00:00
+aetna000/MemoryStackBench,MemoryStackBench,research_eval,research,False,Apache-2.0,verified,6,0,6,2026-09-11T14:39:26Z,0,28.6,2026-11-25T11:16:03+00:00
+plastic-labs/codex-honcho,Codex Honcho,coding_memory,core,True,MIT,verified,66,0,1,2026-09-01T20:15:40Z,0,28.27,2026-11-25T11:16:03+00:00
+H20Zhang/Agent-Memory-Radar,Agent Memory Radar,research_eval,research,False,CC-BY-4.0 内容 / MIT 代码,custom,3,0,7,2026-09-11T00:43:37Z,0,27.34,2026-11-25T11:16:03+00:00
+memvid/memvid,Memvid,engines,core,True,Apache-2.0,verified,17437,0,0,2026-07-14T14:39:06Z,1,39.58,2026-11-25T11:16:03+00:00
+aiming-lab/SimpleMem,SimpleMem,research_eval,research,True,MIT,verified,3881,0,0,2026-07-24T07:40:38Z,1,35.01,2026-11-25T11:16:03+00:00
+volcengine/MineContext,MineContext,adjacent,adjacent,True,Apache-2.0,verified,5556,0,0,2026-05-07T13:23:05Z,1,32.61,2026-11-25T11:16:03+00:00
+BAI-LAB/MemoryOS,MemoryOS,research_eval,research,True,Apache-2.0,verified,1627,0,0,2026-07-07T12:32:18Z,1,30.91,2026-11-25T11:16:03+00:00
+memodb-io/memobase,Memobase,engines,core,True,Apache-2.0,verified,2966,0,0,2026-01-11T03:43:56Z,1,28.51,2026-11-25T11:16:03+00:00
+0xK3vin/MegaMemory,MegaMemory,coding_memory,core,False,MIT,verified,739,0,0,2026-05-03T00:21:51Z,1,25.48,2026-11-25T11:16:03+00:00
+agiresearch/A-mem,A-MEM,research_eval,research,True,MIT,verified,1218,0,0,2025-12-12T21:15:29Z,1,25.21,2026-11-25T11:16:03+00:00
+JordanMcCann/agentmemory,agentmemory · JordanMcCann,research_eval,research,True,MIT,verified,46,0,0,2026-03-26T19:58:38Z,1,15.05,2026-11-25T11:16:03+00:00
+HBarefoot/engram,Engram · HBarefoot,engines,core,True,MIT,verified,9,0,0,2026-07-07T02:15:13Z,1,13.2,2026-11-25T11:16:03+00:00
+Digital-Trust-Lab/mp-bench,MPBench,research_eval,research,False,Apache-2.0,verified,7,0,0,2026-06-28T22:54:07Z,1,11.97,2026-11-25T11:16:03+00:00
+ivanzwb/agent-memory,agent-memory · ivanzwb,engines,core,True,MIT,verified,4,0,0,2026-04-13T08:02:34Z,1,7.62,2026-11-25T11:16:03+00:00
+thomasfevre/agent-memory-bench,agent-memory-bench,research_eval,research,False,待核验,unverified,0,0,0,2026-07-30T21:39:16Z,1,6.77,2026-11-25T11:16:03+00:00
+Jahvis/memanto-ai-memory,MEMANTO,engines,core,True,MIT,verified,1,0,0,2026-06-05T17:36:02Z,1,6.08,2026-11-25T11:16:03+00:00
+B12Labs/engram,Engram · B12Labs,file_memory,core,True,MIT,verified,1,0,0,2026-04-15T05:46:41Z,1,4.48,2026-11-25T11:16:03+00:00
+coleam00/mcp-mem0,mcp-mem0,coding_memory,core,False,MIT,verified,686,0,0,2025-04-13T01:17:13Z,2,22.73,2026-11-25T11:16:03+00:00
+nuster1128/MemEngine,MemEngine,research_eval,research,True,待核验,unverified,117,0,0,2025-05-13T01:16:41Z,2,16.62,2026-11-25T11:16:03+00:00
+tawanorg/OpenMemory,OpenMemory · tawanorg,engines,core,False,MIT,verified,1,0,0,2025-10-26T14:17:39Z,2,2.72,2026-11-25T11:16:03+00:00
+modelcontextprotocol/servers,MCP Memory Server,adjacent,historical,True,Apache-2.0 / MIT 过渡；文档 CC-BY-4.0,custom,92238,449,1119,2026-11-18T09:06:40Z,3,97.83,2026-11-25T11:16:03+00:00
+getzep/zep,Zep Legacy Community Edition,historical_restricted,historical,True,Apache-2.0,verified,5013,13,27,2026-11-17T19:32:58Z,3,71.32,2026-11-25T11:16:03+00:00
+memodb-io/Acontext,Acontext,procedural,core,True,Apache-2.0,verified,3697,0,2,2026-10-24T14:12:10Z,3,52.27,2026-11-25T11:16:03+00:00
+zhongwanjun/MemoryBank-SiliconFriend,MemoryBank / SiliconFriend,research_eval,historical,True,MIT,verified,456,0,0,2023-05-24T03:19:27Z,3,21.28,2026-11-25T11:16:03+00:00
+Agentscreator/engram-memory,Engram · Agentscreator,historical_restricted,historical,True,Apache-2.0,verified,82,0,0,2026-05-23T00:08:30Z,3,18.5,2026-11-25T11:16:03+00:00
+beizhangnina/EverMemOS_bz,EverMemOS_bz,historical_restricted,historical,False,Apache-2.0,verified,1,0,0,2025-11-28T02:17:05Z,3,2.85,2026-11-25T11:16:03+00:00

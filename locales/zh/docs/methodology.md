@@ -2,7 +2,7 @@
 
 ## GitHub 指标
 
-`scripts/refresh_metrics.py` 使用 GitHub GraphQL API，一次固定 UTC 时刻读取所有 canonical 仓库。全部批次成功后才原子替换 `data/metrics.json`；部分失败会保留旧快照并让任务失败。
+`scripts/refresh_metrics.py` 使用 GitHub GraphQL API，一次固定 UTC 时刻读取所有 canonical 仓库。全部批次成功后才原子替换 `data/metrics.json`。唯一例外是 GitHub 已解析不到的仓库（更名或下架）：沿用上一份记录并标记 `missing_upstream` 与 `missing_since` 时间戳，避免单个消失项目让整轮刷新失败。限流、传输错误与 GraphQL 部分返回仍然中止并保留原快照完整。
 
 - `stars`：采集时的关注度代理指标。
 - `commits_30d / commits_90d`：默认分支历史在固定窗口内的完整提交计数，包含合并、机器人与文档提交。

@@ -28,7 +28,7 @@ Categories describe a project's primary responsibility, not mutually exclusive c
 
 ## Current coverage
 
-**89 projects, of which 54 come from the three original research reports and 35 were added in this round.** Feature verification: 2026-11-20; metrics snapshot: `2026-11-25T11:12:36+00:00` (UTC).
+**89 projects, of which 54 come from the three original research reports and 35 were added in this round.** Feature verification: 2026-11-20; metrics snapshot: `2026-11-25T11:16:03+00:00` (UTC).
 
 Within each category, projects are first tiered by maintenance status, then ranked by a blend of stars (40%), 90-day default-branch commits (35%) and recency of the last commit (25%). Archived projects are placed last. The maintenance score describes GitHub popularity and activity signals only; it does not represent memory accuracy, cost, safety or production maturity.
 
@@ -47,7 +47,7 @@ Shows only core candidates with a verified license and commits in the last 90 da
 | [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory) | Service and plugin for coding agents combining BM25, optional vectors and structural relations. | 30,584 | 233 | 2026-11-18 | 89.7 |
 | [Basic Memory](https://github.com/basicmachines-co/basic-memory) | Editable Markdown notes and semantic relations as shared human-machine knowledge memory. | 4,707 | 837 | 2026-11-24 | 89.0 |
 | [Honcho](https://github.com/plastic-labs/honcho) | Continuously forms peer representations and collaborative understanding around peers, sessions and workspaces. | 8,270 | 300 | 2026-11-24 | 88.3 |
-| [Supermemory](https://github.com/supermemoryai/supermemory) | Hybrid search and memory platform for documents, memories and user profiles. | 31,707 | 130 | 2026-11-24 | 88.3 |
+| [Supermemory](https://github.com/supermemoryai/supermemory) | Hybrid search and memory platform for documents, memories and user profiles. | 31,708 | 130 | 2026-11-24 | 88.3 |
 | [Mnemosyne · mnemosyne-oss](https://github.com/mnemosyne-oss/mnemosyne) | SQLite-backed, default-local cross-framework memory layer with MCP and multiple agent integrations. | 3,703 | 927 | 2026-11-22 | 87.8 |
 | [Mem0](https://github.com/mem0ai/mem0) | General-purpose personalization memory layer supporting extraction, updating, deletion and retrieval of memories from interactions. | 69,453 | 69 | 2026-11-25 | 87.7 |
 
@@ -74,7 +74,7 @@ Shows only core candidates with a verified license and commits in the last 90 da
 | [OpenViking](https://github.com/volcengine/OpenViking) · ★Report baseline | Manages resources, long-term memory and Agent Skills through a navigable virtual file system. | 42,746 | 1,456 | 2026-11-25 | 97.0 | AGPL-3.0 |
 | [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory) · ★Report baseline | Service and plugin for coding agents combining BM25, optional vectors and structural relations. | 30,584 | 233 | 2026-11-18 | 89.7 | Apache-2.0 |
 | [Honcho](https://github.com/plastic-labs/honcho) · ★Report baseline | Continuously forms peer representations and collaborative understanding around peers, sessions and workspaces. | 8,270 | 300 | 2026-11-24 | 88.3 | AGPL-3.0 |
-| [Supermemory](https://github.com/supermemoryai/supermemory) · ★Report baseline | Hybrid search and memory platform for documents, memories and user profiles. | 31,707 | 130 | 2026-11-24 | 88.3 | MIT |
+| [Supermemory](https://github.com/supermemoryai/supermemory) · ★Report baseline | Hybrid search and memory platform for documents, memories and user profiles. | 31,708 | 130 | 2026-11-24 | 88.3 | MIT |
 | [Mem0](https://github.com/mem0ai/mem0) · ★Report baseline | General-purpose personalization memory layer supporting extraction, updating, deletion and retrieval of memories from interactions. | 69,453 | 69 | 2026-11-25 | 87.7 | Apache-2.0 |
 | [Hy-Memory](https://github.com/Tencent-Hunyuan/Hy-Memory) | Dual-system cognitive memory engine and Python SDK for conversation, agent and coding scenarios. | 2,115 | 604 | 2026-11-18 | 84.8 | Apache-2.0 |
 | [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | Team memory hub that turns conversations, documents and code into Chat Memory, Skills, LLM-Wiki and Code-Graph. | 31,171 | 60 | 2026-11-24 | 83.8 | MIT |

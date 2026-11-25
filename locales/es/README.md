@@ -30,7 +30,7 @@ Las categorías describen la responsabilidad principal de cada proyecto y no imp
 
 ## Catálogo actual
 
-**89 proyectos, de los cuales 54 provienen de los tres informes originales y 35 se han añadido en esta ronda.** Verificación funcional: 2026-11-20; instantánea de métricas: `2026-11-25T11:12:36+00:00` (UTC).
+**89 proyectos, de los cuales 54 provienen de los tres informes originales y 35 se han añadido en esta ronda.** Verificación funcional: 2026-11-20; instantánea de métricas: `2026-11-25T11:16:03+00:00` (UTC).
 
 Dentro de cada categoría se estratifica primero por estado de mantenimiento y luego se ordena combinando estrellas (40%), commits en la rama por defecto a 90 días (35%) y último commit (25%). Los proyectos archivados van al final. La puntuación de mantenimiento solo describe popularidad y señales de actividad en GitHub; no representa la precisión de la memoria, el coste, la seguridad ni la madurez de producción.
 
@@ -49,7 +49,7 @@ Solo se muestran los candidatos principales con licencia abierta verificada y co
 | [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory) | Servicio y complementos de memoria para agentes de programación que fusionan BM25, vectores opcionales y relaciones estructuradas. | 30,584 | 233 | 2026-11-18 | 89.7 |
 | [Basic Memory](https://github.com/basicmachines-co/basic-memory) | Usa notas Markdown editables y relaciones semánticas como memoria de conocimiento compartida entre personas y máquinas. | 4,707 | 837 | 2026-11-24 | 89.0 |
 | [Honcho](https://github.com/plastic-labs/honcho) | Forma de manera continua representaciones de los pares y comprensión colaborativa en torno a peer, session y workspace. | 8,270 | 300 | 2026-11-24 | 88.3 |
-| [Supermemory](https://github.com/supermemoryai/supermemory) | Plataforma de búsqueda híbrida y memoria para documentos, memorias y perfiles de usuario. | 31,707 | 130 | 2026-11-24 | 88.3 |
+| [Supermemory](https://github.com/supermemoryai/supermemory) | Plataforma de búsqueda híbrida y memoria para documentos, memorias y perfiles de usuario. | 31,708 | 130 | 2026-11-24 | 88.3 |
 | [Mnemosyne · mnemosyne-oss](https://github.com/mnemosyne-oss/mnemosyne) | Capa de memoria multiframework basada en SQLite, local por defecto, con MCP e integraciones con varios agentes. | 3,703 | 927 | 2026-11-22 | 87.8 |
 | [Mem0](https://github.com/mem0ai/mem0) | Capa de personalización universal que extrae, actualiza, borra y recupera memorias a partir de las interacciones. | 69,453 | 69 | 2026-11-25 | 87.7 |
 
@@ -76,7 +76,7 @@ Solo se muestran los candidatos principales con licencia abierta verificada y co
 | [OpenViking](https://github.com/volcengine/OpenViking) · ★Referencia de los informes | Gestiona de forma unificada recursos, memoria de largo plazo y Agent Skills mediante un sistema de archivos virtual navegable. | 42,746 | 1,456 | 2026-11-25 | 97.0 | AGPL-3.0 |
 | [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory) · ★Referencia de los informes | Servicio y complementos de memoria para agentes de programación que fusionan BM25, vectores opcionales y relaciones estructuradas. | 30,584 | 233 | 2026-11-18 | 89.7 | Apache-2.0 |
 | [Honcho](https://github.com/plastic-labs/honcho) · ★Referencia de los informes | Forma de manera continua representaciones de los pares y comprensión colaborativa en torno a peer, session y workspace. | 8,270 | 300 | 2026-11-24 | 88.3 | AGPL-3.0 |
-| [Supermemory](https://github.com/supermemoryai/supermemory) · ★Referencia de los informes | Plataforma de búsqueda híbrida y memoria para documentos, memorias y perfiles de usuario. | 31,707 | 130 | 2026-11-24 | 88.3 | MIT |
+| [Supermemory](https://github.com/supermemoryai/supermemory) · ★Referencia de los informes | Plataforma de búsqueda híbrida y memoria para documentos, memorias y perfiles de usuario. | 31,708 | 130 | 2026-11-24 | 88.3 | MIT |
 | [Mem0](https://github.com/mem0ai/mem0) · ★Referencia de los informes | Capa de personalización universal que extrae, actualiza, borra y recupera memorias a partir de las interacciones. | 69,453 | 69 | 2026-11-25 | 87.7 | Apache-2.0 |
 | [Hy-Memory](https://github.com/Tencent-Hunyuan/Hy-Memory) | Motor de memoria cognitiva de doble sistema y SDK de Python para escenarios de conversación, agentes y programación. | 2,115 | 604 | 2026-11-18 | 84.8 | Apache-2.0 |
 | [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | Centro de memoria para equipos que convierte conversaciones, documentos y código en Chat Memory, Skills, LLM-Wiki y Code-Graph. | 31,171 | 60 | 2026-11-24 | 83.8 | MIT |

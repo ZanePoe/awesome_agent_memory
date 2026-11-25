@@ -2,7 +2,7 @@
 
 ## GitHub metrics
 
-`scripts/refresh_metrics.py` uses the GitHub GraphQL API to read all canonical repositories at one fixed UTC moment. `data/metrics.json` is replaced atomically only after every batch succeeds; a partial failure keeps the old snapshot and fails the job.
+`scripts/refresh_metrics.py` uses the GitHub GraphQL API to read all canonical repositories at one fixed UTC moment. `data/metrics.json` is replaced atomically only after every batch succeeds. The one exception is a repository GitHub can no longer resolve (renamed away or deleted): its previous record is carried forward and marked `missing_upstream` with a `missing_since` timestamp, so a single vanished project cannot break the daily refresh. Rate limits, transport failures and partial GraphQL responses still abort the run and keep the previous snapshot whole.
 
 - `stars`: a proxy for attention at collection time.
 - `commits_30d / commits_90d`: full commit counts over the default-branch history within the fixed windows, including merge, bot and documentation commits.

@@ -30,7 +30,7 @@ flowchart LR
 
 ## 当前收录
 
-**89 个项目，其中 54 个来自三份原始调研，35 个为本轮新增。** 功能核验：2026-11-20；指标快照：`2026-11-25T11:12:36+00:00`（UTC）。
+**89 个项目，其中 54 个来自三份原始调研，35 个为本轮新增。** 功能核验：2026-11-20；指标快照：`2026-11-25T11:16:03+00:00`（UTC）。
 
 每个分类先按维护状态分层，再综合 star（40%）、90 天默认分支提交（35%）和最近提交（25%）排序。归档项目后置。维护分只描述 GitHub 热度与活动迹象，不代表记忆准确率、成本、安全性或生产成熟度。
 
@@ -49,7 +49,7 @@ flowchart LR
 | [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory) | 面向编码 Agent 的服务与插件，融合 BM25、可选向量和结构关系。 | 30,584 | 233 | 2026-11-18 | 89.7 |
 | [Basic Memory](https://github.com/basicmachines-co/basic-memory) | 把可编辑 Markdown 笔记和语义关系作为人机共用知识记忆。 | 4,707 | 837 | 2026-11-24 | 89.0 |
 | [Honcho](https://github.com/plastic-labs/honcho) | 围绕 peer、session 与 workspace 持续形成对象表征和协作理解。 | 8,270 | 300 | 2026-11-24 | 88.3 |
-| [Supermemory](https://github.com/supermemoryai/supermemory) | 面向文档、记忆和用户画像的混合搜索与记忆平台。 | 31,707 | 130 | 2026-11-24 | 88.3 |
+| [Supermemory](https://github.com/supermemoryai/supermemory) | 面向文档、记忆和用户画像的混合搜索与记忆平台。 | 31,708 | 130 | 2026-11-24 | 88.3 |
 | [Mnemosyne · mnemosyne-oss](https://github.com/mnemosyne-oss/mnemosyne) | SQLite 驱动、默认本地的跨框架记忆层，支持 MCP 和多种 Agent 集成。 | 3,703 | 927 | 2026-11-22 | 87.8 |
 | [Mem0](https://github.com/mem0ai/mem0) | 通用个性化记忆层，支持从交互抽取、更新、删除与检索记忆。 | 69,453 | 69 | 2026-11-25 | 87.7 |
 
@@ -76,7 +76,7 @@ flowchart LR
 | [OpenViking](https://github.com/volcengine/OpenViking) · ★报告基线 | 用可导航的虚拟文件系统统一管理资源、长期记忆与 Agent Skills。 | 42,746 | 1,456 | 2026-11-25 | 97.0 | AGPL-3.0 |
 | [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory) · ★报告基线 | 面向编码 Agent 的服务与插件，融合 BM25、可选向量和结构关系。 | 30,584 | 233 | 2026-11-18 | 89.7 | Apache-2.0 |
 | [Honcho](https://github.com/plastic-labs/honcho) · ★报告基线 | 围绕 peer、session 与 workspace 持续形成对象表征和协作理解。 | 8,270 | 300 | 2026-11-24 | 88.3 | AGPL-3.0 |
-| [Supermemory](https://github.com/supermemoryai/supermemory) · ★报告基线 | 面向文档、记忆和用户画像的混合搜索与记忆平台。 | 31,707 | 130 | 2026-11-24 | 88.3 | MIT |
+| [Supermemory](https://github.com/supermemoryai/supermemory) · ★报告基线 | 面向文档、记忆和用户画像的混合搜索与记忆平台。 | 31,708 | 130 | 2026-11-24 | 88.3 | MIT |
 | [Mem0](https://github.com/mem0ai/mem0) · ★报告基线 | 通用个性化记忆层，支持从交互抽取、更新、删除与检索记忆。 | 69,453 | 69 | 2026-11-25 | 87.7 | Apache-2.0 |
 | [Hy-Memory](https://github.com/Tencent-Hunyuan/Hy-Memory) | 面向对话、Agent 和编码场景的双系统认知记忆引擎与 Python SDK。 | 2,115 | 604 | 2026-11-18 | 84.8 | Apache-2.0 |
 | [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 把对话、文档和代码沉淀为 Chat Memory、Skill、LLM-Wiki 与 Code-Graph 的团队记忆中心。 | 31,171 | 60 | 2026-11-24 | 83.8 | MIT |

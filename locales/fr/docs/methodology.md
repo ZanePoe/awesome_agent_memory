@@ -2,7 +2,7 @@
 
 ## Métriques GitHub
 
-`scripts/refresh_metrics.py` utilise l'API GraphQL de GitHub et lit tous les dépôts canoniques à un instant UTC fixe. `data/metrics.json` n'est remplacé atomiquement qu'après la réussite de tous les lots ; un échec partiel conserve l'ancien instantané et fait échouer la tâche.
+`scripts/refresh_metrics.py` utilise l'API GraphQL de GitHub et lit tous les dépôts canoniques à un instant UTC fixe. `data/metrics.json` n'est remplacé atomiquement qu'après la réussite de tous les lots. Seule exception : un dépôt que GitHub ne résout plus (renommé ou supprimé) conserve son enregistrement précédent, marqué `missing_upstream` avec un horodatage `missing_since`, afin qu'un projet disparu ne bloque pas la mise à jour quotidienne. Les limites de débit, les pannes de transport et les réponses GraphQL partielles interrompent toujours l'exécution et laissent l'instantané précédent intact.
 
 - `stars` : indicateur proxy de l'attention au moment de la collecte.
 - `commits_30d / commits_90d` : comptage complet des commits de l'historique de la branche par défaut sur une fenêtre fixe, fusions, bots et commits documentaires inclus.
