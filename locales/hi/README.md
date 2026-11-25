@@ -30,7 +30,7 @@ flowchart LR
 
 ## वर्तमान संग्रह
 
-**कुल 89 प्रोजेक्ट, जिनमें से 54 तीन मूल रिपोर्ट्स से आए हैं और 35 इस दौर में जोड़े गए हैं।** फ़ंक्शनल सत्यापन: 2026-11-20; मेट्रिक्स स्नैपशॉट: `2026-11-25T11:05:14+00:00` (UTC)।
+**कुल 89 प्रोजेक्ट, जिनमें से 54 तीन मूल रिपोर्ट्स से आए हैं और 35 इस दौर में जोड़े गए हैं।** फ़ंक्शनल सत्यापन: 2026-11-20; मेट्रिक्स स्नैपशॉट: `2026-11-25T11:12:36+00:00` (UTC)।
 
 हर श्रेणी में पहले मेंटेनेंस स्थिति के अनुसार टियर बनाए जाते हैं, फिर star (40%), 90 दिन की डिफ़ॉल्ट-ब्रांच कमिट (35%) और नवीनतम कमिट (25%) के संयुक्त स्कोर से रैंक किया जाता है। आर्काइव्ड प्रोजेक्ट अंत में रखे जाते हैं। मेंटेनेंस स्कोर केवल GitHub लोकप्रियता और गतिविधि के संकेत का वर्णन करता है; यह मेमोरी सटीकता, लागत, सुरक्षा या प्रोडक्शन परिपक्वता की गारंटी नहीं है।
 
@@ -40,18 +40,18 @@ flowchart LR
 
 | प्रोजेक्ट | पोज़िशन | Stars | 90-दिन कमिट | नवीनतम कमिट UTC | मेंटेनेंस स्कोर |
 | --- | --- | --- | --- | --- | --- |
-| [claude-mem](https://github.com/thedotmack/claude-mem) | सेशन और tool गतिविधि कैप्चर कर, उन्हें SQLite/FTS5/Chroma में संकुचित कर आगे के सेशन में recall करता है। | 119,651 | 2,482 | 2026-11-25 | 100.0 |
-| [Hindsight](https://github.com/vectorize-io/hindsight) | retain, recall और reflect के ज़रिए संरचित तथ्यों, अनुभवों, एंटिटीज़ और संश्लेषित अवलोकनों को प्रबंधित करता है। | 63,299 | 1,618 | 2026-11-25 | 98.4 |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | सेशन और tool गतिविधि कैप्चर कर, उन्हें SQLite/FTS5/Chroma में संकुचित कर आगे के सेशन में recall करता है। | 119,652 | 2,482 | 2026-11-25 | 100.0 |
+| [Hindsight](https://github.com/vectorize-io/hindsight) | retain, recall और reflect के ज़रिए संरचित तथ्यों, अनुभवों, एंटिटीज़ और संश्लेषित अवलोकनों को प्रबंधित करता है। | 63,300 | 1,619 | 2026-11-25 | 98.4 |
 | [OpenViking](https://github.com/volcengine/OpenViking) | नेविगेट-योग्य वर्चुअल फ़ाइल सिस्टम से संसाधनों, लॉन्ग-टर्म मेमोरी और Agent Skills को एकीकृत रूप में प्रबंधित करता है। | 42,746 | 1,456 | 2026-11-25 | 97.0 |
-| [Cognee](https://github.com/topoteretes/cognee) | दस्तावेज़, कोड और बातचीत को एंटिटी-संबंधों तथा सर्च-योग्य knowledge/memory ग्राफ़ में बदलता है। | 33,591 | 2,828 | 2026-11-20 | 94.8 |
-| [Engram · Gentleman Programming](https://github.com/Gentleman-Programming/engram) | कोडिंग Agent के लिए Go/SQLite/FTS5 पर्सिस्टेंट मेमोरी; MCP, HTTP, CLI और TUI देती है। | 8,305 | 941 | 2026-11-24 | 91.0 |
+| [Cognee](https://github.com/topoteretes/cognee) | दस्तावेज़, कोड और बातचीत को एंटिटी-संबंधों तथा सर्च-योग्य knowledge/memory ग्राफ़ में बदलता है। | 33,591 | 2,827 | 2026-11-20 | 94.8 |
+| [Engram · Gentleman Programming](https://github.com/Gentleman-Programming/engram) | कोडिंग Agent के लिए Go/SQLite/FTS5 पर्सिस्टेंट मेमोरी; MCP, HTTP, CLI और TUI देती है। | 8,306 | 941 | 2026-11-24 | 91.0 |
 | [Graphiti](https://github.com/getzep/graphiti) | रियल-टाइम में एंटिटी और संबंध निकालकर bi-temporal नॉलेज ग्राफ़ बनाता है और lexical, vector तथा graph रिट्रीवल कोजोड़ता है करता है. | 33,081 | 162 | 2026-11-25 | 89.8 |
 | [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory) | कोडिंग Agent के लिए सर्विस और प्लगइन, जो BM25, वैकल्पिक वेक्टर और संरचित संबंधों को जोड़ता है। | 30,584 | 233 | 2026-11-18 | 89.7 |
 | [Basic Memory](https://github.com/basicmachines-co/basic-memory) | संपादन-योग्य Markdown नोट्स और semantic संबंधों को मनुष्य-Agent साझा ज्ञान-मेमोरी के रूप में इस्तेमाल करता है। | 4,707 | 837 | 2026-11-24 | 89.0 |
 | [Honcho](https://github.com/plastic-labs/honcho) | peer, session और workspace के इर्द-गिर्द निरंतर ऑब्जेक्ट रिप्रज़ेंटेशन और सह-कार्यात्मक समझ गढ़ता है। | 8,270 | 300 | 2026-11-24 | 88.3 |
 | [Supermemory](https://github.com/supermemoryai/supermemory) | दस्तावेज़ों, मेमोरी और यूज़र प्रोफ़ाइल के लिए हाइब्रिड सर्च और मेमोरी प्लेटफ़ॉर्म। | 31,707 | 130 | 2026-11-24 | 88.3 |
 | [Mnemosyne · mnemosyne-oss](https://github.com/mnemosyne-oss/mnemosyne) | SQLite-चालित, लोकल-प्रधान क्रॉस-फ़्रेमवर्क मेमोरी लेयर; MCP और कई Agent इंटीग्रेशन। | 3,703 | 927 | 2026-11-22 | 87.8 |
-| [Mem0](https://github.com/mem0ai/mem0) | सामान्य पर्सनलाइज़ेशन मेमोरी लेयर; इंटरैक्शन से मेमोरी निकालना, अद्यतन, विलोपन और रिट्रीवल का समर्थन करती है। | 69,452 | 69 | 2026-11-25 | 87.7 |
+| [Mem0](https://github.com/mem0ai/mem0) | सामान्य पर्सनलाइज़ेशन मेमोरी लेयर; इंटरैक्शन से मेमोरी निकालना, अद्यतन, विलोपन और रिट्रीवल का समर्थन करती है। | 69,453 | 69 | 2026-11-25 | 87.7 |
 
 ## श्रेणी सूची
 
@@ -72,12 +72,12 @@ flowchart LR
 
 | प्रोजेक्ट | पोज़िशन | Stars | 90-दिन कमिट | नवीनतम कमिट UTC | मेंटेनेंस स्कोर | लाइसेंस |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Hindsight](https://github.com/vectorize-io/hindsight) · ★रिपोर्ट बेसलाइन | retain, recall और reflect के ज़रिए संरचित तथ्यों, अनुभवों, एंटिटीज़ और संश्लेषित अवलोकनों को प्रबंधित करता है। | 63,299 | 1,618 | 2026-11-25 | 98.4 | MIT |
+| [Hindsight](https://github.com/vectorize-io/hindsight) · ★रिपोर्ट बेसलाइन | retain, recall और reflect के ज़रिए संरचित तथ्यों, अनुभवों, एंटिटीज़ और संश्लेषित अवलोकनों को प्रबंधित करता है। | 63,300 | 1,619 | 2026-11-25 | 98.4 | MIT |
 | [OpenViking](https://github.com/volcengine/OpenViking) · ★रिपोर्ट बेसलाइन | नेविगेट-योग्य वर्चुअल फ़ाइल सिस्टम से संसाधनों, लॉन्ग-टर्म मेमोरी और Agent Skills को एकीकृत रूप में प्रबंधित करता है। | 42,746 | 1,456 | 2026-11-25 | 97.0 | AGPL-3.0 |
 | [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory) · ★रिपोर्ट बेसलाइन | कोडिंग Agent के लिए सर्विस और प्लगइन, जो BM25, वैकल्पिक वेक्टर और संरचित संबंधों को जोड़ता है। | 30,584 | 233 | 2026-11-18 | 89.7 | Apache-2.0 |
 | [Honcho](https://github.com/plastic-labs/honcho) · ★रिपोर्ट बेसलाइन | peer, session और workspace के इर्द-गिर्द निरंतर ऑब्जेक्ट रिप्रज़ेंटेशन और सह-कार्यात्मक समझ गढ़ता है। | 8,270 | 300 | 2026-11-24 | 88.3 | AGPL-3.0 |
 | [Supermemory](https://github.com/supermemoryai/supermemory) · ★रिपोर्ट बेसलाइन | दस्तावेज़ों, मेमोरी और यूज़र प्रोफ़ाइल के लिए हाइब्रिड सर्च और मेमोरी प्लेटफ़ॉर्म। | 31,707 | 130 | 2026-11-24 | 88.3 | MIT |
-| [Mem0](https://github.com/mem0ai/mem0) · ★रिपोर्ट बेसलाइन | सामान्य पर्सनलाइज़ेशन मेमोरी लेयर; इंटरैक्शन से मेमोरी निकालना, अद्यतन, विलोपन और रिट्रीवल का समर्थन करती है। | 69,452 | 69 | 2026-11-25 | 87.7 | Apache-2.0 |
+| [Mem0](https://github.com/mem0ai/mem0) · ★रिपोर्ट बेसलाइन | सामान्य पर्सनलाइज़ेशन मेमोरी लेयर; इंटरैक्शन से मेमोरी निकालना, अद्यतन, विलोपन और रिट्रीवल का समर्थन करती है। | 69,453 | 69 | 2026-11-25 | 87.7 | Apache-2.0 |
 | [Hy-Memory](https://github.com/Tencent-Hunyuan/Hy-Memory) | बातचीत, Agent और कोडिंग परिदृश्यों के लिए dual-system cognitive मेमोरी इंजन और Python SDK। | 2,115 | 604 | 2026-11-18 | 84.8 | Apache-2.0 |
 | [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | बातचीत, दस्तावेज़ और कोड को Chat Memory, Skill, LLM-Wiki और Code-Graph में बदलने वाला टीम मेमोरी सेंटर। | 31,171 | 60 | 2026-11-24 | 83.8 | MIT |
 | [MemOS](https://github.com/MemTensor/MemOS) · ★रिपोर्ट बेसलाइन | Agent के लिए मेमोरी ऑपरेटिंग सिस्टम, जो कई श्रेणियों की मेमोरी, हाइब्रिड रिट्रीवल और स्किल इवोल्यूशन को कवर करता है। | 12,504 | 112 | 2026-11-09 | 80.3 | Apache-2.0 |
@@ -104,7 +104,7 @@ flowchart LR
 
 | प्रोजेक्ट | पोज़िशन | Stars | 90-दिन कमिट | नवीनतम कमिट UTC | मेंटेनेंस स्कोर | लाइसेंस |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Engram · Gentleman Programming](https://github.com/Gentleman-Programming/engram) | कोडिंग Agent के लिए Go/SQLite/FTS5 पर्सिस्टेंट मेमोरी; MCP, HTTP, CLI और TUI देती है। | 8,305 | 941 | 2026-11-24 | 91.0 | MIT |
+| [Engram · Gentleman Programming](https://github.com/Gentleman-Programming/engram) | कोडिंग Agent के लिए Go/SQLite/FTS5 पर्सिस्टेंट मेमोरी; MCP, HTTP, CLI और TUI देती है। | 8,306 | 941 | 2026-11-24 | 91.0 | MIT |
 | [Basic Memory](https://github.com/basicmachines-co/basic-memory) · ★रिपोर्ट बेसलाइन | संपादन-योग्य Markdown नोट्स और semantic संबंधों को मनुष्य-Agent साझा ज्ञान-मेमोरी के रूप में इस्तेमाल करता है। | 4,707 | 837 | 2026-11-24 | 89.0 | AGPL-3.0 |
 | [Mnemosyne · mnemosyne-oss](https://github.com/mnemosyne-oss/mnemosyne) | SQLite-चालित, लोकल-प्रधान क्रॉस-फ़्रेमवर्क मेमोरी लेयर; MCP और कई Agent इंटीग्रेशन। | 3,703 | 927 | 2026-11-22 | 87.8 | MIT |
 | [EverOS](https://github.com/EverMind-AI/EverOS) · ★रिपोर्ट बेसलाइन | Markdown ट्रुथ सोर्स और लोकल इंडेक्स से यूज़र episodes/profile और Agent cases/skills प्रबंधित करता है। | 13,999 | 121 | 2026-11-25 | 85.2 | Apache-2.0 |
@@ -120,7 +120,7 @@ flowchart LR
 
 | प्रोजेक्ट | पोज़िशन | Stars | 90-दिन कमिट | नवीनतम कमिट UTC | मेंटेनेंस स्कोर | लाइसेंस |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Cognee](https://github.com/topoteretes/cognee) · ★रिपोर्ट बेसलाइन | दस्तावेज़, कोड और बातचीत को एंटिटी-संबंधों तथा सर्च-योग्य knowledge/memory ग्राफ़ में बदलता है। | 33,591 | 2,828 | 2026-11-20 | 94.8 | Apache-2.0 |
+| [Cognee](https://github.com/topoteretes/cognee) · ★रिपोर्ट बेसलाइन | दस्तावेज़, कोड और बातचीत को एंटिटी-संबंधों तथा सर्च-योग्य knowledge/memory ग्राफ़ में बदलता है। | 33,591 | 2,827 | 2026-11-20 | 94.8 | Apache-2.0 |
 | [Graphiti](https://github.com/getzep/graphiti) · ★रिपोर्ट बेसलाइन | रियल-टाइम में एंटिटी और संबंध निकालकर bi-temporal नॉलेज ग्राफ़ बनाता है और lexical, vector तथा graph रिट्रीवल कोजोड़ता है करता है. | 33,081 | 162 | 2026-11-25 | 89.8 | Apache-2.0 |
 | [CortexDB](https://github.com/liliang-cn/cortexdb) | एक ही SQLite फ़ाइल में नॉलेज ग्राफ़, constraints और traceable reasoning जोड़ता है। | 531 | 602 | 2026-11-25 | 81.7 | MIT |
 | [Neo4j Agent Memory](https://github.com/neo4j-labs/agent-memory) | ग्राफ़-आधारित Agent मेमोरी और context graph, जो संवाद, एंटिटी, संबंध और reasoning traces स्टोर करता है। | 616 | 201 | 2026-10-27 | 70.3 | Apache-2.0 |
@@ -132,7 +132,7 @@ flowchart LR
 
 | प्रोजेक्ट | पोज़िशन | Stars | 90-दिन कमिट | नवीनतम कमिट UTC | मेंटेनेंस स्कोर | लाइसेंस |
 | --- | --- | --- | --- | --- | --- | --- |
-| [claude-mem](https://github.com/thedotmack/claude-mem) · ★रिपोर्ट बेसलाइन | सेशन और tool गतिविधि कैप्चर कर, उन्हें SQLite/FTS5/Chroma में संकुचित कर आगे के सेशन में recall करता है। | 119,651 | 2,482 | 2026-11-25 | 100.0 | Apache-2.0 |
+| [claude-mem](https://github.com/thedotmack/claude-mem) · ★रिपोर्ट बेसलाइन | सेशन और tool गतिविधि कैप्चर कर, उन्हें SQLite/FTS5/Chroma में संकुचित कर आगे के सेशन में recall करता है। | 119,652 | 2,482 | 2026-11-25 | 100.0 | Apache-2.0 |
 | [MCP Memory Service](https://github.com/doobidoo/mcp-memory-service) · ★रिपोर्ट बेसलाइन | MCP/REST से semantic मेमोरी, संबंध और बैकग्राउंड ऑर्गनाइज़ेशन देता है; कई स्टोरेज बैकएंड्स समर्थित। | 2,154 | 756 | 2026-11-25 | 86.6 | Apache-2.0 |
 | [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | DeepSeek Harness का लेयर्ड मेमोरी प्लगइन, जो रनटाइम मेमोरी, प्रोजेक्ट दस्तावेज़ और स्वैच-योग्य लॉन्ग-टर्म मेमोरी बैकएंड्स को जोड़ता है। | 1,127 | 1,686 | 2026-11-24 | 84.2 | MIT |
 | [OKF Agent Memory](https://github.com/okf-memory/okf-agent-memory) | Git-native कोडिंग Agent मेमोरी; एम्बेडेड MCP और progressive reading के साथ। | 872 | 247 | 2026-11-21 | 78.5 | MIT |
@@ -169,7 +169,7 @@ flowchart LR
 | [MemoryStackBench](https://github.com/aetna000/MemoryStackBench) | Agent मेमोरी की सुरक्षा, प्रमाण, डिलीशन-पूर्णता और auditability का स्वचालित मूल्यांकन। | 6 | 6 | 2026-09-11 | 28.6 | Apache-2.0 |
 | [Agent Memory Radar](https://github.com/H20Zhang/Agent-Memory-Radar) · लाइसेंस सूचना | मेमोरी तंत्र, benchmark, दूषण, forgetting और recovery के प्रमाण एकत्र करने वाला रिसर्च रडार। | 3 | 7 | 2026-09-11 | 27.3 | CC-BY-4.0 कंटेंट / MIT कोड |
 | [SimpleMem](https://github.com/aiming-lab/SimpleMem) · ★रिपोर्ट बेसलाइन | semantic संरचित संपीड़न, मेमोरी consolidation और adaptive retrieval पर शोध। | 3,881 | 0 | 2026-07-24 | 35.0 | MIT |
-| [MemoryOS](https://github.com/BAI-LAB/MemoryOS) · ★रिपोर्ट बेसलाइन | short, medium और long-term लेयर्ड मेमोरी, अद्यतन और यूज़र प्रोफ़ाइल प्रबंधन पर शोध। | 1,626 | 0 | 2026-07-07 | 30.9 | Apache-2.0 |
+| [MemoryOS](https://github.com/BAI-LAB/MemoryOS) · ★रिपोर्ट बेसलाइन | short, medium और long-term लेयर्ड मेमोरी, अद्यतन और यूज़र प्रोफ़ाइल प्रबंधन पर शोध। | 1,627 | 0 | 2026-07-07 | 30.9 | Apache-2.0 |
 | [A-MEM](https://github.com/agiresearch/A-mem) · ★रिपोर्ट बेसलाइन | Zettelkasten से प्रेरित होकर मेमोरी नोट्स को स्वतः व्यवस्थित, जोड़ और विकसित करता है। | 1,218 | 0 | 2025-12-12 | 25.2 | MIT |
 | [agentmemory · JordanMcCann](https://github.com/JordanMcCann/agentmemory) · ★रिपोर्ट बेसलाइन | semantic, lexical, ग्राफ़, importance और समय सहित बहु-संकेत रिट्रीवल पर शोध। | 46 | 0 | 2026-03-26 | 15.1 | MIT |
 | [MPBench](https://github.com/Digital-Trust-Lab/mp-bench) | स्थायी मेमोरी लेखन, आगे retrieval और व्यवहार-trigger वाले memory poisoning attack का इवैल्युएशन डेटासेट। | 7 | 0 | 2026-06-28 | 12.0 | Apache-2.0 |
@@ -185,7 +185,7 @@ flowchart LR
 | [Awesome Agent Memory · mnemoverse](https://github.com/mnemoverse/awesome-agent-memory) | Agent मेमोरी सिस्टम्स, फ़्रेमवर्क, benchmark और रिसर्च का बाहरी इंडेक्स। | 68 | 87 | 2026-11-23 | 64.4 | CC0-1.0 |
 | [Letta / MemGPT](https://github.com/letta-ai/letta) · ★रिपोर्ट बेसलाइन | पर्सिस्टेंट स्टेट और Agent-स्वशासित context प्रबंधन पर केंद्रित पूर्ण Agent प्लेटफ़ॉर्म। | 25,540 | 4 | 2026-10-18 | 60.8 | Apache-2.0 |
 | [MineContext](https://github.com/volcengine/MineContext) · ★रिपोर्ट बेसलाइन | स्क्रीन जैसे digital context से गतिविधि, सारांश और क्वेरी-योग्य सामग्री उत्पन्न करता है। | 5,556 | 0 | 2026-05-07 | 32.6 | Apache-2.0 |
-| [MCP Memory Server](https://github.com/modelcontextprotocol/servers) · ★रिपोर्ट बेसलाइन · आर्काइव्ड/ऐतिहासिक · लाइसेंस सूचना | आधिकारिक MCP servers पैरेंट रिपॉज़िटरी के entities, relations और observations मेमोरी घटक। | 92,237 | 1,119 | 2026-11-18 | 97.8 | Apache-2.0 / MIT संक्रमण; दस्तावेज़ CC-BY-4.0 |
+| [MCP Memory Server](https://github.com/modelcontextprotocol/servers) · ★रिपोर्ट बेसलाइन · आर्काइव्ड/ऐतिहासिक · लाइसेंस सूचना | आधिकारिक MCP servers पैरेंट रिपॉज़िटरी के entities, relations और observations मेमोरी घटक। | 92,238 | 1,119 | 2026-11-18 | 97.8 | Apache-2.0 / MIT संक्रमण; दस्तावेज़ CC-BY-4.0 |
 
 ### ऐतिहासिक, आर्काइव्ड और प्रतिबंधित लाइसेंस
 

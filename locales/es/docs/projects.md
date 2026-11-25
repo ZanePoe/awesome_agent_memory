@@ -9,7 +9,7 @@ Gestiona hechos estructurados, experiencias, entidades y observaciones sintétic
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: El despliegue, la combinación de modelos y el protocolo de evaluación afectan de forma significativa los resultados y el coste.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 352 commits en 30 días, 1618 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 353 commits en 30 días, 1619 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/vectorize-io/hindsight/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/vectorize-io/hindsight/blob/7cec128b8fdb0a696366d888e63be71fe1d52338/README.md#L3).
 
@@ -19,7 +19,7 @@ Gestiona de forma unificada recursos, memoria de largo plazo y Agent Skills medi
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: Las rutas virtuales del servidor no son archivos locales corrientes; la frescura de resúmenes, extracciones e índices sigue requiriendo verificación.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 636 commits en 30 días, 1456 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 635 commits en 30 días, 1456 commits en 90 días.
 - Licencia: [AGPL-3.0](https://api.github.com/repos/volcengine/OpenViking/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/volcengine/OpenViking/blob/82ec6d10bcf9e4dfcf8c2c39881d5c71a43df6fb/README.md#L3).
 
@@ -139,7 +139,7 @@ Aporta a los agentes extracción, almacenamiento, recuperación y migración de 
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: La rama por defecto y la línea de evolución mem2.0 pueden diferir; conviene fijar la versión al adoptarlo.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 82 commits en 30 días, 174 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 81 commits en 30 días, 174 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/openJiuwen-ai/agent-memory/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/openJiuwen-ai/agent-memory/blob/2a77650c16f8fe073d8713bc91fc703a7233359d/README.md#L1).
 
@@ -319,7 +319,7 @@ Markdown como fuente de verdad, SQLite como índice reconstruible y una capa ind
 
 - Categoría: Archivos como fuente de verdad y memoria auditable; Candidato principal.
 - Frontera de aplicación: Al compartir archivos entre hospedadores siguen haciendo falta diseños de privacidad, concurrencia y alcance por proyecto.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 96 commits en 30 días, 381 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 95 commits en 30 días, 381 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/tigerless-labs/agent-memory/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/tigerless-labs/agent-memory/blob/2648ba02d3c0364f9787f0e8fb49f69f47d2e3f7/README.md#L17).
 
@@ -389,7 +389,7 @@ Convierte documentos, código y conversaciones en entidades, relaciones y grafos
 
 - Categoría: Grafos, entidades y memoria temporal; Candidato principal.
 - Frontera de aplicación: Las rutas de despliegue actuales evolucionan sin parar; no vale aferrarse a afirmaciones multibase de versiones antiguas.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 843 commits en 30 días, 2828 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 843 commits en 30 días, 2827 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/topoteretes/cognee/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/topoteretes/cognee/blob/8853378eae5366addb064e758e560a456146ae1a/README.md#L2).
 
@@ -469,7 +469,7 @@ Ofrece memoria semántica, relaciones y consolidación en segundo plano vía MCP
 
 - Categoría: Agentes de programación y memoria MCP; Candidato principal.
 - Frontera de aplicación: Que el autoalojamiento sea ligero no uniforma el comportamiento de todos los backends; hay que fijar la configuración al probar.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 290 commits en 30 días, 756 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 288 commits en 30 días, 756 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/doobidoo/mcp-memory-service/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/doobidoo/mcp-memory-service/blob/8823c8dd3d2937d8600c4d498a3aa8579c160810/README.md#L37).
 

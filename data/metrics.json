@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-25T11:05:14+00:00",
+  "as_of": "2026-11-25T11:12:36+00:00",
   "window_days": [
     30,
     90
@@ -27,7 +27,7 @@
         "publishedAt": "2026-11-23T13:16:19Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "omdsh-dev/dsh-mnemon": {
@@ -51,7 +51,7 @@
         "publishedAt": "2026-11-24T18:36:46Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "beizhangnina/EverMemOS_bz": {
@@ -71,7 +71,7 @@
       "pushed_at": "2025-11-28T02:30:03Z",
       "updated_at": "2026-07-14T15:09:30Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "volcengine/OpenViking": {
@@ -86,7 +86,7 @@
       "default_branch": "main",
       "head_sha": "b2351cd5e19dd4ebe2d57aab2a96f9dbb2af4a12",
       "last_commit_at": "2026-11-25T10:13:07Z",
-      "commits_30d": 636,
+      "commits_30d": 635,
       "commits_90d": 1456,
       "pushed_at": "2026-11-25T10:25:35Z",
       "updated_at": "2026-11-25T11:01:34Z",
@@ -95,31 +95,31 @@
         "publishedAt": "2026-11-25T05:57:03Z",
         "isPrerelease": true
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "vectorize-io/hindsight": {
       "canonical_repo": "vectorize-io/hindsight",
       "url": "https://github.com/vectorize-io/hindsight",
-      "stars": 63299,
+      "stars": 63300,
       "forks": 7399,
       "archived": false,
       "disabled": false,
       "license_spdx": "MIT",
       "license_name": "MIT License",
       "default_branch": "main",
-      "head_sha": "3da0a3c20594f0c9e6483cc2a2df5afaa63e40b5",
-      "last_commit_at": "2026-11-25T11:04:26Z",
-      "commits_30d": 352,
-      "commits_90d": 1618,
-      "pushed_at": "2026-11-25T11:04:48Z",
-      "updated_at": "2026-11-25T11:04:21Z",
+      "head_sha": "80fbe74c8c79552eff5b8761c410d31802836060",
+      "last_commit_at": "2026-11-25T11:08:21Z",
+      "commits_30d": 353,
+      "commits_90d": 1619,
+      "pushed_at": "2026-11-25T11:12:01Z",
+      "updated_at": "2026-11-25T11:09:26Z",
       "latest_release": {
         "tagName": "v1.3.0",
         "publishedAt": "2026-11-24T14:20:19Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "plastic-labs/honcho": {
@@ -143,13 +143,13 @@
         "publishedAt": "2026-11-23T15:44:57Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "mem0ai/mem0": {
       "canonical_repo": "mem0ai/mem0",
       "url": "https://github.com/mem0ai/mem0",
-      "stars": 69452,
+      "stars": 69453,
       "forks": 8262,
       "archived": false,
       "disabled": false,
@@ -161,13 +161,13 @@
       "commits_30d": 10,
       "commits_90d": 69,
       "pushed_at": "2026-11-25T10:59:52Z",
-      "updated_at": "2026-11-25T11:01:29Z",
+      "updated_at": "2026-11-25T11:10:00Z",
       "latest_release": {
         "tagName": "ts-v3.3.1",
         "publishedAt": "2026-09-25T17:36:35Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "MemTensor/MemOS": {
@@ -191,7 +191,7 @@
         "publishedAt": "2026-11-09T12:35:22Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "MemMachine/MemMachine": {
@@ -215,7 +215,7 @@
         "publishedAt": "2026-10-08T00:27:14Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "memodb-io/memobase": {
@@ -235,7 +235,7 @@
       "pushed_at": "2026-01-11T03:51:40Z",
       "updated_at": "2026-11-25T07:25:25Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "mem9-ai/mem9": {
@@ -255,7 +255,7 @@
       "pushed_at": "2026-11-04T08:25:06Z",
       "updated_at": "2026-11-16T08:37:14Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "agent-memory-lab/agent-memory": {
@@ -279,7 +279,7 @@
         "publishedAt": "2026-10-31T09:10:57Z",
         "isPrerelease": true
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Jahvis/memanto-ai-memory": {
@@ -299,7 +299,7 @@
       "pushed_at": "2026-06-05T17:36:02Z",
       "updated_at": "2026-06-05T18:50:33Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "ivanzwb/agent-memory": {
@@ -323,7 +323,7 @@
         "publishedAt": "2026-04-08T08:53:01Z",
         "isPrerelease": true
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "rohitg00/agentmemory": {
@@ -347,7 +347,7 @@
         "publishedAt": "2026-11-09T12:21:23Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "HBarefoot/engram": {
@@ -371,7 +371,7 @@
         "publishedAt": "2026-07-06T15:12:57Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "TAIPANBOX/engram": {
@@ -395,7 +395,7 @@
         "publishedAt": "2026-11-04T21:12:37Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "openJiuwen-ai/agent-memory": {
@@ -410,7 +410,7 @@
       "default_branch": "mem2.0",
       "head_sha": "997c2f4b9541f6d201b0460f1c34b836265de2e0",
       "last_commit_at": "2026-11-25T09:57:57Z",
-      "commits_30d": 82,
+      "commits_30d": 81,
       "commits_90d": 174,
       "pushed_at": "2026-11-25T09:58:13Z",
       "updated_at": "2026-11-25T10:04:17Z",
@@ -419,7 +419,7 @@
         "publishedAt": "2026-11-13T10:00:22Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Tencent-Hunyuan/Hy-Memory": {
@@ -443,7 +443,7 @@
         "publishedAt": "2026-11-21T07:54:20Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "TencentCloud/TencentDB-Agent-Memory": {
@@ -467,7 +467,7 @@
         "publishedAt": "2026-11-19T12:16:09Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "tawanorg/OpenMemory": {
@@ -487,7 +487,7 @@
       "pushed_at": "2025-10-26T14:17:39Z",
       "updated_at": "2026-10-10T14:15:56Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "hellangleZ/Agent-MemoryForge": {
@@ -507,7 +507,7 @@
       "pushed_at": "2026-09-29T01:14:56Z",
       "updated_at": "2026-10-24T08:39:57Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "joshuaswarren/remnic": {
@@ -531,7 +531,7 @@
         "publishedAt": "2026-11-14T11:05:37Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "supermemoryai/supermemory": {
@@ -555,7 +555,7 @@
         "publishedAt": "2026-10-12T18:59:36Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "MemoriLabs/Memori": {
@@ -579,7 +579,7 @@
         "publishedAt": "2026-05-28T01:01:26Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "CaviraOSS/LongMemory": {
@@ -603,7 +603,7 @@
         "publishedAt": "2025-12-20T16:45:32Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "memvid/memvid": {
@@ -627,7 +627,7 @@
         "publishedAt": "2026-05-27T19:15:32Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Mirix-AI/MIRIX": {
@@ -651,7 +651,7 @@
         "publishedAt": "2025-12-25T18:44:14Z",
         "isPrerelease": true
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "tigerless-labs/agent-memory": {
@@ -666,12 +666,12 @@
       "default_branch": "main",
       "head_sha": "2648ba02d3c0364f9787f0e8fb49f69f47d2e3f7",
       "last_commit_at": "2026-11-12T08:13:45Z",
-      "commits_30d": 96,
+      "commits_30d": 95,
       "commits_90d": 381,
       "pushed_at": "2026-11-12T08:13:46Z",
       "updated_at": "2026-11-24T17:19:23Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "zilliztech/memsearch": {
@@ -695,7 +695,7 @@
         "publishedAt": "2026-11-25T09:11:07Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "agentscope-ai/ReMe": {
@@ -719,7 +719,7 @@
         "publishedAt": "2026-11-17T04:11:57Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "EverMind-AI/EverOS": {
@@ -743,7 +743,7 @@
         "publishedAt": "2026-11-20T07:48:12Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "basicmachines-co/basic-memory": {
@@ -767,7 +767,7 @@
         "publishedAt": "2026-10-29T23:45:31Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "shiblon/engram": {
@@ -791,7 +791,7 @@
         "publishedAt": "2026-10-06T00:17:32Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "B12Labs/engram": {
@@ -811,13 +811,13 @@
       "pushed_at": "2026-04-15T05:46:44Z",
       "updated_at": "2026-09-26T06:58:24Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Gentleman-Programming/engram": {
       "canonical_repo": "Gentleman-Programming/engram",
       "url": "https://github.com/Gentleman-Programming/engram",
-      "stars": 8305,
+      "stars": 8306,
       "forks": 834,
       "archived": false,
       "disabled": false,
@@ -829,13 +829,13 @@
       "commits_30d": 200,
       "commits_90d": 941,
       "pushed_at": "2026-11-24T07:41:10Z",
-      "updated_at": "2026-11-25T10:35:58Z",
+      "updated_at": "2026-11-25T11:08:44Z",
       "latest_release": {
         "tagName": "v3.7.2",
         "publishedAt": "2026-11-14T00:26:08Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Sibyl-Labs/Sibyl-Memory": {
@@ -859,7 +859,7 @@
         "publishedAt": "2026-11-15T03:56:50Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "mcncarl/agent-memory-vault": {
@@ -879,7 +879,7 @@
       "pushed_at": "2026-10-04T11:03:47Z",
       "updated_at": "2026-11-23T07:18:29Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "getzep/graphiti": {
@@ -903,7 +903,7 @@
         "publishedAt": "2026-11-24T17:09:14Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "topoteretes/cognee": {
@@ -919,15 +919,15 @@
       "head_sha": "1961133d0c68b450fe8e71941a756371e94f7c04",
       "last_commit_at": "2026-11-20T09:41:35Z",
       "commits_30d": 843,
-      "commits_90d": 2828,
-      "pushed_at": "2026-11-25T10:31:47Z",
+      "commits_90d": 2827,
+      "pushed_at": "2026-11-25T11:11:40Z",
       "updated_at": "2026-11-25T10:38:21Z",
       "latest_release": {
         "tagName": "v1.6.10",
         "publishedAt": "2026-11-18T21:42:57Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "neo4j-labs/agent-memory": {
@@ -951,7 +951,7 @@
         "publishedAt": "2026-10-07T20:40:42Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "liliang-cn/cortexdb": {
@@ -975,7 +975,7 @@
         "publishedAt": "2026-11-22T09:57:40Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "memory-graph/memory-graph": {
@@ -999,7 +999,7 @@
         "publishedAt": "2026-08-27T22:53:51Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "JordyZomer/lemmalog": {
@@ -1019,7 +1019,7 @@
       "pushed_at": "2026-10-01T07:52:35Z",
       "updated_at": "2026-11-19T11:14:39Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "zhangfengcdt/memoir": {
@@ -1043,13 +1043,13 @@
         "publishedAt": "2026-10-14T07:01:05Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "thedotmack/claude-mem": {
       "canonical_repo": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
-      "stars": 119651,
+      "stars": 119652,
       "forks": 10396,
       "archived": false,
       "disabled": false,
@@ -1061,13 +1061,13 @@
       "commits_30d": 1244,
       "commits_90d": 2482,
       "pushed_at": "2026-11-25T10:59:10Z",
-      "updated_at": "2026-11-25T10:57:19Z",
+      "updated_at": "2026-11-25T11:05:54Z",
       "latest_release": {
         "tagName": "v16.1.5",
         "publishedAt": "2026-11-25T10:59:12Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "doobidoo/mcp-memory-service": {
@@ -1082,7 +1082,7 @@
       "default_branch": "main",
       "head_sha": "6e8c79c71fc384324cc423a0f35e1d32fcc7cc3e",
       "last_commit_at": "2026-11-25T07:24:41Z",
-      "commits_30d": 290,
+      "commits_30d": 288,
       "commits_90d": 756,
       "pushed_at": "2026-11-25T07:24:45Z",
       "updated_at": "2026-11-24T23:54:05Z",
@@ -1091,7 +1091,7 @@
         "publishedAt": "2026-11-20T13:23:29Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "riponcm/projectmem": {
@@ -1115,7 +1115,7 @@
         "publishedAt": "2026-11-20T22:22:10Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "coleam00/mcp-mem0": {
@@ -1135,7 +1135,7 @@
       "pushed_at": "2025-04-13T01:17:14Z",
       "updated_at": "2026-11-20T05:27:13Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "AVIDS2/memorix": {
@@ -1159,7 +1159,7 @@
         "publishedAt": "2026-11-18T11:18:33Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "okf-memory/okf-agent-memory": {
@@ -1183,7 +1183,7 @@
         "publishedAt": "2026-11-21T11:26:55Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "0xK3vin/MegaMemory": {
@@ -1207,7 +1207,7 @@
         "publishedAt": "2026-05-03T00:22:22Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "plastic-labs/codex-honcho": {
@@ -1227,7 +1227,7 @@
       "pushed_at": "2026-09-01T20:15:41Z",
       "updated_at": "2026-10-28T20:36:46Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "memodb-io/Acontext": {
@@ -1251,7 +1251,7 @@
         "publishedAt": "2026-04-08T11:27:27Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "langchain-ai/langmem": {
@@ -1271,7 +1271,7 @@
       "pushed_at": "2026-11-16T08:58:28Z",
       "updated_at": "2026-11-25T08:08:17Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "alibaizhanov/mengram": {
@@ -1295,7 +1295,7 @@
         "publishedAt": "2026-10-26T09:03:13Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "NevaMind-AI/memU": {
@@ -1319,7 +1319,7 @@
         "publishedAt": "2026-07-23T04:16:09Z",
         "isPrerelease": true
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "vincents-ai/engram": {
@@ -1343,7 +1343,7 @@
         "publishedAt": "2026-04-08T01:50:28Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Sherlockwz/T-Mem": {
@@ -1363,7 +1363,7 @@
       "pushed_at": "2026-09-09T04:17:52Z",
       "updated_at": "2026-11-11T12:32:06Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Celina-love-sweet/MemForest": {
@@ -1383,7 +1383,7 @@
       "pushed_at": "2026-09-17T11:33:27Z",
       "updated_at": "2026-11-25T10:26:19Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Concyclics/MemForest": {
@@ -1403,7 +1403,7 @@
       "pushed_at": "2026-11-22T13:53:08Z",
       "updated_at": "2026-11-14T04:53:25Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "JordanMcCann/agentmemory": {
@@ -1423,7 +1423,7 @@
       "pushed_at": "2026-03-26T19:58:48Z",
       "updated_at": "2026-10-05T13:16:27Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "aiming-lab/SimpleMem": {
@@ -1447,13 +1447,13 @@
         "publishedAt": "2026-05-21T16:02:50Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "BAI-LAB/MemoryOS": {
       "canonical_repo": "BAI-LAB/MemoryOS",
       "url": "https://github.com/BAI-LAB/MemoryOS",
-      "stars": 1626,
+      "stars": 1627,
       "forks": 172,
       "archived": false,
       "disabled": false,
@@ -1465,13 +1465,13 @@
       "commits_30d": 0,
       "commits_90d": 0,
       "pushed_at": "2026-07-07T12:32:18Z",
-      "updated_at": "2026-11-23T03:46:43Z",
+      "updated_at": "2026-11-25T11:10:13Z",
       "latest_release": {
         "tagName": "V1.2",
         "publishedAt": "2025-07-18T07:21:44Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "agiresearch/A-mem": {
@@ -1491,7 +1491,7 @@
       "pushed_at": "2025-12-12T21:15:29Z",
       "updated_at": "2026-11-24T01:06:56Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "zhongwanjun/MemoryBank-SiliconFriend": {
@@ -1515,7 +1515,7 @@
         "publishedAt": "2023-05-21T06:22:11Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "nuster1128/MemEngine": {
@@ -1535,7 +1535,7 @@
       "pushed_at": "2025-05-13T01:16:42Z",
       "updated_at": "2026-11-25T02:06:34Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "ViktorAxelsen/MemSkill": {
@@ -1555,7 +1555,7 @@
       "pushed_at": "2026-10-01T15:00:15Z",
       "updated_at": "2026-11-24T07:05:04Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "MemTensor/MemT-1.0": {
@@ -1575,7 +1575,7 @@
       "pushed_at": "2026-11-20T09:36:17Z",
       "updated_at": "2026-11-25T10:45:49Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "HUST-AI-HYZ/MemoryAgentBench": {
@@ -1595,7 +1595,7 @@
       "pushed_at": "2026-09-25T06:11:34Z",
       "updated_at": "2026-11-22T18:12:41Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "RonsenbergVI/agent-memory-benchmarks": {
@@ -1619,7 +1619,7 @@
         "publishedAt": "2026-11-06T17:13:59Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "thomasfevre/agent-memory-bench": {
@@ -1639,7 +1639,7 @@
       "pushed_at": "2026-10-17T19:13:11Z",
       "updated_at": "2026-07-30T21:39:33Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "H20Zhang/Agent-Memory-Radar": {
@@ -1659,7 +1659,7 @@
       "pushed_at": "2026-09-11T00:44:43Z",
       "updated_at": "2026-11-09T05:58:10Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "AML-memory/agent-memory-leaderboard": {
@@ -1679,7 +1679,7 @@
       "pushed_at": "2026-11-02T14:31:55Z",
       "updated_at": "2026-11-25T09:30:01Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "tobi/qmd": {
@@ -1703,13 +1703,13 @@
         "publishedAt": "2026-11-18T03:48:03Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "modelcontextprotocol/servers": {
       "canonical_repo": "modelcontextprotocol/servers",
       "url": "https://github.com/modelcontextprotocol/servers",
-      "stars": 92237,
+      "stars": 92238,
       "forks": 11987,
       "archived": false,
       "disabled": false,
@@ -1721,13 +1721,13 @@
       "commits_30d": 449,
       "commits_90d": 1119,
       "pushed_at": "2026-11-25T05:08:57Z",
-      "updated_at": "2026-11-25T09:42:46Z",
+      "updated_at": "2026-11-25T11:11:25Z",
       "latest_release": {
         "tagName": "v2.5.0",
         "publishedAt": "2026-11-18T09:13:14Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "volcengine/MineContext": {
@@ -1751,7 +1751,7 @@
         "publishedAt": "2026-01-28T09:51:23Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "letta-ai/letta": {
@@ -1775,7 +1775,7 @@
         "publishedAt": "2026-05-14T17:14:24Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "mnemoverse/awesome-agent-memory": {
@@ -1795,7 +1795,7 @@
       "pushed_at": "2026-11-23T15:43:09Z",
       "updated_at": "2026-11-16T14:40:50Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Agentscreator/engram-memory": {
@@ -1819,7 +1819,7 @@
         "publishedAt": "2026-04-20T02:35:56Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "getzep/zep": {
@@ -1843,7 +1843,7 @@
         "publishedAt": "2026-11-17T19:37:33Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "engram-app/Engram": {
@@ -1867,7 +1867,7 @@
         "publishedAt": "2026-11-25T08:49:29Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "kolegadev/Katra-Agentic-Memory": {
@@ -1887,7 +1887,7 @@
       "pushed_at": "2026-11-24T21:34:48Z",
       "updated_at": "2026-10-29T15:14:27Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "membaseai/membase": {
@@ -1907,7 +1907,7 @@
       "pushed_at": "2026-11-25T07:14:22Z",
       "updated_at": "2026-11-21T12:48:34Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "mnemosyne-oss/mnemosyne": {
@@ -1931,7 +1931,7 @@
         "publishedAt": "2026-10-27T18:53:39Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "mnemoverse/mcp-memory-server": {
@@ -1955,7 +1955,7 @@
         "publishedAt": "2026-11-13T23:33:49Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "aetna000/MemoryStackBench": {
@@ -1975,7 +1975,7 @@
       "pushed_at": "2026-09-11T14:39:28Z",
       "updated_at": "2026-09-20T16:01:01Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "OWASP/www-project-agent-memory-guard": {
@@ -1999,7 +1999,7 @@
         "publishedAt": "2026-10-28T17:54:38Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Digital-Trust-Lab/mp-bench": {
@@ -2019,7 +2019,7 @@
       "pushed_at": "2026-06-28T22:54:07Z",
       "updated_at": "2026-11-09T09:45:10Z",
       "latest_release": null,
-      "collected_at": "2026-11-25T11:05:14+00:00",
+      "collected_at": "2026-11-25T11:12:36+00:00",
       "source": "https://api.github.com/graphql"
     }
   }

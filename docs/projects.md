@@ -9,7 +9,7 @@ Manages structured facts, experiences, entities and synthesized observations thr
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: Deployment, model mix and evaluation protocol strongly affect results and cost.
-- Maintenance: Commits within the last 90 days; 352 commits in 30 days, 1618 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 353 commits in 30 days, 1619 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/vectorize-io/hindsight/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/vectorize-io/hindsight/blob/7cec128b8fdb0a696366d888e63be71fe1d52338/README.md#L3).
 
@@ -19,7 +19,7 @@ Manages resources, long-term memory and Agent Skills through a navigable virtual
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: Server-side virtual paths are not ordinary local files; the freshness of summaries, extractions and indexes still needs verification.
-- Maintenance: Commits within the last 90 days; 636 commits in 30 days, 1456 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 635 commits in 30 days, 1456 commits in 90 days.
 - License: [AGPL-3.0](https://api.github.com/repos/volcengine/OpenViking/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/volcengine/OpenViking/blob/82ec6d10bcf9e4dfcf8c2c39881d5c71a43df6fb/README.md#L3).
 
@@ -139,7 +139,7 @@ Provides agents with memory extraction, storage, retrieval, migration and multi-
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: The default branch and the mem2.0 evolution roadmap may differ; pin a version when adopting.
-- Maintenance: Commits within the last 90 days; 82 commits in 30 days, 174 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 81 commits in 30 days, 174 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/openJiuwen-ai/agent-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/openJiuwen-ai/agent-memory/blob/2a77650c16f8fe073d8713bc91fc703a7233359d/README.md#L1).
 
@@ -319,7 +319,7 @@ Markdown as the source of truth with a rebuildable SQLite index and a separate s
 
 - Category: File-backed source-of-truth and auditable memory; Core candidate.
 - Scope boundary: Sharing files across hosts still requires designing privacy, concurrency and project scoping.
-- Maintenance: Commits within the last 90 days; 96 commits in 30 days, 381 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 95 commits in 30 days, 381 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/tigerless-labs/agent-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/tigerless-labs/agent-memory/blob/2648ba02d3c0364f9787f0e8fb49f69f47d2e3f7/README.md#L17).
 
@@ -389,7 +389,7 @@ Turns documents, code and conversations into entity relations and searchable kno
 
 - Category: Graphs, entities and temporal memory; Core candidate.
 - Scope boundary: Current deployment paths keep evolving; do not reuse claims from older multi-database versions.
-- Maintenance: Commits within the last 90 days; 843 commits in 30 days, 2828 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 843 commits in 30 days, 2827 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/topoteretes/cognee/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/topoteretes/cognee/blob/8853378eae5366addb064e758e560a456146ae1a/README.md#L2).
 
@@ -469,7 +469,7 @@ Semantic memory, relations and background consolidation over MCP/REST with multi
 
 - Category: Coding agents and MCP memory; Core candidate.
 - Scope boundary: Lightweight self-hosting does not mean identical behavior across all backends; test with a pinned configuration.
-- Maintenance: Commits within the last 90 days; 290 commits in 30 days, 756 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 288 commits in 30 days, 756 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/doobidoo/mcp-memory-service/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/doobidoo/mcp-memory-service/blob/8823c8dd3d2937d8600c4d498a3aa8579c160810/README.md#L37).
 

@@ -30,7 +30,7 @@ Las categorías describen la responsabilidad principal de cada proyecto y no imp
 
 ## Catálogo actual
 
-**89 proyectos, de los cuales 54 provienen de los tres informes originales y 35 se han añadido en esta ronda.** Verificación funcional: 2026-11-20; instantánea de métricas: `2026-11-25T11:05:14+00:00` (UTC).
+**89 proyectos, de los cuales 54 provienen de los tres informes originales y 35 se han añadido en esta ronda.** Verificación funcional: 2026-11-20; instantánea de métricas: `2026-11-25T11:12:36+00:00` (UTC).
 
 Dentro de cada categoría se estratifica primero por estado de mantenimiento y luego se ordena combinando estrellas (40%), commits en la rama por defecto a 90 días (35%) y último commit (25%). Los proyectos archivados van al final. La puntuación de mantenimiento solo describe popularidad y señales de actividad en GitHub; no representa la precisión de la memoria, el coste, la seguridad ni la madurez de producción.
 
@@ -40,18 +40,18 @@ Solo se muestran los candidatos principales con licencia abierta verificada y co
 
 | Proyecto | Propósito | Estrellas | Commits 90 d | Último commit UTC | Puntuación de mantenimiento |
 | --- | --- | --- | --- | --- | --- |
-| [claude-mem](https://github.com/thedotmack/claude-mem) | Captura sesiones y actividad de herramientas, los comprime en SQLite/FTS5/Chroma y los recupera en sesiones posteriores. | 119,651 | 2,482 | 2026-11-25 | 100.0 |
-| [Hindsight](https://github.com/vectorize-io/hindsight) | Gestiona hechos estructurados, experiencias, entidades y observaciones sintéticas mediante retain, recall y reflect. | 63,299 | 1,618 | 2026-11-25 | 98.4 |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | Captura sesiones y actividad de herramientas, los comprime en SQLite/FTS5/Chroma y los recupera en sesiones posteriores. | 119,652 | 2,482 | 2026-11-25 | 100.0 |
+| [Hindsight](https://github.com/vectorize-io/hindsight) | Gestiona hechos estructurados, experiencias, entidades y observaciones sintéticas mediante retain, recall y reflect. | 63,300 | 1,619 | 2026-11-25 | 98.4 |
 | [OpenViking](https://github.com/volcengine/OpenViking) | Gestiona de forma unificada recursos, memoria de largo plazo y Agent Skills mediante un sistema de archivos virtual navegable. | 42,746 | 1,456 | 2026-11-25 | 97.0 |
-| [Cognee](https://github.com/topoteretes/cognee) | Convierte documentos, código y conversaciones en entidades, relaciones y grafos de conocimiento/memoria consultables. | 33,591 | 2,828 | 2026-11-20 | 94.8 |
-| [Engram · Gentleman Programming](https://github.com/Gentleman-Programming/engram) | Memoria persistente en Go/SQLite/FTS5 para agentes de programación, con MCP, HTTP, CLI y TUI. | 8,305 | 941 | 2026-11-24 | 91.0 |
+| [Cognee](https://github.com/topoteretes/cognee) | Convierte documentos, código y conversaciones en entidades, relaciones y grafos de conocimiento/memoria consultables. | 33,591 | 2,827 | 2026-11-20 | 94.8 |
+| [Engram · Gentleman Programming](https://github.com/Gentleman-Programming/engram) | Memoria persistente en Go/SQLite/FTS5 para agentes de programación, con MCP, HTTP, CLI y TUI. | 8,306 | 941 | 2026-11-24 | 91.0 |
 | [Graphiti](https://github.com/getzep/graphiti) | Extrae entidades y relaciones en tiempo real, construye un grafo de conocimiento bi-temporal y fusiona búsqueda léxica, vectorial y de grafo. | 33,081 | 162 | 2026-11-25 | 89.8 |
 | [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory) | Servicio y complementos de memoria para agentes de programación que fusionan BM25, vectores opcionales y relaciones estructuradas. | 30,584 | 233 | 2026-11-18 | 89.7 |
 | [Basic Memory](https://github.com/basicmachines-co/basic-memory) | Usa notas Markdown editables y relaciones semánticas como memoria de conocimiento compartida entre personas y máquinas. | 4,707 | 837 | 2026-11-24 | 89.0 |
 | [Honcho](https://github.com/plastic-labs/honcho) | Forma de manera continua representaciones de los pares y comprensión colaborativa en torno a peer, session y workspace. | 8,270 | 300 | 2026-11-24 | 88.3 |
 | [Supermemory](https://github.com/supermemoryai/supermemory) | Plataforma de búsqueda híbrida y memoria para documentos, memorias y perfiles de usuario. | 31,707 | 130 | 2026-11-24 | 88.3 |
 | [Mnemosyne · mnemosyne-oss](https://github.com/mnemosyne-oss/mnemosyne) | Capa de memoria multiframework basada en SQLite, local por defecto, con MCP e integraciones con varios agentes. | 3,703 | 927 | 2026-11-22 | 87.8 |
-| [Mem0](https://github.com/mem0ai/mem0) | Capa de personalización universal que extrae, actualiza, borra y recupera memorias a partir de las interacciones. | 69,452 | 69 | 2026-11-25 | 87.7 |
+| [Mem0](https://github.com/mem0ai/mem0) | Capa de personalización universal que extrae, actualiza, borra y recupera memorias a partir de las interacciones. | 69,453 | 69 | 2026-11-25 | 87.7 |
 
 ## Índice de categorías
 
@@ -72,12 +72,12 @@ Solo se muestran los candidatos principales con licencia abierta verificada y co
 
 | Proyecto | Propósito | Estrellas | Commits 90 d | Último commit UTC | Puntuación de mantenimiento | Licencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Hindsight](https://github.com/vectorize-io/hindsight) · ★Referencia de los informes | Gestiona hechos estructurados, experiencias, entidades y observaciones sintéticas mediante retain, recall y reflect. | 63,299 | 1,618 | 2026-11-25 | 98.4 | MIT |
+| [Hindsight](https://github.com/vectorize-io/hindsight) · ★Referencia de los informes | Gestiona hechos estructurados, experiencias, entidades y observaciones sintéticas mediante retain, recall y reflect. | 63,300 | 1,619 | 2026-11-25 | 98.4 | MIT |
 | [OpenViking](https://github.com/volcengine/OpenViking) · ★Referencia de los informes | Gestiona de forma unificada recursos, memoria de largo plazo y Agent Skills mediante un sistema de archivos virtual navegable. | 42,746 | 1,456 | 2026-11-25 | 97.0 | AGPL-3.0 |
 | [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory) · ★Referencia de los informes | Servicio y complementos de memoria para agentes de programación que fusionan BM25, vectores opcionales y relaciones estructuradas. | 30,584 | 233 | 2026-11-18 | 89.7 | Apache-2.0 |
 | [Honcho](https://github.com/plastic-labs/honcho) · ★Referencia de los informes | Forma de manera continua representaciones de los pares y comprensión colaborativa en torno a peer, session y workspace. | 8,270 | 300 | 2026-11-24 | 88.3 | AGPL-3.0 |
 | [Supermemory](https://github.com/supermemoryai/supermemory) · ★Referencia de los informes | Plataforma de búsqueda híbrida y memoria para documentos, memorias y perfiles de usuario. | 31,707 | 130 | 2026-11-24 | 88.3 | MIT |
-| [Mem0](https://github.com/mem0ai/mem0) · ★Referencia de los informes | Capa de personalización universal que extrae, actualiza, borra y recupera memorias a partir de las interacciones. | 69,452 | 69 | 2026-11-25 | 87.7 | Apache-2.0 |
+| [Mem0](https://github.com/mem0ai/mem0) · ★Referencia de los informes | Capa de personalización universal que extrae, actualiza, borra y recupera memorias a partir de las interacciones. | 69,453 | 69 | 2026-11-25 | 87.7 | Apache-2.0 |
 | [Hy-Memory](https://github.com/Tencent-Hunyuan/Hy-Memory) | Motor de memoria cognitiva de doble sistema y SDK de Python para escenarios de conversación, agentes y programación. | 2,115 | 604 | 2026-11-18 | 84.8 | Apache-2.0 |
 | [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | Centro de memoria para equipos que convierte conversaciones, documentos y código en Chat Memory, Skills, LLM-Wiki y Code-Graph. | 31,171 | 60 | 2026-11-24 | 83.8 | MIT |
 | [MemOS](https://github.com/MemTensor/MemOS) · ★Referencia de los informes | Sistema operativo de memoria para agentes que cubre varios tipos de memoria, recuperación híbrida y evolución de habilidades. | 12,504 | 112 | 2026-11-09 | 80.3 | Apache-2.0 |
@@ -104,7 +104,7 @@ Solo se muestran los candidatos principales con licencia abierta verificada y co
 
 | Proyecto | Propósito | Estrellas | Commits 90 d | Último commit UTC | Puntuación de mantenimiento | Licencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Engram · Gentleman Programming](https://github.com/Gentleman-Programming/engram) | Memoria persistente en Go/SQLite/FTS5 para agentes de programación, con MCP, HTTP, CLI y TUI. | 8,305 | 941 | 2026-11-24 | 91.0 | MIT |
+| [Engram · Gentleman Programming](https://github.com/Gentleman-Programming/engram) | Memoria persistente en Go/SQLite/FTS5 para agentes de programación, con MCP, HTTP, CLI y TUI. | 8,306 | 941 | 2026-11-24 | 91.0 | MIT |
 | [Basic Memory](https://github.com/basicmachines-co/basic-memory) · ★Referencia de los informes | Usa notas Markdown editables y relaciones semánticas como memoria de conocimiento compartida entre personas y máquinas. | 4,707 | 837 | 2026-11-24 | 89.0 | AGPL-3.0 |
 | [Mnemosyne · mnemosyne-oss](https://github.com/mnemosyne-oss/mnemosyne) | Capa de memoria multiframework basada en SQLite, local por defecto, con MCP e integraciones con varios agentes. | 3,703 | 927 | 2026-11-22 | 87.8 | MIT |
 | [EverOS](https://github.com/EverMind-AI/EverOS) · ★Referencia de los informes | Gestiona episodios/perfiles de usuario y casos/habilidades de agentes con Markdown como fuente de verdad e índice local. | 13,999 | 121 | 2026-11-25 | 85.2 | Apache-2.0 |
@@ -120,7 +120,7 @@ Solo se muestran los candidatos principales con licencia abierta verificada y co
 
 | Proyecto | Propósito | Estrellas | Commits 90 d | Último commit UTC | Puntuación de mantenimiento | Licencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Cognee](https://github.com/topoteretes/cognee) · ★Referencia de los informes | Convierte documentos, código y conversaciones en entidades, relaciones y grafos de conocimiento/memoria consultables. | 33,591 | 2,828 | 2026-11-20 | 94.8 | Apache-2.0 |
+| [Cognee](https://github.com/topoteretes/cognee) · ★Referencia de los informes | Convierte documentos, código y conversaciones en entidades, relaciones y grafos de conocimiento/memoria consultables. | 33,591 | 2,827 | 2026-11-20 | 94.8 | Apache-2.0 |
 | [Graphiti](https://github.com/getzep/graphiti) · ★Referencia de los informes | Extrae entidades y relaciones en tiempo real, construye un grafo de conocimiento bi-temporal y fusiona búsqueda léxica, vectorial y de grafo. | 33,081 | 162 | 2026-11-25 | 89.8 | Apache-2.0 |
 | [CortexDB](https://github.com/liliang-cn/cortexdb) | Combina grafo de conocimiento, restricciones y razonamiento trazable dentro de un único archivo SQLite. | 531 | 602 | 2026-11-25 | 81.7 | MIT |
 | [Neo4j Agent Memory](https://github.com/neo4j-labs/agent-memory) | Memoria de agente basada en grafos y context graph: almacena conversaciones, entidades, relaciones y trayectorias de razonamiento. | 616 | 201 | 2026-10-27 | 70.3 | Apache-2.0 |
@@ -132,7 +132,7 @@ Solo se muestran los candidatos principales con licencia abierta verificada y co
 
 | Proyecto | Propósito | Estrellas | Commits 90 d | Último commit UTC | Puntuación de mantenimiento | Licencia |
 | --- | --- | --- | --- | --- | --- | --- |
-| [claude-mem](https://github.com/thedotmack/claude-mem) · ★Referencia de los informes | Captura sesiones y actividad de herramientas, los comprime en SQLite/FTS5/Chroma y los recupera en sesiones posteriores. | 119,651 | 2,482 | 2026-11-25 | 100.0 | Apache-2.0 |
+| [claude-mem](https://github.com/thedotmack/claude-mem) · ★Referencia de los informes | Captura sesiones y actividad de herramientas, los comprime en SQLite/FTS5/Chroma y los recupera en sesiones posteriores. | 119,652 | 2,482 | 2026-11-25 | 100.0 | Apache-2.0 |
 | [MCP Memory Service](https://github.com/doobidoo/mcp-memory-service) · ★Referencia de los informes | Ofrece memoria semántica, relaciones y consolidación en segundo plano vía MCP/REST, con varios backends de almacenamiento. | 2,154 | 756 | 2026-11-25 | 86.6 | Apache-2.0 |
 | [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | Complemento de memoria jerárquica para DeepSeek Harness que combina memoria en tiempo de ejecución, documentación del proyecto y backends de memoria de largo plazo intercambiables. | 1,127 | 1,686 | 2026-11-24 | 84.2 | MIT |
 | [OKF Agent Memory](https://github.com/okf-memory/okf-agent-memory) | Memoria Git-native para agentes de programación con MCP embebido y lectura progresiva. | 872 | 247 | 2026-11-21 | 78.5 | MIT |
@@ -169,7 +169,7 @@ Solo se muestran los candidatos principales con licencia abierta verificada y co
 | [MemoryStackBench](https://github.com/aetna000/MemoryStackBench) | Evaluación automatizada de seguridad, evidencia, integridad del borrado y auditabilidad de la memoria de agentes. | 6 | 6 | 2026-09-11 | 28.6 | Apache-2.0 |
 | [Agent Memory Radar](https://github.com/H20Zhang/Agent-Memory-Radar) · Aviso de licencia | Radar de investigación que compila mecanismos de memoria, benchmarks, contaminación, olvido y evidencia de recuperación. | 3 | 7 | 2026-09-11 | 27.3 | CC-BY-4.0 contenido / MIT código |
 | [SimpleMem](https://github.com/aiming-lab/SimpleMem) · ★Referencia de los informes | Investiga la compresión con estructura semántica, la consolidación de memorias y la recuperación adaptativa. | 3,881 | 0 | 2026-07-24 | 35.0 | MIT |
-| [MemoryOS](https://github.com/BAI-LAB/MemoryOS) · ★Referencia de los informes | Investiga la memoria jerárquica de corto, medio y largo plazo, su actualización y la gestión de perfiles de usuario. | 1,626 | 0 | 2026-07-07 | 30.9 | Apache-2.0 |
+| [MemoryOS](https://github.com/BAI-LAB/MemoryOS) · ★Referencia de los informes | Investiga la memoria jerárquica de corto, medio y largo plazo, su actualización y la gestión de perfiles de usuario. | 1,627 | 0 | 2026-07-07 | 30.9 | Apache-2.0 |
 | [A-MEM](https://github.com/agiresearch/A-mem) · ★Referencia de los informes | Toma prestado Zettelkasten para organizar, enlazar y evolucionar notas de memoria de forma automática. | 1,218 | 0 | 2025-12-12 | 25.2 | MIT |
 | [agentmemory · JordanMcCann](https://github.com/JordanMcCann/agentmemory) · ★Referencia de los informes | Estudia la recuperación multiseñal: semántica, léxica, grafo, importancia y tiempo. | 46 | 0 | 2026-03-26 | 15.1 | MIT |
 | [MPBench](https://github.com/Digital-Trust-Lab/mp-bench) | Dataset de ataques de contaminación de memoria que evalúa escritura persistente, recuperación posterior y activación conductual. | 7 | 0 | 2026-06-28 | 12.0 | Apache-2.0 |
@@ -185,7 +185,7 @@ Solo se muestran los candidatos principales con licencia abierta verificada y co
 | [Awesome Agent Memory · mnemoverse](https://github.com/mnemoverse/awesome-agent-memory) | Índice externo de sistemas, frameworks, benchmarks e investigación sobre memoria de agentes. | 68 | 87 | 2026-11-23 | 64.4 | CC0-1.0 |
 | [Letta / MemGPT](https://github.com/letta-ai/letta) · ★Referencia de los informes | Plataforma completa de agentes centrada en el estado persistente y la autogestión del contexto por el propio agente. | 25,540 | 4 | 2026-10-18 | 60.8 | Apache-2.0 |
 | [MineContext](https://github.com/volcengine/MineContext) · ★Referencia de los informes | Genera actividades, resúmenes y material consultable a partir de contexto digital como la pantalla. | 5,556 | 0 | 2026-05-07 | 32.6 | Apache-2.0 |
-| [MCP Memory Server](https://github.com/modelcontextprotocol/servers) · ★Referencia de los informes · Archivado/histórico · Aviso de licencia | Componentes de memoria entities, relations y observations del repositorio padre oficial de MCP servers. | 92,237 | 1,119 | 2026-11-18 | 97.8 | Transición Apache-2.0 / MIT; documentación CC-BY-4.0 |
+| [MCP Memory Server](https://github.com/modelcontextprotocol/servers) · ★Referencia de los informes · Archivado/histórico · Aviso de licencia | Componentes de memoria entities, relations y observations del repositorio padre oficial de MCP servers. | 92,238 | 1,119 | 2026-11-18 | 97.8 | Transición Apache-2.0 / MIT; documentación CC-BY-4.0 |
 
 ### Histórico, archivado y licencias restringidas
 

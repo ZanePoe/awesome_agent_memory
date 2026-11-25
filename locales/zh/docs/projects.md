@@ -9,7 +9,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：部署、模型组合和评测协议会显著影响效果与成本。
-- 维护状态：近90天有提交；30 天提交 352 次，90 天提交 1618 次。
+- 维护状态：近90天有提交；30 天提交 353 次，90 天提交 1619 次。
 - 许可：[MIT](https://api.github.com/repos/vectorize-io/hindsight/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/vectorize-io/hindsight/blob/7cec128b8fdb0a696366d888e63be71fe1d52338/README.md#L3)。
 
@@ -19,7 +19,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：服务端虚拟路径不是普通本地文件；摘要、提取和索引新鲜度仍需验证。
-- 维护状态：近90天有提交；30 天提交 636 次，90 天提交 1456 次。
+- 维护状态：近90天有提交；30 天提交 635 次，90 天提交 1456 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/volcengine/OpenViking/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/volcengine/OpenViking/blob/82ec6d10bcf9e4dfcf8c2c39881d5c71a43df6fb/README.md#L3)。
 
@@ -139,7 +139,7 @@
 
 - 分类：记忆引擎与服务；核心候选。
 - 适用边界：默认分支与 mem2.0 演进路线可能不同，采用时应固定版本。
-- 维护状态：近90天有提交；30 天提交 82 次，90 天提交 174 次。
+- 维护状态：近90天有提交；30 天提交 81 次，90 天提交 174 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/openJiuwen-ai/agent-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/openJiuwen-ai/agent-memory/blob/2a77650c16f8fe073d8713bc91fc703a7233359d/README.md#L1)。
 
@@ -319,7 +319,7 @@ SQLite 驱动、默认本地的跨框架记忆层，支持 MCP 和多种 Agent �
 
 - 分类：文件真源与可审阅记忆；核心候选。
 - 适用边界：跨宿主共享文件时仍需设计隐私、并发和项目作用域。
-- 维护状态：近90天有提交；30 天提交 96 次，90 天提交 381 次。
+- 维护状态：近90天有提交；30 天提交 95 次，90 天提交 381 次。
 - 许可：[MIT](https://api.github.com/repos/tigerless-labs/agent-memory/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/tigerless-labs/agent-memory/blob/2648ba02d3c0364f9787f0e8fb49f69f47d2e3f7/README.md#L17)。
 
@@ -389,7 +389,7 @@ Markdown 优先的 Claude Code/Codex 共享记忆库，带 Git、索引和审计
 
 - 分类：图谱、实体与时序记忆；核心候选。
 - 适用边界：当前部署路径持续演进，不能沿用旧版多数据库断言。
-- 维护状态：近90天有提交；30 天提交 843 次，90 天提交 2828 次。
+- 维护状态：近90天有提交；30 天提交 843 次，90 天提交 2827 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/topoteretes/cognee/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/topoteretes/cognee/blob/8853378eae5366addb064e758e560a456146ae1a/README.md#L2)。
 
@@ -469,7 +469,7 @@ Markdown 优先的 Claude Code/Codex 共享记忆库，带 Git、索引和审计
 
 - 分类：编码 Agent 与 MCP 记忆；核心候选。
 - 适用边界：轻量自托管不等于所有后端行为一致，需固定配置测试。
-- 维护状态：近90天有提交；30 天提交 290 次，90 天提交 756 次。
+- 维护状态：近90天有提交；30 天提交 288 次，90 天提交 756 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/doobidoo/mcp-memory-service/license)；开放许可证已核验。GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/doobidoo/mcp-memory-service/blob/8823c8dd3d2937d8600c4d498a3aa8579c160810/README.md#L37)。
 
