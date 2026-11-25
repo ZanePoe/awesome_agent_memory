@@ -85,10 +85,12 @@ def check_links():
     bad=[]
     for locale in LOCALES:
         base=ROOT if locale==DEFAULT else ROOT/'locales'/locale
+        pending={(base/name).resolve() for name in GENERATED}
         for rel in STATIC:
             origin=base if rel in INLINE else base/Path(rel).parent
             for href in re.findall(r'\]\((?!https?:|#)([^)#]+?)(?:#[^)]*)?\)',(base/rel).read_text(encoding='utf-8')):
-                if href in GENERATED or (origin/href).resolve().exists():continue
+                target=(origin/href).resolve()
+                if target in pending or target.exists():continue
                 bad.append('%s:%s -> %s' % (locale,rel,href))
     assert not bad,'broken relative links: '+', '.join(bad)
 def render(locale,u,words,projects,snapshot):

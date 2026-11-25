@@ -600,7 +600,7 @@ Distributed project context, tasks, reasoning and team knowledge for multi-agent
 - Category: Experience, skills and procedural memory; Core candidate.
 - Scope boundary: Dual-licensed AGPL or commercial; different from the MIT/Apache Engram projects.
 - Maintenance: Commits within the last 90 days; 9 commits in 30 days, 9 commits in 90 days.
-- License: [AGPL-3.0-or-later or commercial license](https://github.com/vincents-ai/engram/blob/8838e5712f57dc48d6037ee02e8c48b0f7176d2b/LICENSE); Compound/split licence. Dual license; network-service and modified-distribution obligations follow the AGPL text or the commercial agreement.
+- License: [AGPL-3.0-or-later or commercial license](https://github.com/vincents-ai/engram/blob/8838e5712f57dc48d6037ee02e8c48b0f7176d2b/LICENSE); Compound/split license. Dual license; network-service and modified-distribution obligations follow the AGPL text or the commercial agreement.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/vincents-ai/engram/blob/8838e5712f57dc48d6037ee02e8c48b0f7176d2b/README.md#L1).
 
 ## [Acontext](https://github.com/memodb-io/Acontext)
@@ -710,7 +710,7 @@ Research radar curating memory mechanisms, benchmarks, poisoning, forgetting and
 - Category: Research implementations and benchmarks; Research/benchmark.
 - Scope boundary: A research index/audit resource, not a memory runtime.
 - Maintenance: Commits within the last 90 days; 0 commits in 30 days, 11 commits in 90 days.
-- License: [CC-BY-4.0 content / MIT code](https://github.com/H20Zhang/Agent-Memory-Radar/blob/47379f841c844cf97d2cfe4a6156431c8ee572a3/LICENSE.md); Compound/split licence. Split license for research content and maintenance code.
+- License: [CC-BY-4.0 content / MIT code](https://github.com/H20Zhang/Agent-Memory-Radar/blob/47379f841c844cf97d2cfe4a6156431c8ee572a3/LICENSE.md); Compound/split license. Split license for research content and maintenance code.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/H20Zhang/Agent-Memory-Radar/blob/47379f841c844cf97d2cfe4a6156431c8ee572a3/README.md#L1).
 
 ## [MemoryStackBench](https://github.com/aetna000/MemoryStackBench)
@@ -850,7 +850,7 @@ The entities, relations and observations memory components in the official MCP s
 - Category: Adjacent platforms, specifications and indexes; Historical reference.
 - Scope boundary: Parent-repository metrics are not the memory submodule's; the license is in an MIT/Apache transition and the project structure has evolved.
 - Maintenance: Archived / historical; 515 commits in 30 days, 1119 commits in 90 days.
-- License: [Apache-2.0 / MIT transition; docs CC-BY-4.0](https://github.com/modelcontextprotocol/servers/blob/e1dc4b18dbb948921da37f3d4224a628730b43b0/LICENSE); Compound/split licence. The parent repository is mid-relicensing; individual files follow the applicable license.
+- License: [Apache-2.0 / MIT transition; docs CC-BY-4.0](https://github.com/modelcontextprotocol/servers/blob/e1dc4b18dbb948921da37f3d4224a628730b43b0/LICENSE); Compound/split license. The parent repository is mid-relicensing; individual files follow the applicable license.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/modelcontextprotocol/servers/blob/e1dc4b18dbb948921da37f3d4224a628730b43b0/README.md#L33).
 
 ## [Engram App](https://github.com/engram-app/Engram)
