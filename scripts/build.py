@@ -1,6 +1,6 @@
 """Generate the multilingual Agent-memory catalogue and transparent GitHub rankings."""
 from __future__ import annotations
-import argparse,csv,io,json,re,unicodedata
+import argparse,csv,io,json,re
 from datetime import datetime
 from pathlib import Path
 from ranking import dt,age_days,score,tier,rank,table
@@ -32,10 +32,12 @@ def prefix(locale,depth=0):
     """`../` count from a generated file to the repository root; depth 1 means the file sits in docs/."""
     return ('../'*(2+depth)) if locale!=DEFAULT else ('../'*depth)
 def anchor(title):
+    """GitHub's github-slugger rule: lowercase, drop ASCII punctuation and U+2000-206F/U+2E00-2E7F, spaces to hyphens. Other scripts (CJK punctuation included, Devanagari marks included) survive."""
+    drop=set('\\\'!"#$%&()*+,./:;<=>?@[]^`{|}~')
     out=[]
     for ch in title.strip().lower():
-        if ch==' ':out.append('-')
-        elif ch.isalnum() or ch in '_-' or unicodedata.category(ch) in ('Mn','Mc','Me'):out.append(ch)
+        if ch in drop or '\u2000'<=ch<='\u206f' or '\u2e00'<=ch<='\u2e7f':continue
+        out.append('-' if ch==' ' else ch)
     return ''.join(out)
 def switcher(langs,locale):
     items=[]
@@ -97,7 +99,8 @@ def render(locale,u,words,projects,snapshot):
     m=snapshot['repositories'];asof=snapshot['as_of'];reviewed=max(p['reviewed_at'] for p in projects);ordered=rank(projects,m,asof);base=sum(bool(p['baseline']) for p in projects);R=prefix(locale)
     cat=u['categories'];scope=u['scopes'];lic_status=u['license_status'];tags=u['tags'];T=u['templates'];S=u['sections']
     intro=(ROOT/('docs/readme-intro.md' if locale==DEFAULT else f'locales/{locale}/docs/readme-intro.md')).read_text(encoding='utf-8').strip()
-    readme=[intro,f'## {S["current"]}\n\n'+T['current'].format(total=len(projects),baseline=base,added=len(projects)-base,reviewed=reviewed,as_of=asof,R=R),f'## {S["shortlist"]}\n\n'+T['shortlist_note']]
+    nav='## '+S['tags']+'\n\n'+' · '.join(f'[{label}](#{anchor(label)})' for label in cat.values())
+    readme=[intro,nav,f'## {S["current"]}\n\n'+T['current'].format(total=len(projects),baseline=base,added=len(projects)-base,reviewed=reviewed,as_of=asof,R=R),f'## {S["shortlist"]}\n\n'+T['shortlist_note']]
     shortlist=[p for p in ordered if p['scope']=='core' and p['license_review']['status']=='verified' and tier(p,m[p['repo']],asof)==0]
     readme.append(table(u['headers']['shortlist'],[[f"[{words[p['repo']]['name']}](https://github.com/{p['repo']})",words[p['repo']]['description'],f"{m[p['repo']]['stars']:,}",f"{m[p['repo']]['commits_90d']:,}",m[p['repo']]['last_commit_at'][:10],f"{score(m[p['repo']],asof):.1f}"] for p in shortlist[:12]]))
     readme.append(f'## {S["toc"]}\n\n'+T['toc_note'])

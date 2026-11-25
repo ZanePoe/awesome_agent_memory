@@ -22,6 +22,10 @@ flowchart LR
 
 Categories describe a project's primary responsibility, not mutually exclusive capabilities. The first release aims for a verifiable ecosystem map; it does not claim to cover every project on the internet.
 
+## Jump to a category
+
+[Memory engines and services](#memory-engines-and-services) · [File-backed source-of-truth and auditable memory](#file-backed-source-of-truth-and-auditable-memory) · [Graphs, entities and temporal memory](#graphs-entities-and-temporal-memory) · [Coding agents and MCP memory](#coding-agents-and-mcp-memory) · [Experience, skills and procedural memory](#experience-skills-and-procedural-memory) · [Research implementations and benchmarks](#research-implementations-and-benchmarks) · [Adjacent platforms, specifications and indexes](#adjacent-platforms-specifications-and-indexes) · [Historical, archived and restricted licenses](#historical-archived-and-restricted-licenses)
+
 ## Current coverage
 
 **90 projects, of which 54 come from the three original research reports and 36 were added in this round.** Feature verification: 2026-11-20; metrics snapshot: `2026-11-20T09:44:48+00:00` (UTC).

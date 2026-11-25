@@ -24,6 +24,10 @@ flowchart LR
 
 Las categorías describen la responsabilidad principal de cada proyecto y no implican funciones mutuamente excluyentes. La primera versión aspira a un mapa del ecosistema verificable, no a agotar todos los proyectos existentes.
 
+## Ir a una categoría
+
+[Motores y servicios de memoria](#motores-y-servicios-de-memoria) · [Archivos como fuente de verdad y memoria auditable](#archivos-como-fuente-de-verdad-y-memoria-auditable) · [Grafos, entidades y memoria temporal](#grafos-entidades-y-memoria-temporal) · [Agentes de programación y memoria MCP](#agentes-de-programación-y-memoria-mcp) · [Experiencia, habilidades y memoria procedimental](#experiencia-habilidades-y-memoria-procedimental) · [Implementaciones de investigación y evaluación](#implementaciones-de-investigación-y-evaluación) · [Plataformas adyacentes, especificaciones e índices](#plataformas-adyacentes-especificaciones-e-índices) · [Histórico, archivado y licencias restringidas](#histórico-archivado-y-licencias-restringidas)
+
 ## Catálogo actual
 
 **90 proyectos, de los cuales 54 provienen de los tres informes originales y 36 se han añadido en esta ronda.** Verificación funcional: 2026-11-20; instantánea de métricas: `2026-11-20T09:44:48+00:00` (UTC).

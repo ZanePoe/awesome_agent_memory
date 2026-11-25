@@ -24,6 +24,10 @@ flowchart LR
 
 Les catégories décrivent la responsabilité principale du projet, pas une exclusivité fonctionnelle. La première version vise une carte vérifiable de l'écosystème ; elle ne prétend pas recenser tous les projets du web.
 
+## Aller à une catégorie
+
+[Moteurs et services de mémoire](#moteurs-et-services-de-mémoire) · [Source fichier et mémoire consultable](#source-fichier-et-mémoire-consultable) · [Graphes, entités et mémoire temporelle](#graphes-entités-et-mémoire-temporelle) · [Mémoire des agents de codage et MCP](#mémoire-des-agents-de-codage-et-mcp) · [Expérience, compétences et mémoire procédurale](#expérience-compétences-et-mémoire-procédurale) · [Implémentations de recherche et évaluation](#implémentations-de-recherche-et-évaluation) · [Plateformes, spécifications et index adjacents](#plateformes-spécifications-et-index-adjacents) · [Historique, archivés et licences restreintes](#historique-archivés-et-licences-restreintes)
+
 ## Sélection actuelle
 
 **90 projets, dont 54 issus des trois études initiales et 36 ajoutés lors de cette passe.** Vérification fonctionnelle : 2026-11-20 ; instantané des métriques : `2026-11-20T09:44:48+00:00` (UTC).

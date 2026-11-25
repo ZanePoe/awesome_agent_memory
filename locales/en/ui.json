@@ -51,6 +51,7 @@
   "sections": {
     "current": "Current coverage",
     "shortlist": "Active core projects at a glance",
+    "tags": "Jump to a category",
     "toc": "Category index",
     "choose": "How to choose",
     "data": "Data and maintenance",
