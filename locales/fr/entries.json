@@ -239,12 +239,6 @@
   "license_label": "Apache-2.0",
   "license_note": "Identifiée via GitHub licenseInfo ; modèles, données, poids et services managés associés relèvent de leurs propres licences"
  },
- "FlowElement-xinliuyuansu/m_flow": {
-  "description": "Organise mémoire épisodique, conceptuelle et entitaire dans un graphe cognitif multi-couches à propagation contrôlée.",
-  "boundary": "Le benchmark des auteurs conserve modèle et réglages ; la propagation dans le graphe ne garantit pas l'exactitude des faits.",
-  "license_label": "Apache-2.0",
-  "license_note": "Identifiée via GitHub licenseInfo ; modèles, données, poids et services managés associés relèvent de leurs propres licences"
- },
  "neo4j-labs/agent-memory": {
   "description": "Mémoire d'agent et graphe de contexte basés sur Neo4j, stockant conversations, entités, relations et traces de raisonnement.",
   "boundary": "Dépend de Neo4j ; un projet expérimental ou labs n'offre pas le SLA d'un produit officiel.",
@@ -503,12 +497,6 @@
   "license_label": "BSL-1.1",
   "license_note": "Restreint l'hébergement/l'intégration tiers concurrents ; date de conversion et paramètres suivent la LICENSE"
  },
- "unibaseio/membase": {
-  "description": "Couche de mémoire inter-agents avec SDK, CLI et MCP, sur compte managé ou stockage local.",
-  "boundary": "Distinct de memodb-io/Memobase ; données, authentification et capacités des modes managé et local se vérifient séparément.",
-  "license_label": "MIT",
-  "license_note": "Identifiée via GitHub licenseInfo ; modèles, données, poids et services managés associés relèvent de leurs propres licences"
- },
  "mnemosyne-oss/mnemosyne": {
   "description": "Couche de mémoire inter-frameworks pilotée par SQLite, locale par défaut, avec MCP et plusieurs intégrations d'agents.",
   "boundary": "Nombreux projets homonymes Mnemosyne ; embedding distant, synchronisation et options de LLM déplacent la frontière zéro cloud.",
@@ -537,6 +525,12 @@
   "description": "Jeu de données d'attaques par pollution de mémoire évaluant l'écriture persistante, la récupération différée et le déclenchement de comportement.",
   "boundary": "Jeu de données de recherche, pas une défense de production ; le taux de réussite des attaques dépend de l'agent cible et du protocole.",
   "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; modèles, données, poids et services managés associés relèvent de leurs propres licences"
+ },
+ "membaseai/membase": {
+  "description": "Couche de mémoire inter-agents avec SDK, CLI et MCP, sur compte managé ou stockage local.",
+  "boundary": "Distinct de memodb-io/Memobase ; données, authentification et capacités des modes managé et local se vérifient séparément.",
+  "license_label": "MIT",
   "license_note": "Identifiée via GitHub licenseInfo ; modèles, données, poids et services managés associés relèvent de leurs propres licences"
  }
 }

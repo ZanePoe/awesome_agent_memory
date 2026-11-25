@@ -1,542 +1,536 @@
 {
-  "mnemon-dev/mnemon": {
-    "description": "Agent के लिए क्रॉस-सेशनpersistent मेमोरी, ज्ञान को ग्राफ़ संरचना में व्यवस्थित करती है; intent-aware रिट्रीवल और कई होस्ट इंटीग्रेशन का समर्थन करती है।",
-    "boundary": "लोकल मेमोरी इंजन, होस्ट LLM, Agency Preview और AML टेस्ट demo अलग-अलग घटक हैं; पोस्ट में रैंकिंग के नतीजे विशिष्ट मॉडल और संस्करण पर निर्भर हैं, सामान्य प्रभाव की गारंटी नहीं।",
-    "license_label": "Apache-2.0",
-    "license_note": "रूट LICENSE Apache-2.0 है; तृतीय-पक्ष मॉडल, सर्विसेज़ और डेटा के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "omdsh-dev/dsh-mnemon": {
-    "description": "DeepSeek Harness का लेयर्ड मेमोरी प्लगइन, जो रनटाइम मेमोरी, प्रोजेक्ट दस्तावेज़ और स्वैच-योग्य लॉन्ग-टर्म मेमोरी बैकएंड्स को जोड़ता है।",
-    "boundary": "DSH होस्ट पर निर्भर; विभिन्न Provider के सर्विसेज़, डेटा-स्थान और डिलीशन क्षमताएँ भिन्न हैं, और स्किल सेल्फ-इवोल्यूशन डिफ़ॉल्ट रूप से बंद है।",
-    "license_label": "MIT",
-    "license_note": "रूट LICENSE MIT है; तृतीय-पक्ष Provider के लाइसेंस और सेवा की शर्तें अलग से गिनी जाएँ, THIRD_PARTY_NOTICES.md देखें।"
-  },
-  "beizhangnina/EverMemOS_bz": {
-    "description": "EverMemOS का fork रिपॉज़िटरी, जिसमें बातचीत से निष्कर्षण, संरचित मेमोरी और बहु-रणनीति रिकॉल पर केंद्रित पुराना इम्प्लीमेंटेशन सुरक्षित है।",
-    "boundary": "GitHub पर EverMind-AI/EverOS का fork चिह्नित; वर्तमान डिफ़ॉल्ट ब्रांच का अंतिम कमिट 2025-11-28 को है, README में वर्णित MongoDB, Elasticsearch, Milvus और Redis आर्किटेक्चर को सीधे वर्तमान EverOS पर लागू नहीं किया जा सकता। benchmark के नतीजों का स्वतंत्र सत्यापन नहीं हुआ है।",
-    "license_label": "Apache-2.0",
-    "license_note": "रूट LICENSE Apache-2.0 है, NOTICE में कॉपीराइट घोषणाएँ हैं; मॉडल, डेटा और तृतीय-पक्ष निर्भरताओं के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "volcengine/OpenViking": {
-    "description": "नेविगेट-योग्य वर्चुअल फ़ाइल सिस्टम से संसाधनों, लॉन्ग-टर्म मेमोरी और Agent Skills को एकीकृत रूप में प्रबंधित करता है।",
-    "boundary": "सर्वर-साइड वर्चुअल पथ साधारण लोकल फ़ाइलें नहीं हैं; सारांश, निष्कर्षण और इंडेक्स की ताज़गी की जाँच अब भी आवश्यक है।",
-    "license_label": "AGPL-3.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "vectorize-io/hindsight": {
-    "description": "retain, recall और reflect के ज़रिए संरचित तथ्यों, अनुभवों, एंटिटीज़ और संश्लेषित अवलोकनों को प्रबंधित करता है।",
-    "boundary": "डिप्लॉयमेंट, मॉडल संयोजन और इवैल्यूएशन प्रोटोकॉल प्रभाव और लागत को महत्वपूर्ण रूप से बदलते हैं।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "plastic-labs/honcho": {
-    "description": "peer, session और workspace के इर्द-गिर्द निरंतर ऑब्जेक्ट रिप्रज़ेंटेशन और सह-कार्यात्मक समझ गढ़ता है।",
-    "boundary": "अनुमान (inference) स्पष्ट तथ्यों से आगे बढ़ सकता है; मूल सेशन हटाने से सभी व्युत्पन्न निष्कर्षों के हटने की स्वतः गारंटी नहीं मिलती।",
-    "license_label": "AGPL-3.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "mem0ai/mem0": {
-    "description": "सामान्य पर्सनलाइज़ेशन मेमोरी लेयर; इंटरैक्शन से मेमोरी निकालना, अद्यतन, विलोपन और रिट्रीवल का समर्थन करती है।",
-    "boundary": "ओपन-सोर्स लाइब्रेरी, होस्टेड प्लेटफ़ॉर्म और विभिन्न इंटीग्रेशन प्रवेश-बिंदुओं के डेटा-पाथ अलग-अलग सत्यापित करने होंगे।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "MemTensor/MemOS": {
-    "description": "Agent के लिए मेमोरी ऑपरेटिंग सिस्टम, जो कई श्रेणियों की मेमोरी, हाइब्रिड रिट्रीवल और स्किल इवोल्यूशन को कवर करता है।",
-    "boundary": "मुख्य सर्विस, क्लाउड प्रोडक्ट और लोकल प्लगइन अलग-अलग स्टोरेज और डिप्लॉयमेंट पाथ अपनाते हैं।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "MemMachine/MemMachine": {
-    "description": "यूज़र, प्रोजेक्ट और सेशन आयामों के इंटरफ़ेस वाला सामान्य Agent मेमोरी सर्विस।",
-    "boundary": "बैकएंड, मॉडल और टेंट आइसोलेशन की वास्तविक डिप्लॉयमेंट कॉन्फ़िगरेशन के अनुसार जाँच करनी होगी।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "memodb-io/memobase": {
-    "description": "यूज़र प्रोफ़ाइल और टाइम्ड इवेंट्स के इर्द-गिर्द लॉन्ग-टर्म यूज़र मेमोरी बनाए रखता है।",
-    "boundary": "एक ही टीम के Acontext से इसका उद्देश्य भिन्न है; वर्तमान मेंटेनेंस सक्रियता और अनुशंसित रास्ता अलग से देखें।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "mem9-ai/mem9": {
-    "description": "क्रॉस-Agent मेमोरी और सेशन इनटेक देता है, साथ ही कई सर्वर-साइड स्टोरेज बैकएंड्स का समर्थन करता है।",
-    "boundary": "प्राइवेट डिप्लॉयमेंट में भी कंट्रोल-प्लेन, डेटाबेस और टेंट इनिशियलाइज़ेशन संभालना पड़ता है।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "agent-memory-lab/agent-memory": {
-    "description": "स्रोत प्रमाण, तथ्य-सुधार, टाइम वैलिडिटी और scope पर ज़ोर देने वाला मेमोरी इंजन।",
-    "boundary": "README इसे Alpha चिह्नित करता है; फ़ंक्शन का विवरण प्रोडक्शन परिपक्वता के बराबर नहीं है।",
-    "license_label": "Apache-2.0",
-    "license_note": "रूट LICENSE मैन्युअल रूप से सत्यापित"
-  },
-  "Jahvis/memanto-ai-memory": {
-    "description": "remember, recall और answer प्रिमिटिव्स में संस्करण और स्रोत मेटाडेटा वाली मेमोरी सर्विस लपेटता है।",
-    "boundary": "रिट्रीवल बाहरी Moorcheh सर्विस पर निर्भर; इसे पूर्ण ऑफ़लाइन ओपन-सोर्स स्टैक नहीं कहा जा सकता।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "ivanzwb/agent-memory": {
-    "description": "TypeScript एम्बेडेड मेमोरी लाइब्रेरी, जिसमें वर्किंग, सेशन, लॉन्ग-टर्म मेमोरी और नॉलेज-बेस शामिल हैं।",
-    "boundary": "छोटी परियोजना; ऑटो-एक्सट्रैक्शन और token बजट का स्वयं परीक्षण करना होगा।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "rohitg00/agentmemory": {
-    "description": "कोडिंग Agent के लिए सर्विस और प्लगइन, जो BM25, वैकल्पिक वेक्टर और संरचित संबंधों को जोड़ता है।",
-    "boundary": "समान नाम के अन्य agentmemory प्रोजेक्ट्स से असंबंधित; डिप्लॉयमेंट प्रवेश-बिंदु अलग पहचानें।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "HBarefoot/engram": {
-    "description": "इन-प्रोसेस TypeScript/SQLite मेमोरी लाइब्रेरी, जो लोकल embedding, MCP और उपयोग-योग्य Skill देती है।",
-    "boundary": "पहले उपयोग में लोकल मॉडल डाउनलोड हो सकता है; हल्कापन का अर्थ मल्टी-प्रोसेस कन्करेंसी-सुरक्षा नहीं है।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "TAIPANBOX/engram": {
-    "description": "SQLite पर episodic, semantic और procedural मेमोरी, bi-temporal तथ्य, decay और MCP रखता है।",
-    "boundary": "नई परियोजना; फ़ंक्शन और प्रदर्शन की एकसमान व्यावहारिक जाँच अब बाकी है।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "openJiuwen-ai/agent-memory": {
-    "description": "Agent के लिए मेमोरी एक्सट्रैक्शन, स्टोरेज, रिट्रीवल, माइग्रेशन और बहु-रूप मेमोरी क्षमताएँ देता है।",
-    "boundary": "डिफ़ॉल्ट ब्रांच और mem2.0 इवोल्यूशन रोडमैप भिन्न हो सकते हैं; अपनाते समय संस्करण फ़िक्स करें।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "Tencent-Hunyuan/Hy-Memory": {
-    "description": "बातचीत, Agent और कोडिंग परिदृश्यों के लिए dual-system cognitive मेमोरी इंजन और Python SDK।",
-    "boundary": "Hy Memory इंजन और MemHub प्रोडक्ट लेयर का विभाजन भिन्न है; मॉडल और डेटा पाथ की जाँच घटक-वार करें।",
-    "license_label": "Apache-2.0",
-    "license_note": "रूट LICENSE में Apache-2.0 पर कोई अतिरिक्त प्रतिबंध नहीं स्पष्ट; सार्वजनिक पैरामीटर और वेट्स का दायरा LICENSE के मूल पाठ से तय हो।"
-  },
-  "TencentCloud/TencentDB-Agent-Memory": {
-    "description": "बातचीत, दस्तावेज़ और कोड को Chat Memory, Skill, LLM-Wiki और Code-Graph में बदलने वाला टीम मेमोरी सेंटर।",
-    "boundary": "डिफ़ॉल्ट ब्रांच development ब्रांच हो सकती है; प्रोटोकॉल प्रॉक्सी और डेटाबेस डिप्लॉयमेंट की सीमाएँ फ़िक्स-वर्ज़न जाँच माँगती हैं।",
-    "license_label": "MIT",
-    "license_note": "रूट LICENSE मैन्युअल रूप से सत्यापित"
-  },
-  "tawanorg/OpenMemory": {
-    "description": "फ़्रेमवर्क-अपेक्षित, self-hosted लॉन्ग-टर्म semantic और context मेमोरी सर्विस।",
-    "boundary": "समान OpenMemory नाम वाले अन्य प्रोजेक्ट्स से अलग पहचानें; लेयर्ड decompose के लाभ की व्यावहारिक जाँच आवश्यक है।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "hellangleZ/Agent-MemoryForge": {
-    "description": "मल्टी-टेंट Agent के लिए पर्सिस्टेंट, रिट्रीवेबल और ऑडिट-योग्य मेमोरी लेयर, SDK/Gateway के साथ।",
-    "boundary": "प्रोजेक्ट नया है; प्रोडक्शन-ग्रेड दावे, आइसोलेशन और बैकग्राउंड distillation की डिप्लॉयमेंट-स्तर जाँच चाहिए।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "joshuaswarren/remnic": {
-    "description": "scope, स्रोत, सुधार, सीमा, रिट्रीवल गुणवत्ता और MCP/HTTP पर ज़ोर देने वाली user-aware मेमोरी लेयर।",
-    "boundary": "नई परियोजना; वर्तमान दस्तावेज़ीकृत क्षमताओं और वास्तविक benchmark नतीजों को अलग रखकर देखें।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "supermemoryai/supermemory": {
-    "description": "दस्तावेज़ों, मेमोरी और यूज़र प्रोफ़ाइल के लिए हाइब्रिड सर्च और मेमोरी प्लेटफ़ॉर्म।",
-    "boundary": "ओपन-सोर्स सर्विस और होस्टेड reader जैसे बाहरी क्षमताओं के डेटा-पाथ की जाँच आइटम-वार करें।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "MemoriLabs/Memori": {
-    "description": "यूज़र और प्रोसेस-ओनरशिप के इर्द-गिर्द मेमोरी इनटेक और recall को मौजूदा LLM कॉल में जोड़ता है।",
-    "boundary": "वर्तमान क्विक-स्टार्ट क्लाउड-प्रधान है; BYODB और पूर्ण self-hosted के दायरे को अलग रखें।",
-    "license_label": "Apache-2.0",
-    "license_note": "रूट LICENSE मैन्युअल रूप से सत्यापित"
-  },
-  "CaviraOSS/LongMemory": {
-    "description": "लोकल TypeScript/SQLite लॉन्ग-टर्म मेमोरी, जो स्रोत, समय, प्रमाण-चयन और token बजट देती है।",
-    "boundary": "मूल नाम Cavira OpenMemory; Mem0 के OpenMemory से भ्रमित न हों।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "memvid/memvid": {
-    "description": "पोर्टेबल सिंगल-फ़ाइल और Rust कोर से हाइब्रिड रिट्रीवल व बहु-भाषी SDK देता है।",
-    "boundary": "वर्तमान रोडमैप शुरुआती वीडियो/QR-कोड कहानी से भिन्न है; यह स्थायी रिट्रीवल की ओर अधिक है।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "Mirix-AI/MIRIX": {
-    "description": "बहु-प्रकार, बहु-Agent, मल्टीमोडल लॉन्ग-टर्म मेमोरी सिस्टम, जो कार्य गतिविधि ट्रैक कर स्किल निहारता है।",
-    "boundary": "वास्तविक डेटाबेस, मॉडल और डेस्कटॉप कैप्चर का दायरा वर्तमान संस्करण से जाँचें।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "tigerless-labs/agent-memory": {
-    "description": "Markdown को ट्रुथ सोर्स, SQLite को पुनर्निर्माण-योग्य इंडेक्स रखता है, और एक स्वतंत्र sleep-ऑर्गनाइज़ेशन लेयर देता है।",
-    "boundary": "क्रॉस-होस्ट फ़ाइल शेयरिंग में भी privacy, concurrency और प्रोजेक्ट scope डिज़ाइन करना पड़ता है।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "zilliztech/memsearch": {
-    "description": "Markdown ट्रुथ सोर्स के साथ Milvus derived इंडेक्स; vector/BM25/RRF और progressive expansion का समर्थन।",
-    "boundary": "सारांश, फ़ाइलें, इंडेक्स और मूल सेशन अतुल्य (out of sync) हो सकते हैं; OpenViking के समानांतर खोज अवधारणा से असंबंधित।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "agentscope-ai/ReMe": {
-    "description": "Markdown/frontmatter/wikilinks से तथ्य और अनुभव व्यवस्थित करता है; lexical, vector और संबंध-विस्तार का समर्थन।",
-    "boundary": "रिपॉज़िटरी में पुराना MemoryScope रूप बना हुआ है; अपनाते समय वर्तमान इंटरफ़ेस को मानक रखें।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "EverMind-AI/EverOS": {
-    "description": "Markdown ट्रुथ सोर्स और लोकल इंडेक्स से यूज़र episodes/profile और Agent cases/skills प्रबंधित करता है।",
-    "boundary": "मूल EverMemOS आर्किटेक्चर का विवरण अब पुराना है; पुराने डिप्लॉयमेंट निर्भरता-समूह लागू नहीं होते।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "basicmachines-co/basic-memory": {
-    "description": "संपादन-योग्य Markdown नोट्स और semantic संबंधों को मनुष्य-Agent साझा ज्ञान-मेमोरी के रूप में इस्तेमाल करता है।",
-    "boundary": "ज्ञान-मेमोरी और MCP वर्कस्पेस के नज़दीक है; तथ्य-शुद्धि lifecycle अपने आप संभालता नहीं है।",
-    "license_label": "AGPL-3.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "shiblon/engram": {
-    "description": "सिंगल बाइनरी और SQLite से short/long-term मेमोरी, प्राथमिकताएँ और persona प्रबंधित करता है।",
-    "boundary": "अन्य Engram प्रोजेक्ट्स से असंबंधित; होस्ट tool-calling का तरीका अलग से जाँचें।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "B12Labs/engram": {
-    "description": "पोर्टेबल सिंगल-फ़ाइल मेमोरी फ़ॉर्मैट, graph compression और fast/hybrid/deep सर्च के साथ।",
-    "boundary": "v0.x फ़ॉर्मैट अस्थिर है और single-writer की ओर झुका है; यह concurrent डेटाबेस का विकल्प नहीं है।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "Gentleman-Programming/engram": {
-    "description": "कोडिंग Agent के लिए Go/SQLite/FTS5 पर्सिस्टेंट मेमोरी; MCP, HTTP, CLI और TUI देती है।",
-    "boundary": "समान नाम वाले अन्य Engram प्रोजेक्ट्स से असंबंधित; क्रॉस-होस्ट इंस्टॉलेशन कॉन्फ़िगरेशन अलग जाँच चाहिए।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "Sibyl-Labs/Sibyl-Memory": {
-    "description": "सिंगल-फ़ाइल, बिना vector-DB लॉन्ग-टर्म मेमोरी परिवार; SDK, CLI, MCP, Hermes और LangGraph एडॉप्टर शामिल।",
-    "boundary": "नई परियोजना; हर एडॉप्टर पैकेज की परिपक्वता और semantic क्षमताएँ अलग-अलग सत्यापित करें।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "mcncarl/agent-memory-vault": {
-    "description": "Markdown-प्रधान Claude Code/Codex साझा मेमोरी वॉल्ट, Git, इंडेक्स और audit के साथ।",
-    "boundary": "यह तय करना होगा कि कौन-सी मेमोरी Git में commit करने योग्य है, और branch/worktree scope संभालना होगा।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "getzep/graphiti": {
-    "description": "रियल-टाइम में एंटिटी और संबंध निकालकर bi-temporal नॉलेज ग्राफ़ बनाता है और lexical, vector तथा graph रिट्रीवल कोजोड़ता है करता है.",
-    "boundary": "ग्राफ़ बैकएंड और एक्सट्रैक्शन मॉडल लागत बदलते हैं; यह वर्तमान Zep इकोसिस्टम का ओपन-सोर्स ग्राफ़ कोर है।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "topoteretes/cognee": {
-    "description": "दस्तावेज़, कोड और बातचीत को एंटिटी-संबंधों तथा सर्च-योग्य knowledge/memory ग्राफ़ में बदलता है।",
-    "boundary": "वर्तमान डिप्लॉयमेंट पाथ लगातार बदल रहा है; पुरानी बहु-डेटाबेस धारणाएँ लागू नहीं रखीं।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "FlowElement-xinliuyuansu/m_flow": {
-    "description": "बहु-स्त्रीय cognitive ग्राफ़ और नियंत्रित प्रसार से episodic, conceptual और entity मेमोरी व्यवस्थित करता है।",
-    "boundary": "लेखक के benchmark में मॉडल सेटिंग्स सुरक्षित रखें; ग्राफ़ प्रसार तथ्यों की शुद्धता की गारंटी नहीं है।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "neo4j-labs/agent-memory": {
-    "description": "ग्राफ़-आधारित Agent मेमोरी और context graph, जो संवाद, एंटिटी, संबंध और reasoning traces स्टोर करता है।",
-    "boundary": "Neo4j पर निर्भर; experimental या labs परियोजना का अर्थ उत्पाद-स्तर SLA नहीं है।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "liliang-cn/cortexdb": {
-    "description": "एक ही SQLite फ़ाइल में नॉलेज ग्राफ़, constraints और traceable reasoning जोड़ता है।",
-    "boundary": "लोकल सिंगल-फ़ाइल रूप प्रयोग के लिए उपयुक्त; scale और concurrency क्षमता व्यावहारिक जाँच माँगता है।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "memory-graph/memory-graph": {
-    "description": "कोडिंग Agent के लिए संबंध-ट्रैकिंग और ग्राफ़ क्वेरी वाला MCP मेमोरी सर्विस।",
-    "boundary": "प्रोजेक्ट-संबंध मेमोरी की ओर झुका; पूर्ण व्यक्तिगत लॉन्ग-टर्म मेमोरी प्लेटफ़ॉर्म के बराबर नहीं।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "JordyZomer/lemmalog": {
-    "description": "Datalog नियम, स्रोत-तथ्य और incremental derivation से Agent मेमोरी बनाता है।",
-    "boundary": "नियम-व्युत्पत्ति की गुणवत्ता तथ्य इनटेक और नियम-डिज़ाइन पर निर्भर; यह vector-रिट्रीवल से भिन्न रास्ता है।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "zhangfengcdt/memoir": {
-    "description": "Git-शैली version control वाली लेयर्ड Agent मेमोरी।",
-    "boundary": "नई परियोजना; versioning के merge, rollback और प्रदर्शन की व्यावहारिक जाँच बाकी है।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "thedotmack/claude-mem": {
-    "description": "सेशन और tool गतिविधि कैप्चर कर, उन्हें SQLite/FTS5/Chroma में संकुचित कर आगे के सेशन में recall करता है।",
-    "boundary": "मल्टी-होस्ट समर्थन की जाँच आइटम-वार करें; कैप्चर में संवेदनशील tool output आ सकता है।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "doobidoo/mcp-memory-service": {
-    "description": "MCP/REST से semantic मेमोरी, संबंध और बैकग्राउंड ऑर्गनाइज़ेशन देता है; कई स्टोरेज बैकएंड्स समर्थित।",
-    "boundary": "हल्का self-hosting का अर्थ सभी बैकएंड्स में एकसमान व्यवहार नहीं; फ़िक्स कॉन्फ़िगरेशन से परीक्षण करें।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "riponcm/projectmem": {
-    "description": "event log में issue, प्रयास, fix और निर्णय दर्ज करता है, ताकि कोडिंग Agent दोहराई गई त्रुटियाँ न करें.",
-    "boundary": "यह प्रोजेक्ट इंजीनियरिंग मेमोरी है, सामान्य व्यक्तिगत प्रोफ़ाइलिंग सिस्टम नहीं।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "coleam00/mcp-mem0": {
-    "description": "Mem0 की लॉन्ग-टर्म मेमोरी को MCP सर्विस के रूप में Agent क्लाइंट्स तक पहुँचाता है।",
-    "boundary": "मुख्यतः एडॉप्टर लेयर; Mem0 सर्विस या लोकल लाइब्रेरी की डिप्लॉयमेंट सीमाएँ बनी रहती हैं।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "AVIDS2/memorix": {
-    "description": "MCP से कई कोडिंग Agent के बीच क्रॉस-होस्ट साझा मेमोरी देता है।",
-    "boundary": "होस्ट-समर्थन की सूची और स्टोरेज गवर्नेंस संस्करण के अनुसार जाँचें।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "okf-memory/okf-agent-memory": {
-    "description": "Git-native कोडिंग Agent मेमोरी; एम्बेडेड MCP और progressive reading के साथ।",
-    "boundary": "डिफ़ॉल्ट development ब्रांच बदल सकती है; प्रोटोकॉल implementation और होस्ट संगतता फ़िक्स-वर्ज़न चाहिए।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "0xK3vin/MegaMemory": {
-    "description": "कोडिंग Agent के लिए पर्सिस्टेंट प्रोजेक्ट नॉलेज ग्राफ़, semantic सर्च और MCP सर्विस।",
-    "boundary": "कोड ग्राफ़ और लॉन्ग-टर्म यूज़र मेमोरी अलग-अलग वस्तुएँ हैं; अपनाते समय दायरा स्पष्ट करें।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "plastic-labs/codex-honcho": {
-    "description": "Codex सेशन, tool गतिविधि और context injection को Honcho से जोड़ने का आधिकारिक इंटीग्रेशन।",
-    "boundary": "यह Honcho एडॉप्टर है, स्वतंत्र मेमोरी इंजन नहीं; अन्य कैप्चर प्लगइन्स के साथ दोहरे लेखन से बचें।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "memodb-io/Acontext": {
-    "description": "Agent execution और artifacts से पठनीय, संपादन-योग्य operating अनुभव और Skill निहारता है।",
-    "boundary": "अनुभव-पुनःप्रयोग केंद्रित; एक ही टीम के Memobase के यूज़र-प्रोफ़ाइल लक्ष्य से भिन्न।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "langchain-ai/langmem": {
-    "description": "संवाद से लॉन्ग-टर्म तथ्य निकालता है, मेमोरी खोजता है, और अनुभवों से Agent व्यवहार अनुकूलित करता है।",
-    "boundary": "यह घटक-लाइब्रेरी है; स्टोरेज, scope और कैप्चर-इनjection flow ऐप्लिकेशन को स्वयं जोड़ने होंगे।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "alibaizhanov/mengram": {
-    "description": "semantic, episodic और procedural मेमोरी व्यवस्थित करता है, और विफलता-प्रतिक्रिया से कार्यप्रवाह सुधारता है।",
-    "boundary": "होस्टेड प्रोडक्ट और लोकल मोड अलग रखें; procedural मेमोरी अद्यतन में गलतियों के जमने से बचें।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "NevaMind-AI/memU": {
-    "description": "क्रॉस-Agent व्यक्तिगत मेमोरी और होस्ट bridge; Agent द्वारा Markdown निष्कर्षण और मेमोरी Skill का समर्थन।",
-    "boundary": "वर्तमान में MemoryService और chat model की ज़िम्मेदारियाँ अलग हैं; यह न मानें कि सर्विस स्वयं distillation पूरी करती है।",
-    "license_label": "Apache-2.0",
-    "license_note": "रूट LICENSE.txt मैन्युअल रूप से सत्यापित"
-  },
-  "vincents-ai/engram": {
-    "description": "मल्टी-Agent के लिए distributed प्रोजेक्ट context, कार्य, reasoning और टीम ज्ञान।",
-    "boundary": "AGPL या कमर्शियल dual license; अन्य MIT/Apache Engram प्रोजेक्ट्स से भिन्न।",
-    "license_label": "AGPL-3.0-or-later या कमर्शियल लाइसेंस",
-    "license_note": "dual license; नेटवर्क सर्विस और modification distribution के कर्तव्य AGPL के मूल पाठ या कमर्शियल अनुबंध से चलें।"
-  },
-  "Sherlockwz/T-Mem": {
-    "description": "लेखन के समय भविष्य की query triggers के लिए clues उत्पन्न करता है; तथ्य और scene इंडेक्स जोड़कर associative recall शोधता है.",
-    "boundary": "रिसर्च इम्प्लीमेंटेशन है, out-of-the-box प्रोडक्शन मेमोरी सर्विस नहीं।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "Celina-love-sweet/MemForest": {
-    "description": "EventTree विभाजन, progressive merge और compression से लॉन्ग-टर्म मेमोरी संभालता है।",
-    "boundary": "Concyclics के समाननामी प्रोजेक्ट और पेपर से पूर्णतः भिन्न।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "Concyclics/MemForest": {
-    "description": "लेयर्ड टाइम इंडेक्स से लॉन्ग-टर्म मेमोरी व्यवस्थित करता है और Python प्रयोगात्मक इंटरफ़ेस देता है।",
-    "boundary": "EventTree MemForest से मिलाया नहीं जा सकता; रिसर्च नतीजों का पुनरुत्पादन आवश्यक।",
-    "license_label": "MIT",
-    "license_note": "रूट LICENSE मैन्युअल रूप से सत्यापित"
-  },
-  "JordanMcCann/agentmemory": {
-    "description": "semantic, lexical, ग्राफ़, importance और समय सहित बहु-संकेत रिट्रीवल पर शोध।",
-    "boundary": "लेखक के LongMemEval आँकड़ों की सीधी तुलना भिन्न मॉडल/बजट वाले प्रोजेक्ट्स से नहीं की जा सकती।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "aiming-lab/SimpleMem": {
-    "description": "semantic संरचित संपीड़न, मेमोरी consolidation और adaptive retrieval पर शोध।",
-    "boundary": "पेपर के आँकड़े मॉडल और प्रोटोकॉल पर निर्भर; संपीड़न से अपवाद और स्रोत खो सकते हैं।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "BAI-LAB/MemoryOS": {
-    "description": "short, medium और long-term लेयर्ड मेमोरी, अद्यतन और यूज़र प्रोफ़ाइल प्रबंधन पर शोध।",
-    "boundary": "MemoryOS, MemOS और EverOS तीन अलग-अलग प्रोजेक्ट हैं।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "agiresearch/A-mem": {
-    "description": "Zettelkasten से प्रेरित होकर मेमोरी नोट्स को स्वतः व्यवस्थित, जोड़ और विकसित करता है।",
-    "boundary": "उत्पन्न संबंध तथ्यों की शुद्धता की गारंटी नहीं देते; प्रोडक्शन इंटीग्रेशन में अतिरिक्त governance चाहिए।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "zhongwanjun/MemoryBank-SiliconFriend": {
-    "description": "लंबी बातचीत, यूज़र प्रोफ़ाइल, मेमोरी सुदृढ़ीकरण और forgetting के शुरुआती रिसर्च इम्प्लीमेंटेशन।",
-    "boundary": "दीर्घकालिक मेंटेनेंस बंद; पद्धति के इतिहास के लिए उपयुक्त, वर्तमान प्रोडक्शन विकल्प के रूप में नहीं।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "nuster1128/MemEngine": {
-    "description": "मॉड्यूलर Agent मेमोरी रिसर्च लाइब्रेरी; कई मेमोरी मॉड्यूल और इवैल्युएशन कवर करती है।",
-    "boundary": "रिपॉज़िटरी का लाइसेंस स्पष्ट नहीं; सार्वजनिक सोर्स का अर्थ स्वतंत्र पुन:उपयोग की अनुमति नहीं।",
-    "license_label": "सत्यापन प्रतीक्षित",
-    "license_note": "रूट डायरेक्टरी में लाइसेंस नहीं मिला; सार्वजनिक सोर्स होने का अर्थ अनुमति-प्राप्त पुन:उपयोग नहीं है"
-  },
-  "ViktorAxelsen/MemSkill": {
-    "description": "एक्सट्रैक्शन, consolidation, pruning जैसे मेमोरी ऑपरेशन्स को सीखने-योग्य, विकसित होने-योग्य Skill के रूप में मॉडल करता है।",
-    "boundary": "रिसर्च कोड; क्रॉस-ट्रास्क ट्रांसफर और लागत आँकड़ों के साथ पेपर सेटिंग्स सुरक्षित रखें।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "MemTensor/MemT-1.0": {
-    "description": "मॉडल-नेटिव मेमोरी read/write और Mixture-of-Storage की जाँच करने वाला मेमोरी मॉडल परिवार।",
-    "boundary": "मॉडल वेट्स, inference कोड और पारंपरिक एक्सटर्नल मेमोरी इंजन एक ही स्तर की चीज़ें नहीं हैं।",
-    "license_label": "PolyForm Noncommercial-1.0.0",
-    "license_note": "नॉन-कमर्शियल सोर्स लाइसेंस; OSI ओपन-सोर्स लाइसेंस नहीं"
-  },
-  "HUST-AI-HYZ/MemoryAgentBench": {
-    "description": "incremental बहु-चर्या बातचीत से Agent मेमोरी के निर्माण और उपयोग की क्षमता परखता है।",
-    "boundary": "benchmark adapters, मॉडल और judge सेटिंग्स भिन्न होने पर नतीजों की तुलना कॉन्फ़िगरेशन के बिना नहीं की जा सकती।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "RonsenbergVI/agent-memory-benchmarks": {
-    "description": "LongMemEval, LoCoMo जैसे Agent मेमोरी सिस्टम्स के लिए खुला इवैल्युएशन और reference इम्प्लीमेंटेशन देता है।",
-    "boundary": "यह आधिकारिक डेटासेट लीडरबोर्ड नहीं; फ़िक्स डेटा-स्प्लिट और scoring कॉन्फ़िगरेशन पढ़ें।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "thomasfevre/agent-memory-bench": {
-    "description": "प्रमाण-हिट, उत्तर और retrieval व्यवहार पर केंद्रित पुनरुत्पादनीय मेमोरी इवैल्युएशन।",
-    "boundary": "प्रोजेक्ट दस्तावेज़ स्पष्ट करता है कि कुछ मेट्रिक्स आधिकारिक LongMemEval स्कोर नहीं हैं।",
-    "license_label": "सत्यापन प्रतीक्षित",
-    "license_note": "रूट डायरेक्टरी में लाइसेंस नहीं मिला"
-  },
-  "H20Zhang/Agent-Memory-Radar": {
-    "description": "मेमोरी तंत्र, benchmark, दूषण, forgetting और recovery के प्रमाण एकत्र करने वाला रिसर्च रडार।",
-    "boundary": "रिसर्च इंडेक्स/ऑडिट संसाधन है, मेमोरी runtime नहीं।",
-    "license_label": "CC-BY-4.0 कंटेंट / MIT कोड",
-    "license_note": "रिसर्च सामग्री और मेंटेनेंस कोड में विभाजित लाइसेंस"
-  },
-  "AML-memory/agent-memory-leaderboard": {
-    "description": "Agent मेमोरी सिस्टम्स के इवैल्युएशन नतीजे और तुलना-सामग्री एकत्र करता है।",
-    "boundary": "विषम मॉडल, डेटा और बजट केवल कुल स्कोर से रैंक नहीं किए जा सकते।",
-    "license_label": "सत्यापन प्रतीक्षित",
-    "license_note": "रूट डायरेक्टरी में लाइसेंस नहीं मिला"
-  },
-  "tobi/qmd": {
-    "description": "लोकल Markdown और दस्तावेज़ों के लिए BM25, vector, query expansion, rerank और MCP।",
-    "boundary": "रिट्रीवल इन्फ़्रास्ट्रक्चर है; मेमोरी की पूर्ण एक्सट्रैक्शन, अद्यतन और forgetting lifecycle संभालता नहीं।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "modelcontextprotocol/servers": {
-    "description": "आधिकारिक MCP servers पैरेंट रिपॉज़िटरी के entities, relations और observations मेमोरी घटक।",
-    "boundary": "पैरेंट रिपॉज़िटरी के मेट्रिक्स memory सबमॉड्यूल के बराबर नहीं; लाइसेंस MIT/Apache संक्रमण में है और प्रोजेक्ट संरचना बदल चुकी है।",
-    "license_label": "Apache-2.0 / MIT संक्रमण; दस्तावेज़ CC-BY-4.0",
-    "license_note": "पैरेंट रिपॉज़िटरी re-licensing संक्रमण में; विशिष्ट फ़ाइलें लागू लाइसेंस follow करती हैं"
-  },
-  "volcengine/MineContext": {
-    "description": "स्क्रीन जैसे digital context से गतिविधि, सारांश और क्वेरी-योग्य सामग्री उत्पन्न करता है।",
-    "boundary": "सक्रिय व्यक्तिगत सहायक ऐप के नज़दीक; सामान्य एक्सटर्नल मेमोरी इंजन नहीं।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "letta-ai/letta": {
-    "description": "पर्सिस्टेंट स्टेट और Agent-स्वशासित context प्रबंधन पर केंद्रित पूर्ण Agent प्लेटफ़ॉर्म।",
-    "boundary": "इसे अपनाना प्रायः Agent runtime प्रतिस्थापन है, केवल मेमोरी API बदलना नहीं।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "mnemoverse/awesome-agent-memory": {
-    "description": "Agent मेमोरी सिस्टम्स, फ़्रेमवर्क, benchmark और रिसर्च का बाहरी इंडेक्स।",
-    "boundary": "कवरेज बेसलाइन और खोज-प्रवेश-बिंदु; क्षमता-निर्णय में भाग नहीं लेता।",
-    "license_label": "CC0-1.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "Agentscreator/engram-memory": {
-    "description": "मल्टी-Agent साझा मेमोरी, संघर्ष और consistency के लिए आर्काइव्ड परियोजना।",
-    "boundary": "रिपॉज़िटरी archive हो चुकी; डिज़ाइन संदर्भ के रूप में सुरक्षित।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "getzep/zep": {
-    "description": "Zep का पुराना Community Edition और वर्तमान क्लाउड प्रोडक्ट इंटीग्रेशन उदाहरण।",
-    "boundary": "Community Edition legacy में चला गया और deprecated/unsupported चिह्नित; वर्तमान ओपन-सोर्स ग्राफ़ कोर के लिए Graphiti देखें।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "engram-app/Engram": {
-    "description": "cognitive मेमोरी और Agent इंटीग्रेशन वाला source-available परियोजना।",
-    "boundary": "PolyForm Small Business लाइसेंस में संगठन-आकार/राजस्व प्रतिबंध; सामान्य OSI ओपन-सोर्स उम्मीदवार नहीं मानें।",
-    "license_label": "PolyForm Small Business-1.0.0 / कमर्शियल लाइसेंस",
-    "license_note": "संगठन-आकार और राजस्व की शर्तें; सामान्य OSI ओपन-सोर्स लाइसेंस नहीं"
-  },
-  "kolegadev/Katra-Agentic-Memory": {
-    "description": "episodic, semantic, ग्राफ़ और sleep-आधारित consolidation वाला MCP cognitive मेमोरी डिवाइस।",
-    "boundary": "BSL 1.1 प्रतिबंध-काल में OSI ओपन-सोर्स नहीं; प्रतिस्पर्धी hosting/embedding उपयोग सीमित।",
-    "license_label": "BSL-1.1",
-    "license_note": "प्रतिस्पर्धी तृतीय-पक्ष hosting/embedding पर प्रतिबंध; बदलाव की तारीख और प्राचल LICENSE से लें"
-  },
-  "unibaseio/membase": {
-    "description": "SDK, CLI और MCP वाला क्रॉस-Agent मेमोरी लेयर; होस्टेड खाता या लोकल स्टोरेज दोनों चुन सकते हैं।",
-    "boundary": "memodb-io/Memobase से भिन्न; hosted और local मोड की डेटा, authentication और क्षमता-सीमाएँ अलग-अलग सत्यापित करें।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "mnemosyne-oss/mnemosyne": {
-    "description": "SQLite-चालित, लोकल-प्रधान क्रॉस-फ़्रेमवर्क मेमोरी लेयर; MCP और कई Agent इंटीग्रेशन।",
-    "boundary": "समान नाम Mnemosyne प्रोजेक्ट बहुत हैं; remote embedding, sync और LLM विकल्प zero-cloud सीमा बदल देते हैं।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "mnemoverse/mcp-memory-server": {
-    "description": "MCP से होस्टेड पर्सिस्टेंट मेमोरी, feedback reranking और मल्टी-Agent साझा कमरे।",
-    "boundary": "यह रिपॉज़िटरी होस्टेड सर्विस का क्लाइंट/सर्वर एक्सेस लेयर है; domain खाते के अंदर का namespace है, अनुमति-सीमा नहीं।",
-    "license_label": "MIT",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "aetna000/MemoryStackBench": {
-    "description": "Agent मेमोरी की सुरक्षा, प्रमाण, डिलीशन-पूर्णता और auditability का स्वचालित मूल्यांकन।",
-    "boundary": "नया benchmark; लीडरबोर्ड नतीजों के लिए adapters, मॉडल, डेटा और scoring कॉन्फ़िगरेशन फ़िक्स चाहिए।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "OWASP/www-project-agent-memory-guard": {
-    "description": "Agent मेमोरी और context poisoning के लिए runtime रक्षा और reference इम्प्लीमेंटेशन।",
-    "boundary": "रक्षा-लेयर मेमोरी स्टोर नहीं; फ़्रेमवर्क संगतता और security निष्कर्ष लक्ष्य सिस्टम में दोबारा परखने होंगे।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  },
-  "Digital-Trust-Lab/mp-bench": {
-    "description": "स्थायी मेमोरी लेखन, आगे retrieval और व्यवहार-trigger वाले memory poisoning attack का इवैल्युएशन डेटासेट।",
-    "boundary": "रिसर्च डेटासेट, प्रोडक्शन डिफ़ेंस नहीं; attack सफलता दर लक्ष्य Agent और प्रयोग सेटिंग्स पर निर्भर।",
-    "license_label": "Apache-2.0",
-    "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
-  }
+ "mnemon-dev/mnemon": {
+  "description": "Agent के लिए क्रॉस-सेशनpersistent मेमोरी, ज्ञान को ग्राफ़ संरचना में व्यवस्थित करती है; intent-aware रिट्रीवल और कई होस्ट इंटीग्रेशन का समर्थन करती है।",
+  "boundary": "लोकल मेमोरी इंजन, होस्ट LLM, Agency Preview और AML टेस्ट demo अलग-अलग घटक हैं; पोस्ट में रैंकिंग के नतीजे विशिष्ट मॉडल और संस्करण पर निर्भर हैं, सामान्य प्रभाव की गारंटी नहीं।",
+  "license_label": "Apache-2.0",
+  "license_note": "रूट LICENSE Apache-2.0 है; तृतीय-पक्ष मॉडल, सर्विसेज़ और डेटा के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "omdsh-dev/dsh-mnemon": {
+  "description": "DeepSeek Harness का लेयर्ड मेमोरी प्लगइन, जो रनटाइम मेमोरी, प्रोजेक्ट दस्तावेज़ और स्वैच-योग्य लॉन्ग-टर्म मेमोरी बैकएंड्स को जोड़ता है।",
+  "boundary": "DSH होस्ट पर निर्भर; विभिन्न Provider के सर्विसेज़, डेटा-स्थान और डिलीशन क्षमताएँ भिन्न हैं, और स्किल सेल्फ-इवोल्यूशन डिफ़ॉल्ट रूप से बंद है।",
+  "license_label": "MIT",
+  "license_note": "रूट LICENSE MIT है; तृतीय-पक्ष Provider के लाइसेंस और सेवा की शर्तें अलग से गिनी जाएँ, THIRD_PARTY_NOTICES.md देखें।"
+ },
+ "beizhangnina/EverMemOS_bz": {
+  "description": "EverMemOS का fork रिपॉज़िटरी, जिसमें बातचीत से निष्कर्षण, संरचित मेमोरी और बहु-रणनीति रिकॉल पर केंद्रित पुराना इम्प्लीमेंटेशन सुरक्षित है।",
+  "boundary": "GitHub पर EverMind-AI/EverOS का fork चिह्नित; वर्तमान डिफ़ॉल्ट ब्रांच का अंतिम कमिट 2025-11-28 को है, README में वर्णित MongoDB, Elasticsearch, Milvus और Redis आर्किटेक्चर को सीधे वर्तमान EverOS पर लागू नहीं किया जा सकता। benchmark के नतीजों का स्वतंत्र सत्यापन नहीं हुआ है।",
+  "license_label": "Apache-2.0",
+  "license_note": "रूट LICENSE Apache-2.0 है, NOTICE में कॉपीराइट घोषणाएँ हैं; मॉडल, डेटा और तृतीय-पक्ष निर्भरताओं के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "volcengine/OpenViking": {
+  "description": "नेविगेट-योग्य वर्चुअल फ़ाइल सिस्टम से संसाधनों, लॉन्ग-टर्म मेमोरी और Agent Skills को एकीकृत रूप में प्रबंधित करता है।",
+  "boundary": "सर्वर-साइड वर्चुअल पथ साधारण लोकल फ़ाइलें नहीं हैं; सारांश, निष्कर्षण और इंडेक्स की ताज़गी की जाँच अब भी आवश्यक है।",
+  "license_label": "AGPL-3.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "vectorize-io/hindsight": {
+  "description": "retain, recall और reflect के ज़रिए संरचित तथ्यों, अनुभवों, एंटिटीज़ और संश्लेषित अवलोकनों को प्रबंधित करता है।",
+  "boundary": "डिप्लॉयमेंट, मॉडल संयोजन और इवैल्यूएशन प्रोटोकॉल प्रभाव और लागत को महत्वपूर्ण रूप से बदलते हैं।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "plastic-labs/honcho": {
+  "description": "peer, session और workspace के इर्द-गिर्द निरंतर ऑब्जेक्ट रिप्रज़ेंटेशन और सह-कार्यात्मक समझ गढ़ता है।",
+  "boundary": "अनुमान (inference) स्पष्ट तथ्यों से आगे बढ़ सकता है; मूल सेशन हटाने से सभी व्युत्पन्न निष्कर्षों के हटने की स्वतः गारंटी नहीं मिलती।",
+  "license_label": "AGPL-3.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "mem0ai/mem0": {
+  "description": "सामान्य पर्सनलाइज़ेशन मेमोरी लेयर; इंटरैक्शन से मेमोरी निकालना, अद्यतन, विलोपन और रिट्रीवल का समर्थन करती है।",
+  "boundary": "ओपन-सोर्स लाइब्रेरी, होस्टेड प्लेटफ़ॉर्म और विभिन्न इंटीग्रेशन प्रवेश-बिंदुओं के डेटा-पाथ अलग-अलग सत्यापित करने होंगे।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "MemTensor/MemOS": {
+  "description": "Agent के लिए मेमोरी ऑपरेटिंग सिस्टम, जो कई श्रेणियों की मेमोरी, हाइब्रिड रिट्रीवल और स्किल इवोल्यूशन को कवर करता है।",
+  "boundary": "मुख्य सर्विस, क्लाउड प्रोडक्ट और लोकल प्लगइन अलग-अलग स्टोरेज और डिप्लॉयमेंट पाथ अपनाते हैं।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "MemMachine/MemMachine": {
+  "description": "यूज़र, प्रोजेक्ट और सेशन आयामों के इंटरफ़ेस वाला सामान्य Agent मेमोरी सर्विस।",
+  "boundary": "बैकएंड, मॉडल और टेंट आइसोलेशन की वास्तविक डिप्लॉयमेंट कॉन्फ़िगरेशन के अनुसार जाँच करनी होगी।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "memodb-io/memobase": {
+  "description": "यूज़र प्रोफ़ाइल और टाइम्ड इवेंट्स के इर्द-गिर्द लॉन्ग-टर्म यूज़र मेमोरी बनाए रखता है।",
+  "boundary": "एक ही टीम के Acontext से इसका उद्देश्य भिन्न है; वर्तमान मेंटेनेंस सक्रियता और अनुशंसित रास्ता अलग से देखें।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "mem9-ai/mem9": {
+  "description": "क्रॉस-Agent मेमोरी और सेशन इनटेक देता है, साथ ही कई सर्वर-साइड स्टोरेज बैकएंड्स का समर्थन करता है।",
+  "boundary": "प्राइवेट डिप्लॉयमेंट में भी कंट्रोल-प्लेन, डेटाबेस और टेंट इनिशियलाइज़ेशन संभालना पड़ता है।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "agent-memory-lab/agent-memory": {
+  "description": "स्रोत प्रमाण, तथ्य-सुधार, टाइम वैलिडिटी और scope पर ज़ोर देने वाला मेमोरी इंजन।",
+  "boundary": "README इसे Alpha चिह्नित करता है; फ़ंक्शन का विवरण प्रोडक्शन परिपक्वता के बराबर नहीं है।",
+  "license_label": "Apache-2.0",
+  "license_note": "रूट LICENSE मैन्युअल रूप से सत्यापित"
+ },
+ "Jahvis/memanto-ai-memory": {
+  "description": "remember, recall और answer प्रिमिटिव्स में संस्करण और स्रोत मेटाडेटा वाली मेमोरी सर्विस लपेटता है।",
+  "boundary": "रिट्रीवल बाहरी Moorcheh सर्विस पर निर्भर; इसे पूर्ण ऑफ़लाइन ओपन-सोर्स स्टैक नहीं कहा जा सकता।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "ivanzwb/agent-memory": {
+  "description": "TypeScript एम्बेडेड मेमोरी लाइब्रेरी, जिसमें वर्किंग, सेशन, लॉन्ग-टर्म मेमोरी और नॉलेज-बेस शामिल हैं।",
+  "boundary": "छोटी परियोजना; ऑटो-एक्सट्रैक्शन और token बजट का स्वयं परीक्षण करना होगा।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "rohitg00/agentmemory": {
+  "description": "कोडिंग Agent के लिए सर्विस और प्लगइन, जो BM25, वैकल्पिक वेक्टर और संरचित संबंधों को जोड़ता है।",
+  "boundary": "समान नाम के अन्य agentmemory प्रोजेक्ट्स से असंबंधित; डिप्लॉयमेंट प्रवेश-बिंदु अलग पहचानें।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "HBarefoot/engram": {
+  "description": "इन-प्रोसेस TypeScript/SQLite मेमोरी लाइब्रेरी, जो लोकल embedding, MCP और उपयोग-योग्य Skill देती है।",
+  "boundary": "पहले उपयोग में लोकल मॉडल डाउनलोड हो सकता है; हल्कापन का अर्थ मल्टी-प्रोसेस कन्करेंसी-सुरक्षा नहीं है।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "TAIPANBOX/engram": {
+  "description": "SQLite पर episodic, semantic और procedural मेमोरी, bi-temporal तथ्य, decay और MCP रखता है।",
+  "boundary": "नई परियोजना; फ़ंक्शन और प्रदर्शन की एकसमान व्यावहारिक जाँच अब बाकी है।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "openJiuwen-ai/agent-memory": {
+  "description": "Agent के लिए मेमोरी एक्सट्रैक्शन, स्टोरेज, रिट्रीवल, माइग्रेशन और बहु-रूप मेमोरी क्षमताएँ देता है।",
+  "boundary": "डिफ़ॉल्ट ब्रांच और mem2.0 इवोल्यूशन रोडमैप भिन्न हो सकते हैं; अपनाते समय संस्करण फ़िक्स करें।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "Tencent-Hunyuan/Hy-Memory": {
+  "description": "बातचीत, Agent और कोडिंग परिदृश्यों के लिए dual-system cognitive मेमोरी इंजन और Python SDK।",
+  "boundary": "Hy Memory इंजन और MemHub प्रोडक्ट लेयर का विभाजन भिन्न है; मॉडल और डेटा पाथ की जाँच घटक-वार करें।",
+  "license_label": "Apache-2.0",
+  "license_note": "रूट LICENSE में Apache-2.0 पर कोई अतिरिक्त प्रतिबंध नहीं स्पष्ट; सार्वजनिक पैरामीटर और वेट्स का दायरा LICENSE के मूल पाठ से तय हो।"
+ },
+ "TencentCloud/TencentDB-Agent-Memory": {
+  "description": "बातचीत, दस्तावेज़ और कोड को Chat Memory, Skill, LLM-Wiki और Code-Graph में बदलने वाला टीम मेमोरी सेंटर।",
+  "boundary": "डिफ़ॉल्ट ब्रांच development ब्रांच हो सकती है; प्रोटोकॉल प्रॉक्सी और डेटाबेस डिप्लॉयमेंट की सीमाएँ फ़िक्स-वर्ज़न जाँच माँगती हैं।",
+  "license_label": "MIT",
+  "license_note": "रूट LICENSE मैन्युअल रूप से सत्यापित"
+ },
+ "tawanorg/OpenMemory": {
+  "description": "फ़्रेमवर्क-अपेक्षित, self-hosted लॉन्ग-टर्म semantic और context मेमोरी सर्विस।",
+  "boundary": "समान OpenMemory नाम वाले अन्य प्रोजेक्ट्स से अलग पहचानें; लेयर्ड decompose के लाभ की व्यावहारिक जाँच आवश्यक है।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "hellangleZ/Agent-MemoryForge": {
+  "description": "मल्टी-टेंट Agent के लिए पर्सिस्टेंट, रिट्रीवेबल और ऑडिट-योग्य मेमोरी लेयर, SDK/Gateway के साथ।",
+  "boundary": "प्रोजेक्ट नया है; प्रोडक्शन-ग्रेड दावे, आइसोलेशन और बैकग्राउंड distillation की डिप्लॉयमेंट-स्तर जाँच चाहिए।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "joshuaswarren/remnic": {
+  "description": "scope, स्रोत, सुधार, सीमा, रिट्रीवल गुणवत्ता और MCP/HTTP पर ज़ोर देने वाली user-aware मेमोरी लेयर।",
+  "boundary": "नई परियोजना; वर्तमान दस्तावेज़ीकृत क्षमताओं और वास्तविक benchmark नतीजों को अलग रखकर देखें।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "supermemoryai/supermemory": {
+  "description": "दस्तावेज़ों, मेमोरी और यूज़र प्रोफ़ाइल के लिए हाइब्रिड सर्च और मेमोरी प्लेटफ़ॉर्म।",
+  "boundary": "ओपन-सोर्स सर्विस और होस्टेड reader जैसे बाहरी क्षमताओं के डेटा-पाथ की जाँच आइटम-वार करें।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "MemoriLabs/Memori": {
+  "description": "यूज़र और प्रोसेस-ओनरशिप के इर्द-गिर्द मेमोरी इनटेक और recall को मौजूदा LLM कॉल में जोड़ता है।",
+  "boundary": "वर्तमान क्विक-स्टार्ट क्लाउड-प्रधान है; BYODB और पूर्ण self-hosted के दायरे को अलग रखें।",
+  "license_label": "Apache-2.0",
+  "license_note": "रूट LICENSE मैन्युअल रूप से सत्यापित"
+ },
+ "CaviraOSS/LongMemory": {
+  "description": "लोकल TypeScript/SQLite लॉन्ग-टर्म मेमोरी, जो स्रोत, समय, प्रमाण-चयन और token बजट देती है।",
+  "boundary": "मूल नाम Cavira OpenMemory; Mem0 के OpenMemory से भ्रमित न हों।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "memvid/memvid": {
+  "description": "पोर्टेबल सिंगल-फ़ाइल और Rust कोर से हाइब्रिड रिट्रीवल व बहु-भाषी SDK देता है।",
+  "boundary": "वर्तमान रोडमैप शुरुआती वीडियो/QR-कोड कहानी से भिन्न है; यह स्थायी रिट्रीवल की ओर अधिक है।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "Mirix-AI/MIRIX": {
+  "description": "बहु-प्रकार, बहु-Agent, मल्टीमोडल लॉन्ग-टर्म मेमोरी सिस्टम, जो कार्य गतिविधि ट्रैक कर स्किल निहारता है।",
+  "boundary": "वास्तविक डेटाबेस, मॉडल और डेस्कटॉप कैप्चर का दायरा वर्तमान संस्करण से जाँचें।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "tigerless-labs/agent-memory": {
+  "description": "Markdown को ट्रुथ सोर्स, SQLite को पुनर्निर्माण-योग्य इंडेक्स रखता है, और एक स्वतंत्र sleep-ऑर्गनाइज़ेशन लेयर देता है।",
+  "boundary": "क्रॉस-होस्ट फ़ाइल शेयरिंग में भी privacy, concurrency और प्रोजेक्ट scope डिज़ाइन करना पड़ता है।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "zilliztech/memsearch": {
+  "description": "Markdown ट्रुथ सोर्स के साथ Milvus derived इंडेक्स; vector/BM25/RRF और progressive expansion का समर्थन।",
+  "boundary": "सारांश, फ़ाइलें, इंडेक्स और मूल सेशन अतुल्य (out of sync) हो सकते हैं; OpenViking के समानांतर खोज अवधारणा से असंबंधित।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "agentscope-ai/ReMe": {
+  "description": "Markdown/frontmatter/wikilinks से तथ्य और अनुभव व्यवस्थित करता है; lexical, vector और संबंध-विस्तार का समर्थन।",
+  "boundary": "रिपॉज़िटरी में पुराना MemoryScope रूप बना हुआ है; अपनाते समय वर्तमान इंटरफ़ेस को मानक रखें।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "EverMind-AI/EverOS": {
+  "description": "Markdown ट्रुथ सोर्स और लोकल इंडेक्स से यूज़र episodes/profile और Agent cases/skills प्रबंधित करता है।",
+  "boundary": "मूल EverMemOS आर्किटेक्चर का विवरण अब पुराना है; पुराने डिप्लॉयमेंट निर्भरता-समूह लागू नहीं होते।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "basicmachines-co/basic-memory": {
+  "description": "संपादन-योग्य Markdown नोट्स और semantic संबंधों को मनुष्य-Agent साझा ज्ञान-मेमोरी के रूप में इस्तेमाल करता है।",
+  "boundary": "ज्ञान-मेमोरी और MCP वर्कस्पेस के नज़दीक है; तथ्य-शुद्धि lifecycle अपने आप संभालता नहीं है।",
+  "license_label": "AGPL-3.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "shiblon/engram": {
+  "description": "सिंगल बाइनरी और SQLite से short/long-term मेमोरी, प्राथमिकताएँ और persona प्रबंधित करता है।",
+  "boundary": "अन्य Engram प्रोजेक्ट्स से असंबंधित; होस्ट tool-calling का तरीका अलग से जाँचें।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "B12Labs/engram": {
+  "description": "पोर्टेबल सिंगल-फ़ाइल मेमोरी फ़ॉर्मैट, graph compression और fast/hybrid/deep सर्च के साथ।",
+  "boundary": "v0.x फ़ॉर्मैट अस्थिर है और single-writer की ओर झुका है; यह concurrent डेटाबेस का विकल्प नहीं है।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "Gentleman-Programming/engram": {
+  "description": "कोडिंग Agent के लिए Go/SQLite/FTS5 पर्सिस्टेंट मेमोरी; MCP, HTTP, CLI और TUI देती है।",
+  "boundary": "समान नाम वाले अन्य Engram प्रोजेक्ट्स से असंबंधित; क्रॉस-होस्ट इंस्टॉलेशन कॉन्फ़िगरेशन अलग जाँच चाहिए।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "Sibyl-Labs/Sibyl-Memory": {
+  "description": "सिंगल-फ़ाइल, बिना vector-DB लॉन्ग-टर्म मेमोरी परिवार; SDK, CLI, MCP, Hermes और LangGraph एडॉप्टर शामिल।",
+  "boundary": "नई परियोजना; हर एडॉप्टर पैकेज की परिपक्वता और semantic क्षमताएँ अलग-अलग सत्यापित करें।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "mcncarl/agent-memory-vault": {
+  "description": "Markdown-प्रधान Claude Code/Codex साझा मेमोरी वॉल्ट, Git, इंडेक्स और audit के साथ।",
+  "boundary": "यह तय करना होगा कि कौन-सी मेमोरी Git में commit करने योग्य है, और branch/worktree scope संभालना होगा।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "getzep/graphiti": {
+  "description": "रियल-टाइम में एंटिटी और संबंध निकालकर bi-temporal नॉलेज ग्राफ़ बनाता है और lexical, vector तथा graph रिट्रीवल कोजोड़ता है करता है.",
+  "boundary": "ग्राफ़ बैकएंड और एक्सट्रैक्शन मॉडल लागत बदलते हैं; यह वर्तमान Zep इकोसिस्टम का ओपन-सोर्स ग्राफ़ कोर है।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "topoteretes/cognee": {
+  "description": "दस्तावेज़, कोड और बातचीत को एंटिटी-संबंधों तथा सर्च-योग्य knowledge/memory ग्राफ़ में बदलता है।",
+  "boundary": "वर्तमान डिप्लॉयमेंट पाथ लगातार बदल रहा है; पुरानी बहु-डेटाबेस धारणाएँ लागू नहीं रखीं।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "neo4j-labs/agent-memory": {
+  "description": "ग्राफ़-आधारित Agent मेमोरी और context graph, जो संवाद, एंटिटी, संबंध और reasoning traces स्टोर करता है।",
+  "boundary": "Neo4j पर निर्भर; experimental या labs परियोजना का अर्थ उत्पाद-स्तर SLA नहीं है।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "liliang-cn/cortexdb": {
+  "description": "एक ही SQLite फ़ाइल में नॉलेज ग्राफ़, constraints और traceable reasoning जोड़ता है।",
+  "boundary": "लोकल सिंगल-फ़ाइल रूप प्रयोग के लिए उपयुक्त; scale और concurrency क्षमता व्यावहारिक जाँच माँगता है।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "memory-graph/memory-graph": {
+  "description": "कोडिंग Agent के लिए संबंध-ट्रैकिंग और ग्राफ़ क्वेरी वाला MCP मेमोरी सर्विस।",
+  "boundary": "प्रोजेक्ट-संबंध मेमोरी की ओर झुका; पूर्ण व्यक्तिगत लॉन्ग-टर्म मेमोरी प्लेटफ़ॉर्म के बराबर नहीं।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "JordyZomer/lemmalog": {
+  "description": "Datalog नियम, स्रोत-तथ्य और incremental derivation से Agent मेमोरी बनाता है।",
+  "boundary": "नियम-व्युत्पत्ति की गुणवत्ता तथ्य इनटेक और नियम-डिज़ाइन पर निर्भर; यह vector-रिट्रीवल से भिन्न रास्ता है।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "zhangfengcdt/memoir": {
+  "description": "Git-शैली version control वाली लेयर्ड Agent मेमोरी।",
+  "boundary": "नई परियोजना; versioning के merge, rollback और प्रदर्शन की व्यावहारिक जाँच बाकी है।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "thedotmack/claude-mem": {
+  "description": "सेशन और tool गतिविधि कैप्चर कर, उन्हें SQLite/FTS5/Chroma में संकुचित कर आगे के सेशन में recall करता है।",
+  "boundary": "मल्टी-होस्ट समर्थन की जाँच आइटम-वार करें; कैप्चर में संवेदनशील tool output आ सकता है।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "doobidoo/mcp-memory-service": {
+  "description": "MCP/REST से semantic मेमोरी, संबंध और बैकग्राउंड ऑर्गनाइज़ेशन देता है; कई स्टोरेज बैकएंड्स समर्थित।",
+  "boundary": "हल्का self-hosting का अर्थ सभी बैकएंड्स में एकसमान व्यवहार नहीं; फ़िक्स कॉन्फ़िगरेशन से परीक्षण करें।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "riponcm/projectmem": {
+  "description": "event log में issue, प्रयास, fix और निर्णय दर्ज करता है, ताकि कोडिंग Agent दोहराई गई त्रुटियाँ न करें.",
+  "boundary": "यह प्रोजेक्ट इंजीनियरिंग मेमोरी है, सामान्य व्यक्तिगत प्रोफ़ाइलिंग सिस्टम नहीं।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "coleam00/mcp-mem0": {
+  "description": "Mem0 की लॉन्ग-टर्म मेमोरी को MCP सर्विस के रूप में Agent क्लाइंट्स तक पहुँचाता है।",
+  "boundary": "मुख्यतः एडॉप्टर लेयर; Mem0 सर्विस या लोकल लाइब्रेरी की डिप्लॉयमेंट सीमाएँ बनी रहती हैं।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "AVIDS2/memorix": {
+  "description": "MCP से कई कोडिंग Agent के बीच क्रॉस-होस्ट साझा मेमोरी देता है।",
+  "boundary": "होस्ट-समर्थन की सूची और स्टोरेज गवर्नेंस संस्करण के अनुसार जाँचें।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "okf-memory/okf-agent-memory": {
+  "description": "Git-native कोडिंग Agent मेमोरी; एम्बेडेड MCP और progressive reading के साथ।",
+  "boundary": "डिफ़ॉल्ट development ब्रांच बदल सकती है; प्रोटोकॉल implementation और होस्ट संगतता फ़िक्स-वर्ज़न चाहिए।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "0xK3vin/MegaMemory": {
+  "description": "कोडिंग Agent के लिए पर्सिस्टेंट प्रोजेक्ट नॉलेज ग्राफ़, semantic सर्च और MCP सर्विस।",
+  "boundary": "कोड ग्राफ़ और लॉन्ग-टर्म यूज़र मेमोरी अलग-अलग वस्तुएँ हैं; अपनाते समय दायरा स्पष्ट करें।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "plastic-labs/codex-honcho": {
+  "description": "Codex सेशन, tool गतिविधि और context injection को Honcho से जोड़ने का आधिकारिक इंटीग्रेशन।",
+  "boundary": "यह Honcho एडॉप्टर है, स्वतंत्र मेमोरी इंजन नहीं; अन्य कैप्चर प्लगइन्स के साथ दोहरे लेखन से बचें।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "memodb-io/Acontext": {
+  "description": "Agent execution और artifacts से पठनीय, संपादन-योग्य operating अनुभव और Skill निहारता है।",
+  "boundary": "अनुभव-पुनःप्रयोग केंद्रित; एक ही टीम के Memobase के यूज़र-प्रोफ़ाइल लक्ष्य से भिन्न।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "langchain-ai/langmem": {
+  "description": "संवाद से लॉन्ग-टर्म तथ्य निकालता है, मेमोरी खोजता है, और अनुभवों से Agent व्यवहार अनुकूलित करता है।",
+  "boundary": "यह घटक-लाइब्रेरी है; स्टोरेज, scope और कैप्चर-इनjection flow ऐप्लिकेशन को स्वयं जोड़ने होंगे।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "alibaizhanov/mengram": {
+  "description": "semantic, episodic और procedural मेमोरी व्यवस्थित करता है, और विफलता-प्रतिक्रिया से कार्यप्रवाह सुधारता है।",
+  "boundary": "होस्टेड प्रोडक्ट और लोकल मोड अलग रखें; procedural मेमोरी अद्यतन में गलतियों के जमने से बचें।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "NevaMind-AI/memU": {
+  "description": "क्रॉस-Agent व्यक्तिगत मेमोरी और होस्ट bridge; Agent द्वारा Markdown निष्कर्षण और मेमोरी Skill का समर्थन।",
+  "boundary": "वर्तमान में MemoryService और chat model की ज़िम्मेदारियाँ अलग हैं; यह न मानें कि सर्विस स्वयं distillation पूरी करती है।",
+  "license_label": "Apache-2.0",
+  "license_note": "रूट LICENSE.txt मैन्युअल रूप से सत्यापित"
+ },
+ "vincents-ai/engram": {
+  "description": "मल्टी-Agent के लिए distributed प्रोजेक्ट context, कार्य, reasoning और टीम ज्ञान।",
+  "boundary": "AGPL या कमर्शियल dual license; अन्य MIT/Apache Engram प्रोजेक्ट्स से भिन्न।",
+  "license_label": "AGPL-3.0-or-later या कमर्शियल लाइसेंस",
+  "license_note": "dual license; नेटवर्क सर्विस और modification distribution के कर्तव्य AGPL के मूल पाठ या कमर्शियल अनुबंध से चलें।"
+ },
+ "Sherlockwz/T-Mem": {
+  "description": "लेखन के समय भविष्य की query triggers के लिए clues उत्पन्न करता है; तथ्य और scene इंडेक्स जोड़कर associative recall शोधता है.",
+  "boundary": "रिसर्च इम्प्लीमेंटेशन है, out-of-the-box प्रोडक्शन मेमोरी सर्विस नहीं।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "Celina-love-sweet/MemForest": {
+  "description": "EventTree विभाजन, progressive merge और compression से लॉन्ग-टर्म मेमोरी संभालता है।",
+  "boundary": "Concyclics के समाननामी प्रोजेक्ट और पेपर से पूर्णतः भिन्न।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "Concyclics/MemForest": {
+  "description": "लेयर्ड टाइम इंडेक्स से लॉन्ग-टर्म मेमोरी व्यवस्थित करता है और Python प्रयोगात्मक इंटरफ़ेस देता है।",
+  "boundary": "EventTree MemForest से मिलाया नहीं जा सकता; रिसर्च नतीजों का पुनरुत्पादन आवश्यक।",
+  "license_label": "MIT",
+  "license_note": "रूट LICENSE मैन्युअल रूप से सत्यापित"
+ },
+ "JordanMcCann/agentmemory": {
+  "description": "semantic, lexical, ग्राफ़, importance और समय सहित बहु-संकेत रिट्रीवल पर शोध।",
+  "boundary": "लेखक के LongMemEval आँकड़ों की सीधी तुलना भिन्न मॉडल/बजट वाले प्रोजेक्ट्स से नहीं की जा सकती।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "aiming-lab/SimpleMem": {
+  "description": "semantic संरचित संपीड़न, मेमोरी consolidation और adaptive retrieval पर शोध।",
+  "boundary": "पेपर के आँकड़े मॉडल और प्रोटोकॉल पर निर्भर; संपीड़न से अपवाद और स्रोत खो सकते हैं।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "BAI-LAB/MemoryOS": {
+  "description": "short, medium और long-term लेयर्ड मेमोरी, अद्यतन और यूज़र प्रोफ़ाइल प्रबंधन पर शोध।",
+  "boundary": "MemoryOS, MemOS और EverOS तीन अलग-अलग प्रोजेक्ट हैं।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "agiresearch/A-mem": {
+  "description": "Zettelkasten से प्रेरित होकर मेमोरी नोट्स को स्वतः व्यवस्थित, जोड़ और विकसित करता है।",
+  "boundary": "उत्पन्न संबंध तथ्यों की शुद्धता की गारंटी नहीं देते; प्रोडक्शन इंटीग्रेशन में अतिरिक्त governance चाहिए।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "zhongwanjun/MemoryBank-SiliconFriend": {
+  "description": "लंबी बातचीत, यूज़र प्रोफ़ाइल, मेमोरी सुदृढ़ीकरण और forgetting के शुरुआती रिसर्च इम्प्लीमेंटेशन।",
+  "boundary": "दीर्घकालिक मेंटेनेंस बंद; पद्धति के इतिहास के लिए उपयुक्त, वर्तमान प्रोडक्शन विकल्प के रूप में नहीं।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "nuster1128/MemEngine": {
+  "description": "मॉड्यूलर Agent मेमोरी रिसर्च लाइब्रेरी; कई मेमोरी मॉड्यूल और इवैल्युएशन कवर करती है।",
+  "boundary": "रिपॉज़िटरी का लाइसेंस स्पष्ट नहीं; सार्वजनिक सोर्स का अर्थ स्वतंत्र पुन:उपयोग की अनुमति नहीं।",
+  "license_label": "सत्यापन प्रतीक्षित",
+  "license_note": "रूट डायरेक्टरी में लाइसेंस नहीं मिला; सार्वजनिक सोर्स होने का अर्थ अनुमति-प्राप्त पुन:उपयोग नहीं है"
+ },
+ "ViktorAxelsen/MemSkill": {
+  "description": "एक्सट्रैक्शन, consolidation, pruning जैसे मेमोरी ऑपरेशन्स को सीखने-योग्य, विकसित होने-योग्य Skill के रूप में मॉडल करता है।",
+  "boundary": "रिसर्च कोड; क्रॉस-ट्रास्क ट्रांसफर और लागत आँकड़ों के साथ पेपर सेटिंग्स सुरक्षित रखें।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "MemTensor/MemT-1.0": {
+  "description": "मॉडल-नेटिव मेमोरी read/write और Mixture-of-Storage की जाँच करने वाला मेमोरी मॉडल परिवार।",
+  "boundary": "मॉडल वेट्स, inference कोड और पारंपरिक एक्सटर्नल मेमोरी इंजन एक ही स्तर की चीज़ें नहीं हैं।",
+  "license_label": "PolyForm Noncommercial-1.0.0",
+  "license_note": "नॉन-कमर्शियल सोर्स लाइसेंस; OSI ओपन-सोर्स लाइसेंस नहीं"
+ },
+ "HUST-AI-HYZ/MemoryAgentBench": {
+  "description": "incremental बहु-चर्या बातचीत से Agent मेमोरी के निर्माण और उपयोग की क्षमता परखता है।",
+  "boundary": "benchmark adapters, मॉडल और judge सेटिंग्स भिन्न होने पर नतीजों की तुलना कॉन्फ़िगरेशन के बिना नहीं की जा सकती।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "RonsenbergVI/agent-memory-benchmarks": {
+  "description": "LongMemEval, LoCoMo जैसे Agent मेमोरी सिस्टम्स के लिए खुला इवैल्युएशन और reference इम्प्लीमेंटेशन देता है।",
+  "boundary": "यह आधिकारिक डेटासेट लीडरबोर्ड नहीं; फ़िक्स डेटा-स्प्लिट और scoring कॉन्फ़िगरेशन पढ़ें।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "thomasfevre/agent-memory-bench": {
+  "description": "प्रमाण-हिट, उत्तर और retrieval व्यवहार पर केंद्रित पुनरुत्पादनीय मेमोरी इवैल्युएशन।",
+  "boundary": "प्रोजेक्ट दस्तावेज़ स्पष्ट करता है कि कुछ मेट्रिक्स आधिकारिक LongMemEval स्कोर नहीं हैं।",
+  "license_label": "सत्यापन प्रतीक्षित",
+  "license_note": "रूट डायरेक्टरी में लाइसेंस नहीं मिला"
+ },
+ "H20Zhang/Agent-Memory-Radar": {
+  "description": "मेमोरी तंत्र, benchmark, दूषण, forgetting और recovery के प्रमाण एकत्र करने वाला रिसर्च रडार।",
+  "boundary": "रिसर्च इंडेक्स/ऑडिट संसाधन है, मेमोरी runtime नहीं।",
+  "license_label": "CC-BY-4.0 कंटेंट / MIT कोड",
+  "license_note": "रिसर्च सामग्री और मेंटेनेंस कोड में विभाजित लाइसेंस"
+ },
+ "AML-memory/agent-memory-leaderboard": {
+  "description": "Agent मेमोरी सिस्टम्स के इवैल्युएशन नतीजे और तुलना-सामग्री एकत्र करता है।",
+  "boundary": "विषम मॉडल, डेटा और बजट केवल कुल स्कोर से रैंक नहीं किए जा सकते।",
+  "license_label": "सत्यापन प्रतीक्षित",
+  "license_note": "रूट डायरेक्टरी में लाइसेंस नहीं मिला"
+ },
+ "tobi/qmd": {
+  "description": "लोकल Markdown और दस्तावेज़ों के लिए BM25, vector, query expansion, rerank और MCP।",
+  "boundary": "रिट्रीवल इन्फ़्रास्ट्रक्चर है; मेमोरी की पूर्ण एक्सट्रैक्शन, अद्यतन और forgetting lifecycle संभालता नहीं।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "modelcontextprotocol/servers": {
+  "description": "आधिकारिक MCP servers पैरेंट रिपॉज़िटरी के entities, relations और observations मेमोरी घटक।",
+  "boundary": "पैरेंट रिपॉज़िटरी के मेट्रिक्स memory सबमॉड्यूल के बराबर नहीं; लाइसेंस MIT/Apache संक्रमण में है और प्रोजेक्ट संरचना बदल चुकी है।",
+  "license_label": "Apache-2.0 / MIT संक्रमण; दस्तावेज़ CC-BY-4.0",
+  "license_note": "पैरेंट रिपॉज़िटरी re-licensing संक्रमण में; विशिष्ट फ़ाइलें लागू लाइसेंस follow करती हैं"
+ },
+ "volcengine/MineContext": {
+  "description": "स्क्रीन जैसे digital context से गतिविधि, सारांश और क्वेरी-योग्य सामग्री उत्पन्न करता है।",
+  "boundary": "सक्रिय व्यक्तिगत सहायक ऐप के नज़दीक; सामान्य एक्सटर्नल मेमोरी इंजन नहीं।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "letta-ai/letta": {
+  "description": "पर्सिस्टेंट स्टेट और Agent-स्वशासित context प्रबंधन पर केंद्रित पूर्ण Agent प्लेटफ़ॉर्म।",
+  "boundary": "इसे अपनाना प्रायः Agent runtime प्रतिस्थापन है, केवल मेमोरी API बदलना नहीं।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "mnemoverse/awesome-agent-memory": {
+  "description": "Agent मेमोरी सिस्टम्स, फ़्रेमवर्क, benchmark और रिसर्च का बाहरी इंडेक्स।",
+  "boundary": "कवरेज बेसलाइन और खोज-प्रवेश-बिंदु; क्षमता-निर्णय में भाग नहीं लेता।",
+  "license_label": "CC0-1.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "Agentscreator/engram-memory": {
+  "description": "मल्टी-Agent साझा मेमोरी, संघर्ष और consistency के लिए आर्काइव्ड परियोजना।",
+  "boundary": "रिपॉज़िटरी archive हो चुकी; डिज़ाइन संदर्भ के रूप में सुरक्षित।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "getzep/zep": {
+  "description": "Zep का पुराना Community Edition और वर्तमान क्लाउड प्रोडक्ट इंटीग्रेशन उदाहरण।",
+  "boundary": "Community Edition legacy में चला गया और deprecated/unsupported चिह्नित; वर्तमान ओपन-सोर्स ग्राफ़ कोर के लिए Graphiti देखें।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "engram-app/Engram": {
+  "description": "cognitive मेमोरी और Agent इंटीग्रेशन वाला source-available परियोजना।",
+  "boundary": "PolyForm Small Business लाइसेंस में संगठन-आकार/राजस्व प्रतिबंध; सामान्य OSI ओपन-सोर्स उम्मीदवार नहीं मानें।",
+  "license_label": "PolyForm Small Business-1.0.0 / कमर्शियल लाइसेंस",
+  "license_note": "संगठन-आकार और राजस्व की शर्तें; सामान्य OSI ओपन-सोर्स लाइसेंस नहीं"
+ },
+ "kolegadev/Katra-Agentic-Memory": {
+  "description": "episodic, semantic, ग्राफ़ और sleep-आधारित consolidation वाला MCP cognitive मेमोरी डिवाइस।",
+  "boundary": "BSL 1.1 प्रतिबंध-काल में OSI ओपन-सोर्स नहीं; प्रतिस्पर्धी hosting/embedding उपयोग सीमित।",
+  "license_label": "BSL-1.1",
+  "license_note": "प्रतिस्पर्धी तृतीय-पक्ष hosting/embedding पर प्रतिबंध; बदलाव की तारीख और प्राचल LICENSE से लें"
+ },
+ "mnemosyne-oss/mnemosyne": {
+  "description": "SQLite-चालित, लोकल-प्रधान क्रॉस-फ़्रेमवर्क मेमोरी लेयर; MCP और कई Agent इंटीग्रेशन।",
+  "boundary": "समान नाम Mnemosyne प्रोजेक्ट बहुत हैं; remote embedding, sync और LLM विकल्प zero-cloud सीमा बदल देते हैं।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "mnemoverse/mcp-memory-server": {
+  "description": "MCP से होस्टेड पर्सिस्टेंट मेमोरी, feedback reranking और मल्टी-Agent साझा कमरे।",
+  "boundary": "यह रिपॉज़िटरी होस्टेड सर्विस का क्लाइंट/सर्वर एक्सेस लेयर है; domain खाते के अंदर का namespace है, अनुमति-सीमा नहीं।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "aetna000/MemoryStackBench": {
+  "description": "Agent मेमोरी की सुरक्षा, प्रमाण, डिलीशन-पूर्णता और auditability का स्वचालित मूल्यांकन।",
+  "boundary": "नया benchmark; लीडरबोर्ड नतीजों के लिए adapters, मॉडल, डेटा और scoring कॉन्फ़िगरेशन फ़िक्स चाहिए।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "OWASP/www-project-agent-memory-guard": {
+  "description": "Agent मेमोरी और context poisoning के लिए runtime रक्षा और reference इम्प्लीमेंटेशन।",
+  "boundary": "रक्षा-लेयर मेमोरी स्टोर नहीं; फ़्रेमवर्क संगतता और security निष्कर्ष लक्ष्य सिस्टम में दोबारा परखने होंगे।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "Digital-Trust-Lab/mp-bench": {
+  "description": "स्थायी मेमोरी लेखन, आगे retrieval और व्यवहार-trigger वाले memory poisoning attack का इवैल्युएशन डेटासेट।",
+  "boundary": "रिसर्च डेटासेट, प्रोडक्शन डिफ़ेंस नहीं; attack सफलता दर लक्ष्य Agent और प्रयोग सेटिंग्स पर निर्भर।",
+  "license_label": "Apache-2.0",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ },
+ "membaseai/membase": {
+  "description": "SDK, CLI और MCP वाला क्रॉस-Agent मेमोरी लेयर; होस्टेड खाता या लोकल स्टोरेज दोनों चुन सकते हैं।",
+  "boundary": "memodb-io/Memobase से भिन्न; hosted और local मोड की डेटा, authentication और क्षमता-सीमाएँ अलग-अलग सत्यापित करें।",
+  "license_label": "MIT",
+  "license_note": "GitHub licenseInfo से पहचाना; संबद्ध मॉडल, डेटा, वेट्स और होस्टेड सर्विसेज़ के लाइसेंस अलग से गिने जाएँ।"
+ }
 }

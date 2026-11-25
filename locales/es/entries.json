@@ -1,544 +1,536 @@
 {
-  "mnemon-dev/mnemon": {
-    "description": "Memoria persistente entre sesiones para agentes: organiza el conocimiento en estructura de grafo, con recuperación sensible a la intención e integración con varios hospedadores.",
-    "boundary": "El motor de memoria local, el LLM del hospedador, Agency Preview y la demo de pruebas AML son componentes distintos; los resultados de rankings publicados dependen de modelos y versiones concretos y no son una garantía de rendimiento general.",
-    "license_label": "Apache-2.0",
-    "license_note": "El LICENSE raíz es Apache-2.0; las licencias de modelos, servicios y datos de terceros se cuentan aparte."
-  },
-  "omdsh-dev/dsh-mnemon": {
-    "description": "Complemento de memoria jerárquica para DeepSeek Harness que combina memoria en tiempo de ejecución, documentación del proyecto y backends de memoria de largo plazo intercambiables.",
-    "boundary": "Depende del hospedador DSH; los servicios, la ubicación de los datos y la capacidad de borrado varían según el proveedor, y la autoevolución de habilidades está desactivada por defecto.",
-    "license_label": "MIT",
-    "license_note": "El LICENSE raíz es MIT; las licencias y términos de servicio de los proveedores de terceros se cuentan aparte (véase THIRD_PARTY_NOTICES.md)."
-  },
-  "beizhangnina/EverMemOS_bz": {
-    "description": "Fork de EverMemOS que conserva la implementación anterior centrada en extracción conversacional, memoria estructurada y recuperación multiestrategia.",
-    "boundary": "GitHub lo marca como fork de EverMind-AI/EverOS; el último commit de la rama por defecto es de 2025-11-28, y la arquitectura de MongoDB, Elasticsearch, Milvus y Redis que describe el README no puede aplicarse directamente al EverOS actual. Las cifras de evaluación no se han verificado de forma independiente.",
-    "license_label": "Apache-2.0",
-    "license_note": "El LICENSE raíz es Apache-2.0 y el NOTICE incluye la nota de copyright; las licencias de modelos, datos y dependencias de terceros se cuentan aparte."
-  },
-  "volcengine/OpenViking": {
-    "description": "Gestiona de forma unificada recursos, memoria de largo plazo y Agent Skills mediante un sistema de archivos virtual navegable.",
-    "boundary": "Las rutas virtuales del servidor no son archivos locales corrientes; la frescura de resúmenes, extracciones e índices sigue requiriendo verificación.",
-    "license_label": "AGPL-3.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "vectorize-io/hindsight": {
-    "description": "Gestiona hechos estructurados, experiencias, entidades y observaciones sintéticas mediante retain, recall y reflect.",
-    "boundary": "El despliegue, la combinación de modelos y el protocolo de evaluación afectan de forma significativa los resultados y el coste.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "plastic-labs/honcho": {
-    "description": "Forma de manera continua representaciones de los pares y comprensión colaborativa en torno a peer, session y workspace.",
-    "boundary": "La inferencia puede ampliar los hechos explícitos; borrar la conversación original no garantiza por sí solo que se eliminen todas las conclusiones derivadas.",
-    "license_label": "AGPL-3.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "mem0ai/mem0": {
-    "description": "Capa de personalización universal que extrae, actualiza, borra y recupera memorias a partir de las interacciones.",
-    "boundary": "La librería open source, la plataforma gestionada y las distintas integraciones requieren verificar por separado sus rutas de datos.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "MemTensor/MemOS": {
-    "description": "Sistema operativo de memoria para agentes que cubre varios tipos de memoria, recuperación híbrida y evolución de habilidades.",
-    "boundary": "El servicio principal, el producto cloud y el plugin local usan rutas de almacenamiento y despliegue distintas.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "MemMachine/MemMachine": {
-    "description": "Servicio de memoria de agentes universal con interfaces por usuario, proyecto y sesión.",
-    "boundary": "Los backends, los modelos y el aislamiento de inquilinos deben verificarse según la configuración real de despliegue.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "memodb-io/memobase": {
-    "description": "Mantiene la memoria de usuario de largo plazo en torno a perfiles y eventos temporales.",
-    "boundary": "Persigue objetivos distintos de Acontext, del mismo equipo; la actividad de mantenimiento y la hoja de ruta recomendada merecen una mirada aparte.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "mem9-ai/mem9": {
-    "description": "Ofrece memoria entre agentes e ingesta de sesiones, con varios backends de almacenamiento en el servidor.",
-    "boundary": "El despliegue privado sigue requiriendo trabajo sobre el plano de control, la base de datos y la inicialización de inquilinos.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "agent-memory-lab/agent-memory": {
-    "description": "Motor de memoria centrado en evidencia de origen, corrección de hechos, validez temporal y alcance.",
-    "boundary": "El README lo marca como Alpha; la descripción funcional no equivale a madurez de producción.",
-    "license_label": "Apache-2.0",
-    "license_note": "LICENSE raíz verificado manualmente."
-  },
-  "Jahvis/memanto-ai-memory": {
-    "description": "Servicio de memoria con versionado y metadatos de origen, envuelto en las primitivas remember, recall y answer.",
-    "boundary": "La recuperación depende del servicio externo Moorcheh, así que no puede llamarse una pila open source totalmente offline.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "ivanzwb/agent-memory": {
-    "description": "Librería de memoria embebida en TypeScript con memoria de trabajo, de sesión, de largo plazo y base de conocimiento.",
-    "boundary": "Proyecto pequeño; la extracción automática y el presupuesto de tokens requieren pruebas propias.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "rohitg00/agentmemory": {
-    "description": "Servicio y complementos de memoria para agentes de programación que fusionan BM25, vectores opcionales y relaciones estructuradas.",
-    "boundary": "No tiene relación con los demás proyectos homónimos agentmemory; hay que distinguir sus puntos de entrada de despliegue.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "HBarefoot/engram": {
-    "description": "Librería de memoria en proceso (TypeScript/SQLite) con embeddings locales, MCP y una Skill de uso.",
-    "boundary": "El primer uso puede descargar modelos locales; que sea ligero no significa que sea seguro frente a concurrencia multiproceso.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "TAIPANBOX/engram": {
-    "description": "SQLite que aloja memoria episódica, semántica y procedimental, hechos bi-temporales, decaimiento y MCP.",
-    "boundary": "Proyecto nuevo; funciones y rendimiento aún requieren mediciones unificadas.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "openJiuwen-ai/agent-memory": {
-    "description": "Aporta a los agentes extracción, almacenamiento, recuperación y migración de memorias en múltiples formas.",
-    "boundary": "La rama por defecto y la línea de evolución mem2.0 pueden diferir; conviene fijar la versión al adoptarlo.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "Tencent-Hunyuan/Hy-Memory": {
-    "description": "Motor de memoria cognitiva de doble sistema y SDK de Python para escenarios de conversación, agentes y programación.",
-    "boundary": "El motor Hy Memory y la capa de producto MemHub tienen responsabilidades distintas; las rutas de modelos y datos deben verificarse por componente.",
-    "license_label": "Apache-2.0",
-    "license_note": "El LICENSE raíz confirma que no hay restricciones adicionales sobre Apache-2.0; el alcance de parámetros y pesos públicos se rige por el texto del LICENSE."
-  },
-  "TencentCloud/TencentDB-Agent-Memory": {
-    "description": "Centro de memoria para equipos que convierte conversaciones, documentos y código en Chat Memory, Skills, LLM-Wiki y Code-Graph.",
-    "boundary": "La rama por defecto puede ser de desarrollo; las fronteras del proxy de protocolo y del despliegue de base de datos requieren verificación con versión fijada.",
-    "license_label": "MIT",
-    "license_note": "LICENSE raíz verificado manualmente."
-  },
-  "tawanorg/OpenMemory": {
-    "description": "Servicio autoalojado de memoria semántica y de contexto de largo plazo, independiente del framework.",
-    "boundary": "Distinguirlo de los demás proyectos homónimos OpenMemory; el beneficio de la descomposición jerárquica requiere pruebas propias.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "hellangleZ/Agent-MemoryForge": {
-    "description": "Capa de memoria persistente, recuperable y auditable para agentes multiinquilino, con SDK y gateway.",
-    "boundary": "Proyecto reciente; las afirmaciones de nivel productivo, el aislamiento y la destilación en segundo plano requieren validación en despliegue.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "joshuaswarren/remnic": {
-    "description": "Capa de memoria consciente del usuario: alcance, procedencia, correcciones, fronteras, calidad de recuperación y MCP/HTTP.",
-    "boundary": "Proyecto nuevo; conviene separar las capacidades documentadas hoy de los resultados reales de benchmarks.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "supermemoryai/supermemory": {
-    "description": "Plataforma de búsqueda híbrida y memoria para documentos, memorias y perfiles de usuario.",
-    "boundary": "Las rutas de datos del servicio open source y de capacidades externas como el reader gestionado exigen verificación caso por caso.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "MemoriLabs/Memori": {
-    "description": "Conecta la ingesta y la recuperación de memorias con las llamadas LLM existentes, en torno a la pertenencia de usuarios y procesos.",
-    "boundary": "La guía de inicio actual favorece la entrada cloud; hay que distinguir el alcance de BYODB y del autoalojamiento completo.",
-    "license_label": "Apache-2.0",
-    "license_note": "LICENSE raíz verificado manualmente."
-  },
-  "CaviraOSS/LongMemory": {
-    "description": "Memoria de largo plazo local en TypeScript/SQLite con procedencia, tiempo, selección de evidencia y presupuesto de tokens.",
-    "boundary": "Antes se llamaba Cavira OpenMemory; no confundir con el OpenMemory de Mem0.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "memvid/memvid": {
-    "description": "Archivo único portable con núcleo Rust que ofrece recuperación híbrida y SDK multilenguaje.",
-    "boundary": "La ruta actual ya difiere de la narrativa temprana de vídeo/QR; se inclina más hacia la recuperación persistente.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "Mirix-AI/MIRIX": {
-    "description": "Sistema de memoria de largo plazo multitipo, multiagente y multimodal que sigue la actividad de trabajo y destila habilidades.",
-    "boundary": "El alcance real de base de datos, modelos y captura de escritorio debe verificarse en la versión actual.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "tigerless-labs/agent-memory": {
-    "description": "Markdown como fuente de verdad, SQLite como índice reconstruible y una capa independiente de consolidación en reposo.",
-    "boundary": "Al compartir archivos entre hospedadores siguen haciendo falta diseños de privacidad, concurrencia y alcance por proyecto.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "zilliztech/memsearch": {
-    "description": "Markdown como fuente de verdad con índice derivado en Milvus: vectorial/BM25/RRF y expansión progresiva.",
-    "boundary": "Resúmenes, archivos, índices y conversaciones originales pueden desincronizarse; sin relación con el concepto de búsqueda homónimo de OpenViking.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "agentscope-ai/ReMe": {
-    "description": "Organiza hechos y experiencias con Markdown, frontmatter y wikilinks; búsqueda léxica, vectorial y expansión relacional.",
-    "boundary": "El repositorio conserva la forma antigua de MemoryScope; al adoptarlo, la interfaz actual manda.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "EverMind-AI/EverOS": {
-    "description": "Gestiona episodios/perfiles de usuario y casos/habilidades de agentes con Markdown como fuente de verdad e índice local.",
-    "boundary": "La descripción arquitectónica del antiguo EverMemOS quedó obsoleta; no se le pueden aplicar sus dependencias de despliegue.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "basicmachines-co/basic-memory": {
-    "description": "Usa notas Markdown editables y relaciones semánticas como memoria de conocimiento compartida entre personas y máquinas.",
-    "boundary": "Más cerca de la memoria de conocimiento y del workspace MCP; no asume por sí mismo el ciclo de corrección de hechos.",
-    "license_label": "AGPL-3.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "shiblon/engram": {
-    "description": "Un binario único con SQLite gestiona memoria de corto y largo plazo, preferencias y personalidad.",
-    "boundary": "No tiene relación con los demás proyectos Engram; conviene revisar cómo invoca las herramientas cada hospedador.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "B12Labs/engram": {
-    "description": "Formato portátil de memoria en un solo archivo con compresión de grafos y búsqueda rápida/híbrida/profunda.",
-    "boundary": "El formato v0.x no está estabilizado y favorece un único escritor; no sustituye a una base de datos concurrente.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "Gentleman-Programming/engram": {
-    "description": "Memoria persistente en Go/SQLite/FTS5 para agentes de programación, con MCP, HTTP, CLI y TUI.",
-    "boundary": "No tiene relación con los demás Engram homónimos; la instalación en varios hospedadores requiere verificación aparte.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "Sibyl-Labs/Sibyl-Memory": {
-    "description": "Familia de memoria de largo plazo en archivo único, sin base vectorial, con adaptadores SDK, CLI, MCP, Hermes y LangGraph.",
-    "boundary": "Proyecto nuevo; la madurez y las capacidades semánticas de cada paquete de adaptación deben verificarse por separado.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "mcncarl/agent-memory-vault": {
-    "description": "Depósito de memoria compartida Markdown-first para Claude Code/Codex con Git, índices y auditoría.",
-    "boundary": "Exige decidir qué memorias conviene versionar en Git y manejar el alcance por ramas y worktrees.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "getzep/graphiti": {
-    "description": "Extrae entidades y relaciones en tiempo real, construye un grafo de conocimiento bi-temporal y fusiona búsqueda léxica, vectorial y de grafo.",
-    "boundary": "Los backends de grafo y los modelos de extracción afectan al coste; es el núcleo de grafos open source actual del ecosistema Zep.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "topoteretes/cognee": {
-    "description": "Convierte documentos, código y conversaciones en entidades, relaciones y grafos de conocimiento/memoria consultables.",
-    "boundary": "Las rutas de despliegue actuales evolucionan sin parar; no vale aferrarse a afirmaciones multibase de versiones antiguas.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "FlowElement-xinliuyuansu/m_flow": {
-    "description": "Organiza memoria episódica, conceptual y de entidades mediante grafos cognitivos multinivel con propagación controlada.",
-    "boundary": "Los benchmarks del autor exigen conservar modelo y configuración; la propagación en el grafo no garantiza hechos correctos.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "neo4j-labs/agent-memory": {
-    "description": "Memoria de agente basada en grafos y context graph: almacena conversaciones, entidades, relaciones y trayectorias de razonamiento.",
-    "boundary": "Depende de Neo4j; un proyecto experimental o de labs no equivale al SLA de un producto formal.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "liliang-cn/cortexdb": {
-    "description": "Combina grafo de conocimiento, restricciones y razonamiento trazable dentro de un único archivo SQLite.",
-    "boundary": "La forma local de archivo único sirve para experimentar; escala y concurrencia requieren pruebas propias.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "memory-graph/memory-graph": {
-    "description": "Servicio MCP de memoria con seguimiento de relaciones y consultas de grafo para agentes de programación.",
-    "boundary": "Se orienta a la memoria relacional de proyectos; no equivale a una plataforma personal completa de memoria de largo plazo.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "JordyZomer/lemmalog": {
-    "description": "Construye la memoria del agente con reglas Datalog, hechos de origen y derivación incremental.",
-    "boundary": "La calidad de la derivación depende de la ingesta de hechos y del diseño de reglas; es una ruta distinta de la recuperación vectorial.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "zhangfengcdt/memoir": {
-    "description": "Memoria de agente jerárquica con control de versiones estilo Git.",
-    "boundary": "Proyecto nuevo; fusión, reversión y rendimiento del mecanismo versionado requieren pruebas propias.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "thedotmack/claude-mem": {
-    "description": "Captura sesiones y actividad de herramientas, los comprime en SQLite/FTS5/Chroma y los recupera en sesiones posteriores.",
-    "boundary": "El soporte multi-hospedador debe verificarse punto por punto; la captura puede incluir salidas sensibles de herramientas.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "doobidoo/mcp-memory-service": {
-    "description": "Ofrece memoria semántica, relaciones y consolidación en segundo plano vía MCP/REST, con varios backends de almacenamiento.",
-    "boundary": "Que el autoalojamiento sea ligero no uniforma el comportamiento de todos los backends; hay que fijar la configuración al probar.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "riponcm/projectmem": {
-    "description": "Registra issues, intentos, arreglos y decisiones como log de eventos para que los agentes de programación no repitan fracasos.",
-    "boundary": "Es memoria de ingeniería de proyecto, no un sistema universal de perfiles personales.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "coleam00/mcp-mem0": {
-    "description": "Envuelve la memoria de largo plazo de Mem0 como servicio MCP para clientes de agentes.",
-    "boundary": "Es sobre todo una capa de adaptación; las fronteras de despliegue del servicio o de la librería local de Mem0 siguen existiendo.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "AVIDS2/memorix": {
-    "description": "Memoria compartida entre hospedadores para varios agentes de programación a través de MCP.",
-    "boundary": "El abanico de hospedadores soportados y la gobernanza del almacenamiento deben revisarse por versión.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "okf-memory/okf-agent-memory": {
-    "description": "Memoria Git-native para agentes de programación con MCP embebido y lectura progresiva.",
-    "boundary": "La rama de desarrollo por defecto puede cambiar; la implementación del protocolo y la compatibilidad con hospedadores exigen fijar la versión.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "0xK3vin/MegaMemory": {
-    "description": "Grafo de conocimiento de proyecto persistente, búsqueda semántica y servicio MCP para agentes de programación.",
-    "boundary": "El grafo de código y la memoria de usuario de largo plazo son objetos distintos; al adoptarlo conviene delimitar el alcance.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "plastic-labs/codex-honcho": {
-    "description": "Integración oficial que conecta sesiones de Codex, actividad de herramientas e inyección de contexto con Honcho.",
-    "boundary": "Es una capa de adaptación de Honcho, no un motor de memoria independiente; hay que evitar escrituras duplicadas con otros complementos de captura.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "memodb-io/Acontext": {
-    "description": "Destila de ejecuciones y artefactos de agentes experiencias operativas y Skills legibles y editables.",
-    "boundary": "Se orienta a la reutilización de experiencia; el objeto difiere del perfil de usuario de Memobase, del mismo equipo.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "langchain-ai/langmem": {
-    "description": "Extrae hechos de largo plazo de las conversaciones, busca memorias y optimiza el comportamiento del agente a partir de sus experiencias.",
-    "boundary": "Es una librería de componentes; la aplicación debe ensamblar por su cuenta almacenamiento, alcance y flujos de captura e inyección.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "alibaizhanov/mengram": {
-    "description": "Organiza memoria semántica, episódica y procedimental, y mejora los flujos de trabajo con retroalimentación de los fallos.",
-    "boundary": "Hay que distinguir el producto gestionado del modo local; la actualización de memoria procedimental debe evitar consolidar errores.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "NevaMind-AI/memU": {
-    "description": "Memoria personal entre agentes y puente con hospedadores: los agentes destilan Markdown y Skills de memoria.",
-    "boundary": "MemoryService y el modelo de chat tienen responsabilidades separadas; no se debe asumir que el servicio destila por sí solo.",
-    "license_label": "Apache-2.0",
-    "license_note": "LICENSE.txt raíz verificado manualmente."
-  },
-  "vincents-ai/engram": {
-    "description": "Contexto de proyecto distribuido, tareas, razonamiento y conocimiento de equipo para sistemas multiagente.",
-    "boundary": "Licencia dual AGPL o comercial; diferente de los demás Engram MIT/Apache.",
-    "license_label": "AGPL-3.0-or-later o licencia comercial",
-    "license_note": "Licencia dual; las obligaciones de servicio de red y distribución de modificaciones se aplican según el texto de AGPL o el acuerdo comercial."
-  },
-  "Sherlockwz/T-Mem": {
-    "description": "Genera al escribir pistas de activación para consultas futuras y combina índices de hechos y escenarios para estudiar la recuperación asociativa.",
-    "boundary": "Implementación de investigación, no un servicio de memoria productivo listo para usar.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "Celina-love-sweet/MemForest": {
-    "description": "Segmenta mediante EventTree y fusiona y comprime de forma progresiva la memoria de largo plazo.",
-    "boundary": "El proyecto homónimo de Concyclics y su paper son completamente distintos.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "Concyclics/MemForest": {
-    "description": "Organiza la memoria de largo plazo con un índice temporal jerárquico y ofrece una interfaz experimental en Python.",
-    "boundary": "No debe fusionarse con el MemForest de EventTree; los resultados de investigación requieren replicación.",
-    "license_label": "MIT",
-    "license_note": "LICENSE raíz verificado manualmente."
-  },
-  "JordanMcCann/agentmemory": {
-    "description": "Estudia la recuperación multiseñal: semántica, léxica, grafo, importancia y tiempo.",
-    "boundary": "Las cifras de LongMemEval declaradas por el autor no son comparables en bruto con proyectos de otros modelos o presupuestos.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "aiming-lab/SimpleMem": {
-    "description": "Investiga la compresión con estructura semántica, la consolidación de memorias y la recuperación adaptativa.",
-    "boundary": "Las cifras del paper dependen del modelo y del protocolo; la compresión puede perder excepciones y procedencia.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "BAI-LAB/MemoryOS": {
-    "description": "Investiga la memoria jerárquica de corto, medio y largo plazo, su actualización y la gestión de perfiles de usuario.",
-    "boundary": "MemoryOS, MemOS y EverOS son proyectos distintos.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "agiresearch/A-mem": {
-    "description": "Toma prestado Zettelkasten para organizar, enlazar y evolucionar notas de memoria de forma automática.",
-    "boundary": "Los enlaces generados no garantizan hechos correctos; la integración productiva requiere gobernanza adicional.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "zhongwanjun/MemoryBank-SiliconFriend": {
-    "description": "Implementación de investigación temprana sobre interacción prolongada, perfil de usuario, consolidación y olvido de memorias.",
-    "boundary": "Sin mantenimiento desde hace tiempo; útil para rastrear el método, no como primera opción de producción actual.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "nuster1128/MemEngine": {
-    "description": "Librería modular de investigación sobre memoria de agentes que cubre varios tipos de módulos de memoria y evaluación.",
-    "boundary": "La licencia del repositorio no está clara; que el código sea público no equivale a libre reutilización.",
-    "license_label": "Pendiente de verificación",
-    "license_note": "No se encontró LICENSE en la raíz; que el código sea público no equivale a una reutilización autorizada."
-  },
-  "ViktorAxelsen/MemSkill": {
-    "description": "Modela operaciones de memoria —extracción, consolidación, poda— como Skills aprendibles y evolutivas.",
-    "boundary": "Código de investigación; la transferencia entre tareas y las cifras de coste deben citarse con el setup del paper.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "MemTensor/MemT-1.0": {
-    "description": "Familia de modelos de memoria que explora lectura/escritura nativa de memoria en el modelo y Mixture-of-Storage.",
-    "boundary": "Los pesos del modelo, el código de inferencia y los motores externos de memoria tradicionales no pertenecen al mismo nivel.",
-    "license_label": "PolyForm Noncommercial-1.0.0",
-    "license_note": "Licencia de código no comercial; no es una licencia OSI open source."
-  },
-  "HUST-AI-HYZ/MemoryAgentBench": {
-    "description": "Evalúa la construcción y el uso de la memoria de los agentes mediante interacción multiturno incremental.",
-    "boundary": "Adaptadores, modelos y configuración del judge distintos invalidan la comparación fuera de su contexto.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "RonsenbergVI/agent-memory-benchmarks": {
-    "description": "Ofrece evaluación abierta e implementaciones de referencia para sistemas de memoria de agentes como LongMemEval o LoCoMo.",
-    "boundary": "No es un leaderboard oficial de los datasets; hay que leer los splits de datos y la configuración de puntuación fijados.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "thomasfevre/agent-memory-bench": {
-    "description": "Evaluación de memoria auditable centrada en aciertos de evidencia, respuestas y comportamiento de recuperación.",
-    "boundary": "La propia documentación aclara que algunas métricas no son las cifras oficiales de LongMemEval.",
-    "license_label": "Pendiente de verificación",
-    "license_note": "No se encontró LICENSE en la raíz."
-  },
-  "H20Zhang/Agent-Memory-Radar": {
-    "description": "Radar de investigación que compila mecanismos de memoria, benchmarks, contaminación, olvido y evidencia de recuperación.",
-    "boundary": "Es un recurso de índice/auditoría de investigación, no un runtime de memoria.",
-    "license_label": "CC-BY-4.0 contenido / MIT código",
-    "license_note": "Licencia dividida entre el contenido de investigación y el código de mantenimiento."
-  },
-  "AML-memory/agent-memory-leaderboard": {
-    "description": "Recopila resultados de evaluaciones y material comparativo de sistemas de memoria para agentes.",
-    "boundary": "Modelos, datos y presupuestos heterogéneos no pueden ordenarse solo por la puntuación total.",
-    "license_label": "Pendiente de verificación",
-    "license_note": "No se encontró LICENSE en la raíz."
-  },
-  "tobi/qmd": {
-    "description": "BM25, vectores, expansión de consultas, rerank y MCP para Markdown y documentos locales.",
-    "boundary": "Es infraestructura de recuperación; no cubre el ciclo completo de extracción, actualización y olvido de la memoria.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "modelcontextprotocol/servers": {
-    "description": "Componentes de memoria entities, relations y observations del repositorio padre oficial de MCP servers.",
-    "boundary": "Las métricas del repositorio padre no representan al submódulo de memoria; la licencia está en transición MIT/Apache y la estructura del proyecto ha evolucionado.",
-    "license_label": "Transición Apache-2.0 / MIT; documentación CC-BY-4.0",
-    "license_note": "El repositorio padre está en transición de relicenciamiento; cada archivo conserva la licencia aplicable."
-  },
-  "volcengine/MineContext": {
-    "description": "Genera actividades, resúmenes y material consultable a partir de contexto digital como la pantalla.",
-    "boundary": "Más cerca de una aplicación de asistente personal proactivo que de un motor externo universal de memoria.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "letta-ai/letta": {
-    "description": "Plataforma completa de agentes centrada en el estado persistente y la autogestión del contexto por el propio agente.",
-    "boundary": "Adoptarla suele implicar sustituir el runtime del agente, no solo cambiar una API de memoria.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "mnemoverse/awesome-agent-memory": {
-    "description": "Índice externo de sistemas, frameworks, benchmarks e investigación sobre memoria de agentes.",
-    "boundary": "Sirve como línea base de cobertura y punto de descubrimiento; no participa en juicios de capacidad.",
-    "license_label": "CC0-1.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "Agentscreator/engram-memory": {
-    "description": "Proyecto archivado sobre memoria compartida multiagente, conflictos y coherencia.",
-    "boundary": "El repositorio está archivado; se conserva como referencia de diseño.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "getzep/zep": {
-    "description": "La antigua Community Edition de Zep y ejemplos de integración con el producto cloud actual.",
-    "boundary": "La Community Edition pasó a legacy y está marcada como deprecated/unsupported; el núcleo de grafos open source actual es Graphiti.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "engram-app/Engram": {
-    "description": "Proyecto source-visible con memoria cognitiva e integración de agentes.",
-    "boundary": "La licencia PolyForm Small Business impone límites de tamaño organizacional/ingresos; no se lista como candidato OSI open source convencional.",
-    "license_label": "PolyForm Small Business-1.0.0 / licencia comercial",
-    "license_note": "Tiene condiciones de tamaño organizacional e ingresos; no es una licencia OSI open source convencional."
-  },
-  "kolegadev/Katra-Agentic-Memory": {
-    "description": "Dispositivo MCP de memoria cognitiva con episodios, semántica, grafos y consolidación en reposo.",
-    "boundary": "BSL 1.1 no es OSI open source durante el periodo de restricción y limita el hosting/embebido competitivo.",
-    "license_label": "BSL-1.1",
-    "license_note": "Restringe el hosting/embebido competitivo de terceros; la fecha y los parámetros de conversión se rigen por el LICENSE."
-  },
-  "unibaseio/membase": {
-    "description": "Capa de memoria entre agentes con SDK, CLI y MCP, usable con cuenta gestionada o almacenamiento local.",
-    "boundary": "Distinta de memodb-io/Memobase; las fronteras de datos, autenticación y capacidades de los modos gestionado y local deben verificarse por separado.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "mnemosyne-oss/mnemosyne": {
-    "description": "Capa de memoria multiframework basada en SQLite, local por defecto, con MCP e integraciones con varios agentes.",
-    "boundary": "Hay muchos proyectos homónimos Mnemosyne; las opciones de embeddings remotos, sincronización y LLM alteran la frontera sin nube.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "mnemoverse/mcp-memory-server": {
-    "description": "Memoria persistente gestionada vía MCP con re-ranking por retroalimentación y salas compartidas entre agentes.",
-    "boundary": "Este repositorio es la capa de acceso cliente/servidor del servicio gestionado; el campo domain es un namespace dentro de la cuenta, no una frontera de permisos.",
-    "license_label": "MIT",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "aetna000/MemoryStackBench": {
-    "description": "Evaluación automatizada de seguridad, evidencia, integridad del borrado y auditabilidad de la memoria de agentes.",
-    "boundary": "Benchmark nuevo; los resultados del leaderboard exigen fijar adaptador, modelo, datos y configuración de puntuación.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "OWASP/www-project-agent-memory-guard": {
-    "description": "Protección en tiempo de ejecución e implementación de referencia contra la contaminación de memoria y contexto de agentes.",
-    "boundary": "Es una capa de defensa, no una base de memoria; la adaptación a frameworks y las conclusiones de seguridad deben revalidarse en el sistema objetivo.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  },
-  "Digital-Trust-Lab/mp-bench": {
-    "description": "Dataset de ataques de contaminación de memoria que evalúa escritura persistente, recuperación posterior y activación conductual.",
-    "boundary": "Es un dataset de investigación, no una defensa de producción; la tasa de éxito del ataque depende del agente objetivo y del setup experimental.",
-    "license_label": "Apache-2.0",
-    "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
-  }
+ "mnemon-dev/mnemon": {
+  "description": "Memoria persistente entre sesiones para agentes: organiza el conocimiento en estructura de grafo, con recuperación sensible a la intención e integración con varios hospedadores.",
+  "boundary": "El motor de memoria local, el LLM del hospedador, Agency Preview y la demo de pruebas AML son componentes distintos; los resultados de rankings publicados dependen de modelos y versiones concretos y no son una garantía de rendimiento general.",
+  "license_label": "Apache-2.0",
+  "license_note": "El LICENSE raíz es Apache-2.0; las licencias de modelos, servicios y datos de terceros se cuentan aparte."
+ },
+ "omdsh-dev/dsh-mnemon": {
+  "description": "Complemento de memoria jerárquica para DeepSeek Harness que combina memoria en tiempo de ejecución, documentación del proyecto y backends de memoria de largo plazo intercambiables.",
+  "boundary": "Depende del hospedador DSH; los servicios, la ubicación de los datos y la capacidad de borrado varían según el proveedor, y la autoevolución de habilidades está desactivada por defecto.",
+  "license_label": "MIT",
+  "license_note": "El LICENSE raíz es MIT; las licencias y términos de servicio de los proveedores de terceros se cuentan aparte (véase THIRD_PARTY_NOTICES.md)."
+ },
+ "beizhangnina/EverMemOS_bz": {
+  "description": "Fork de EverMemOS que conserva la implementación anterior centrada en extracción conversacional, memoria estructurada y recuperación multiestrategia.",
+  "boundary": "GitHub lo marca como fork de EverMind-AI/EverOS; el último commit de la rama por defecto es de 2025-11-28, y la arquitectura de MongoDB, Elasticsearch, Milvus y Redis que describe el README no puede aplicarse directamente al EverOS actual. Las cifras de evaluación no se han verificado de forma independiente.",
+  "license_label": "Apache-2.0",
+  "license_note": "El LICENSE raíz es Apache-2.0 y el NOTICE incluye la nota de copyright; las licencias de modelos, datos y dependencias de terceros se cuentan aparte."
+ },
+ "volcengine/OpenViking": {
+  "description": "Gestiona de forma unificada recursos, memoria de largo plazo y Agent Skills mediante un sistema de archivos virtual navegable.",
+  "boundary": "Las rutas virtuales del servidor no son archivos locales corrientes; la frescura de resúmenes, extracciones e índices sigue requiriendo verificación.",
+  "license_label": "AGPL-3.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "vectorize-io/hindsight": {
+  "description": "Gestiona hechos estructurados, experiencias, entidades y observaciones sintéticas mediante retain, recall y reflect.",
+  "boundary": "El despliegue, la combinación de modelos y el protocolo de evaluación afectan de forma significativa los resultados y el coste.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "plastic-labs/honcho": {
+  "description": "Forma de manera continua representaciones de los pares y comprensión colaborativa en torno a peer, session y workspace.",
+  "boundary": "La inferencia puede ampliar los hechos explícitos; borrar la conversación original no garantiza por sí solo que se eliminen todas las conclusiones derivadas.",
+  "license_label": "AGPL-3.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "mem0ai/mem0": {
+  "description": "Capa de personalización universal que extrae, actualiza, borra y recupera memorias a partir de las interacciones.",
+  "boundary": "La librería open source, la plataforma gestionada y las distintas integraciones requieren verificar por separado sus rutas de datos.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "MemTensor/MemOS": {
+  "description": "Sistema operativo de memoria para agentes que cubre varios tipos de memoria, recuperación híbrida y evolución de habilidades.",
+  "boundary": "El servicio principal, el producto cloud y el plugin local usan rutas de almacenamiento y despliegue distintas.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "MemMachine/MemMachine": {
+  "description": "Servicio de memoria de agentes universal con interfaces por usuario, proyecto y sesión.",
+  "boundary": "Los backends, los modelos y el aislamiento de inquilinos deben verificarse según la configuración real de despliegue.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "memodb-io/memobase": {
+  "description": "Mantiene la memoria de usuario de largo plazo en torno a perfiles y eventos temporales.",
+  "boundary": "Persigue objetivos distintos de Acontext, del mismo equipo; la actividad de mantenimiento y la hoja de ruta recomendada merecen una mirada aparte.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "mem9-ai/mem9": {
+  "description": "Ofrece memoria entre agentes e ingesta de sesiones, con varios backends de almacenamiento en el servidor.",
+  "boundary": "El despliegue privado sigue requiriendo trabajo sobre el plano de control, la base de datos y la inicialización de inquilinos.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "agent-memory-lab/agent-memory": {
+  "description": "Motor de memoria centrado en evidencia de origen, corrección de hechos, validez temporal y alcance.",
+  "boundary": "El README lo marca como Alpha; la descripción funcional no equivale a madurez de producción.",
+  "license_label": "Apache-2.0",
+  "license_note": "LICENSE raíz verificado manualmente."
+ },
+ "Jahvis/memanto-ai-memory": {
+  "description": "Servicio de memoria con versionado y metadatos de origen, envuelto en las primitivas remember, recall y answer.",
+  "boundary": "La recuperación depende del servicio externo Moorcheh, así que no puede llamarse una pila open source totalmente offline.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "ivanzwb/agent-memory": {
+  "description": "Librería de memoria embebida en TypeScript con memoria de trabajo, de sesión, de largo plazo y base de conocimiento.",
+  "boundary": "Proyecto pequeño; la extracción automática y el presupuesto de tokens requieren pruebas propias.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "rohitg00/agentmemory": {
+  "description": "Servicio y complementos de memoria para agentes de programación que fusionan BM25, vectores opcionales y relaciones estructuradas.",
+  "boundary": "No tiene relación con los demás proyectos homónimos agentmemory; hay que distinguir sus puntos de entrada de despliegue.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "HBarefoot/engram": {
+  "description": "Librería de memoria en proceso (TypeScript/SQLite) con embeddings locales, MCP y una Skill de uso.",
+  "boundary": "El primer uso puede descargar modelos locales; que sea ligero no significa que sea seguro frente a concurrencia multiproceso.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "TAIPANBOX/engram": {
+  "description": "SQLite que aloja memoria episódica, semántica y procedimental, hechos bi-temporales, decaimiento y MCP.",
+  "boundary": "Proyecto nuevo; funciones y rendimiento aún requieren mediciones unificadas.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "openJiuwen-ai/agent-memory": {
+  "description": "Aporta a los agentes extracción, almacenamiento, recuperación y migración de memorias en múltiples formas.",
+  "boundary": "La rama por defecto y la línea de evolución mem2.0 pueden diferir; conviene fijar la versión al adoptarlo.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "Tencent-Hunyuan/Hy-Memory": {
+  "description": "Motor de memoria cognitiva de doble sistema y SDK de Python para escenarios de conversación, agentes y programación.",
+  "boundary": "El motor Hy Memory y la capa de producto MemHub tienen responsabilidades distintas; las rutas de modelos y datos deben verificarse por componente.",
+  "license_label": "Apache-2.0",
+  "license_note": "El LICENSE raíz confirma que no hay restricciones adicionales sobre Apache-2.0; el alcance de parámetros y pesos públicos se rige por el texto del LICENSE."
+ },
+ "TencentCloud/TencentDB-Agent-Memory": {
+  "description": "Centro de memoria para equipos que convierte conversaciones, documentos y código en Chat Memory, Skills, LLM-Wiki y Code-Graph.",
+  "boundary": "La rama por defecto puede ser de desarrollo; las fronteras del proxy de protocolo y del despliegue de base de datos requieren verificación con versión fijada.",
+  "license_label": "MIT",
+  "license_note": "LICENSE raíz verificado manualmente."
+ },
+ "tawanorg/OpenMemory": {
+  "description": "Servicio autoalojado de memoria semántica y de contexto de largo plazo, independiente del framework.",
+  "boundary": "Distinguirlo de los demás proyectos homónimos OpenMemory; el beneficio de la descomposición jerárquica requiere pruebas propias.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "hellangleZ/Agent-MemoryForge": {
+  "description": "Capa de memoria persistente, recuperable y auditable para agentes multiinquilino, con SDK y gateway.",
+  "boundary": "Proyecto reciente; las afirmaciones de nivel productivo, el aislamiento y la destilación en segundo plano requieren validación en despliegue.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "joshuaswarren/remnic": {
+  "description": "Capa de memoria consciente del usuario: alcance, procedencia, correcciones, fronteras, calidad de recuperación y MCP/HTTP.",
+  "boundary": "Proyecto nuevo; conviene separar las capacidades documentadas hoy de los resultados reales de benchmarks.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "supermemoryai/supermemory": {
+  "description": "Plataforma de búsqueda híbrida y memoria para documentos, memorias y perfiles de usuario.",
+  "boundary": "Las rutas de datos del servicio open source y de capacidades externas como el reader gestionado exigen verificación caso por caso.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "MemoriLabs/Memori": {
+  "description": "Conecta la ingesta y la recuperación de memorias con las llamadas LLM existentes, en torno a la pertenencia de usuarios y procesos.",
+  "boundary": "La guía de inicio actual favorece la entrada cloud; hay que distinguir el alcance de BYODB y del autoalojamiento completo.",
+  "license_label": "Apache-2.0",
+  "license_note": "LICENSE raíz verificado manualmente."
+ },
+ "CaviraOSS/LongMemory": {
+  "description": "Memoria de largo plazo local en TypeScript/SQLite con procedencia, tiempo, selección de evidencia y presupuesto de tokens.",
+  "boundary": "Antes se llamaba Cavira OpenMemory; no confundir con el OpenMemory de Mem0.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "memvid/memvid": {
+  "description": "Archivo único portable con núcleo Rust que ofrece recuperación híbrida y SDK multilenguaje.",
+  "boundary": "La ruta actual ya difiere de la narrativa temprana de vídeo/QR; se inclina más hacia la recuperación persistente.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "Mirix-AI/MIRIX": {
+  "description": "Sistema de memoria de largo plazo multitipo, multiagente y multimodal que sigue la actividad de trabajo y destila habilidades.",
+  "boundary": "El alcance real de base de datos, modelos y captura de escritorio debe verificarse en la versión actual.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "tigerless-labs/agent-memory": {
+  "description": "Markdown como fuente de verdad, SQLite como índice reconstruible y una capa independiente de consolidación en reposo.",
+  "boundary": "Al compartir archivos entre hospedadores siguen haciendo falta diseños de privacidad, concurrencia y alcance por proyecto.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "zilliztech/memsearch": {
+  "description": "Markdown como fuente de verdad con índice derivado en Milvus: vectorial/BM25/RRF y expansión progresiva.",
+  "boundary": "Resúmenes, archivos, índices y conversaciones originales pueden desincronizarse; sin relación con el concepto de búsqueda homónimo de OpenViking.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "agentscope-ai/ReMe": {
+  "description": "Organiza hechos y experiencias con Markdown, frontmatter y wikilinks; búsqueda léxica, vectorial y expansión relacional.",
+  "boundary": "El repositorio conserva la forma antigua de MemoryScope; al adoptarlo, la interfaz actual manda.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "EverMind-AI/EverOS": {
+  "description": "Gestiona episodios/perfiles de usuario y casos/habilidades de agentes con Markdown como fuente de verdad e índice local.",
+  "boundary": "La descripción arquitectónica del antiguo EverMemOS quedó obsoleta; no se le pueden aplicar sus dependencias de despliegue.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "basicmachines-co/basic-memory": {
+  "description": "Usa notas Markdown editables y relaciones semánticas como memoria de conocimiento compartida entre personas y máquinas.",
+  "boundary": "Más cerca de la memoria de conocimiento y del workspace MCP; no asume por sí mismo el ciclo de corrección de hechos.",
+  "license_label": "AGPL-3.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "shiblon/engram": {
+  "description": "Un binario único con SQLite gestiona memoria de corto y largo plazo, preferencias y personalidad.",
+  "boundary": "No tiene relación con los demás proyectos Engram; conviene revisar cómo invoca las herramientas cada hospedador.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "B12Labs/engram": {
+  "description": "Formato portátil de memoria en un solo archivo con compresión de grafos y búsqueda rápida/híbrida/profunda.",
+  "boundary": "El formato v0.x no está estabilizado y favorece un único escritor; no sustituye a una base de datos concurrente.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "Gentleman-Programming/engram": {
+  "description": "Memoria persistente en Go/SQLite/FTS5 para agentes de programación, con MCP, HTTP, CLI y TUI.",
+  "boundary": "No tiene relación con los demás Engram homónimos; la instalación en varios hospedadores requiere verificación aparte.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "Sibyl-Labs/Sibyl-Memory": {
+  "description": "Familia de memoria de largo plazo en archivo único, sin base vectorial, con adaptadores SDK, CLI, MCP, Hermes y LangGraph.",
+  "boundary": "Proyecto nuevo; la madurez y las capacidades semánticas de cada paquete de adaptación deben verificarse por separado.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "mcncarl/agent-memory-vault": {
+  "description": "Depósito de memoria compartida Markdown-first para Claude Code/Codex con Git, índices y auditoría.",
+  "boundary": "Exige decidir qué memorias conviene versionar en Git y manejar el alcance por ramas y worktrees.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "getzep/graphiti": {
+  "description": "Extrae entidades y relaciones en tiempo real, construye un grafo de conocimiento bi-temporal y fusiona búsqueda léxica, vectorial y de grafo.",
+  "boundary": "Los backends de grafo y los modelos de extracción afectan al coste; es el núcleo de grafos open source actual del ecosistema Zep.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "topoteretes/cognee": {
+  "description": "Convierte documentos, código y conversaciones en entidades, relaciones y grafos de conocimiento/memoria consultables.",
+  "boundary": "Las rutas de despliegue actuales evolucionan sin parar; no vale aferrarse a afirmaciones multibase de versiones antiguas.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "neo4j-labs/agent-memory": {
+  "description": "Memoria de agente basada en grafos y context graph: almacena conversaciones, entidades, relaciones y trayectorias de razonamiento.",
+  "boundary": "Depende de Neo4j; un proyecto experimental o de labs no equivale al SLA de un producto formal.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "liliang-cn/cortexdb": {
+  "description": "Combina grafo de conocimiento, restricciones y razonamiento trazable dentro de un único archivo SQLite.",
+  "boundary": "La forma local de archivo único sirve para experimentar; escala y concurrencia requieren pruebas propias.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "memory-graph/memory-graph": {
+  "description": "Servicio MCP de memoria con seguimiento de relaciones y consultas de grafo para agentes de programación.",
+  "boundary": "Se orienta a la memoria relacional de proyectos; no equivale a una plataforma personal completa de memoria de largo plazo.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "JordyZomer/lemmalog": {
+  "description": "Construye la memoria del agente con reglas Datalog, hechos de origen y derivación incremental.",
+  "boundary": "La calidad de la derivación depende de la ingesta de hechos y del diseño de reglas; es una ruta distinta de la recuperación vectorial.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "zhangfengcdt/memoir": {
+  "description": "Memoria de agente jerárquica con control de versiones estilo Git.",
+  "boundary": "Proyecto nuevo; fusión, reversión y rendimiento del mecanismo versionado requieren pruebas propias.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "thedotmack/claude-mem": {
+  "description": "Captura sesiones y actividad de herramientas, los comprime en SQLite/FTS5/Chroma y los recupera en sesiones posteriores.",
+  "boundary": "El soporte multi-hospedador debe verificarse punto por punto; la captura puede incluir salidas sensibles de herramientas.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "doobidoo/mcp-memory-service": {
+  "description": "Ofrece memoria semántica, relaciones y consolidación en segundo plano vía MCP/REST, con varios backends de almacenamiento.",
+  "boundary": "Que el autoalojamiento sea ligero no uniforma el comportamiento de todos los backends; hay que fijar la configuración al probar.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "riponcm/projectmem": {
+  "description": "Registra issues, intentos, arreglos y decisiones como log de eventos para que los agentes de programación no repitan fracasos.",
+  "boundary": "Es memoria de ingeniería de proyecto, no un sistema universal de perfiles personales.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "coleam00/mcp-mem0": {
+  "description": "Envuelve la memoria de largo plazo de Mem0 como servicio MCP para clientes de agentes.",
+  "boundary": "Es sobre todo una capa de adaptación; las fronteras de despliegue del servicio o de la librería local de Mem0 siguen existiendo.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "AVIDS2/memorix": {
+  "description": "Memoria compartida entre hospedadores para varios agentes de programación a través de MCP.",
+  "boundary": "El abanico de hospedadores soportados y la gobernanza del almacenamiento deben revisarse por versión.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "okf-memory/okf-agent-memory": {
+  "description": "Memoria Git-native para agentes de programación con MCP embebido y lectura progresiva.",
+  "boundary": "La rama de desarrollo por defecto puede cambiar; la implementación del protocolo y la compatibilidad con hospedadores exigen fijar la versión.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "0xK3vin/MegaMemory": {
+  "description": "Grafo de conocimiento de proyecto persistente, búsqueda semántica y servicio MCP para agentes de programación.",
+  "boundary": "El grafo de código y la memoria de usuario de largo plazo son objetos distintos; al adoptarlo conviene delimitar el alcance.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "plastic-labs/codex-honcho": {
+  "description": "Integración oficial que conecta sesiones de Codex, actividad de herramientas e inyección de contexto con Honcho.",
+  "boundary": "Es una capa de adaptación de Honcho, no un motor de memoria independiente; hay que evitar escrituras duplicadas con otros complementos de captura.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "memodb-io/Acontext": {
+  "description": "Destila de ejecuciones y artefactos de agentes experiencias operativas y Skills legibles y editables.",
+  "boundary": "Se orienta a la reutilización de experiencia; el objeto difiere del perfil de usuario de Memobase, del mismo equipo.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "langchain-ai/langmem": {
+  "description": "Extrae hechos de largo plazo de las conversaciones, busca memorias y optimiza el comportamiento del agente a partir de sus experiencias.",
+  "boundary": "Es una librería de componentes; la aplicación debe ensamblar por su cuenta almacenamiento, alcance y flujos de captura e inyección.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "alibaizhanov/mengram": {
+  "description": "Organiza memoria semántica, episódica y procedimental, y mejora los flujos de trabajo con retroalimentación de los fallos.",
+  "boundary": "Hay que distinguir el producto gestionado del modo local; la actualización de memoria procedimental debe evitar consolidar errores.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "NevaMind-AI/memU": {
+  "description": "Memoria personal entre agentes y puente con hospedadores: los agentes destilan Markdown y Skills de memoria.",
+  "boundary": "MemoryService y el modelo de chat tienen responsabilidades separadas; no se debe asumir que el servicio destila por sí solo.",
+  "license_label": "Apache-2.0",
+  "license_note": "LICENSE.txt raíz verificado manualmente."
+ },
+ "vincents-ai/engram": {
+  "description": "Contexto de proyecto distribuido, tareas, razonamiento y conocimiento de equipo para sistemas multiagente.",
+  "boundary": "Licencia dual AGPL o comercial; diferente de los demás Engram MIT/Apache.",
+  "license_label": "AGPL-3.0-or-later o licencia comercial",
+  "license_note": "Licencia dual; las obligaciones de servicio de red y distribución de modificaciones se aplican según el texto de AGPL o el acuerdo comercial."
+ },
+ "Sherlockwz/T-Mem": {
+  "description": "Genera al escribir pistas de activación para consultas futuras y combina índices de hechos y escenarios para estudiar la recuperación asociativa.",
+  "boundary": "Implementación de investigación, no un servicio de memoria productivo listo para usar.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "Celina-love-sweet/MemForest": {
+  "description": "Segmenta mediante EventTree y fusiona y comprime de forma progresiva la memoria de largo plazo.",
+  "boundary": "El proyecto homónimo de Concyclics y su paper son completamente distintos.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "Concyclics/MemForest": {
+  "description": "Organiza la memoria de largo plazo con un índice temporal jerárquico y ofrece una interfaz experimental en Python.",
+  "boundary": "No debe fusionarse con el MemForest de EventTree; los resultados de investigación requieren replicación.",
+  "license_label": "MIT",
+  "license_note": "LICENSE raíz verificado manualmente."
+ },
+ "JordanMcCann/agentmemory": {
+  "description": "Estudia la recuperación multiseñal: semántica, léxica, grafo, importancia y tiempo.",
+  "boundary": "Las cifras de LongMemEval declaradas por el autor no son comparables en bruto con proyectos de otros modelos o presupuestos.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "aiming-lab/SimpleMem": {
+  "description": "Investiga la compresión con estructura semántica, la consolidación de memorias y la recuperación adaptativa.",
+  "boundary": "Las cifras del paper dependen del modelo y del protocolo; la compresión puede perder excepciones y procedencia.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "BAI-LAB/MemoryOS": {
+  "description": "Investiga la memoria jerárquica de corto, medio y largo plazo, su actualización y la gestión de perfiles de usuario.",
+  "boundary": "MemoryOS, MemOS y EverOS son proyectos distintos.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "agiresearch/A-mem": {
+  "description": "Toma prestado Zettelkasten para organizar, enlazar y evolucionar notas de memoria de forma automática.",
+  "boundary": "Los enlaces generados no garantizan hechos correctos; la integración productiva requiere gobernanza adicional.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "zhongwanjun/MemoryBank-SiliconFriend": {
+  "description": "Implementación de investigación temprana sobre interacción prolongada, perfil de usuario, consolidación y olvido de memorias.",
+  "boundary": "Sin mantenimiento desde hace tiempo; útil para rastrear el método, no como primera opción de producción actual.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "nuster1128/MemEngine": {
+  "description": "Librería modular de investigación sobre memoria de agentes que cubre varios tipos de módulos de memoria y evaluación.",
+  "boundary": "La licencia del repositorio no está clara; que el código sea público no equivale a libre reutilización.",
+  "license_label": "Pendiente de verificación",
+  "license_note": "No se encontró LICENSE en la raíz; que el código sea público no equivale a una reutilización autorizada."
+ },
+ "ViktorAxelsen/MemSkill": {
+  "description": "Modela operaciones de memoria —extracción, consolidación, poda— como Skills aprendibles y evolutivas.",
+  "boundary": "Código de investigación; la transferencia entre tareas y las cifras de coste deben citarse con el setup del paper.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "MemTensor/MemT-1.0": {
+  "description": "Familia de modelos de memoria que explora lectura/escritura nativa de memoria en el modelo y Mixture-of-Storage.",
+  "boundary": "Los pesos del modelo, el código de inferencia y los motores externos de memoria tradicionales no pertenecen al mismo nivel.",
+  "license_label": "PolyForm Noncommercial-1.0.0",
+  "license_note": "Licencia de código no comercial; no es una licencia OSI open source."
+ },
+ "HUST-AI-HYZ/MemoryAgentBench": {
+  "description": "Evalúa la construcción y el uso de la memoria de los agentes mediante interacción multiturno incremental.",
+  "boundary": "Adaptadores, modelos y configuración del judge distintos invalidan la comparación fuera de su contexto.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "RonsenbergVI/agent-memory-benchmarks": {
+  "description": "Ofrece evaluación abierta e implementaciones de referencia para sistemas de memoria de agentes como LongMemEval o LoCoMo.",
+  "boundary": "No es un leaderboard oficial de los datasets; hay que leer los splits de datos y la configuración de puntuación fijados.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "thomasfevre/agent-memory-bench": {
+  "description": "Evaluación de memoria auditable centrada en aciertos de evidencia, respuestas y comportamiento de recuperación.",
+  "boundary": "La propia documentación aclara que algunas métricas no son las cifras oficiales de LongMemEval.",
+  "license_label": "Pendiente de verificación",
+  "license_note": "No se encontró LICENSE en la raíz."
+ },
+ "H20Zhang/Agent-Memory-Radar": {
+  "description": "Radar de investigación que compila mecanismos de memoria, benchmarks, contaminación, olvido y evidencia de recuperación.",
+  "boundary": "Es un recurso de índice/auditoría de investigación, no un runtime de memoria.",
+  "license_label": "CC-BY-4.0 contenido / MIT código",
+  "license_note": "Licencia dividida entre el contenido de investigación y el código de mantenimiento."
+ },
+ "AML-memory/agent-memory-leaderboard": {
+  "description": "Recopila resultados de evaluaciones y material comparativo de sistemas de memoria para agentes.",
+  "boundary": "Modelos, datos y presupuestos heterogéneos no pueden ordenarse solo por la puntuación total.",
+  "license_label": "Pendiente de verificación",
+  "license_note": "No se encontró LICENSE en la raíz."
+ },
+ "tobi/qmd": {
+  "description": "BM25, vectores, expansión de consultas, rerank y MCP para Markdown y documentos locales.",
+  "boundary": "Es infraestructura de recuperación; no cubre el ciclo completo de extracción, actualización y olvido de la memoria.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "modelcontextprotocol/servers": {
+  "description": "Componentes de memoria entities, relations y observations del repositorio padre oficial de MCP servers.",
+  "boundary": "Las métricas del repositorio padre no representan al submódulo de memoria; la licencia está en transición MIT/Apache y la estructura del proyecto ha evolucionado.",
+  "license_label": "Transición Apache-2.0 / MIT; documentación CC-BY-4.0",
+  "license_note": "El repositorio padre está en transición de relicenciamiento; cada archivo conserva la licencia aplicable."
+ },
+ "volcengine/MineContext": {
+  "description": "Genera actividades, resúmenes y material consultable a partir de contexto digital como la pantalla.",
+  "boundary": "Más cerca de una aplicación de asistente personal proactivo que de un motor externo universal de memoria.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "letta-ai/letta": {
+  "description": "Plataforma completa de agentes centrada en el estado persistente y la autogestión del contexto por el propio agente.",
+  "boundary": "Adoptarla suele implicar sustituir el runtime del agente, no solo cambiar una API de memoria.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "mnemoverse/awesome-agent-memory": {
+  "description": "Índice externo de sistemas, frameworks, benchmarks e investigación sobre memoria de agentes.",
+  "boundary": "Sirve como línea base de cobertura y punto de descubrimiento; no participa en juicios de capacidad.",
+  "license_label": "CC0-1.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "Agentscreator/engram-memory": {
+  "description": "Proyecto archivado sobre memoria compartida multiagente, conflictos y coherencia.",
+  "boundary": "El repositorio está archivado; se conserva como referencia de diseño.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "getzep/zep": {
+  "description": "La antigua Community Edition de Zep y ejemplos de integración con el producto cloud actual.",
+  "boundary": "La Community Edition pasó a legacy y está marcada como deprecated/unsupported; el núcleo de grafos open source actual es Graphiti.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "engram-app/Engram": {
+  "description": "Proyecto source-visible con memoria cognitiva e integración de agentes.",
+  "boundary": "La licencia PolyForm Small Business impone límites de tamaño organizacional/ingresos; no se lista como candidato OSI open source convencional.",
+  "license_label": "PolyForm Small Business-1.0.0 / licencia comercial",
+  "license_note": "Tiene condiciones de tamaño organizacional e ingresos; no es una licencia OSI open source convencional."
+ },
+ "kolegadev/Katra-Agentic-Memory": {
+  "description": "Dispositivo MCP de memoria cognitiva con episodios, semántica, grafos y consolidación en reposo.",
+  "boundary": "BSL 1.1 no es OSI open source durante el periodo de restricción y limita el hosting/embebido competitivo.",
+  "license_label": "BSL-1.1",
+  "license_note": "Restringe el hosting/embebido competitivo de terceros; la fecha y los parámetros de conversión se rigen por el LICENSE."
+ },
+ "mnemosyne-oss/mnemosyne": {
+  "description": "Capa de memoria multiframework basada en SQLite, local por defecto, con MCP e integraciones con varios agentes.",
+  "boundary": "Hay muchos proyectos homónimos Mnemosyne; las opciones de embeddings remotos, sincronización y LLM alteran la frontera sin nube.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "mnemoverse/mcp-memory-server": {
+  "description": "Memoria persistente gestionada vía MCP con re-ranking por retroalimentación y salas compartidas entre agentes.",
+  "boundary": "Este repositorio es la capa de acceso cliente/servidor del servicio gestionado; el campo domain es un namespace dentro de la cuenta, no una frontera de permisos.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "aetna000/MemoryStackBench": {
+  "description": "Evaluación automatizada de seguridad, evidencia, integridad del borrado y auditabilidad de la memoria de agentes.",
+  "boundary": "Benchmark nuevo; los resultados del leaderboard exigen fijar adaptador, modelo, datos y configuración de puntuación.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "OWASP/www-project-agent-memory-guard": {
+  "description": "Protección en tiempo de ejecución e implementación de referencia contra la contaminación de memoria y contexto de agentes.",
+  "boundary": "Es una capa de defensa, no una base de memoria; la adaptación a frameworks y las conclusiones de seguridad deben revalidarse en el sistema objetivo.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "Digital-Trust-Lab/mp-bench": {
+  "description": "Dataset de ataques de contaminación de memoria que evalúa escritura persistente, recuperación posterior y activación conductual.",
+  "boundary": "Es un dataset de investigación, no una defensa de producción; la tasa de éxito del ataque depende del agente objetivo y del setup experimental.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ },
+ "membaseai/membase": {
+  "description": "Capa de memoria entre agentes con SDK, CLI y MCP, usable con cuenta gestionada o almacenamiento local.",
+  "boundary": "Distinta de memodb-io/Memobase; las fronteras de datos, autenticación y capacidades de los modos gestionado y local deben verificarse por separado.",
+  "license_label": "MIT",
+  "license_note": "Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte."
+ }
 }
-
-

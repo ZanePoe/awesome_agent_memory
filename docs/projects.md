@@ -9,7 +9,7 @@ Manages structured facts, experiences, entities and synthesized observations thr
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: Deployment, model mix and evaluation protocol strongly affect results and cost.
-- Maintenance: Commits within the last 90 days; 371 commits in 30 days, 1575 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 352 commits in 30 days, 1618 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/vectorize-io/hindsight/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/vectorize-io/hindsight/blob/7cec128b8fdb0a696366d888e63be71fe1d52338/README.md#L3).
 
@@ -19,7 +19,7 @@ Manages resources, long-term memory and Agent Skills through a navigable virtual
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: Server-side virtual paths are not ordinary local files; the freshness of summaries, extractions and indexes still needs verification.
-- Maintenance: Commits within the last 90 days; 575 commits in 30 days, 1430 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 636 commits in 30 days, 1456 commits in 90 days.
 - License: [AGPL-3.0](https://api.github.com/repos/volcengine/OpenViking/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/volcengine/OpenViking/blob/82ec6d10bcf9e4dfcf8c2c39881d5c71a43df6fb/README.md#L3).
 
@@ -29,7 +29,7 @@ Service and plugin for coding agents combining BM25, optional vectors and struct
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: Unrelated to the other projects named agentmemory; deployment entry points must be distinguished.
-- Maintenance: Commits within the last 90 days; 127 commits in 30 days, 234 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 117 commits in 30 days, 233 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/rohitg00/agentmemory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/rohitg00/agentmemory/blob/57bc38489ee6f370fdc04da56e26e62ba90cbccf/README.md#L2).
 
@@ -39,7 +39,7 @@ Continuously forms peer representations and collaborative understanding around p
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: Inference can extend beyond explicit facts; deleting raw sessions does not automatically guarantee that all derived conclusions are removed.
-- Maintenance: Commits within the last 90 days; 123 commits in 30 days, 318 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 118 commits in 30 days, 300 commits in 90 days.
 - License: [AGPL-3.0](https://api.github.com/repos/plastic-labs/honcho/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/plastic-labs/honcho/blob/ca81eed3ddca57d7407854c5f447195779dcabf2/README.md#L3).
 
@@ -49,7 +49,7 @@ Hybrid search and memory platform for documents, memories and user profiles.
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: Data paths of the open-source service versus the hosted reader and other external capabilities need item-by-item verification.
-- Maintenance: Commits within the last 90 days; 23 commits in 30 days, 130 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 28 commits in 30 days, 130 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/supermemoryai/supermemory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/supermemoryai/supermemory/blob/8af3b9108f1a4dce45b10cfa4f8f0af027b4197b/README.md#L5).
 
@@ -59,7 +59,7 @@ General-purpose personalization memory layer supporting extraction, updating, de
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: The open-source library, the hosted platform and the various integration entry points need separate verification of their data paths.
-- Maintenance: Commits within the last 90 days; 7 commits in 30 days, 75 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 10 commits in 30 days, 69 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/mem0ai/mem0/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/mem0ai/mem0/blob/f1791daa86d469249c9b002f62644d58a1eb96a0/README.md#L2).
 
@@ -69,7 +69,7 @@ Dual-system cognitive memory engine and Python SDK for conversation, agent and c
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: The Hy Memory engine and the MemHub product layer have different responsibilities; model and data paths must be verified per component.
-- Maintenance: Commits within the last 90 days; 544 commits in 30 days, 604 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 492 commits in 30 days, 604 commits in 90 days.
 - License: [Apache-2.0](https://github.com/Tencent-Hunyuan/Hy-Memory/blob/8f30a9c05db2ec8a7836a89928399bd2815e3b57/LICENSE); Open license verified. Root LICENSE is a plain Apache-2.0 with no extra restrictions; the scope of published parameters and weights follows the LICENSE text itself.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/Tencent-Hunyuan/Hy-Memory/blob/8f30a9c05db2ec8a7836a89928399bd2815e3b57/README.md#L5).
 
@@ -79,7 +79,7 @@ Team memory hub that turns conversations, documents and code into Chat Memory, S
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: The default branch may be a development branch; the protocol proxy and database deployment boundaries need verification at a pinned version.
-- Maintenance: Commits within the last 90 days; 12 commits in 30 days, 65 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 14 commits in 30 days, 60 commits in 90 days.
 - License: [MIT](https://github.com/TencentCloud/TencentDB-Agent-Memory/blob/42d4cde50c5a83182fced8c584f9ddb32a620615/LICENSE); Open license verified. Root LICENSE verified manually.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/TencentCloud/TencentDB-Agent-Memory/blob/42d4cde50c5a83182fced8c584f9ddb32a620615/README.md#L4).
 
@@ -89,7 +89,7 @@ Memory operating system for agents covering multiple memory types, hybrid retrie
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: The main service, cloud products and local plugins use different storage and deployment paths.
-- Maintenance: Commits within the last 90 days; 35 commits in 30 days, 140 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 23 commits in 30 days, 112 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/MemTensor/MemOS/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/MemTensor/MemOS/blob/3a16e5fe3048a209f722806f4123fa2e533588fd/README.md#L3).
 
@@ -99,7 +99,7 @@ User-aware memory layer emphasizing scoping, provenance, corrections, boundaries
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: New project; documented capabilities and real benchmark results should be viewed separately.
-- Maintenance: Commits within the last 90 days; 476 commits in 30 days, 840 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 517 commits in 30 days, 731 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/joshuaswarren/remnic/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/joshuaswarren/remnic/blob/a33e17fb8a349d17a3119bbef2ab546d39d6e143/README.md#L1).
 
@@ -109,7 +109,7 @@ Cross-session persistent memory for agents, organizing knowledge in a graph stru
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: The local memory engine, the host LLM, Agency Preview and the AML test demo are separate components; leaderboard results in posts depend on specific models and versions and are not a general effectiveness guarantee.
-- Maintenance: Commits within the last 90 days; 27 commits in 30 days, 127 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 31 commits in 30 days, 121 commits in 90 days.
 - License: [Apache-2.0](https://github.com/mnemon-dev/mnemon/blob/ccc8ace2d21aa4667535c58910fe953f3bbe764a/LICENSE); Open license verified. Root LICENSE is Apache-2.0; third-party models, services and data are licensed separately.
 - Feature verified: 2026-11-20; [Source 1](https://github.com/mnemon-dev/mnemon/blob/ccc8ace2d21aa4667535c58910fe953f3bbe764a/README.md#L32).
 
@@ -119,19 +119,29 @@ General-purpose agent memory service with user, project and session scoped inter
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: Backends, models and tenant isolation must be verified against the actual deployment configuration.
-- Maintenance: Commits within the last 90 days; 7 commits in 30 days, 43 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 9 commits in 30 days, 45 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/MemMachine/MemMachine/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/MemMachine/MemMachine/blob/377510d436dc81c3651502f2d5e36ff245650ce7/README.md#L1).
 
-## [LongMemory](https://github.com/CaviraOSS/LongMemory)
+## [Membase](https://github.com/membaseai/membase)
 
-Local TypeScript/SQLite long-term memory with provenance, timing, evidence selection and token budgets.
+Cross-agent memory layer with SDK, CLI and MCP, using hosted accounts or local storage.
 
 - Category: Memory engines and services; Core candidate.
-- Scope boundary: Formerly Cavira OpenMemory; do not confuse it with Mem0's OpenMemory.
-- Maintenance: Commits within the last 90 days; 3 commits in 30 days, 28 commits in 90 days.
-- License: [Apache-2.0](https://api.github.com/repos/CaviraOSS/LongMemory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
-- Feature verified: 2026-11-12; [Source 1](https://github.com/CaviraOSS/LongMemory/blob/aec98ced33a7586a2fcd198a04bc38b5590750c4/README.md#L12).
+- Scope boundary: Different from memodb-io/Memobase; the data, authentication and capability boundaries of hosted versus local modes need separate verification.
+- Maintenance: Commits within the last 90 days; 73 commits in 30 days, 168 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/membaseai/membase/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/membaseai/membase/blob/59100235fa918bdfd19d02b9cf06fac178a839cb/README.md#L30).
+
+## [openJiuwen Agent Memory](https://github.com/openJiuwen-ai/agent-memory)
+
+Provides agents with memory extraction, storage, retrieval, migration and multi-form memory capabilities.
+
+- Category: Memory engines and services; Core candidate.
+- Scope boundary: The default branch and the mem2.0 evolution roadmap may differ; pin a version when adopting.
+- Maintenance: Commits within the last 90 days; 82 commits in 30 days, 174 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/openJiuwen-ai/agent-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/openJiuwen-ai/agent-memory/blob/2a77650c16f8fe073d8713bc91fc703a7233359d/README.md#L1).
 
 ## [MIRIX](https://github.com/Mirix-AI/MIRIX)
 
@@ -143,25 +153,15 @@ Multi-type, multi-agent, multimodal long-term memory system that tracks work act
 - License: [Apache-2.0](https://api.github.com/repos/Mirix-AI/MIRIX/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/Mirix-AI/MIRIX/blob/9077e4b229dd8f61c5703b431a97788c6b61acfb/README.md#L1).
 
-## [openJiuwen Agent Memory](https://github.com/openJiuwen-ai/agent-memory)
+## [LongMemory](https://github.com/CaviraOSS/LongMemory)
 
-Provides agents with memory extraction, storage, retrieval, migration and multi-form memory capabilities.
-
-- Category: Memory engines and services; Core candidate.
-- Scope boundary: The default branch and the mem2.0 evolution roadmap may differ; pin a version when adopting.
-- Maintenance: Commits within the last 90 days; 74 commits in 30 days, 162 commits in 90 days.
-- License: [Apache-2.0](https://api.github.com/repos/openJiuwen-ai/agent-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
-- Feature verified: 2026-11-12; [Source 1](https://github.com/openJiuwen-ai/agent-memory/blob/2a77650c16f8fe073d8713bc91fc703a7233359d/README.md#L1).
-
-## [Membase · unibase](https://github.com/unibaseio/membase)
-
-Cross-agent memory layer with SDK, CLI and MCP, using hosted accounts or local storage.
+Local TypeScript/SQLite long-term memory with provenance, timing, evidence selection and token budgets.
 
 - Category: Memory engines and services; Core candidate.
-- Scope boundary: Different from memodb-io/Memobase; the data, authentication and capability boundaries of hosted versus local modes need separate verification.
-- Maintenance: Commits within the last 90 days; 61 commits in 30 days, 134 commits in 90 days.
-- License: [MIT](https://api.github.com/repos/unibaseio/membase/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
-- Feature verified: 2026-11-12; [Source 1](https://github.com/unibaseio/membase/blob/59100235fa918bdfd19d02b9cf06fac178a839cb/README.md#L30).
+- Scope boundary: Formerly Cavira OpenMemory; do not confuse it with Mem0's OpenMemory.
+- Maintenance: Commits within the last 90 days; 3 commits in 30 days, 16 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/CaviraOSS/LongMemory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/CaviraOSS/LongMemory/blob/aec98ced33a7586a2fcd198a04bc38b5590750c4/README.md#L12).
 
 ## [Agent Memory Lab](https://github.com/agent-memory-lab/agent-memory)
 
@@ -169,7 +169,7 @@ Memory engine emphasizing source evidence, fact correction, temporal validity an
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: The README marks it Alpha; feature descriptions do not equal production maturity.
-- Maintenance: Commits within the last 90 days; 67 commits in 30 days, 261 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 33 commits in 30 days, 261 commits in 90 days.
 - License: [Apache-2.0](https://github.com/agent-memory-lab/agent-memory/blob/852ff6a47553dda487d716ec329dcf7494bf62a0/LICENSE); Open license verified. Root LICENSE verified manually.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/agent-memory-lab/agent-memory/blob/852ff6a47553dda487d716ec329dcf7494bf62a0/README.md#L1).
 
@@ -179,7 +179,7 @@ Cross-agent memory and session ingestion with multiple server-side storage backe
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: Private deployment still requires handling the control plane, databases and tenant initialization.
-- Maintenance: Commits within the last 90 days; 10 commits in 30 days, 16 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 9 commits in 30 days, 15 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/mem9-ai/mem9/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/mem9-ai/mem9/blob/395bf487f385bb463c8c99c7f65d966da70caa0f/README.md#L2).
 
@@ -199,7 +199,7 @@ SQLite-backed episodic, semantic and procedural memory with bi-temporal facts, d
 
 - Category: Memory engines and services; Core candidate.
 - Scope boundary: New project; features and performance still need unified real-world testing.
-- Maintenance: Commits within the last 90 days; 6 commits in 30 days, 40 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 7 commits in 30 days, 37 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/TAIPANBOX/engram/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/TAIPANBOX/engram/blob/f6a6898de8968e4c004ee005e8a8887239493fa4/README.md#L3).
 
@@ -279,7 +279,7 @@ Go/SQLite/FTS5 persistent memory for coding agents with MCP, HTTP, CLI and TUI.
 
 - Category: File-backed source-of-truth and auditable memory; Core candidate.
 - Scope boundary: Unrelated to the other Engram-named projects; cross-host installation configuration needs separate verification.
-- Maintenance: Commits within the last 90 days; 188 commits in 30 days, 952 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 200 commits in 30 days, 941 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/Gentleman-Programming/engram/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/Gentleman-Programming/engram/blob/a5d4fa7be7f7e41054f5578ce3d21b7da616bb1d/README.md#L10).
 
@@ -289,7 +289,7 @@ Editable Markdown notes and semantic relations as shared human-machine knowledge
 
 - Category: File-backed source-of-truth and auditable memory; Core candidate.
 - Scope boundary: Closer to knowledge memory and an MCP workspace; it does not automatically carry the fact-correction lifecycle.
-- Maintenance: Commits within the last 90 days; 265 commits in 30 days, 881 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 198 commits in 30 days, 837 commits in 90 days.
 - License: [AGPL-3.0](https://api.github.com/repos/basicmachines-co/basic-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/basicmachines-co/basic-memory/blob/370ae9d8e89630bc27a6e3973341a05102f00b62/README.md#L13).
 
@@ -299,19 +299,9 @@ SQLite-backed, default-local cross-framework memory layer with MCP and multiple 
 
 - Category: File-backed source-of-truth and auditable memory; Core candidate.
 - Scope boundary: Many different Mnemosyne projects share this name; remote embedding, sync and LLM options change the zero-cloud boundary.
-- Maintenance: Commits within the last 90 days; 498 commits in 30 days, 987 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 435 commits in 30 days, 927 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/mnemosyne-oss/mnemosyne/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/mnemosyne-oss/mnemosyne/blob/2c54c97c07ac35449587931b28c272f3dc177282/README.md#L7).
-
-## [agent-memory · tigerless](https://github.com/tigerless-labs/agent-memory)
-
-Markdown as the source of truth with a rebuildable SQLite index and a separate sleep-time consolidation layer.
-
-- Category: File-backed source-of-truth and auditable memory; Core candidate.
-- Scope boundary: Sharing files across hosts still requires designing privacy, concurrency and project scoping.
-- Maintenance: Commits within the last 90 days; 136 commits in 30 days, 381 commits in 90 days.
-- License: [MIT](https://api.github.com/repos/tigerless-labs/agent-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
-- Feature verified: 2026-11-12; [Source 1](https://github.com/tigerless-labs/agent-memory/blob/2648ba02d3c0364f9787f0e8fb49f69f47d2e3f7/README.md#L17).
 
 ## [EverOS](https://github.com/EverMind-AI/EverOS)
 
@@ -319,9 +309,19 @@ Manages user episodes/profiles and agent cases/skills with a Markdown source of 
 
 - Category: File-backed source-of-truth and auditable memory; Core candidate.
 - Scope boundary: The old EverMemOS architecture description is outdated; do not apply its former deployment dependencies.
-- Maintenance: Commits within the last 90 days; 48 commits in 30 days, 101 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 66 commits in 30 days, 121 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/EverMind-AI/EverOS/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/EverMind-AI/EverOS/blob/9cd1be60e6d9190c0391b2c185beb445600b8b9f/README.md#L3).
+
+## [agent-memory · tigerless](https://github.com/tigerless-labs/agent-memory)
+
+Markdown as the source of truth with a rebuildable SQLite index and a separate sleep-time consolidation layer.
+
+- Category: File-backed source-of-truth and auditable memory; Core candidate.
+- Scope boundary: Sharing files across hosts still requires designing privacy, concurrency and project scoping.
+- Maintenance: Commits within the last 90 days; 96 commits in 30 days, 381 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/tigerless-labs/agent-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/tigerless-labs/agent-memory/blob/2648ba02d3c0364f9787f0e8fb49f69f47d2e3f7/README.md#L17).
 
 ## [ReMe](https://github.com/agentscope-ai/ReMe)
 
@@ -329,7 +329,7 @@ Organizes facts and experiences with Markdown/frontmatter/wikilinks, supporting 
 
 - Category: File-backed source-of-truth and auditable memory; Core candidate.
 - Scope boundary: The repository retains the old MemoryScope form; use the current interfaces when adopting.
-- Maintenance: Commits within the last 90 days; 72 commits in 30 days, 194 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 65 commits in 30 days, 187 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/agentscope-ai/ReMe/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/agentscope-ai/ReMe/blob/37395034cf06f6c56268f2e738fab2a14779e513/README.md#L2).
 
@@ -339,7 +339,7 @@ Markdown source of truth plus a derived Milvus index, with vector/BM25/RRF retri
 
 - Category: File-backed source-of-truth and auditable memory; Core candidate.
 - Scope boundary: Summaries, files, indexes and raw sessions can drift out of sync; unrelated to OpenViking's same-named search concept.
-- Maintenance: Commits within the last 90 days; 36 commits in 30 days, 73 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 27 commits in 30 days, 70 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/zilliztech/memsearch/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/zilliztech/memsearch/blob/a81ac682b547f86df25cd70a9477ada543de67ae/README.md#L4).
 
@@ -349,7 +349,7 @@ Single-file long-term memory family without a vector database, with SDK, CLI, MC
 
 - Category: File-backed source-of-truth and auditable memory; Core candidate.
 - Scope boundary: New project; the maturity and semantic capabilities of each adapter package need separate verification.
-- Maintenance: Commits within the last 90 days; 10 commits in 30 days, 41 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 10 commits in 30 days, 40 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/Sibyl-Labs/Sibyl-Memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/Sibyl-Labs/Sibyl-Memory/blob/820e70d54833330b581db50da1560d769293bdaa/README.md#L14).
 
@@ -389,7 +389,7 @@ Turns documents, code and conversations into entity relations and searchable kno
 
 - Category: Graphs, entities and temporal memory; Core candidate.
 - Scope boundary: Current deployment paths keep evolving; do not reuse claims from older multi-database versions.
-- Maintenance: Commits within the last 90 days; 1038 commits in 30 days, 2899 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 843 commits in 30 days, 2828 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/topoteretes/cognee/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/topoteretes/cognee/blob/8853378eae5366addb064e758e560a456146ae1a/README.md#L2).
 
@@ -399,7 +399,7 @@ Extracts entities and relations in real time, builds a bi-temporal knowledge gra
 
 - Category: Graphs, entities and temporal memory; Core candidate.
 - Scope boundary: Graph backends and extraction models affect cost; it is the open-source graph core of the current Zep ecosystem.
-- Maintenance: Commits within the last 90 days; 39 commits in 30 days, 129 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 68 commits in 30 days, 162 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/getzep/graphiti/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/getzep/graphiti/blob/ebef986a0b2360211b65751c111cacb4a7d790eb/README.md#L8).
 
@@ -409,7 +409,7 @@ Combines a knowledge graph, constraints and traceable reasoning in a single SQLi
 
 - Category: Graphs, entities and temporal memory; Core candidate.
 - Scope boundary: The local single-file form suits experiments; scale and concurrency capabilities need real-world testing.
-- Maintenance: Commits within the last 90 days; 193 commits in 30 days, 597 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 153 commits in 30 days, 602 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/liliang-cn/cortexdb/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/liliang-cn/cortexdb/blob/d39714c86784edd23d42ce152a0243464ad2b15a/README.md#L1).
 
@@ -419,7 +419,7 @@ Graph-based agent memory and context graph storing conversations, entities, rela
 
 - Category: Graphs, entities and temporal memory; Core candidate.
 - Scope boundary: Requires Neo4j; an experimental or labs project does not carry a formal product SLA.
-- Maintenance: Commits within the last 90 days; 27 commits in 30 days, 204 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 4 commits in 30 days, 201 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/neo4j-labs/agent-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/neo4j-labs/agent-memory/blob/9d45af5529ecb5f2fe352013468a11087f3163d4/README.md#L5).
 
@@ -429,7 +429,7 @@ Layered agent memory with Git-style version control.
 
 - Category: Graphs, entities and temporal memory; Core candidate.
 - Scope boundary: New project; merge, rollback and performance of the versioning mechanism need real-world testing.
-- Maintenance: Commits within the last 90 days; 1 commits in 30 days, 34 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 1 commits in 30 days, 33 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/zhangfengcdt/memoir/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/zhangfengcdt/memoir/blob/7fd1b3ef704fc554596571d5b9c8b73d7f2b0c5d/README.md#L10).
 
@@ -439,7 +439,7 @@ Builds agent memory from Datalog rules, source facts and incremental derivation.
 
 - Category: Graphs, entities and temporal memory; Core candidate.
 - Scope boundary: Rule-derivation quality depends on fact ingestion and rule design; it is a route distinct from vector retrieval.
-- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 47 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 39 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/JordyZomer/lemmalog/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/JordyZomer/lemmalog/blob/9cc2cf1bc050ddd67cc1c6b644953377b0b9ef9d/README.md#L3).
 
@@ -449,19 +449,9 @@ MCP memory service with relation tracking and graph queries for coding agents.
 
 - Category: Graphs, entities and temporal memory; Core candidate.
 - Scope boundary: Focused on project relation memory, not equivalent to a complete personal long-term memory platform.
-- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 12 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 9 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/memory-graph/memory-graph/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/memory-graph/memory-graph/blob/1adbd8bb527552e9f1510b5c1316a76ad58692d9/README.md#L2).
-
-## [M-flow](https://github.com/FlowElement-xinliuyuansu/m_flow)
-
-Organizes episodic, conceptual and entity memory as a multi-layer cognitive graph with controlled propagation.
-
-- Category: Graphs, entities and temporal memory; Core candidate.
-- Scope boundary: Author benchmarks need their model and settings preserved; graph propagation does not guarantee factual correctness.
-- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
-- License: [Apache-2.0](https://api.github.com/repos/FlowElement-xinliuyuansu/m_flow/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
-- Feature verified: 2026-11-12; [Source 1](https://github.com/FlowElement-xinliuyuansu/m_flow/blob/0d585cda2f588af69fb872ae6914caba0c217816/README.md#L3).
 
 ## [claude-mem](https://github.com/thedotmack/claude-mem)
 
@@ -469,7 +459,7 @@ Captures sessions and tool activity, compresses them into SQLite/FTS5/Chroma and
 
 - Category: Coding agents and MCP memory; Core candidate.
 - Scope boundary: Multi-host support needs item-by-item verification; the captured scope may include sensitive tool output.
-- Maintenance: Commits within the last 90 days; 1329 commits in 30 days, 2403 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 1244 commits in 30 days, 2482 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/thedotmack/claude-mem/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/thedotmack/claude-mem/blob/c4a9f5725f420bf9c6e866cdd3b94bd36498af09/README.md#L3).
 
@@ -479,7 +469,7 @@ Semantic memory, relations and background consolidation over MCP/REST with multi
 
 - Category: Coding agents and MCP memory; Core candidate.
 - Scope boundary: Lightweight self-hosting does not mean identical behavior across all backends; test with a pinned configuration.
-- Maintenance: Commits within the last 90 days; 316 commits in 30 days, 850 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 290 commits in 30 days, 756 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/doobidoo/mcp-memory-service/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/doobidoo/mcp-memory-service/blob/8823c8dd3d2937d8600c4d498a3aa8579c160810/README.md#L37).
 
@@ -489,19 +479,9 @@ Layered memory plugin for DeepSeek Harness combining runtime memory, project doc
 
 - Category: Coding agents and MCP memory; Core candidate.
 - Scope boundary: Requires the DSH host; providers differ in service, data location and deletion capabilities; skill self-evolution is off by default.
-- Maintenance: Commits within the last 90 days; 421 commits in 30 days, 1714 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 466 commits in 30 days, 1686 commits in 90 days.
 - License: [MIT](https://github.com/omdsh-dev/dsh-mnemon/blob/5df51a6965e02069fd55bdf76395f1b293801c63/LICENSE); Open license verified. Root LICENSE is MIT; third-party provider licenses and terms of service are separate, see THIRD_PARTY_NOTICES.md.
 - Feature verified: 2026-11-20; [Source 1](https://github.com/omdsh-dev/dsh-mnemon/blob/5df51a6965e02069fd55bdf76395f1b293801c63/README.md#L33).
-
-## [Memorix](https://github.com/AVIDS2/memorix)
-
-Cross-host shared memory for multiple coding agents over MCP.
-
-- Category: Coding agents and MCP memory; Core candidate.
-- Scope boundary: The host support surface and storage governance need checking per version.
-- Maintenance: Commits within the last 90 days; 70 commits in 30 days, 197 commits in 90 days.
-- License: [Apache-2.0](https://api.github.com/repos/AVIDS2/memorix/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
-- Feature verified: 2026-11-12; [Source 1](https://github.com/AVIDS2/memorix/blob/674528015f8f78f98286739b173c993d888c2a43/README.md#L9).
 
 ## [OKF Agent Memory](https://github.com/okf-memory/okf-agent-memory)
 
@@ -509,9 +489,19 @@ Git-native coding-agent memory with an embedded MCP server and progressive readi
 
 - Category: Coding agents and MCP memory; Core candidate.
 - Scope boundary: The default development branch may change; protocol implementation and host compatibility need pinned versions.
-- Maintenance: Commits within the last 90 days; 19 commits in 30 days, 243 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 23 commits in 30 days, 247 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/okf-memory/okf-agent-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/okf-memory/okf-agent-memory/blob/1a6303d9f3582c6d238ace4d8643337baf06fc60/README.md#L3).
+
+## [Memorix](https://github.com/AVIDS2/memorix)
+
+Cross-host shared memory for multiple coding agents over MCP.
+
+- Category: Coding agents and MCP memory; Core candidate.
+- Scope boundary: The host support surface and storage governance need checking per version.
+- Maintenance: Commits within the last 90 days; 50 commits in 30 days, 171 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/AVIDS2/memorix/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/AVIDS2/memorix/blob/674528015f8f78f98286739b173c993d888c2a43/README.md#L9).
 
 ## [projectmem](https://github.com/riponcm/projectmem)
 
@@ -519,7 +509,7 @@ Event-log recording of issues, attempts, fixes and decisions so coding agents av
 
 - Category: Coding agents and MCP memory; Core candidate.
 - Scope boundary: Project engineering memory, not a general personal-profiling system.
-- Maintenance: Commits within the last 90 days; 13 commits in 30 days, 105 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 32 commits in 30 days, 123 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/riponcm/projectmem/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/riponcm/projectmem/blob/a405361b8d12cb773bb42ef0f64004623dbee764/README.md#L1).
 
@@ -529,7 +519,7 @@ Hosted persistent memory over MCP with feedback reranking and multi-agent shared
 
 - Category: Coding agents and MCP memory; Core candidate.
 - Scope boundary: This repository is the client/server access layer for a hosted service; a domain is an in-account namespace, not a permission boundary.
-- Maintenance: Commits within the last 90 days; 43 commits in 30 days, 155 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 34 commits in 30 days, 142 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/mnemoverse/mcp-memory-server/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/mnemoverse/mcp-memory-server/blob/9fd95f618280ef926afce78e649241ea32b4e015/README.md#L3).
 
@@ -569,7 +559,7 @@ Personal cross-agent memory with host bridging; agents distill Markdown and memo
 
 - Category: Experience, skills and procedural memory; Core candidate.
 - Scope boundary: The current MemoryService separates its duties from the chat model; do not assume the service performs distillation on its own.
-- Maintenance: Commits within the last 90 days; 29 commits in 30 days, 55 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 37 commits in 30 days, 61 commits in 90 days.
 - License: [Apache-2.0](https://github.com/NevaMind-AI/memU/blob/fd86e38635f6edd8687de94079382d91381b2f5d/LICENSE.txt); Open license verified. Root LICENSE.txt verified manually.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/NevaMind-AI/memU/blob/fd86e38635f6edd8687de94079382d91381b2f5d/README.md#L1).
 
@@ -579,7 +569,7 @@ Organizes semantic, episodic and procedural memory and improves workflows with f
 
 - Category: Experience, skills and procedural memory; Core candidate.
 - Scope boundary: Distinguish the hosted product from local mode; procedural memory updates must avoid cementing mistakes.
-- Maintenance: Commits within the last 90 days; 4 commits in 30 days, 97 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 2 commits in 30 days, 88 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/alibaizhanov/mengram/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/alibaizhanov/mengram/blob/691ab00107ca326a18e53ea078c4c53e6600c956/README.md#L4).
 
@@ -609,7 +599,7 @@ Distills readable, editable operating experience and Skills from agent execution
 
 - Category: Experience, skills and procedural memory; Core candidate.
 - Scope boundary: Aimed at experience reuse; its object differs from the user profiles of the same team's Memobase.
-- Maintenance: Archived / historical; 2 commits in 30 days, 2 commits in 90 days.
+- Maintenance: Archived / historical; 0 commits in 30 days, 2 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/memodb-io/Acontext/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/memodb-io/Acontext/blob/1ddfd903fd1004672ca9f9a70d92041153ba43d5/README.md#L2).
 
@@ -619,7 +609,7 @@ Runtime guard and reference implementation against agent-memory and context pois
 
 - Category: Research implementations and benchmarks; Research/benchmark.
 - Scope boundary: A guard layer, not a memory store; framework adapters and security conclusions must be retested in the target system.
-- Maintenance: Commits within the last 90 days; 65 commits in 30 days, 258 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 66 commits in 30 days, 245 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/OWASP/www-project-agent-memory-guard/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/OWASP/www-project-agent-memory-guard/blob/7b1047c1461f3e22dd6d1b873aadcfc64484e649/README.md#L12).
 
@@ -639,7 +629,7 @@ Open evaluations and reference implementations of agent memory systems such as L
 
 - Category: Research implementations and benchmarks; Research/benchmark.
 - Scope boundary: Not an official dataset leaderboard; read the fixed data split and scoring configuration.
-- Maintenance: Commits within the last 90 days; 48 commits in 30 days, 246 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 33 commits in 30 days, 210 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/RonsenbergVI/agent-memory-benchmarks/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/RonsenbergVI/agent-memory-benchmarks/blob/9a9bf02608537e9d29f92e83dcebe7b3809da1da/README.md#L1).
 
@@ -649,7 +639,7 @@ Organizes long-term memory with a hierarchical temporal index and offers a Pytho
 
 - Category: Research implementations and benchmarks; Research/benchmark.
 - Scope boundary: Must not be merged with the EventTree MemForest; research results need reproduction.
-- Maintenance: Commits within the last 90 days; 10 commits in 30 days, 33 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 10 commits in 30 days, 25 commits in 90 days.
 - License: [MIT](https://github.com/Concyclics/MemForest/blob/728b5a6f6235ba3a5dbf45e0c85efe15da3caa59/LICENSE); Open license verified. Root LICENSE verified manually.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/Concyclics/MemForest/blob/728b5a6f6235ba3a5dbf45e0c85efe15da3caa59/README.md#L1).
 
@@ -659,7 +649,7 @@ Collects evaluation results and comparison material for agent memory systems.
 
 - Category: Research implementations and benchmarks; Research/benchmark.
 - Scope boundary: Heterogeneous models, data and budgets cannot be ranked by aggregate score alone.
-- Maintenance: Commits within the last 90 days; 2 commits in 30 days, 3 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 2 commits in 30 days, 2 commits in 90 days.
 - License: [Unverified](https://github.com/AML-memory/agent-memory-leaderboard/blob/f4f82ffb235ab52e5b521839b139bfd858be7ee6/README.md); License unverified. No root-directory license found.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/AML-memory/agent-memory-leaderboard/blob/f4f82ffb235ab52e5b521839b139bfd858be7ee6/README.md#L3).
 
@@ -689,7 +679,7 @@ Research on associative recall: write-time cues trigger future queries, with com
 
 - Category: Research implementations and benchmarks; Research/benchmark.
 - Scope boundary: A research implementation, not an out-of-the-box production memory service.
-- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 4 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 3 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/Sherlockwz/T-Mem/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/Sherlockwz/T-Mem/blob/dd9e1527bc75908485809580c9520af5a9a42879/README.md#L1).
 
@@ -703,16 +693,6 @@ Segments long-term memory through an EventTree with progressive merging and comp
 - License: [MIT](https://api.github.com/repos/Celina-love-sweet/MemForest/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/Celina-love-sweet/MemForest/blob/e78a0d9c407753bde8f926715a3b26c1f18b2882/README.md#L1).
 
-## [Agent Memory Radar](https://github.com/H20Zhang/Agent-Memory-Radar)
-
-Research radar curating memory mechanisms, benchmarks, poisoning, forgetting and recovery evidence.
-
-- Category: Research implementations and benchmarks; Research/benchmark.
-- Scope boundary: A research index/audit resource, not a memory runtime.
-- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 11 commits in 90 days.
-- License: [CC-BY-4.0 content / MIT code](https://github.com/H20Zhang/Agent-Memory-Radar/blob/47379f841c844cf97d2cfe4a6156431c8ee572a3/LICENSE.md); Compound/split license. Split license for research content and maintenance code.
-- Feature verified: 2026-11-12; [Source 1](https://github.com/H20Zhang/Agent-Memory-Radar/blob/47379f841c844cf97d2cfe4a6156431c8ee572a3/README.md#L1).
-
 ## [MemoryStackBench](https://github.com/aetna000/MemoryStackBench)
 
 Automated evaluation of agent memory security, evidence, deletion completeness and auditability.
@@ -722,6 +702,16 @@ Automated evaluation of agent memory security, evidence, deletion completeness a
 - Maintenance: Commits within the last 90 days; 0 commits in 30 days, 6 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/aetna000/MemoryStackBench/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/aetna000/MemoryStackBench/blob/e5abeb0c169fde2fbd8501ffa253310e52a09918/README.md#L8).
+
+## [Agent Memory Radar](https://github.com/H20Zhang/Agent-Memory-Radar)
+
+Research radar curating memory mechanisms, benchmarks, poisoning, forgetting and recovery evidence.
+
+- Category: Research implementations and benchmarks; Research/benchmark.
+- Scope boundary: A research index/audit resource, not a memory runtime.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 7 commits in 90 days.
+- License: [CC-BY-4.0 content / MIT code](https://github.com/H20Zhang/Agent-Memory-Radar/blob/47379f841c844cf97d2cfe4a6156431c8ee572a3/LICENSE.md); Compound/split license. Split license for research content and maintenance code.
+- Feature verified: 2026-11-12; [Source 1](https://github.com/H20Zhang/Agent-Memory-Radar/blob/47379f841c844cf97d2cfe4a6156431c8ee572a3/README.md#L1).
 
 ## [SimpleMem](https://github.com/aiming-lab/SimpleMem)
 
@@ -809,7 +799,7 @@ BM25, vector, query expansion, rerank and MCP for local Markdown and documents.
 
 - Category: Adjacent platforms, specifications and indexes; Adjacent infrastructure.
 - Scope boundary: Retrieval infrastructure; it does not own the full memory extraction, update and forgetting lifecycle.
-- Maintenance: Commits within the last 90 days; 25 commits in 30 days, 132 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 27 commits in 30 days, 131 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/tobi/qmd/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/tobi/qmd/blob/86d2365d17fc682e491c2c53d1e4a884aee8682a/README.md#L1).
 
@@ -819,7 +809,7 @@ External index of agent memory systems, frameworks, benchmarks and research.
 
 - Category: Adjacent platforms, specifications and indexes; Adjacent infrastructure.
 - Scope boundary: Serves as a coverage baseline and discovery entry point; it is not used for capability judgments.
-- Maintenance: Commits within the last 90 days; 55 commits in 30 days, 85 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 54 commits in 30 days, 87 commits in 90 days.
 - License: [CC0-1.0](https://api.github.com/repos/mnemoverse/awesome-agent-memory/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/mnemoverse/awesome-agent-memory/blob/6ba196dd0e90d3f1f5dcccdc954ba0951edcd0ed/README.md#L1).
 
@@ -829,7 +819,7 @@ Complete agent platform built around persistent state and agent-managed context.
 
 - Category: Adjacent platforms, specifications and indexes; Adjacent infrastructure.
 - Scope boundary: Adopting it usually means replacing the agent runtime, not just swapping in a memory API.
-- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 5 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 4 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/letta-ai/letta/license); Open license verified. Identified via GitHub licenseInfo; attached models, data, weights and hosted-service licenses are separate.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/letta-ai/letta/blob/8816d3a8516893bfdc0fa14bfb1235226012e295/README.md#L1).
 
@@ -849,7 +839,7 @@ The entities, relations and observations memory components in the official MCP s
 
 - Category: Adjacent platforms, specifications and indexes; Historical reference.
 - Scope boundary: Parent-repository metrics are not the memory submodule's; the license is in an MIT/Apache transition and the project structure has evolved.
-- Maintenance: Archived / historical; 515 commits in 30 days, 1119 commits in 90 days.
+- Maintenance: Archived / historical; 449 commits in 30 days, 1119 commits in 90 days.
 - License: [Apache-2.0 / MIT transition; docs CC-BY-4.0](https://github.com/modelcontextprotocol/servers/blob/e1dc4b18dbb948921da37f3d4224a628730b43b0/LICENSE); Compound/split license. The parent repository is mid-relicensing; individual files follow the applicable license.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/modelcontextprotocol/servers/blob/e1dc4b18dbb948921da37f3d4224a628730b43b0/README.md#L33).
 
@@ -859,7 +849,7 @@ Source-available project offering cognitive memory with agent integrations.
 
 - Category: Historical, archived and restricted licenses; Restricted license.
 - Scope boundary: The PolyForm Small Business license carries organization-size/revenue limits; not listed as a regular OSI open-source candidate.
-- Maintenance: Commits within the last 90 days; 320 commits in 30 days, 746 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 281 commits in 30 days, 743 commits in 90 days.
 - License: [PolyForm Small Business-1.0.0 / commercial license](https://github.com/engram-app/Engram/blob/cf80016063f06df9f891ec26f84a41844aeebeed/LICENSE); Source-available, not OSI open source. Conditions on organization size and revenue; not a regular OSI open-source license.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/engram-app/Engram/blob/cf80016063f06df9f891ec26f84a41844aeebeed/README.md#L3).
 
@@ -869,7 +859,7 @@ MCP cognitive memory device with episodic, semantic, graph and sleep-time consol
 
 - Category: Historical, archived and restricted licenses; Restricted license.
 - Scope boundary: BSL 1.1 is not OSI open source during the restriction period and limits competing hosting/embedding uses.
-- Maintenance: Commits within the last 90 days; 20 commits in 30 days, 123 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 19 commits in 30 days, 119 commits in 90 days.
 - License: [BSL-1.1](https://github.com/kolegadev/Katra-Agentic-Memory/blob/62cba09a81e4e083b38e68eaca572f2d8acee940/LICENSE); Source-available, not OSI open source. Restricts competing third-party hosting/embedding; the conversion date and parameters follow the LICENSE.
 - Feature verified: 2026-11-12; [Source 1](https://github.com/kolegadev/Katra-Agentic-Memory/blob/62cba09a81e4e083b38e68eaca572f2d8acee940/README.md#L1).
 

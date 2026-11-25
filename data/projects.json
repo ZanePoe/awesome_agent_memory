@@ -1046,32 +1046,6 @@
     }
   },
   {
-    "repo": "FlowElement-xinliuyuansu/m_flow",
-    "name": "M-flow",
-    "category": "graph_temporal",
-    "scope": "core",
-    "description": "以多层认知图和受控传播组织情景、概念与实体记忆。",
-    "boundary": "作者 benchmark 需保留模型和设置；图传播不保证事实正确。",
-    "baseline": false,
-    "reviewed_at": "2026-11-12",
-    "readme_path": "README.md",
-    "evidence": [
-      {
-        "path": "README.md",
-        "line": 3,
-        "url": "https://github.com/FlowElement-xinliuyuansu/m_flow/blob/0d585cda2f588af69fb872ae6914caba0c217816/README.md#L3",
-        "note": "官方默认分支 README；非实机测试"
-      }
-    ],
-    "evidence_commit": "0d585cda2f588af69fb872ae6914caba0c217816",
-    "license_review": {
-      "status": "verified",
-      "label": "Apache-2.0",
-      "source": "https://api.github.com/repos/FlowElement-xinliuyuansu/m_flow/license",
-      "note": "GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计"
-    }
-  },
-  {
     "repo": "neo4j-labs/agent-memory",
     "name": "Neo4j Agent Memory",
     "category": "graph_temporal",
@@ -2190,8 +2164,8 @@
     }
   },
   {
-    "repo": "unibaseio/membase",
-    "name": "Membase · unibase",
+    "repo": "membaseai/membase",
+    "name": "Membase",
     "category": "engines",
     "scope": "core",
     "description": "提供 SDK、CLI 和 MCP 的跨 Agent 记忆层，可使用托管账户或本地存储。",
@@ -2203,7 +2177,7 @@
       {
         "path": "README.md",
         "line": 30,
-        "url": "https://github.com/unibaseio/membase/blob/59100235fa918bdfd19d02b9cf06fac178a839cb/README.md#L30",
+        "url": "https://github.com/membaseai/membase/blob/59100235fa918bdfd19d02b9cf06fac178a839cb/README.md#L30",
         "note": "官方默认分支 README；非实机测试"
       }
     ],
@@ -2211,7 +2185,7 @@
     "license_review": {
       "status": "verified",
       "label": "MIT",
-      "source": "https://api.github.com/repos/unibaseio/membase/license",
+      "source": "https://api.github.com/repos/membaseai/membase/license",
       "note": "GitHub licenseInfo 识别；附属模型、数据、权重和托管服务许可另计"
     }
   },

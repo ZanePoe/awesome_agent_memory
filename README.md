@@ -28,7 +28,7 @@ Categories describe a project's primary responsibility, not mutually exclusive c
 
 ## Current coverage
 
-**90 projects, of which 54 come from the three original research reports and 36 were added in this round.** Feature verification: 2026-11-20; metrics snapshot: `2026-11-20T09:44:48+00:00` (UTC).
+**89 projects, of which 54 come from the three original research reports and 35 were added in this round.** Feature verification: 2026-11-20; metrics snapshot: `2026-11-25T11:05:14+00:00` (UTC).
 
 Within each category, projects are first tiered by maintenance status, then ranked by a blend of stars (40%), 90-day default-branch commits (35%) and recency of the last commit (25%). Archived projects are placed last. The maintenance score describes GitHub popularity and activity signals only; it does not represent memory accuracy, cost, safety or production maturity.
 
@@ -38,18 +38,18 @@ Shows only core candidates with a verified license and commits in the last 90 da
 
 | Project | Positioning | Stars | 90-day commits | Last commit (UTC) | Maintenance score |
 | --- | --- | --- | --- | --- | --- |
-| [claude-mem](https://github.com/thedotmack/claude-mem) | Captures sessions and tool activity, compresses them into SQLite/FTS5/Chroma and recalls them in later sessions. | 118,529 | 2,403 | 2026-11-19 | 99.8 |
-| [Hindsight](https://github.com/vectorize-io/hindsight) | Manages structured facts, experiences, entities and synthesized observations through retain, recall and reflect. | 62,113 | 1,575 | 2026-11-20 | 98.3 |
-| [OpenViking](https://github.com/volcengine/OpenViking) | Manages resources, long-term memory and Agent Skills through a navigable virtual file system. | 42,512 | 1,430 | 2026-11-20 | 97.0 |
-| [Cognee](https://github.com/topoteretes/cognee) | Turns documents, code and conversations into entity relations and searchable knowledge/memory graphs. | 33,430 | 2,899 | 2026-11-20 | 96.2 |
-| [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory) | Service and plugin for coding agents combining BM25, optional vectors and structural relations. | 30,492 | 234 | 2026-11-18 | 91.0 |
-| [Engram · Gentleman Programming](https://github.com/Gentleman-Programming/engram) | Go/SQLite/FTS5 persistent memory for coding agents with MCP, HTTP, CLI and TUI. | 8,242 | 952 | 2026-11-17 | 90.6 |
-| [Basic Memory](https://github.com/basicmachines-co/basic-memory) | Editable Markdown notes and semantic relations as shared human-machine knowledge memory. | 4,642 | 881 | 2026-11-19 | 89.2 |
-| [Honcho](https://github.com/plastic-labs/honcho) | Continuously forms peer representations and collaborative understanding around peers, sessions and workspaces. | 8,206 | 318 | 2026-11-19 | 88.6 |
-| [Graphiti](https://github.com/getzep/graphiti) | Extracts entities and relations in real time, builds a bi-temporal knowledge graph and blends lexical, vector and graph retrieval. | 32,954 | 129 | 2026-11-20 | 88.5 |
-| [Mnemosyne · mnemosyne-oss](https://github.com/mnemosyne-oss/mnemosyne) | SQLite-backed, default-local cross-framework memory layer with MCP and multiple agent integrations. | 3,680 | 987 | 2026-11-19 | 88.3 |
-| [Supermemory](https://github.com/supermemoryai/supermemory) | Hybrid search and memory platform for documents, memories and user profiles. | 31,678 | 130 | 2026-11-18 | 87.8 |
-| [Mem0](https://github.com/mem0ai/mem0) | General-purpose personalization memory layer supporting extraction, updating, deletion and retrieval of memories from interactions. | 69,268 | 75 | 2026-11-18 | 87.5 |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | Captures sessions and tool activity, compresses them into SQLite/FTS5/Chroma and recalls them in later sessions. | 119,651 | 2,482 | 2026-11-25 | 100.0 |
+| [Hindsight](https://github.com/vectorize-io/hindsight) | Manages structured facts, experiences, entities and synthesized observations through retain, recall and reflect. | 63,299 | 1,618 | 2026-11-25 | 98.4 |
+| [OpenViking](https://github.com/volcengine/OpenViking) | Manages resources, long-term memory and Agent Skills through a navigable virtual file system. | 42,746 | 1,456 | 2026-11-25 | 97.0 |
+| [Cognee](https://github.com/topoteretes/cognee) | Turns documents, code and conversations into entity relations and searchable knowledge/memory graphs. | 33,591 | 2,828 | 2026-11-20 | 94.8 |
+| [Engram · Gentleman Programming](https://github.com/Gentleman-Programming/engram) | Go/SQLite/FTS5 persistent memory for coding agents with MCP, HTTP, CLI and TUI. | 8,305 | 941 | 2026-11-24 | 91.0 |
+| [Graphiti](https://github.com/getzep/graphiti) | Extracts entities and relations in real time, builds a bi-temporal knowledge graph and blends lexical, vector and graph retrieval. | 33,081 | 162 | 2026-11-25 | 89.8 |
+| [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory) | Service and plugin for coding agents combining BM25, optional vectors and structural relations. | 30,584 | 233 | 2026-11-18 | 89.7 |
+| [Basic Memory](https://github.com/basicmachines-co/basic-memory) | Editable Markdown notes and semantic relations as shared human-machine knowledge memory. | 4,707 | 837 | 2026-11-24 | 89.0 |
+| [Honcho](https://github.com/plastic-labs/honcho) | Continuously forms peer representations and collaborative understanding around peers, sessions and workspaces. | 8,270 | 300 | 2026-11-24 | 88.3 |
+| [Supermemory](https://github.com/supermemoryai/supermemory) | Hybrid search and memory platform for documents, memories and user profiles. | 31,707 | 130 | 2026-11-24 | 88.3 |
+| [Mnemosyne · mnemosyne-oss](https://github.com/mnemosyne-oss/mnemosyne) | SQLite-backed, default-local cross-framework memory layer with MCP and multiple agent integrations. | 3,703 | 927 | 2026-11-22 | 87.8 |
+| [Mem0](https://github.com/mem0ai/mem0) | General-purpose personalization memory layer supporting extraction, updating, deletion and retrieval of memories from interactions. | 69,452 | 69 | 2026-11-25 | 87.7 |
 
 ## Category index
 
@@ -59,7 +59,7 @@ Shows only core candidates with a verified license and commits in the last 90 da
 | --- | --- | --- |
 | Memory engines and services | 27 | Hindsight, OpenViking, agentmemory · rohitg00 |
 | File-backed source-of-truth and auditable memory | 11 | Engram · Gentleman Programming, Basic Memory, Mnemosyne · mnemosyne-oss |
-| Graphs, entities and temporal memory | 8 | Cognee, Graphiti, CortexDB |
+| Graphs, entities and temporal memory | 7 | Cognee, Graphiti, CortexDB |
 | Coding agents and MCP memory | 10 | claude-mem, MCP Memory Service, dsh-mnemon |
 | Experience, skills and procedural memory | 5 | memU, Mengram, LangMem |
 | Research implementations and benchmarks | 19 | OWASP Agent Memory Guard, MemT-1.0, Agent Memory Benchmarks |
@@ -70,130 +70,129 @@ Shows only core candidates with a verified license and commits in the last 90 da
 
 | Project | Positioning | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Hindsight](https://github.com/vectorize-io/hindsight) · ★Report baseline | Manages structured facts, experiences, entities and synthesized observations through retain, recall and reflect. | 62,113 | 1,575 | 2026-11-20 | 98.3 | MIT |
-| [OpenViking](https://github.com/volcengine/OpenViking) · ★Report baseline | Manages resources, long-term memory and Agent Skills through a navigable virtual file system. | 42,512 | 1,430 | 2026-11-20 | 97.0 | AGPL-3.0 |
-| [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory) · ★Report baseline | Service and plugin for coding agents combining BM25, optional vectors and structural relations. | 30,492 | 234 | 2026-11-18 | 91.0 | Apache-2.0 |
-| [Honcho](https://github.com/plastic-labs/honcho) · ★Report baseline | Continuously forms peer representations and collaborative understanding around peers, sessions and workspaces. | 8,206 | 318 | 2026-11-19 | 88.6 | AGPL-3.0 |
-| [Supermemory](https://github.com/supermemoryai/supermemory) · ★Report baseline | Hybrid search and memory platform for documents, memories and user profiles. | 31,678 | 130 | 2026-11-18 | 87.8 | MIT |
-| [Mem0](https://github.com/mem0ai/mem0) · ★Report baseline | General-purpose personalization memory layer supporting extraction, updating, deletion and retrieval of memories from interactions. | 69,268 | 75 | 2026-11-18 | 87.5 | Apache-2.0 |
-| [Hy-Memory](https://github.com/Tencent-Hunyuan/Hy-Memory) | Dual-system cognitive memory engine and Python SDK for conversation, agent and coding scenarios. | 2,086 | 604 | 2026-11-18 | 86.1 | Apache-2.0 |
-| [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | Team memory hub that turns conversations, documents and code into Chat Memory, Skills, LLM-Wiki and Code-Graph. | 31,065 | 65 | 2026-11-19 | 84.3 | MIT |
-| [MemOS](https://github.com/MemTensor/MemOS) · ★Report baseline | Memory operating system for agents covering multiple memory types, hybrid retrieval and skill evolution. | 12,462 | 140 | 2026-11-09 | 82.8 | Apache-2.0 |
-| [Remnic](https://github.com/joshuaswarren/remnic) | User-aware memory layer emphasizing scoping, provenance, corrections, boundaries, retrieval quality and MCP/HTTP. | 235 | 840 | 2026-11-20 | 79.0 | MIT |
-| [Mnemon](https://github.com/mnemon-dev/mnemon) | Cross-session persistent memory for agents, organizing knowledge in a graph structure with intent-aware retrieval and multiple host integrations. | 731 | 127 | 2026-11-19 | 75.1 | Apache-2.0 |
-| [MemMachine](https://github.com/MemMachine/MemMachine) · ★Report baseline | General-purpose agent memory service with user, project and session scoped interfaces. | 3,089 | 43 | 2026-11-19 | 74.1 | Apache-2.0 |
-| [LongMemory](https://github.com/CaviraOSS/LongMemory) · ★Report baseline | Local TypeScript/SQLite long-term memory with provenance, timing, evidence selection and token budgets. | 4,585 | 28 | 2026-11-10 | 70.6 | Apache-2.0 |
-| [MIRIX](https://github.com/Mirix-AI/MIRIX) · ★Report baseline | Multi-type, multi-agent, multimodal long-term memory system that tracks work activity and distills skills. | 3,507 | 23 | 2026-11-11 | 68.9 | Apache-2.0 |
-| [openJiuwen Agent Memory](https://github.com/openJiuwen-ai/agent-memory) | Provides agents with memory extraction, storage, retrieval, migration and multi-form memory capabilities. | 84 | 162 | 2026-11-19 | 68.8 | Apache-2.0 |
-| [Membase · unibase](https://github.com/unibaseio/membase) | Cross-agent memory layer with SDK, CLI and MCP, using hosted accounts or local storage. | 142 | 134 | 2026-11-15 | 68.5 | MIT |
-| [Agent Memory Lab](https://github.com/agent-memory-lab/agent-memory) · ★Report baseline | Memory engine emphasizing source evidence, fact correction, temporal validity and scoping. | 7 | 261 | 2026-11-14 | 62.0 | Apache-2.0 |
-| [mem9](https://github.com/mem9-ai/mem9) · ★Report baseline | Cross-agent memory and session ingestion with multiple server-side storage backends. | 1,236 | 16 | 2026-11-04 | 61.6 | Apache-2.0 |
-| [Memori](https://github.com/MemoriLabs/Memori) · ★Report baseline | Hooks memory ingestion and recall into existing LLM calls around user and process ownership. | 17,601 | 2 | 2026-09-18 | 52.5 | Apache-2.0 |
-| [Engram · TAIPANBOX](https://github.com/TAIPANBOX/engram) · ★Report baseline | SQLite-backed episodic, semantic and procedural memory with bi-temporal facts, decay and MCP. | 5 | 40 | 2026-11-11 | 49.9 | Apache-2.0 |
-| [Agent MemoryForge](https://github.com/hellangleZ/Agent-MemoryForge) | Persistent, searchable, auditable memory layer with SDK/Gateway for multi-tenant agents. | 178 | 3 | 2026-09-29 | 39.8 | MIT |
-| [Memvid](https://github.com/memvid/memvid) · ★Report baseline | Hybrid retrieval and multilingual SDKs via a portable single file and a Rust core. | 17,435 | 0 | 2026-07-14 | 39.9 | Apache-2.0 |
-| [Memobase](https://github.com/memodb-io/memobase) · ★Report baseline | Maintains long-term user memory around user profiles and timed events. | 2,962 | 0 | 2026-01-11 | 28.5 | Apache-2.0 |
-| [Engram · HBarefoot](https://github.com/HBarefoot/engram) · ★Report baseline | In-process TypeScript/SQLite memory library with local embeddings, MCP and a usage Skill. | 9 | 0 | 2026-07-07 | 13.5 | MIT |
-| [agent-memory · ivanzwb](https://github.com/ivanzwb/agent-memory) · ★Report baseline | Embedded TypeScript memory library with working, session and long-term memory plus a knowledge base. | 4 | 0 | 2026-04-13 | 7.7 | MIT |
-| [MEMANTO](https://github.com/Jahvis/memanto-ai-memory) · ★Report baseline | Memory service wrapped around remember, recall and answer primitives, with versioning and source metadata. | 1 | 0 | 2026-06-05 | 6.3 | MIT |
+| [Hindsight](https://github.com/vectorize-io/hindsight) · ★Report baseline | Manages structured facts, experiences, entities and synthesized observations through retain, recall and reflect. | 63,299 | 1,618 | 2026-11-25 | 98.4 | MIT |
+| [OpenViking](https://github.com/volcengine/OpenViking) · ★Report baseline | Manages resources, long-term memory and Agent Skills through a navigable virtual file system. | 42,746 | 1,456 | 2026-11-25 | 97.0 | AGPL-3.0 |
+| [agentmemory · rohitg00](https://github.com/rohitg00/agentmemory) · ★Report baseline | Service and plugin for coding agents combining BM25, optional vectors and structural relations. | 30,584 | 233 | 2026-11-18 | 89.7 | Apache-2.0 |
+| [Honcho](https://github.com/plastic-labs/honcho) · ★Report baseline | Continuously forms peer representations and collaborative understanding around peers, sessions and workspaces. | 8,270 | 300 | 2026-11-24 | 88.3 | AGPL-3.0 |
+| [Supermemory](https://github.com/supermemoryai/supermemory) · ★Report baseline | Hybrid search and memory platform for documents, memories and user profiles. | 31,707 | 130 | 2026-11-24 | 88.3 | MIT |
+| [Mem0](https://github.com/mem0ai/mem0) · ★Report baseline | General-purpose personalization memory layer supporting extraction, updating, deletion and retrieval of memories from interactions. | 69,452 | 69 | 2026-11-25 | 87.7 | Apache-2.0 |
+| [Hy-Memory](https://github.com/Tencent-Hunyuan/Hy-Memory) | Dual-system cognitive memory engine and Python SDK for conversation, agent and coding scenarios. | 2,115 | 604 | 2026-11-18 | 84.8 | Apache-2.0 |
+| [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | Team memory hub that turns conversations, documents and code into Chat Memory, Skills, LLM-Wiki and Code-Graph. | 31,171 | 60 | 2026-11-24 | 83.8 | MIT |
+| [MemOS](https://github.com/MemTensor/MemOS) · ★Report baseline | Memory operating system for agents covering multiple memory types, hybrid retrieval and skill evolution. | 12,504 | 112 | 2026-11-09 | 80.3 | Apache-2.0 |
+| [Remnic](https://github.com/joshuaswarren/remnic) | User-aware memory layer emphasizing scoping, provenance, corrections, boundaries, retrieval quality and MCP/HTTP. | 235 | 731 | 2026-11-24 | 78.6 | MIT |
+| [Mnemon](https://github.com/mnemon-dev/mnemon) | Cross-session persistent memory for agents, organizing knowledge in a graph structure with intent-aware retrieval and multiple host integrations. | 744 | 121 | 2026-11-23 | 74.5 | Apache-2.0 |
+| [MemMachine](https://github.com/MemMachine/MemMachine) · ★Report baseline | General-purpose agent memory service with user, project and session scoped interfaces. | 3,092 | 45 | 2026-11-23 | 74.0 | Apache-2.0 |
+| [Membase](https://github.com/membaseai/membase) | Cross-agent memory layer with SDK, CLI and MCP, using hosted accounts or local storage. | 143 | 168 | 2026-11-25 | 71.1 | MIT |
+| [openJiuwen Agent Memory](https://github.com/openJiuwen-ai/agent-memory) | Provides agents with memory extraction, storage, retrieval, migration and multi-form memory capabilities. | 121 | 174 | 2026-11-25 | 70.8 | Apache-2.0 |
+| [MIRIX](https://github.com/Mirix-AI/MIRIX) · ★Report baseline | Multi-type, multi-agent, multimodal long-term memory system that tracks work activity and distills skills. | 3,517 | 23 | 2026-11-11 | 67.7 | Apache-2.0 |
+| [LongMemory](https://github.com/CaviraOSS/LongMemory) · ★Report baseline | Local TypeScript/SQLite long-term memory with provenance, timing, evidence selection and token budgets. | 4,587 | 16 | 2026-11-10 | 66.3 | Apache-2.0 |
+| [Agent Memory Lab](https://github.com/agent-memory-lab/agent-memory) · ★Report baseline | Memory engine emphasizing source evidence, fact correction, temporal validity and scoping. | 7 | 261 | 2026-11-14 | 60.7 | Apache-2.0 |
+| [mem9](https://github.com/mem9-ai/mem9) · ★Report baseline | Cross-agent memory and session ingestion with multiple server-side storage backends. | 1,236 | 15 | 2026-11-04 | 60.1 | Apache-2.0 |
+| [Memori](https://github.com/MemoriLabs/Memori) · ★Report baseline | Hooks memory ingestion and recall into existing LLM calls around user and process ownership. | 17,605 | 2 | 2026-09-18 | 51.8 | Apache-2.0 |
+| [Engram · TAIPANBOX](https://github.com/TAIPANBOX/engram) · ★Report baseline | SQLite-backed episodic, semantic and procedural memory with bi-temporal facts, decay and MCP. | 5 | 37 | 2026-11-23 | 51.3 | Apache-2.0 |
+| [Agent MemoryForge](https://github.com/hellangleZ/Agent-MemoryForge) | Persistent, searchable, auditable memory layer with SDK/Gateway for multi-tenant agents. | 178 | 3 | 2026-09-29 | 39.0 | MIT |
+| [Memvid](https://github.com/memvid/memvid) · ★Report baseline | Hybrid retrieval and multilingual SDKs via a portable single file and a Rust core. | 17,437 | 0 | 2026-07-14 | 39.6 | Apache-2.0 |
+| [Memobase](https://github.com/memodb-io/memobase) · ★Report baseline | Maintains long-term user memory around user profiles and timed events. | 2,966 | 0 | 2026-01-11 | 28.5 | Apache-2.0 |
+| [Engram · HBarefoot](https://github.com/HBarefoot/engram) · ★Report baseline | In-process TypeScript/SQLite memory library with local embeddings, MCP and a usage Skill. | 9 | 0 | 2026-07-07 | 13.2 | MIT |
+| [agent-memory · ivanzwb](https://github.com/ivanzwb/agent-memory) · ★Report baseline | Embedded TypeScript memory library with working, session and long-term memory plus a knowledge base. | 4 | 0 | 2026-04-13 | 7.6 | MIT |
+| [MEMANTO](https://github.com/Jahvis/memanto-ai-memory) · ★Report baseline | Memory service wrapped around remember, recall and answer primitives, with versioning and source metadata. | 1 | 0 | 2026-06-05 | 6.1 | MIT |
 | [OpenMemory · tawanorg](https://github.com/tawanorg/OpenMemory) | Framework-agnostic self-hosted long-term semantic and contextual memory service. | 1 | 0 | 2025-10-26 | 2.7 | MIT |
 
 ### File-backed source-of-truth and auditable memory
 
 | Project | Positioning | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Engram · Gentleman Programming](https://github.com/Gentleman-Programming/engram) | Go/SQLite/FTS5 persistent memory for coding agents with MCP, HTTP, CLI and TUI. | 8,242 | 952 | 2026-11-17 | 90.6 | MIT |
-| [Basic Memory](https://github.com/basicmachines-co/basic-memory) · ★Report baseline | Editable Markdown notes and semantic relations as shared human-machine knowledge memory. | 4,642 | 881 | 2026-11-19 | 89.2 | AGPL-3.0 |
-| [Mnemosyne · mnemosyne-oss](https://github.com/mnemosyne-oss/mnemosyne) | SQLite-backed, default-local cross-framework memory layer with MCP and multiple agent integrations. | 3,680 | 987 | 2026-11-19 | 88.3 | MIT |
-| [agent-memory · tigerless](https://github.com/tigerless-labs/agent-memory) · ★Report baseline | Markdown as the source of truth with a rebuildable SQLite index and a separate sleep-time consolidation layer. | 4,322 | 381 | 2026-11-12 | 85.4 | MIT |
-| [EverOS](https://github.com/EverMind-AI/EverOS) · ★Report baseline | Manages user episodes/profiles and agent cases/skills with a Markdown source of truth and local indexes. | 13,945 | 101 | 2026-11-20 | 84.2 | Apache-2.0 |
-| [ReMe](https://github.com/agentscope-ai/ReMe) · ★Report baseline | Organizes facts and experiences with Markdown/frontmatter/wikilinks, supporting lexical, vector and relation expansion. | 3,826 | 194 | 2026-11-20 | 83.3 | Apache-2.0 |
-| [MemSearch](https://github.com/zilliztech/memsearch) · ★Report baseline | Markdown source of truth plus a derived Milvus index, with vector/BM25/RRF retrieval and progressive expansion. | 2,913 | 73 | 2026-11-19 | 76.6 | MIT |
-| [Sibyl Memory](https://github.com/Sibyl-Labs/Sibyl-Memory) | Single-file long-term memory family without a vector database, with SDK, CLI, MCP, Hermes and LangGraph adapters. | 189 | 41 | 2026-11-19 | 64.1 | MIT |
-| [Agent Memory Vault](https://github.com/mcncarl/agent-memory-vault) | Markdown-first shared memory vault for Claude Code/Codex with Git, indexes and auditing. | 348 | 4 | 2026-10-04 | 44.2 | MIT |
-| [Engram · shiblon](https://github.com/shiblon/engram) · ★Report baseline | Single binary with SQLite managing short- and long-term memory, preferences and persona. | 19 | 24 | 2026-10-06 | 43.6 | Apache-2.0 |
-| [Engram · B12Labs](https://github.com/B12Labs/engram) · ★Report baseline | Portable single-file memory format with graph compression and fast/hybrid/deep search. | 1 | 0 | 2026-04-15 | 4.6 | MIT |
+| [Engram · Gentleman Programming](https://github.com/Gentleman-Programming/engram) | Go/SQLite/FTS5 persistent memory for coding agents with MCP, HTTP, CLI and TUI. | 8,305 | 941 | 2026-11-24 | 91.0 | MIT |
+| [Basic Memory](https://github.com/basicmachines-co/basic-memory) · ★Report baseline | Editable Markdown notes and semantic relations as shared human-machine knowledge memory. | 4,707 | 837 | 2026-11-24 | 89.0 | AGPL-3.0 |
+| [Mnemosyne · mnemosyne-oss](https://github.com/mnemosyne-oss/mnemosyne) | SQLite-backed, default-local cross-framework memory layer with MCP and multiple agent integrations. | 3,703 | 927 | 2026-11-22 | 87.8 | MIT |
+| [EverOS](https://github.com/EverMind-AI/EverOS) · ★Report baseline | Manages user episodes/profiles and agent cases/skills with a Markdown source of truth and local indexes. | 13,999 | 121 | 2026-11-25 | 85.2 | Apache-2.0 |
+| [agent-memory · tigerless](https://github.com/tigerless-labs/agent-memory) · ★Report baseline | Markdown as the source of truth with a rebuildable SQLite index and a separate sleep-time consolidation layer. | 4,320 | 381 | 2026-11-12 | 84.2 | MIT |
+| [ReMe](https://github.com/agentscope-ai/ReMe) · ★Report baseline | Organizes facts and experiences with Markdown/frontmatter/wikilinks, supporting lexical, vector and relation expansion. | 3,840 | 187 | 2026-11-25 | 83.1 | Apache-2.0 |
+| [MemSearch](https://github.com/zilliztech/memsearch) · ★Report baseline | Markdown source of truth plus a derived Milvus index, with vector/BM25/RRF retrieval and progressive expansion. | 2,936 | 70 | 2026-11-25 | 76.7 | MIT |
+| [Sibyl Memory](https://github.com/Sibyl-Labs/Sibyl-Memory) | Single-file long-term memory family without a vector database, with SDK, CLI, MCP, Hermes and LangGraph adapters. | 191 | 40 | 2026-11-19 | 62.7 | MIT |
+| [Agent Memory Vault](https://github.com/mcncarl/agent-memory-vault) | Markdown-first shared memory vault for Claude Code/Codex with Git, indexes and auditing. | 350 | 4 | 2026-10-04 | 43.5 | MIT |
+| [Engram · shiblon](https://github.com/shiblon/engram) · ★Report baseline | Single binary with SQLite managing short- and long-term memory, preferences and persona. | 19 | 24 | 2026-10-06 | 42.8 | Apache-2.0 |
+| [Engram · B12Labs](https://github.com/B12Labs/engram) · ★Report baseline | Portable single-file memory format with graph compression and fast/hybrid/deep search. | 1 | 0 | 2026-04-15 | 4.5 | MIT |
 
 ### Graphs, entities and temporal memory
 
 | Project | Positioning | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Cognee](https://github.com/topoteretes/cognee) · ★Report baseline | Turns documents, code and conversations into entity relations and searchable knowledge/memory graphs. | 33,430 | 2,899 | 2026-11-20 | 96.2 | Apache-2.0 |
-| [Graphiti](https://github.com/getzep/graphiti) · ★Report baseline | Extracts entities and relations in real time, builds a bi-temporal knowledge graph and blends lexical, vector and graph retrieval. | 32,954 | 129 | 2026-11-20 | 88.5 | Apache-2.0 |
-| [CortexDB](https://github.com/liliang-cn/cortexdb) | Combines a knowledge graph, constraints and traceable reasoning in a single SQLite file. | 529 | 597 | 2026-11-20 | 81.7 | MIT |
-| [Neo4j Agent Memory](https://github.com/neo4j-labs/agent-memory) | Graph-based agent memory and context graph storing conversations, entities, relations and reasoning traces. | 611 | 204 | 2026-10-27 | 71.4 | Apache-2.0 |
-| [Memoir](https://github.com/zhangfengcdt/memoir) | Layered agent memory with Git-style version control. | 632 | 34 | 2026-10-27 | 61.5 | Apache-2.0 |
-| [Lemmalog](https://github.com/JordyZomer/lemmalog) | Builds agent memory from Datalog rules, source facts and incremental derivation. | 352 | 47 | 2026-10-01 | 56.5 | MIT |
-| [Memory Graph](https://github.com/memory-graph/memory-graph) | MCP memory service with relation tracking and graph queries for coding agents. | 258 | 12 | 2026-09-16 | 45.9 | MIT |
-| [M-flow](https://github.com/FlowElement-xinliuyuansu/m_flow) | Organizes episodic, conceptual and entity memory as a multi-layer cognitive graph with controlled propagation. | 4,508 | 0 | 2026-08-03 | 36.7 | Apache-2.0 |
+| [Cognee](https://github.com/topoteretes/cognee) · ★Report baseline | Turns documents, code and conversations into entity relations and searchable knowledge/memory graphs. | 33,591 | 2,828 | 2026-11-20 | 94.8 | Apache-2.0 |
+| [Graphiti](https://github.com/getzep/graphiti) · ★Report baseline | Extracts entities and relations in real time, builds a bi-temporal knowledge graph and blends lexical, vector and graph retrieval. | 33,081 | 162 | 2026-11-25 | 89.8 | Apache-2.0 |
+| [CortexDB](https://github.com/liliang-cn/cortexdb) | Combines a knowledge graph, constraints and traceable reasoning in a single SQLite file. | 531 | 602 | 2026-11-25 | 81.7 | MIT |
+| [Neo4j Agent Memory](https://github.com/neo4j-labs/agent-memory) | Graph-based agent memory and context graph storing conversations, entities, relations and reasoning traces. | 616 | 201 | 2026-10-27 | 70.3 | Apache-2.0 |
+| [Memoir](https://github.com/zhangfengcdt/memoir) | Layered agent memory with Git-style version control. | 644 | 33 | 2026-10-27 | 60.4 | Apache-2.0 |
+| [Lemmalog](https://github.com/JordyZomer/lemmalog) | Builds agent memory from Datalog rules, source facts and incremental derivation. | 352 | 39 | 2026-10-01 | 54.7 | MIT |
+| [Memory Graph](https://github.com/memory-graph/memory-graph) | MCP memory service with relation tracking and graph queries for coding agents. | 258 | 9 | 2026-09-16 | 43.8 | MIT |
 
 ### Coding agents and MCP memory
 
 | Project | Positioning | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- |
-| [claude-mem](https://github.com/thedotmack/claude-mem) · ★Report baseline | Captures sessions and tool activity, compresses them into SQLite/FTS5/Chroma and recalls them in later sessions. | 118,529 | 2,403 | 2026-11-19 | 99.8 | Apache-2.0 |
-| [MCP Memory Service](https://github.com/doobidoo/mcp-memory-service) · ★Report baseline | Semantic memory, relations and background consolidation over MCP/REST with multiple storage backends. | 2,138 | 850 | 2026-11-20 | 86.6 | Apache-2.0 |
-| [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | Layered memory plugin for DeepSeek Harness combining runtime memory, project docs and swappable long-term memory backends. | 1,065 | 1,714 | 2026-11-20 | 84.1 | MIT |
-| [Memorix](https://github.com/AVIDS2/memorix) | Cross-host shared memory for multiple coding agents over MCP. | 943 | 197 | 2026-11-19 | 78.3 | Apache-2.0 |
-| [OKF Agent Memory](https://github.com/okf-memory/okf-agent-memory) | Git-native coding-agent memory with an embedded MCP server and progressive reading. | 871 | 243 | 2026-11-14 | 77.9 | MIT |
-| [projectmem](https://github.com/riponcm/projectmem) · ★Report baseline | Event-log recording of issues, attempts, fixes and decisions so coding agents avoid repeating failures. | 875 | 105 | 2026-11-01 | 70.2 | MIT |
-| [Mnemoverse Memory Server](https://github.com/mnemoverse/mcp-memory-server) | Hosted persistent memory over MCP with feedback reranking and multi-agent shared rooms. | 30 | 155 | 2026-11-18 | 65.0 | MIT |
-| [Codex Honcho](https://github.com/plastic-labs/codex-honcho) · ★Report baseline | Official integration connecting Codex sessions, tool activity and context injection to Honcho. | 66 | 1 | 2026-09-01 | 28.8 | MIT |
-| [MegaMemory](https://github.com/0xK3vin/MegaMemory) | Persistent project knowledge graph, semantic search and MCP service for coding agents. | 737 | 0 | 2026-05-03 | 25.6 | MIT |
+| [claude-mem](https://github.com/thedotmack/claude-mem) · ★Report baseline | Captures sessions and tool activity, compresses them into SQLite/FTS5/Chroma and recalls them in later sessions. | 119,651 | 2,482 | 2026-11-25 | 100.0 | Apache-2.0 |
+| [MCP Memory Service](https://github.com/doobidoo/mcp-memory-service) · ★Report baseline | Semantic memory, relations and background consolidation over MCP/REST with multiple storage backends. | 2,154 | 756 | 2026-11-25 | 86.6 | Apache-2.0 |
+| [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | Layered memory plugin for DeepSeek Harness combining runtime memory, project docs and swappable long-term memory backends. | 1,127 | 1,686 | 2026-11-24 | 84.2 | MIT |
+| [OKF Agent Memory](https://github.com/okf-memory/okf-agent-memory) | Git-native coding-agent memory with an embedded MCP server and progressive reading. | 872 | 247 | 2026-11-21 | 78.5 | MIT |
+| [Memorix](https://github.com/AVIDS2/memorix) | Cross-host shared memory for multiple coding agents over MCP. | 948 | 171 | 2026-11-19 | 76.2 | Apache-2.0 |
+| [projectmem](https://github.com/riponcm/projectmem) · ★Report baseline | Event-log recording of issues, attempts, fixes and decisions so coding agents avoid repeating failures. | 886 | 123 | 2026-11-20 | 74.5 | MIT |
+| [Mnemoverse Memory Server](https://github.com/mnemoverse/mcp-memory-server) | Hosted persistent memory over MCP with feedback reranking and multi-agent shared rooms. | 30 | 142 | 2026-11-18 | 63.1 | MIT |
+| [Codex Honcho](https://github.com/plastic-labs/codex-honcho) · ★Report baseline | Official integration connecting Codex sessions, tool activity and context injection to Honcho. | 66 | 1 | 2026-09-01 | 28.3 | MIT |
+| [MegaMemory](https://github.com/0xK3vin/MegaMemory) | Persistent project knowledge graph, semantic search and MCP service for coding agents. | 739 | 0 | 2026-05-03 | 25.5 | MIT |
 | [mcp-mem0](https://github.com/coleam00/mcp-mem0) | Wraps Mem0 long-term memory as an MCP service for agent clients. | 686 | 0 | 2025-04-13 | 22.7 | MIT |
 
 ### Experience, skills and procedural memory
 
 | Project | Positioning | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- |
-| [memU](https://github.com/NevaMind-AI/memU) · ★Report baseline | Personal cross-agent memory with host bridging; agents distill Markdown and memory Skills. | 14,629 | 55 | 2026-11-20 | 81.0 | Apache-2.0 |
-| [Mengram](https://github.com/alibaizhanov/mengram) · ★Report baseline | Organizes semantic, episodic and procedural memory and improves workflows with failure feedback. | 207 | 97 | 2026-11-09 | 66.5 | Apache-2.0 |
-| [LangMem](https://github.com/langchain-ai/langmem) · ★Report baseline | Extracts long-term facts from conversations, searches memory and optimizes agent behavior through experiences. | 1,778 | 13 | 2026-11-16 | 64.8 | MIT |
-| [Engram · vincents-ai](https://github.com/vincents-ai/engram) · ★Report baseline · License caution | Distributed project context, tasks, reasoning and team knowledge for multi-agent teams. | 25 | 9 | 2026-11-17 | 48.5 | AGPL-3.0-or-later or commercial license |
-| [Acontext](https://github.com/memodb-io/Acontext) · ★Report baseline · Archived/historical | Distills readable, editable operating experience and Skills from agent executions and artifacts. | 3,697 | 2 | 2026-10-24 | 53.3 | Apache-2.0 |
+| [memU](https://github.com/NevaMind-AI/memU) · ★Report baseline | Personal cross-agent memory with host bridging; agents distill Markdown and memory Skills. | 14,639 | 61 | 2026-11-24 | 81.2 | Apache-2.0 |
+| [Mengram](https://github.com/alibaizhanov/mengram) · ★Report baseline | Organizes semantic, episodic and procedural memory and improves workflows with failure feedback. | 207 | 88 | 2026-11-09 | 64.8 | Apache-2.0 |
+| [LangMem](https://github.com/langchain-ai/langmem) · ★Report baseline | Extracts long-term facts from conversations, searches memory and optimizes agent behavior through experiences. | 1,793 | 13 | 2026-11-16 | 63.5 | MIT |
+| [Engram · vincents-ai](https://github.com/vincents-ai/engram) · ★Report baseline · License caution | Distributed project context, tasks, reasoning and team knowledge for multi-agent teams. | 25 | 9 | 2026-11-17 | 47.2 | AGPL-3.0-or-later or commercial license |
+| [Acontext](https://github.com/memodb-io/Acontext) · ★Report baseline · Archived/historical | Distills readable, editable operating experience and Skills from agent executions and artifacts. | 3,697 | 2 | 2026-10-24 | 52.3 | Apache-2.0 |
 
 ### Research implementations and benchmarks
 
 | Project | Positioning | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- |
-| [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) | Runtime guard and reference implementation against agent-memory and context poisoning. | 207 | 258 | 2026-11-20 | 74.7 | Apache-2.0 |
-| [MemT-1.0](https://github.com/MemTensor/MemT-1.0) · License caution | Memory-model family exploring model-native memory read/write and Mixture-of-Storage. | 545 | 7 | 2026-11-20 | 58.6 | PolyForm Noncommercial-1.0.0 |
-| [Agent Memory Benchmarks](https://github.com/RonsenbergVI/agent-memory-benchmarks) | Open evaluations and reference implementations of agent memory systems such as LongMemEval and LoCoMo. | 2 | 246 | 2026-11-09 | 57.0 | MIT |
-| [MemForest · Concyclics](https://github.com/Concyclics/MemForest) · ★Report baseline | Organizes long-term memory with a hierarchical temporal index and offers a Python experimental interface. | 37 | 33 | 2026-11-11 | 55.2 | MIT |
-| [Agent Memory Leaderboard](https://github.com/AML-memory/agent-memory-leaderboard) · License caution | Collects evaluation results and comparison material for agent memory systems. | 1,138 | 3 | 2026-11-02 | 52.8 | Unverified |
-| [MemSkill](https://github.com/ViktorAxelsen/MemSkill) | Models memory operations such as extraction, consolidation and pruning as learnable, evolvable Skills. | 608 | 3 | 2026-10-01 | 44.5 | Apache-2.0 |
-| [MemoryAgentBench](https://github.com/HUST-AI-HYZ/MemoryAgentBench) · ★Report baseline | Evaluates agent memory construction and usage through incremental multi-turn interaction. | 491 | 3 | 2026-09-25 | 42.7 | MIT |
-| [T-Mem](https://github.com/Sherlockwz/T-Mem) · ★Report baseline | Research on associative recall: write-time cues trigger future queries, with combined fact and scene indexing. | 199 | 4 | 2026-09-09 | 38.7 | MIT |
-| [MemForest · EventTree](https://github.com/Celina-love-sweet/MemForest) · ★Report baseline | Segments long-term memory through an EventTree with progressive merging and compression. | 60 | 4 | 2026-09-17 | 35.6 | MIT |
-| [Agent Memory Radar](https://github.com/H20Zhang/Agent-Memory-Radar) · License caution | Research radar curating memory mechanisms, benchmarks, poisoning, forgetting and recovery evidence. | 3 | 11 | 2026-09-11 | 30.2 | CC-BY-4.0 content / MIT code |
-| [MemoryStackBench](https://github.com/aetna000/MemoryStackBench) | Automated evaluation of agent memory security, evidence, deletion completeness and auditability. | 6 | 6 | 2026-09-11 | 29.2 | Apache-2.0 |
-| [SimpleMem](https://github.com/aiming-lab/SimpleMem) · ★Report baseline | Research on semantic structured compression, memory consolidation and adaptive retrieval. | 3,884 | 0 | 2026-07-24 | 35.4 | MIT |
-| [MemoryOS](https://github.com/BAI-LAB/MemoryOS) · ★Report baseline | Research on short-, medium- and long-term layered memory, updates and user-profile management. | 1,627 | 0 | 2026-07-07 | 31.2 | Apache-2.0 |
-| [A-MEM](https://github.com/agiresearch/A-mem) · ★Report baseline | Borrows from Zettelkasten to automatically organize, link and evolve memory notes. | 1,217 | 0 | 2025-12-12 | 25.2 | MIT |
+| [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) | Runtime guard and reference implementation against agent-memory and context poisoning. | 212 | 245 | 2026-11-25 | 74.5 | Apache-2.0 |
+| [MemT-1.0](https://github.com/MemTensor/MemT-1.0) · License caution | Memory-model family exploring model-native memory read/write and Mixture-of-Storage. | 603 | 7 | 2026-11-20 | 57.6 | PolyForm Noncommercial-1.0.0 |
+| [Agent Memory Benchmarks](https://github.com/RonsenbergVI/agent-memory-benchmarks) | Open evaluations and reference implementations of agent memory systems such as LongMemEval and LoCoMo. | 2 | 210 | 2026-11-09 | 55.0 | MIT |
+| [MemForest · Concyclics](https://github.com/Concyclics/MemForest) · ★Report baseline | Organizes long-term memory with a hierarchical temporal index and offers a Python experimental interface. | 37 | 25 | 2026-11-11 | 52.5 | MIT |
+| [Agent Memory Leaderboard](https://github.com/AML-memory/agent-memory-leaderboard) · License caution | Collects evaluation results and comparison material for agent memory systems. | 1,241 | 2 | 2026-11-02 | 50.3 | Unverified |
+| [MemSkill](https://github.com/ViktorAxelsen/MemSkill) | Models memory operations such as extraction, consolidation and pruning as learnable, evolvable Skills. | 610 | 3 | 2026-10-01 | 43.7 | Apache-2.0 |
+| [MemoryAgentBench](https://github.com/HUST-AI-HYZ/MemoryAgentBench) · ★Report baseline | Evaluates agent memory construction and usage through incremental multi-turn interaction. | 491 | 3 | 2026-09-25 | 42.0 | MIT |
+| [T-Mem](https://github.com/Sherlockwz/T-Mem) · ★Report baseline | Research on associative recall: write-time cues trigger future queries, with combined fact and scene indexing. | 199 | 3 | 2026-09-09 | 36.8 | MIT |
+| [MemForest · EventTree](https://github.com/Celina-love-sweet/MemForest) · ★Report baseline | Segments long-term memory through an EventTree with progressive merging and compression. | 63 | 4 | 2026-09-17 | 35.1 | MIT |
+| [MemoryStackBench](https://github.com/aetna000/MemoryStackBench) | Automated evaluation of agent memory security, evidence, deletion completeness and auditability. | 6 | 6 | 2026-09-11 | 28.6 | Apache-2.0 |
+| [Agent Memory Radar](https://github.com/H20Zhang/Agent-Memory-Radar) · License caution | Research radar curating memory mechanisms, benchmarks, poisoning, forgetting and recovery evidence. | 3 | 7 | 2026-09-11 | 27.3 | CC-BY-4.0 content / MIT code |
+| [SimpleMem](https://github.com/aiming-lab/SimpleMem) · ★Report baseline | Research on semantic structured compression, memory consolidation and adaptive retrieval. | 3,881 | 0 | 2026-07-24 | 35.0 | MIT |
+| [MemoryOS](https://github.com/BAI-LAB/MemoryOS) · ★Report baseline | Research on short-, medium- and long-term layered memory, updates and user-profile management. | 1,626 | 0 | 2026-07-07 | 30.9 | Apache-2.0 |
+| [A-MEM](https://github.com/agiresearch/A-mem) · ★Report baseline | Borrows from Zettelkasten to automatically organize, link and evolve memory notes. | 1,218 | 0 | 2025-12-12 | 25.2 | MIT |
 | [agentmemory · JordanMcCann](https://github.com/JordanMcCann/agentmemory) · ★Report baseline | Research into multi-signal retrieval across semantic, lexical, graph, importance and temporal signals. | 46 | 0 | 2026-03-26 | 15.1 | MIT |
-| [MPBench](https://github.com/Digital-Trust-Lab/mp-bench) | Dataset of memory-poisoning attacks evaluating persistent writes, later retrieval and behavior triggering. | 7 | 0 | 2026-06-28 | 12.2 | Apache-2.0 |
-| [agent-memory-bench](https://github.com/thomasfevre/agent-memory-bench) · License caution | Reproducible memory evaluation emphasizing evidence hits, answers and retrieval behavior. | 0 | 0 | 2026-07-30 | 7.2 | Unverified |
-| [MemEngine](https://github.com/nuster1128/MemEngine) · ★Report baseline · License caution | Modular agent-memory research library covering multiple memory modules and evaluations. | 116 | 0 | 2025-05-13 | 16.6 | Unverified |
+| [MPBench](https://github.com/Digital-Trust-Lab/mp-bench) | Dataset of memory-poisoning attacks evaluating persistent writes, later retrieval and behavior triggering. | 7 | 0 | 2026-06-28 | 12.0 | Apache-2.0 |
+| [agent-memory-bench](https://github.com/thomasfevre/agent-memory-bench) · License caution | Reproducible memory evaluation emphasizing evidence hits, answers and retrieval behavior. | 0 | 0 | 2026-07-30 | 6.8 | Unverified |
+| [MemEngine](https://github.com/nuster1128/MemEngine) · ★Report baseline · License caution | Modular agent-memory research library covering multiple memory modules and evaluations. | 117 | 0 | 2025-05-13 | 16.6 | Unverified |
 | [MemoryBank / SiliconFriend](https://github.com/zhongwanjun/MemoryBank-SiliconFriend) · ★Report baseline · Archived/historical | Early research implementation of long-term interaction, user profiling, memory reinforcement and forgetting. | 456 | 0 | 2023-05-24 | 21.3 | MIT |
 
 ### Adjacent platforms, specifications and indexes
 
 | Project | Positioning | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- |
-| [QMD](https://github.com/tobi/qmd) · ★Report baseline | BM25, vector, query expansion, rerank and MCP for local Markdown and documents. | 31,279 | 132 | 2026-11-18 | 87.9 | MIT |
-| [Awesome Agent Memory · mnemoverse](https://github.com/mnemoverse/awesome-agent-memory) | External index of agent memory systems, frameworks, benchmarks and research. | 68 | 85 | 2026-11-19 | 64.6 | CC0-1.0 |
-| [Letta / MemGPT](https://github.com/letta-ai/letta) · ★Report baseline | Complete agent platform built around persistent state and agent-managed context. | 25,501 | 5 | 2026-10-18 | 62.8 | Apache-2.0 |
-| [MineContext](https://github.com/volcengine/MineContext) · ★Report baseline | Generates activities, summaries and queryable material from digital context such as the screen. | 5,553 | 0 | 2026-05-07 | 32.8 | Apache-2.0 |
-| [MCP Memory Server](https://github.com/modelcontextprotocol/servers) · ★Report baseline · Archived/historical · License caution | The entities, relations and observations memory components in the official MCP servers parent repository. | 92,129 | 1,119 | 2026-11-18 | 99.2 | Apache-2.0 / MIT transition; docs CC-BY-4.0 |
+| [QMD](https://github.com/tobi/qmd) · ★Report baseline | BM25, vector, query expansion, rerank and MCP for local Markdown and documents. | 31,587 | 131 | 2026-11-20 | 87.2 | MIT |
+| [Awesome Agent Memory · mnemoverse](https://github.com/mnemoverse/awesome-agent-memory) | External index of agent memory systems, frameworks, benchmarks and research. | 68 | 87 | 2026-11-23 | 64.4 | CC0-1.0 |
+| [Letta / MemGPT](https://github.com/letta-ai/letta) · ★Report baseline | Complete agent platform built around persistent state and agent-managed context. | 25,540 | 4 | 2026-10-18 | 60.8 | Apache-2.0 |
+| [MineContext](https://github.com/volcengine/MineContext) · ★Report baseline | Generates activities, summaries and queryable material from digital context such as the screen. | 5,556 | 0 | 2026-05-07 | 32.6 | Apache-2.0 |
+| [MCP Memory Server](https://github.com/modelcontextprotocol/servers) · ★Report baseline · Archived/historical · License caution | The entities, relations and observations memory components in the official MCP servers parent repository. | 92,237 | 1,119 | 2026-11-18 | 97.8 | Apache-2.0 / MIT transition; docs CC-BY-4.0 |
 
 ### Historical, archived and restricted licenses
 
 | Project | Positioning | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Engram App](https://github.com/engram-app/Engram) · ★Report baseline · License caution | Source-available project offering cognitive memory with agent integrations. | 2 | 746 | 2026-11-20 | 63.8 | PolyForm Small Business-1.0.0 / commercial license |
-| [Katra](https://github.com/kolegadev/Katra-Agentic-Memory) · License caution | MCP cognitive memory device with episodic, semantic, graph and sleep-time consolidation. | 9 | 123 | 2026-10-29 | 54.8 | BSL-1.1 |
-| [Zep Legacy Community Edition](https://github.com/getzep/zep) · ★Report baseline · Archived/historical | Zep's old Community Edition plus integration examples for the current cloud product. | 5,010 | 27 | 2026-11-17 | 72.7 | Apache-2.0 |
-| [Engram · Agentscreator](https://github.com/Agentscreator/engram-memory) · ★Report baseline · Archived/historical | Archived project on shared multi-agent memory, conflicts and consistency. | 82 | 0 | 2026-05-23 | 18.7 | Apache-2.0 |
+| [Engram App](https://github.com/engram-app/Engram) · ★Report baseline · License caution | Source-available project offering cognitive memory with agent integrations. | 2 | 743 | 2026-11-25 | 63.8 | PolyForm Small Business-1.0.0 / commercial license |
+| [Katra](https://github.com/kolegadev/Katra-Agentic-Memory) · License caution | MCP cognitive memory device with episodic, semantic, graph and sleep-time consolidation. | 9 | 119 | 2026-10-29 | 53.5 | BSL-1.1 |
+| [Zep Legacy Community Edition](https://github.com/getzep/zep) · ★Report baseline · Archived/historical | Zep's old Community Edition plus integration examples for the current cloud product. | 5,013 | 27 | 2026-11-17 | 71.3 | Apache-2.0 |
+| [Engram · Agentscreator](https://github.com/Agentscreator/engram-memory) · ★Report baseline · Archived/historical | Archived project on shared multi-agent memory, conflicts and consistency. | 82 | 0 | 2026-05-23 | 18.5 | Apache-2.0 |
 | [EverMemOS_bz](https://github.com/beizhangnina/EverMemOS_bz) · Archived/historical | Fork of EverMemOS preserving the older implementation centered on conversation extraction, structured memory and multi-strategy recall. | 1 | 0 | 2025-11-28 | 2.9 | Apache-2.0 |
 
 ## How to choose
