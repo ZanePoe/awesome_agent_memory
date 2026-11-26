@@ -9,7 +9,7 @@ Gestiona hechos estructurados, experiencias, entidades y observaciones sintétic
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: El despliegue, la combinación de modelos y el protocolo de evaluación afectan de forma significativa los resultados y el coste.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 353 commits en 30 días, 1619 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 368 commits en 30 días, 1637 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/vectorize-io/hindsight/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/vectorize-io/hindsight/blob/7cec128b8fdb0a696366d888e63be71fe1d52338/README.md#L3).
 
@@ -19,7 +19,7 @@ Gestiona de forma unificada recursos, memoria de largo plazo y Agent Skills medi
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: Las rutas virtuales del servidor no son archivos locales corrientes; la frescura de resúmenes, extracciones e índices sigue requiriendo verificación.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 635 commits en 30 días, 1456 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 643 commits en 30 días, 1465 commits en 90 días.
 - Licencia: [AGPL-3.0](https://api.github.com/repos/volcengine/OpenViking/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/volcengine/OpenViking/blob/82ec6d10bcf9e4dfcf8c2c39881d5c71a43df6fb/README.md#L3).
 
@@ -29,7 +29,7 @@ Servicio y complementos de memoria para agentes de programación que fusionan BM
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: No tiene relación con los demás proyectos homónimos agentmemory; hay que distinguir sus puntos de entrada de despliegue.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 117 commits en 30 días, 233 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 116 commits en 30 días, 233 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/rohitg00/agentmemory/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/rohitg00/agentmemory/blob/57bc38489ee6f370fdc04da56e26e62ba90cbccf/README.md#L2).
 
@@ -39,7 +39,7 @@ Forma de manera continua representaciones de los pares y comprensión colaborati
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: La inferencia puede ampliar los hechos explícitos; borrar la conversación original no garantiza por sí solo que se eliminen todas las conclusiones derivadas.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 118 commits en 30 días, 300 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 135 commits en 30 días, 317 commits en 90 días.
 - Licencia: [AGPL-3.0](https://api.github.com/repos/plastic-labs/honcho/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/plastic-labs/honcho/blob/ca81eed3ddca57d7407854c5f447195779dcabf2/README.md#L3).
 
@@ -49,7 +49,7 @@ Plataforma de búsqueda híbrida y memoria para documentos, memorias y perfiles 
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: Las rutas de datos del servicio open source y de capacidades externas como el reader gestionado exigen verificación caso por caso.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 28 commits en 30 días, 130 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 26 commits en 30 días, 128 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/supermemoryai/supermemory/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/supermemoryai/supermemory/blob/8af3b9108f1a4dce45b10cfa4f8f0af027b4197b/README.md#L5).
 
@@ -59,7 +59,7 @@ Capa de personalización universal que extrae, actualiza, borra y recupera memor
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: La librería open source, la plataforma gestionada y las distintas integraciones requieren verificar por separado sus rutas de datos.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 10 commits en 30 días, 69 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 9 commits en 30 días, 68 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/mem0ai/mem0/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/mem0ai/mem0/blob/f1791daa86d469249c9b002f62644d58a1eb96a0/README.md#L2).
 
@@ -69,7 +69,7 @@ Motor de memoria cognitiva de doble sistema y SDK de Python para escenarios de c
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: El motor Hy Memory y la capa de producto MemHub tienen responsabilidades distintas; las rutas de modelos y datos deben verificarse por componente.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 492 commits en 30 días, 604 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 455 commits en 30 días, 604 commits en 90 días.
 - Licencia: [Apache-2.0](https://github.com/Tencent-Hunyuan/Hy-Memory/blob/8f30a9c05db2ec8a7836a89928399bd2815e3b57/LICENSE); Licencia abierta verificada. El LICENSE raíz confirma que no hay restricciones adicionales sobre Apache-2.0; el alcance de parámetros y pesos públicos se rige por el texto del LICENSE.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/Tencent-Hunyuan/Hy-Memory/blob/8f30a9c05db2ec8a7836a89928399bd2815e3b57/README.md#L5).
 
@@ -79,7 +79,7 @@ Centro de memoria para equipos que convierte conversaciones, documentos y códig
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: La rama por defecto puede ser de desarrollo; las fronteras del proxy de protocolo y del despliegue de base de datos requieren verificación con versión fijada.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 14 commits en 30 días, 60 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 13 commits en 30 días, 60 commits en 90 días.
 - Licencia: [MIT](https://github.com/TencentCloud/TencentDB-Agent-Memory/blob/42d4cde50c5a83182fced8c584f9ddb32a620615/LICENSE); Licencia abierta verificada. LICENSE raíz verificado manualmente.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/TencentCloud/TencentDB-Agent-Memory/blob/42d4cde50c5a83182fced8c584f9ddb32a620615/README.md#L4).
 
@@ -89,7 +89,7 @@ Sistema operativo de memoria para agentes que cubre varios tipos de memoria, rec
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: El servicio principal, el producto cloud y el plugin local usan rutas de almacenamiento y despliegue distintas.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 23 commits en 30 días, 112 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 19 commits en 30 días, 104 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/MemTensor/MemOS/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/MemTensor/MemOS/blob/3a16e5fe3048a209f722806f4123fa2e533588fd/README.md#L3).
 
@@ -99,19 +99,9 @@ Capa de memoria consciente del usuario: alcance, procedencia, correcciones, fron
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: Proyecto nuevo; conviene separar las capacidades documentadas hoy de los resultados reales de benchmarks.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 517 commits en 30 días, 731 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 503 commits en 30 días, 731 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/joshuaswarren/remnic/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/joshuaswarren/remnic/blob/a33e17fb8a349d17a3119bbef2ab546d39d6e143/README.md#L1).
-
-## [Mnemon](https://github.com/mnemon-dev/mnemon)
-
-Memoria persistente entre sesiones para agentes: organiza el conocimiento en estructura de grafo, con recuperación sensible a la intención e integración con varios hospedadores.
-
-- Categoría: Motores y servicios de memoria; Candidato principal.
-- Frontera de aplicación: El motor de memoria local, el LLM del hospedador, Agency Preview y la demo de pruebas AML son componentes distintos; los resultados de rankings publicados dependen de modelos y versiones concretos y no son una garantía de rendimiento general.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 31 commits en 30 días, 121 commits en 90 días.
-- Licencia: [Apache-2.0](https://github.com/mnemon-dev/mnemon/blob/ccc8ace2d21aa4667535c58910fe953f3bbe764a/LICENSE); Licencia abierta verificada. El LICENSE raíz es Apache-2.0; las licencias de modelos, servicios y datos de terceros se cuentan aparte.
-- Verificación funcional: 2026-11-20; [Fuente 1](https://github.com/mnemon-dev/mnemon/blob/ccc8ace2d21aa4667535c58910fe953f3bbe764a/README.md#L32).
 
 ## [MemMachine](https://github.com/MemMachine/MemMachine)
 
@@ -119,19 +109,19 @@ Servicio de memoria de agentes universal con interfaces por usuario, proyecto y 
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: Los backends, los modelos y el aislamiento de inquilinos deben verificarse según la configuración real de despliegue.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 9 commits en 30 días, 45 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 13 commits en 30 días, 49 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/MemMachine/MemMachine/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/MemMachine/MemMachine/blob/377510d436dc81c3651502f2d5e36ff245650ce7/README.md#L1).
 
-## [Membase](https://github.com/membaseai/membase)
+## [Mnemon](https://github.com/mnemon-dev/mnemon)
 
-Capa de memoria entre agentes con SDK, CLI y MCP, usable con cuenta gestionada o almacenamiento local.
+Memoria persistente entre sesiones para agentes: organiza el conocimiento en estructura de grafo, con recuperación sensible a la intención e integración con varios hospedadores.
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
-- Frontera de aplicación: Distinta de memodb-io/Memobase; las fronteras de datos, autenticación y capacidades de los modos gestionado y local deben verificarse por separado.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 73 commits en 30 días, 168 commits en 90 días.
-- Licencia: [MIT](https://api.github.com/repos/membaseai/membase/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
-- Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/membaseai/membase/blob/59100235fa918bdfd19d02b9cf06fac178a839cb/README.md#L30).
+- Frontera de aplicación: El motor de memoria local, el LLM del hospedador, Agency Preview y la demo de pruebas AML son componentes distintos; los resultados de rankings publicados dependen de modelos y versiones concretos y no son una garantía de rendimiento general.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 24 commits en 30 días, 121 commits en 90 días.
+- Licencia: [Apache-2.0](https://github.com/mnemon-dev/mnemon/blob/ccc8ace2d21aa4667535c58910fe953f3bbe764a/LICENSE); Licencia abierta verificada. El LICENSE raíz es Apache-2.0; las licencias de modelos, servicios y datos de terceros se cuentan aparte.
+- Verificación funcional: 2026-11-20; [Fuente 1](https://github.com/mnemon-dev/mnemon/blob/ccc8ace2d21aa4667535c58910fe953f3bbe764a/README.md#L32).
 
 ## [openJiuwen Agent Memory](https://github.com/openJiuwen-ai/agent-memory)
 
@@ -139,9 +129,29 @@ Aporta a los agentes extracción, almacenamiento, recuperación y migración de 
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: La rama por defecto y la línea de evolución mem2.0 pueden diferir; conviene fijar la versión al adoptarlo.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 81 commits en 30 días, 174 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 84 commits en 30 días, 177 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/openJiuwen-ai/agent-memory/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/openJiuwen-ai/agent-memory/blob/2a77650c16f8fe073d8713bc91fc703a7233359d/README.md#L1).
+
+## [LongMemory](https://github.com/CaviraOSS/LongMemory)
+
+Memoria de largo plazo local en TypeScript/SQLite con procedencia, tiempo, selección de evidencia y presupuesto de tokens.
+
+- Categoría: Motores y servicios de memoria; Candidato principal.
+- Frontera de aplicación: Antes se llamaba Cavira OpenMemory; no confundir con el OpenMemory de Mem0.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 5 commits en 30 días, 18 commits en 90 días.
+- Licencia: [Apache-2.0](https://api.github.com/repos/CaviraOSS/LongMemory/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
+- Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/CaviraOSS/LongMemory/blob/aec98ced33a7586a2fcd198a04bc38b5590750c4/README.md#L12).
+
+## [Membase](https://github.com/membaseai/membase)
+
+Capa de memoria entre agentes con SDK, CLI y MCP, usable con cuenta gestionada o almacenamiento local.
+
+- Categoría: Motores y servicios de memoria; Candidato principal.
+- Frontera de aplicación: Distinta de memodb-io/Memobase; las fronteras de datos, autenticación y capacidades de los modos gestionado y local deben verificarse por separado.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 70 commits en 30 días, 168 commits en 90 días.
+- Licencia: [MIT](https://api.github.com/repos/membaseai/membase/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
+- Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/membaseai/membase/blob/59100235fa918bdfd19d02b9cf06fac178a839cb/README.md#L30).
 
 ## [MIRIX](https://github.com/Mirix-AI/MIRIX)
 
@@ -153,23 +163,13 @@ Sistema de memoria de largo plazo multitipo, multiagente y multimodal que sigue 
 - Licencia: [Apache-2.0](https://api.github.com/repos/Mirix-AI/MIRIX/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/Mirix-AI/MIRIX/blob/9077e4b229dd8f61c5703b431a97788c6b61acfb/README.md#L1).
 
-## [LongMemory](https://github.com/CaviraOSS/LongMemory)
-
-Memoria de largo plazo local en TypeScript/SQLite con procedencia, tiempo, selección de evidencia y presupuesto de tokens.
-
-- Categoría: Motores y servicios de memoria; Candidato principal.
-- Frontera de aplicación: Antes se llamaba Cavira OpenMemory; no confundir con el OpenMemory de Mem0.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 3 commits en 30 días, 16 commits en 90 días.
-- Licencia: [Apache-2.0](https://api.github.com/repos/CaviraOSS/LongMemory/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
-- Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/CaviraOSS/LongMemory/blob/aec98ced33a7586a2fcd198a04bc38b5590750c4/README.md#L12).
-
 ## [Agent Memory Lab](https://github.com/agent-memory-lab/agent-memory)
 
 Motor de memoria centrado en evidencia de origen, corrección de hechos, validez temporal y alcance.
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: El README lo marca como Alpha; la descripción funcional no equivale a madurez de producción.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 33 commits en 30 días, 261 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 30 commits en 30 días, 261 commits en 90 días.
 - Licencia: [Apache-2.0](https://github.com/agent-memory-lab/agent-memory/blob/852ff6a47553dda487d716ec329dcf7494bf62a0/LICENSE); Licencia abierta verificada. LICENSE raíz verificado manualmente.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/agent-memory-lab/agent-memory/blob/852ff6a47553dda487d716ec329dcf7494bf62a0/README.md#L1).
 
@@ -199,7 +199,7 @@ SQLite que aloja memoria episódica, semántica y procedimental, hechos bi-tempo
 
 - Categoría: Motores y servicios de memoria; Candidato principal.
 - Frontera de aplicación: Proyecto nuevo; funciones y rendimiento aún requieren mediciones unificadas.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 7 commits en 30 días, 37 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 7 commits en 30 días, 35 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/TAIPANBOX/engram/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/TAIPANBOX/engram/blob/f6a6898de8968e4c004ee005e8a8887239493fa4/README.md#L3).
 
@@ -279,7 +279,7 @@ Memoria persistente en Go/SQLite/FTS5 para agentes de programación, con MCP, HT
 
 - Categoría: Archivos como fuente de verdad y memoria auditable; Candidato principal.
 - Frontera de aplicación: No tiene relación con los demás Engram homónimos; la instalación en varios hospedadores requiere verificación aparte.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 200 commits en 30 días, 941 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 195 commits en 30 días, 827 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/Gentleman-Programming/engram/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/Gentleman-Programming/engram/blob/a5d4fa7be7f7e41054f5578ce3d21b7da616bb1d/README.md#L10).
 
@@ -289,7 +289,7 @@ Usa notas Markdown editables y relaciones semánticas como memoria de conocimien
 
 - Categoría: Archivos como fuente de verdad y memoria auditable; Candidato principal.
 - Frontera de aplicación: Más cerca de la memoria de conocimiento y del workspace MCP; no asume por sí mismo el ciclo de corrección de hechos.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 198 commits en 30 días, 837 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 196 commits en 30 días, 839 commits en 90 días.
 - Licencia: [AGPL-3.0](https://api.github.com/repos/basicmachines-co/basic-memory/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/basicmachines-co/basic-memory/blob/370ae9d8e89630bc27a6e3973341a05102f00b62/README.md#L13).
 
@@ -299,7 +299,7 @@ Capa de memoria multiframework basada en SQLite, local por defecto, con MCP e in
 
 - Categoría: Archivos como fuente de verdad y memoria auditable; Candidato principal.
 - Frontera de aplicación: Hay muchos proyectos homónimos Mnemosyne; las opciones de embeddings remotos, sincronización y LLM alteran la frontera sin nube.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 435 commits en 30 días, 927 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 413 commits en 30 días, 919 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/mnemosyne-oss/mnemosyne/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/mnemosyne-oss/mnemosyne/blob/2c54c97c07ac35449587931b28c272f3dc177282/README.md#L7).
 
@@ -309,7 +309,7 @@ Gestiona episodios/perfiles de usuario y casos/habilidades de agentes con Markdo
 
 - Categoría: Archivos como fuente de verdad y memoria auditable; Candidato principal.
 - Frontera de aplicación: La descripción arquitectónica del antiguo EverMemOS quedó obsoleta; no se le pueden aplicar sus dependencias de despliegue.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 66 commits en 30 días, 121 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 67 commits en 30 días, 122 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/EverMind-AI/EverOS/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/EverMind-AI/EverOS/blob/9cd1be60e6d9190c0391b2c185beb445600b8b9f/README.md#L3).
 
@@ -319,7 +319,7 @@ Markdown como fuente de verdad, SQLite como índice reconstruible y una capa ind
 
 - Categoría: Archivos como fuente de verdad y memoria auditable; Candidato principal.
 - Frontera de aplicación: Al compartir archivos entre hospedadores siguen haciendo falta diseños de privacidad, concurrencia y alcance por proyecto.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 95 commits en 30 días, 381 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 84 commits en 30 días, 381 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/tigerless-labs/agent-memory/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/tigerless-labs/agent-memory/blob/2648ba02d3c0364f9787f0e8fb49f69f47d2e3f7/README.md#L17).
 
@@ -329,7 +329,7 @@ Organiza hechos y experiencias con Markdown, frontmatter y wikilinks; búsqueda 
 
 - Categoría: Archivos como fuente de verdad y memoria auditable; Candidato principal.
 - Frontera de aplicación: El repositorio conserva la forma antigua de MemoryScope; al adoptarlo, la interfaz actual manda.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 65 commits en 30 días, 187 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 69 commits en 30 días, 188 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/agentscope-ai/ReMe/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/agentscope-ai/ReMe/blob/37395034cf06f6c56268f2e738fab2a14779e513/README.md#L2).
 
@@ -339,7 +339,7 @@ Markdown como fuente de verdad con índice derivado en Milvus: vectorial/BM25/RR
 
 - Categoría: Archivos como fuente de verdad y memoria auditable; Candidato principal.
 - Frontera de aplicación: Resúmenes, archivos, índices y conversaciones originales pueden desincronizarse; sin relación con el concepto de búsqueda homónimo de OpenViking.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 27 commits en 30 días, 70 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 25 commits en 30 días, 69 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/zilliztech/memsearch/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/zilliztech/memsearch/blob/a81ac682b547f86df25cd70a9477ada543de67ae/README.md#L4).
 
@@ -389,7 +389,7 @@ Convierte documentos, código y conversaciones en entidades, relaciones y grafos
 
 - Categoría: Grafos, entidades y memoria temporal; Candidato principal.
 - Frontera de aplicación: Las rutas de despliegue actuales evolucionan sin parar; no vale aferrarse a afirmaciones multibase de versiones antiguas.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 843 commits en 30 días, 2827 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 812 commits en 30 días, 2817 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/topoteretes/cognee/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/topoteretes/cognee/blob/8853378eae5366addb064e758e560a456146ae1a/README.md#L2).
 
@@ -399,7 +399,7 @@ Extrae entidades y relaciones en tiempo real, construye un grafo de conocimiento
 
 - Categoría: Grafos, entidades y memoria temporal; Candidato principal.
 - Frontera de aplicación: Los backends de grafo y los modelos de extracción afectan al coste; es el núcleo de grafos open source actual del ecosistema Zep.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 68 commits en 30 días, 162 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 69 commits en 30 días, 163 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/getzep/graphiti/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/getzep/graphiti/blob/ebef986a0b2360211b65751c111cacb4a7d790eb/README.md#L8).
 
@@ -409,7 +409,7 @@ Combina grafo de conocimiento, restricciones y razonamiento trazable dentro de u
 
 - Categoría: Grafos, entidades y memoria temporal; Candidato principal.
 - Frontera de aplicación: La forma local de archivo único sirve para experimentar; escala y concurrencia requieren pruebas propias.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 153 commits en 30 días, 602 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 151 commits en 30 días, 592 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/liliang-cn/cortexdb/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/liliang-cn/cortexdb/blob/d39714c86784edd23d42ce152a0243464ad2b15a/README.md#L1).
 
@@ -429,7 +429,7 @@ Memoria de agente jerárquica con control de versiones estilo Git.
 
 - Categoría: Grafos, entidades y memoria temporal; Candidato principal.
 - Frontera de aplicación: Proyecto nuevo; fusión, reversión y rendimiento del mecanismo versionado requieren pruebas propias.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 1 commits en 30 días, 33 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 0 commits en 30 días, 33 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/zhangfengcdt/memoir/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/zhangfengcdt/memoir/blob/7fd1b3ef704fc554596571d5b9c8b73d7f2b0c5d/README.md#L10).
 
@@ -439,7 +439,7 @@ Construye la memoria del agente con reglas Datalog, hechos de origen y derivaci�
 
 - Categoría: Grafos, entidades y memoria temporal; Candidato principal.
 - Frontera de aplicación: La calidad de la derivación depende de la ingesta de hechos y del diseño de reglas; es una ruta distinta de la recuperación vectorial.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 0 commits en 30 días, 39 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 0 commits en 30 días, 33 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/JordyZomer/lemmalog/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/JordyZomer/lemmalog/blob/9cc2cf1bc050ddd67cc1c6b644953377b0b9ef9d/README.md#L3).
 
@@ -449,7 +449,7 @@ Servicio MCP de memoria con seguimiento de relaciones y consultas de grafo para 
 
 - Categoría: Grafos, entidades y memoria temporal; Candidato principal.
 - Frontera de aplicación: Se orienta a la memoria relacional de proyectos; no equivale a una plataforma personal completa de memoria de largo plazo.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 0 commits en 30 días, 9 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 0 commits en 30 días, 3 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/memory-graph/memory-graph/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/memory-graph/memory-graph/blob/1adbd8bb527552e9f1510b5c1316a76ad58692d9/README.md#L2).
 
@@ -459,7 +459,7 @@ Captura sesiones y actividad de herramientas, los comprime en SQLite/FTS5/Chroma
 
 - Categoría: Agentes de programación y memoria MCP; Candidato principal.
 - Frontera de aplicación: El soporte multi-hospedador debe verificarse punto por punto; la captura puede incluir salidas sensibles de herramientas.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 1244 commits en 30 días, 2482 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 1288 commits en 30 días, 2539 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/thedotmack/claude-mem/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/thedotmack/claude-mem/blob/c4a9f5725f420bf9c6e866cdd3b94bd36498af09/README.md#L3).
 
@@ -469,7 +469,7 @@ Ofrece memoria semántica, relaciones y consolidación en segundo plano vía MCP
 
 - Categoría: Agentes de programación y memoria MCP; Candidato principal.
 - Frontera de aplicación: Que el autoalojamiento sea ligero no uniforma el comportamiento de todos los backends; hay que fijar la configuración al probar.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 288 commits en 30 días, 756 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 286 commits en 30 días, 729 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/doobidoo/mcp-memory-service/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/doobidoo/mcp-memory-service/blob/8823c8dd3d2937d8600c4d498a3aa8579c160810/README.md#L37).
 
@@ -479,7 +479,7 @@ Complemento de memoria jerárquica para DeepSeek Harness que combina memoria en 
 
 - Categoría: Agentes de programación y memoria MCP; Candidato principal.
 - Frontera de aplicación: Depende del hospedador DSH; los servicios, la ubicación de los datos y la capacidad de borrado varían según el proveedor, y la autoevolución de habilidades está desactivada por defecto.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 466 commits en 30 días, 1686 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 457 commits en 30 días, 1669 commits en 90 días.
 - Licencia: [MIT](https://github.com/omdsh-dev/dsh-mnemon/blob/5df51a6965e02069fd55bdf76395f1b293801c63/LICENSE); Licencia abierta verificada. El LICENSE raíz es MIT; las licencias y términos de servicio de los proveedores de terceros se cuentan aparte (véase THIRD_PARTY_NOTICES.md).
 - Verificación funcional: 2026-11-20; [Fuente 1](https://github.com/omdsh-dev/dsh-mnemon/blob/5df51a6965e02069fd55bdf76395f1b293801c63/README.md#L33).
 
@@ -489,7 +489,7 @@ Memoria Git-native para agentes de programación con MCP embebido y lectura prog
 
 - Categoría: Agentes de programación y memoria MCP; Candidato principal.
 - Frontera de aplicación: La rama de desarrollo por defecto puede cambiar; la implementación del protocolo y la compatibilidad con hospedadores exigen fijar la versión.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 23 commits en 30 días, 247 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 15 commits en 30 días, 247 commits en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/okf-memory/okf-agent-memory/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/okf-memory/okf-agent-memory/blob/1a6303d9f3582c6d238ace4d8643337baf06fc60/README.md#L3).
 
@@ -499,7 +499,7 @@ Memoria compartida entre hospedadores para varios agentes de programación a tra
 
 - Categoría: Agentes de programación y memoria MCP; Candidato principal.
 - Frontera de aplicación: El abanico de hospedadores soportados y la gobernanza del almacenamiento deben revisarse por versión.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 50 commits en 30 días, 171 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 50 commits en 30 días, 168 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/AVIDS2/memorix/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/AVIDS2/memorix/blob/674528015f8f78f98286739b173c993d888c2a43/README.md#L9).
 
@@ -559,7 +559,7 @@ Memoria personal entre agentes y puente con hospedadores: los agentes destilan M
 
 - Categoría: Experiencia, habilidades y memoria procedimental; Candidato principal.
 - Frontera de aplicación: MemoryService y el modelo de chat tienen responsabilidades separadas; no se debe asumir que el servicio destila por sí solo.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 37 commits en 30 días, 61 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 37 commits en 30 días, 62 commits en 90 días.
 - Licencia: [Apache-2.0](https://github.com/NevaMind-AI/memU/blob/fd86e38635f6edd8687de94079382d91381b2f5d/LICENSE.txt); Licencia abierta verificada. LICENSE.txt raíz verificado manualmente.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/NevaMind-AI/memU/blob/fd86e38635f6edd8687de94079382d91381b2f5d/README.md#L1).
 
@@ -569,7 +569,7 @@ Organiza memoria semántica, episódica y procedimental, y mejora los flujos de 
 
 - Categoría: Experiencia, habilidades y memoria procedimental; Candidato principal.
 - Frontera de aplicación: Hay que distinguir el producto gestionado del modo local; la actualización de memoria procedimental debe evitar consolidar errores.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 2 commits en 30 días, 88 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 2 commits en 30 días, 83 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/alibaizhanov/mengram/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/alibaizhanov/mengram/blob/691ab00107ca326a18e53ea078c4c53e6600c956/README.md#L4).
 
@@ -609,7 +609,7 @@ Protección en tiempo de ejecución e implementación de referencia contra la co
 
 - Categoría: Implementaciones de investigación y evaluación; Investigación/evaluación.
 - Frontera de aplicación: Es una capa de defensa, no una base de memoria; la adaptación a frameworks y las conclusiones de seguridad deben revalidarse en el sistema objetivo.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 66 commits en 30 días, 245 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 67 commits en 30 días, 246 commits en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/OWASP/www-project-agent-memory-guard/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/OWASP/www-project-agent-memory-guard/blob/7b1047c1461f3e22dd6d1b873aadcfc64484e649/README.md#L12).
 
@@ -639,7 +639,7 @@ Organiza la memoria de largo plazo con un índice temporal jerárquico y ofrece 
 
 - Categoría: Implementaciones de investigación y evaluación; Investigación/evaluación.
 - Frontera de aplicación: No debe fusionarse con el MemForest de EventTree; los resultados de investigación requieren replicación.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 10 commits en 30 días, 25 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 10 commits en 30 días, 24 commits en 90 días.
 - Licencia: [MIT](https://github.com/Concyclics/MemForest/blob/728b5a6f6235ba3a5dbf45e0c85efe15da3caa59/LICENSE); Licencia abierta verificada. LICENSE raíz verificado manualmente.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/Concyclics/MemForest/blob/728b5a6f6235ba3a5dbf45e0c85efe15da3caa59/README.md#L1).
 
@@ -709,7 +709,7 @@ Radar de investigación que compila mecanismos de memoria, benchmarks, contamina
 
 - Categoría: Implementaciones de investigación y evaluación; Investigación/evaluación.
 - Frontera de aplicación: Es un recurso de índice/auditoría de investigación, no un runtime de memoria.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 0 commits en 30 días, 7 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 0 commits en 30 días, 6 commits en 90 días.
 - Licencia: [CC-BY-4.0 contenido / MIT código](https://github.com/H20Zhang/Agent-Memory-Radar/blob/47379f841c844cf97d2cfe4a6156431c8ee572a3/LICENSE.md); Licencia compuesta/dividida. Licencia dividida entre el contenido de investigación y el código de mantenimiento.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/H20Zhang/Agent-Memory-Radar/blob/47379f841c844cf97d2cfe4a6156431c8ee572a3/README.md#L1).
 
@@ -809,7 +809,7 @@ BM25, vectores, expansión de consultas, rerank y MCP para Markdown y documentos
 
 - Categoría: Plataformas adyacentes, especificaciones e índices; Infraestructura adyacente.
 - Frontera de aplicación: Sirve como línea base de cobertura y punto de descubrimiento; no participa en juicios de capacidad.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 54 commits en 30 días, 87 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 49 commits en 30 días, 90 commits en 90 días.
 - Licencia: [CC0-1.0](https://api.github.com/repos/mnemoverse/awesome-agent-memory/license); Licencia abierta verificada. Identificada por licenseInfo de GitHub; las licencias de los modelos, datos, pesos y servicios gestionados asociados se cuentan aparte.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/mnemoverse/awesome-agent-memory/blob/6ba196dd0e90d3f1f5dcccdc954ba0951edcd0ed/README.md#L1).
 
@@ -839,7 +839,7 @@ Componentes de memoria entities, relations y observations del repositorio padre 
 
 - Categoría: Plataformas adyacentes, especificaciones e índices; Referencia histórica.
 - Frontera de aplicación: Las métricas del repositorio padre no representan al submódulo de memoria; la licencia está en transición MIT/Apache y la estructura del proyecto ha evolucionado.
-- Estado de mantenimiento: Archivado / histórico; 449 commits en 30 días, 1119 commits en 90 días.
+- Estado de mantenimiento: Archivado / histórico; 357 commits en 30 días, 1115 commits en 90 días.
 - Licencia: [Transición Apache-2.0 / MIT; documentación CC-BY-4.0](https://github.com/modelcontextprotocol/servers/blob/e1dc4b18dbb948921da37f3d4224a628730b43b0/LICENSE); Licencia compuesta/dividida. El repositorio padre está en transición de relicenciamiento; cada archivo conserva la licencia aplicable.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/modelcontextprotocol/servers/blob/e1dc4b18dbb948921da37f3d4224a628730b43b0/README.md#L33).
 
@@ -849,7 +849,7 @@ Proyecto source-visible con memoria cognitiva e integración de agentes.
 
 - Categoría: Histórico, archivado y licencias restringidas; Licencia restringida.
 - Frontera de aplicación: La licencia PolyForm Small Business impone límites de tamaño organizacional/ingresos; no se lista como candidato OSI open source convencional.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 281 commits en 30 días, 743 commits en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 281 commits en 30 días, 741 commits en 90 días.
 - Licencia: [PolyForm Small Business-1.0.0 / licencia comercial](https://github.com/engram-app/Engram/blob/cf80016063f06df9f891ec26f84a41844aeebeed/LICENSE); Código fuente visible pero no open source OSI. Tiene condiciones de tamaño organizacional e ingresos; no es una licencia OSI open source convencional.
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/engram-app/Engram/blob/cf80016063f06df9f891ec26f84a41844aeebeed/README.md#L3).
 
